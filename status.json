@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-29T19:37:18",
+  "timestamp": "2026-03-29T19:39:29",
   "scraper": {
     "current_page": 61,
     "internal_status": "running",
     "mode": "batch",
     "output_file": "idealista_Huelva_venta.xlsx",
-    "properties_count": 176,
+    "properties_count": 312,
     "start_time": 1774804320.8620958,
     "status": "running",
     "task_mode": null,
     "total_pages": 126,
-    "total_properties": 159,
-    "traffic_bytes": 61782126
+    "total_properties": 298,
+    "traffic_bytes": 65043283
   },
   "batch": {
     "total": 52,
@@ -273,8 +273,8 @@
       {
         "name": "Huelva Provincia",
         "status": "active",
-        "properties": 175,
-        "total_properties": 159,
+        "properties": 312,
+        "total_properties": 298,
         "current_page": 61,
         "total_pages": 126,
         "started_at": 1774804316.8394718,
