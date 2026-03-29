@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RealEstate Monitor</title>
+<style>
+:root {
+  --bg: #0f1117;
+  --card: #1a1d27;
+  --border: #2a2d3a;
+  --text: #e1e4eb;
+  --muted: #8b8fa3;
+  --green: #22c55e;
+  --yellow: #eab308;
+  --red: #ef4444;
+  --blue: #3b82f6;
+  --orange: #f97316;
+  --purple: #a855f7;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  padding: 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+.header h1 { font-size: 1.3rem; font-weight: 600; }
+.header .meta { font-size: 0.8rem; color: var(--muted); text-align: right; }
+.header .meta .live { color: var(--green); }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+}
+.card h2 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.status-badge .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.status-running .dot { background: var(--green); box-shadow: 0 0 8px var(--green); }
+.status-running { background: rgba(34,197,94,0.12); color: var(--green); }
+.status-idle .dot { background: var(--muted); }
+.status-idle { background: rgba(139,143,163,0.12); color: var(--muted); }
+.status-offline .dot { background: #555; }
+.status-offline { background: rgba(85,85,85,0.12); color: #888; }
+.status-completed .dot { background: var(--blue); }
+.status-completed { background: rgba(59,130,246,0.12); color: var(--blue); }
+.status-error .dot, .status-blocked .dot { background: var(--red); box-shadow: 0 0 8px var(--red); }
+.status-error, .status-blocked { background: rgba(239,68,68,0.12); color: var(--red); }
+.status-paused .dot, .status-resting .dot { background: var(--yellow); }
+.status-paused, .status-resting { background: rgba(234,179,8,0.12); color: var(--yellow); }
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  font-size: 0.9rem;
+}
+.stat-row .label { color: var(--muted); }
+.stat-row .value { font-weight: 500; font-variant-numeric: tabular-nums; }
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 8px 0;
+}
+.progress-bar .fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+.fill-green { background: var(--green); }
+.fill-blue { background: var(--blue); }
+.fill-yellow { background: var(--yellow); }
+
+.province-list { list-style: none; max-height: 300px; overflow-y: auto; }
+.province-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  font-size: 0.85rem;
+  border-bottom: 1px solid rgba(42,45,58,0.5);
+}
+.province-list li:last-child { border: none; }
+.province-list .prov-status {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.prov-active { background: rgba(34,197,94,0.15); color: var(--green); }
+.prov-completed { background: rgba(59,130,246,0.1); color: var(--blue); }
+.prov-failed { background: rgba(239,68,68,0.1); color: var(--red); }
+.prov-pending { background: rgba(139,143,163,0.1); color: var(--muted); }
+
+table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+th { text-align: left; color: var(--muted); font-weight: 500; padding: 8px 6px; border-bottom: 1px solid var(--border); }
+td { padding: 8px 6px; border-bottom: 1px solid rgba(42,45,58,0.4); }
+
+.empty { color: var(--muted); font-style: italic; padding: 20px; text-align: center; }
+.wide { grid-column: 1 / -1; }
+
+@media (max-width: 700px) {
+  .grid { grid-template-columns: 1fr; }
+  body { padding: 10px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>RealEstate Monitor</h1>
+  <div class="meta">
+    <div id="conn-status" class="live">&#9679; Conectado</div>
+    <div id="last-update">—</div>
+    <div>Auto-refresh 60s</div>
+  </div>
+</div>
+
+<!-- Row 1: Status cards -->
+<div class="grid">
+  <div class="card" id="card-scraper">
+    <h2>Scraper</h2>
+    <div id="scraper-content"><div class="empty">Cargando...</div></div>
+  </div>
+  <div class="card" id="card-trends">
+    <h2>Trends Tracker</h2>
+    <div id="trends-content"><div class="empty">Cargando...</div></div>
+  </div>
+  <div class="card" id="card-cycle">
+    <h2>Ciclo Automatico</h2>
+    <div id="cycle-content"><div class="empty">Cargando...</div></div>
+  </div>
+</div>
+
+<!-- Row 2: Batch progress + Cost -->
+<div class="grid">
+  <div class="card" id="card-batch">
+    <h2>Progreso Batch</h2>
+    <div id="batch-content"><div class="empty">Sin batch activo</div></div>
+  </div>
+  <div class="card" id="card-cost">
+    <h2>Coste Acumulado</h2>
+    <div id="cost-content"><div class="empty">Sin datos</div></div>
+  </div>
+</div>
+
+<!-- Row 3: History -->
+<div class="grid">
+  <div class="card wide" id="card-history">
+    <h2>Historial Reciente</h2>
+    <div id="history-content"><div class="empty">Sin historial</div></div>
+  </div>
+</div>
+
+<script>
+const STATUS_JSON = './status.json';
+const REFRESH_MS = 60000;
+
+function statusBadge(status) {
+  const s = (status || 'offline').toLowerCase();
+  const labels = {
+    running: 'Ejecutando', idle: 'Inactivo', offline: 'Desconectado',
+    completed: 'Completado', error: 'Error', blocked: 'Bloqueado',
+    paused: 'Pausado', resting: 'Descansando', stopping: 'Parando',
+    captcha: 'Captcha'
+  };
+  return `<span class="status-badge status-${s}"><span class="dot"></span>${labels[s] || s}</span>`;
+}
+
+function humanBytes(b) {
+  if (!b) return '0 B';
+  const units = ['B', 'KB', 'MB', 'GB'];
+  let i = 0;
+  let val = b;
+  while (val >= 1024 && i < units.length - 1) { val /= 1024; i++; }
+  return val.toFixed(1) + ' ' + units[i];
+}
+
+function elapsed(startTs) {
+  if (!startTs) return '';
+  const sec = (Date.now() / 1000) - startTs;
+  if (sec < 0) return '';
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  return h ? `${h}h ${m}m` : `${m}m`;
+}
+
+function pct(a, b) {
+  return b ? Math.round(a / b * 100) : 0;
+}
+
+function renderScraper(sc) {
+  if (!sc) return '<div class="empty">Sin datos</div>';
+  const st = sc.status || 'offline';
+  let html = statusBadge(st);
+
+  if (st !== 'offline' && st !== 'idle') {
+    html += `
+      <div class="stat-row"><span class="label">Propiedades</span><span class="value">${sc.properties_count || 0}</span></div>`;
+    if (sc.total_pages) {
+      const p = pct(sc.current_page, sc.total_pages);
+      html += `
+      <div class="stat-row"><span class="label">Pagina</span><span class="value">${sc.current_page || 0}/${sc.total_pages}</span></div>
+      <div class="progress-bar"><div class="fill fill-green" style="width:${p}%"></div></div>`;
+    }
+    if (sc.traffic_bytes) {
+      html += `<div class="stat-row"><span class="label">Trafico</span><span class="value">${humanBytes(sc.traffic_bytes)}</span></div>`;
+    }
+    if (sc.start_time) {
+      html += `<div class="stat-row"><span class="label">Tiempo</span><span class="value">${elapsed(sc.start_time)}</span></div>`;
+    }
+    if (sc.mode) {
+      html += `<div class="stat-row"><span class="label">Modo</span><span class="value">${sc.mode}</span></div>`;
+    }
+  }
+  return html;
+}
+
+function renderTrends(tr) {
+  if (!tr) return '<div class="empty">Sin datos</div>';
+  const st = tr.status || 'offline';
+  let html = statusBadge(st);
+
+  const cp = tr.checkpoint;
+  if (cp) {
+    const done = cp.completed_count || 0;
+    const total = cp.total || 0;
+    const p = pct(done, total);
+    html += `
+      <div class="stat-row"><span class="label">Fecha</span><span class="value">${cp.date_record || '?'}</span></div>
+      <div class="stat-row"><span class="label">Zonas</span><span class="value">${done} / ${total} (${p}%)</span></div>
+      <div class="progress-bar"><div class="fill fill-blue" style="width:${p}%"></div></div>`;
+  }
+  return html;
+}
+
+function renderCycle(cy) {
+  if (!cy) return '<div class="empty">Sin ciclo configurado</div>';
+  const active = cy.is_active;
+  let html = statusBadge(active ? 'running' : 'idle');
+  html += `
+    <div class="stat-row"><span class="label">Operacion</span><span class="value">${(cy.current_operation || '?').toUpperCase()}</span></div>
+    <div class="stat-row"><span class="label">Indice provincia</span><span class="value">${cy.current_index || 0}</span></div>
+    <div class="stat-row"><span class="label">Ultimo completado</span><span class="value">${cy.last_completed || 'Nunca'}</span></div>`;
+  return html;
+}
+
+function renderBatch(batch) {
+  if (!batch || !batch.provinces) return '<div class="empty">Sin batch activo</div>';
+  const provinces = batch.provinces;
+  const done = provinces.filter(p => p.status === 'completed').length;
+  const total = provinces.length;
+  const p = pct(done, total);
+  const source = batch._source || '';
+
+  let html = `
+    <div class="stat-row"><span class="label">Tipo${source ? ' (' + source + ')' : ''}</span><span class="value">${done}/${total} provincias</span></div>
+    <div class="progress-bar"><div class="fill fill-green" style="width:${p}%"></div></div>
+    <ul class="province-list">`;
+
+  for (const prov of provinces) {
+    const st = prov.status || 'pending';
+    let detail = '';
+    if (st === 'active') {
+      detail = `${prov.properties || 0} props (pag ${prov.current_page || 0}/${prov.total_pages || '?'})`;
+    } else if (st === 'completed') {
+      detail = `${prov.properties || 0} props`;
+    } else if (st === 'failed') {
+      detail = 'FALLIDA';
+    }
+    html += `<li>
+      <span>${prov.name || '?'}</span>
+      <span>
+        ${detail ? '<span style="margin-right:8px;font-size:0.8rem;color:var(--muted)">' + detail + '</span>' : ''}
+        <span class="prov-status prov-${st}">${st}</span>
+      </span>
+    </li>`;
+  }
+  html += '</ul>';
+  return html;
+}
+
+function renderCost(cost) {
+  if (!cost) return '<div class="empty">Sin datos de coste</div>';
+  let html = `
+    <div class="stat-row"><span class="label">Trafico total</span><span class="value">${cost.total_traffic_mb.toFixed(1)} MB</span></div>
+    <div class="stat-row"><span class="label">Coste total</span><span class="value" style="color:var(--green)">$${cost.total_cost_usd.toFixed(2)} USD</span></div>
+    <div class="stat-row"><span class="label">Sesiones</span><span class="value">${cost.sessions}</span></div>`;
+
+  if (cost.last_entry && cost.last_entry.fecha) {
+    const le = cost.last_entry;
+    html += `
+      <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+        <div style="font-size:0.8rem;color:var(--muted);margin-bottom:4px">Ultima sesion</div>
+        <div class="stat-row"><span class="label">${le.fecha}</span><span class="value">${le.provincia || '?'}</span></div>
+        <div class="stat-row"><span class="label">Props / Trafico</span><span class="value">${le.propiedades || '?'} / ${le.trafico_mb || '?'} MB</span></div>
+      </div>`;
+  }
+  return html;
+}
+
+function renderHistory(history) {
+  if (!history || !history.length) return '<div class="empty">Sin historial</div>';
+  let html = '<table><thead><tr><th>Fecha</th><th>Tipo</th><th>Propiedades</th><th>Archivo</th></tr></thead><tbody>';
+  for (const h of [...history].reverse()) {
+    const ts = (h.timestamp || '').substring(0, 16).replace('T', ' ');
+    html += `<tr>
+      <td>${ts}</td>
+      <td>${h.category || '?'}</td>
+      <td>${h.properties_count || 0}</td>
+      <td style="color:var(--muted);max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${h.filename || '?'}</td>
+    </tr>`;
+  }
+  html += '</tbody></table>';
+  return html;
+}
+
+async function refresh() {
+  try {
+    const r = await fetch(STATUS_JSON + '?t=' + Date.now());
+    if (!r.ok) throw new Error(r.status);
+    const data = await r.json();
+
+    document.getElementById('scraper-content').innerHTML = renderScraper(data.scraper);
+    document.getElementById('trends-content').innerHTML = renderTrends(data.trends);
+    document.getElementById('cycle-content').innerHTML = renderCycle(data.cycle);
+    document.getElementById('batch-content').innerHTML = renderBatch(data.batch);
+    document.getElementById('cost-content').innerHTML = renderCost(data.cost);
+    document.getElementById('history-content').innerHTML = renderHistory(data.history);
+
+    const ts = data.timestamp ? new Date(data.timestamp).toLocaleString('es-ES') : '?';
+    document.getElementById('last-update').textContent = 'Datos: ' + ts;
+    document.getElementById('conn-status').className = 'live';
+    document.getElementById('conn-status').innerHTML = '&#9679; Conectado';
+  } catch (e) {
+    document.getElementById('conn-status').className = '';
+    document.getElementById('conn-status').innerHTML = '<span style="color:var(--red)">&#9679; Sin conexion</span>';
+  }
+}
+
+refresh();
+setInterval(refresh, REFRESH_MS);
+</script>
+</body>
+</html>
