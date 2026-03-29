@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-29T19:00:37",
+  "timestamp": "2026-03-29T19:02:46",
   "scraper": {
-    "current_page": 53,
+    "current_page": 59,
     "internal_status": "running",
     "mode": "batch",
     "output_file": "idealista_Guipúzcoa_venta.xlsx",
-    "properties_count": 280,
+    "properties_count": 357,
     "start_time": 1774802337.5659854,
     "status": "running",
     "task_mode": null,
     "total_pages": 77,
-    "total_properties": 273,
-    "traffic_bytes": 100512986
+    "total_properties": 329,
+    "traffic_bytes": 101873510
   },
   "batch": {
     "total": 52,
@@ -262,9 +262,9 @@
       {
         "name": "Guipuzcoa",
         "status": "active",
-        "properties": 280,
-        "total_properties": 273,
-        "current_page": 53,
+        "properties": 347,
+        "total_properties": 329,
+        "current_page": 59,
         "total_pages": 77,
         "started_at": 1774802333.534688,
         "finished_at": null
