@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-29T18:36:53",
+  "timestamp": "2026-03-29T18:39:03",
   "scraper": {
-    "current_page": 61,
+    "current_page": 0,
     "internal_status": "running",
     "mode": "batch",
-    "output_file": "idealista_Guadalajara_venta.xlsx",
-    "properties_count": 151,
-    "start_time": 1774798351.1425169,
+    "output_file": "idealista_Guipúzcoa_venta.xlsx",
+    "properties_count": 0,
+    "start_time": 1774802337.5659854,
     "status": "running",
     "task_mode": null,
-    "total_pages": 78,
-    "total_properties": 130,
-    "traffic_bytes": 84017217
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 52,
@@ -250,22 +250,23 @@
       },
       {
         "name": "Guadalajara Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 151,
-        "total_properties": 130,
+        "total_properties": 151,
         "current_page": 61,
         "total_pages": 78,
         "started_at": 1774798347.0991945,
-        "finished_at": null
+        "finished_at": 1774802303.4936402,
+        "traffic_bytes": 84017217
       },
       {
         "name": "Guipuzcoa",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774802333.534688,
         "finished_at": null
       },
       {
@@ -7130,27 +7131,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774798351.1482246,
+        "last_ts": 1774802337.5711637,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774798351.1482246,
+        "last_ts": 1774802337.5711637,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774798351.1482246,
+        "last_ts": 1774802337.5711637,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774798351.1482246,
+        "last_ts": 1774802337.5711637,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774798351.1482246,
+        "last_ts": 1774802337.5711637,
         "last_ip": ""
       }
     },
