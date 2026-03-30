@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-30T21:45:09",
+  "timestamp": "2026-03-30T21:47:18",
   "scraper": {
     "bajas_count": 0,
     "current_page": 43,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Barcelona_alquiler.xlsx",
-    "properties_count": 231,
+    "properties_count": 233,
     "province_name": "Barcelona",
     "start_time": 1774898318.0605316,
     "status": "running",
     "task_mode": null,
     "total_pages": 131,
     "total_properties": 3908,
-    "traffic_bytes": 98734328
+    "traffic_bytes": 100768791
   },
   "batch": {
     "total": 52,
@@ -143,7 +143,7 @@
       {
         "name": "Barcelona Provincia",
         "status": "active",
-        "properties": 231,
+        "properties": 233,
         "total_properties": 3908,
         "current_page": 43,
         "total_pages": 131,
