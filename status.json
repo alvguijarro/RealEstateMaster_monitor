@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T19:06:43",
+  "timestamp": "2026-03-30T19:08:52",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 38,
+    "current_page": 4,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 2695,
+    "existing_count": 188,
     "internal_status": "completed",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_A_Coruña_alquiler.xlsx",
-    "properties_count": 84,
-    "province_name": "A Coruña",
-    "start_time": 1774889404.9835577,
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_Álava_alquiler.xlsx",
+    "properties_count": 10,
+    "province_name": "Álava",
+    "start_time": 1774890408.5395157,
     "status": "running",
     "task_mode": null,
-    "total_pages": 48,
-    "total_properties": 1428,
-    "traffic_bytes": 70994587
+    "total_pages": 3,
+    "total_properties": 73,
+    "traffic_bytes": 12479081
   },
   "batch": {
     "total": 52,
@@ -39,10 +39,10 @@
       {
         "name": "Alava",
         "status": "active",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
+        "properties": 10,
+        "total_properties": 73,
+        "current_page": 4,
+        "total_pages": 3,
         "started_at": 1774890404.509134,
         "finished_at": null
       },
