@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T21:53:45",
+  "timestamp": "2026-03-30T21:55:53",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 9,
+    "current_page": 4,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 347,
+    "existing_count": 680,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Burgos_alquiler.xlsx",
-    "properties_count": 26,
-    "province_name": "Burgos",
-    "start_time": 1774900196.497814,
+    "output_file": "idealista_Cáceres_alquiler.xlsx",
+    "properties_count": 9,
+    "province_name": "Cáceres",
+    "start_time": 1774900493.409108,
     "status": "running",
     "task_mode": null,
-    "total_pages": 9,
-    "total_properties": 260,
-    "traffic_bytes": 30883728
+    "total_pages": 14,
+    "total_properties": 392,
+    "traffic_bytes": 5267948
   },
   "batch": {
     "total": 52,
@@ -155,22 +155,25 @@
       },
       {
         "name": "Burgos Provincia",
-        "status": "active",
-        "properties": 26,
+        "status": "completed",
+        "properties": 28,
         "total_properties": 260,
-        "current_page": 8,
+        "current_page": 10,
         "total_pages": 9,
         "started_at": 1774900192.472195,
-        "finished_at": null
+        "finished_at": 1774900456.32162,
+        "traffic_bytes": 32209488,
+        "existing_count": 347,
+        "bajas_count": 0
       },
       {
         "name": "Caceres Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 5,
+        "total_properties": 392,
+        "current_page": 3,
+        "total_pages": 14,
+        "started_at": 1774900489.3601074,
         "finished_at": null
       },
       {
@@ -7145,27 +7148,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774900196.504171,
+        "last_ts": 1774900493.4142973,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774900196.504171,
+        "last_ts": 1774900493.4142973,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774900196.504171,
+        "last_ts": 1774900493.4142973,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774900196.504171,
+        "last_ts": 1774900493.4142973,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774900196.504171,
+        "last_ts": 1774900493.4142973,
         "last_ip": ""
       }
     },
