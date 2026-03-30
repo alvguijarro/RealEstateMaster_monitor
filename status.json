@@ -1,86 +1,101 @@
 {
-  "timestamp": "2026-03-30T20:08:29",
+  "timestamp": "2026-03-30T20:10:38",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 48,
+    "current_page": 6,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 2400,
-    "internal_status": "completed",
+    "existing_count": 2417,
+    "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_Almería_alquiler.xlsx",
-    "properties_count": 63,
-    "province_name": "Almería",
-    "start_time": 1774892880.3313015,
+    "output_file": "idealista_Asturias_alquiler.xlsx",
+    "properties_count": 57,
+    "province_name": "Asturias",
+    "start_time": 1774894121.1902874,
     "status": "running",
     "task_mode": null,
-    "total_pages": 47,
-    "total_properties": 1391,
-    "traffic_bytes": 55464272
+    "total_pages": 51,
+    "total_properties": 1513,
+    "traffic_bytes": 21515430
   },
   "batch": {
     "total": 52,
-    "started_at": 1774504991.7244503,
+    "started_at": 1774889400.9487243,
     "provinces": [
       {
         "name": "A Coruna Provincia",
-        "status": "active",
-        "properties": 8,
-        "total_properties": 648,
-        "current_page": 16,
-        "total_pages": 22,
-        "started_at": 1774504991.7299151,
-        "finished_at": null
+        "status": "completed",
+        "properties": 84,
+        "total_properties": 1428,
+        "current_page": 38,
+        "total_pages": 48,
+        "started_at": 1774889400.9542913,
+        "finished_at": 1774890374.4430726,
+        "traffic_bytes": 70994587,
+        "existing_count": 2695,
+        "bajas_count": 0
       },
       {
         "name": "Alava",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
-        "finished_at": null
+        "status": "completed",
+        "properties": 10,
+        "total_properties": 73,
+        "current_page": 4,
+        "total_pages": 3,
+        "started_at": 1774890404.509134,
+        "finished_at": 1774890535.0338945,
+        "traffic_bytes": 12479081,
+        "existing_count": 188,
+        "bajas_count": 0
       },
       {
         "name": "Albacete Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
-        "finished_at": null
+        "status": "completed",
+        "properties": 15,
+        "total_properties": 219,
+        "current_page": 9,
+        "total_pages": 8,
+        "started_at": 1774890557.0642064,
+        "finished_at": 1774890806.9114218,
+        "traffic_bytes": 13872966,
+        "existing_count": 456,
+        "bajas_count": 0
       },
       {
         "name": "Alicante",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
-        "finished_at": null
+        "status": "completed",
+        "properties": 287,
+        "total_properties": 5879,
+        "current_page": 60,
+        "total_pages": 196,
+        "started_at": 1774890825.9559567,
+        "finished_at": 1774892847.2578917,
+        "traffic_bytes": 138281768,
+        "existing_count": 6107,
+        "bajas_count": 0
       },
       {
         "name": "Almeria Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
-        "finished_at": null
+        "status": "completed",
+        "properties": 63,
+        "total_properties": 1391,
+        "current_page": 48,
+        "total_pages": 47,
+        "started_at": 1774892876.3092327,
+        "finished_at": 1774894088.1392353,
+        "traffic_bytes": 55464272,
+        "existing_count": 2400,
+        "bajas_count": 0
       },
       {
         "name": "Asturias",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 56,
+        "total_properties": 1513,
+        "current_page": 5,
+        "total_pages": 51,
+        "started_at": 1774894117.164128,
         "finished_at": null
       },
       {
@@ -494,7 +509,7 @@
         "finished_at": null
       },
       {
-        "name": "Valladolid Provincia",
+        "name": "Valencia Provincia",
         "status": "pending",
         "properties": 0,
         "total_properties": 0,
@@ -504,7 +519,7 @@
         "finished_at": null
       },
       {
-        "name": "Valencia Provincia",
+        "name": "Valladolid Provincia",
         "status": "pending",
         "properties": 0,
         "total_properties": 0,
@@ -544,7 +559,7 @@
         "finished_at": null
       }
     ],
-    "_source": "habitacion"
+    "_source": "alquiler"
   },
   "cycle": {
     "last_completed": null,
@@ -7115,27 +7130,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774892880.3367827,
+        "last_ts": 1774894121.197064,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774892880.3367827,
+        "last_ts": 1774894121.197064,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774892880.3367827,
+        "last_ts": 1774894121.197064,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774892880.3367827,
+        "last_ts": 1774894121.197064,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774892880.3367827,
+        "last_ts": 1774894121.197064,
         "last_ip": ""
       }
     },
