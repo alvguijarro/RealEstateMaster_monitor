@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T01:26:59",
+  "timestamp": "2026-03-31T01:29:08",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
-    "existing_count": 0,
+    "current_page": 4,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 546,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": null,
-    "properties_count": 0,
-    "province_name": "",
+    "output_file": "idealista_Lugo_alquiler.xlsx",
+    "properties_count": 8,
+    "province_name": "Lugo",
     "start_time": 1774913221.3174186,
     "status": "running",
     "task_mode": null,
-    "total_pages": 0,
-    "total_properties": 0,
-    "traffic_bytes": 0
+    "total_pages": 14,
+    "total_properties": 392,
+    "traffic_bytes": 11154236
   },
   "batch": {
     "total": 32,
@@ -156,10 +156,10 @@
       {
         "name": "Lugo Provincia",
         "status": "active",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
+        "properties": 8,
+        "total_properties": 392,
+        "current_page": 4,
+        "total_pages": 14,
         "started_at": 1774913217.267073,
         "finished_at": null
       },
