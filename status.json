@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T19:08:52",
+  "timestamp": "2026-03-30T19:11:01",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 4,
+    "current_page": 5,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 188,
-    "internal_status": "completed",
+    "existing_count": 456,
+    "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_Álava_alquiler.xlsx",
-    "properties_count": 10,
-    "province_name": "Álava",
-    "start_time": 1774890408.5395157,
+    "output_file": "idealista_Albacete_alquiler.xlsx",
+    "properties_count": 13,
+    "province_name": "Albacete",
+    "start_time": 1774890561.0979884,
     "status": "running",
     "task_mode": null,
-    "total_pages": 3,
-    "total_properties": 73,
-    "traffic_bytes": 12479081
+    "total_pages": 8,
+    "total_properties": 219,
+    "traffic_bytes": 10092688
   },
   "batch": {
     "total": 52,
@@ -38,22 +38,25 @@
       },
       {
         "name": "Alava",
-        "status": "active",
+        "status": "completed",
         "properties": 10,
         "total_properties": 73,
         "current_page": 4,
         "total_pages": 3,
         "started_at": 1774890404.509134,
-        "finished_at": null
+        "finished_at": 1774890535.0338945,
+        "traffic_bytes": 12479081,
+        "existing_count": 188,
+        "bajas_count": 0
       },
       {
         "name": "Albacete Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 13,
+        "total_properties": 219,
+        "current_page": 5,
+        "total_pages": 8,
+        "started_at": 1774890557.0642064,
         "finished_at": null
       },
       {
@@ -7118,27 +7121,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774890408.5436518,
+        "last_ts": 1774890561.1052516,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774890408.5436518,
+        "last_ts": 1774890561.1052516,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774890408.5436518,
+        "last_ts": 1774890561.1052516,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774890408.5436518,
+        "last_ts": 1774890561.1052516,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774890408.5436518,
+        "last_ts": 1774890561.1052516,
         "last_ip": ""
       }
     },
