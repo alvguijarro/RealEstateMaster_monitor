@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T00:26:52",
+  "timestamp": "2026-03-31T00:29:01",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 20,
+    "current_page": 3,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 930,
+    "existing_count": 238,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Huelva_alquiler.xlsx",
-    "properties_count": 22,
-    "province_name": "Huelva",
-    "start_time": 1774909147.2753532,
+    "output_file": "idealista_Huesca_alquiler.xlsx",
+    "properties_count": 1,
+    "province_name": "Huesca",
+    "start_time": 1774909688.608619,
     "status": "running",
     "task_mode": null,
-    "total_pages": 28,
-    "total_properties": 832,
-    "traffic_bytes": 33382829
+    "total_pages": 6,
+    "total_properties": 154,
+    "traffic_bytes": 3982380
   },
   "batch": {
     "total": 32,
@@ -64,22 +64,25 @@
       },
       {
         "name": "Huelva Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 22,
         "total_properties": 832,
-        "current_page": 20,
+        "current_page": 21,
         "total_pages": 28,
         "started_at": 1774909143.2509649,
-        "finished_at": null
+        "finished_at": 1774909652.5562146,
+        "traffic_bytes": 33524045,
+        "existing_count": 930,
+        "bajas_count": 0
       },
       {
         "name": "Huesca Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 1,
+        "total_properties": 154,
+        "current_page": 3,
+        "total_pages": 6,
+        "started_at": 1774909684.5838084,
         "finished_at": null
       },
       {
@@ -6924,27 +6927,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774909147.2790859,
+        "last_ts": 1774909688.6145294,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774909147.2790859,
+        "last_ts": 1774909688.6145294,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774909147.2790859,
+        "last_ts": 1774909688.6145294,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774909147.2790859,
+        "last_ts": 1774909688.6145294,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774909147.2790859,
+        "last_ts": 1774909688.6145294,
         "last_ip": ""
       }
     },
