@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T23:24:29",
+  "timestamp": "2026-03-30T23:26:39",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 22,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 992,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 3398,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Girona_alquiler.xlsx",
-    "properties_count": 40,
-    "province_name": "Girona",
-    "start_time": 1774905285.866776,
+    "output_file": "idealista_Granada_alquiler.xlsx",
+    "properties_count": 0,
+    "province_name": "Granada",
+    "start_time": 1774905978.3345034,
     "status": "running",
     "task_mode": null,
-    "total_pages": 24,
-    "total_properties": 691,
-    "traffic_bytes": 44981209
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 3160
   },
   "batch": {
     "total": 52,
@@ -272,22 +272,25 @@
       },
       {
         "name": "Girona Provincia",
-        "status": "active",
-        "properties": 40,
+        "status": "completed",
+        "properties": 41,
         "total_properties": 691,
-        "current_page": 22,
+        "current_page": 25,
         "total_pages": 24,
         "started_at": 1774905281.8343065,
-        "finished_at": null
+        "finished_at": 1774905946.2641869,
+        "traffic_bytes": 47266258,
+        "existing_count": 992,
+        "bajas_count": 0
       },
       {
         "name": "Granada Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774905974.2914884,
         "finished_at": null
       },
       {
@@ -7172,27 +7175,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774905285.8726091,
+        "last_ts": 1774905978.3393228,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774905285.8726091,
+        "last_ts": 1774905978.3393228,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774905285.8726091,
+        "last_ts": 1774905978.3393228,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774905285.8726091,
+        "last_ts": 1774905978.3393228,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774905285.8726091,
+        "last_ts": 1774905978.3393228,
         "last_ip": ""
       }
     },
