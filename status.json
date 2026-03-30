@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T20:32:08",
+  "timestamp": "2026-03-30T20:34:17",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 8,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 447,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Ávila_alquiler.xlsx",
-    "properties_count": 0,
+    "properties_count": 13,
     "province_name": "Ávila",
     "start_time": 1774895500.7288332,
     "status": "running",
     "task_mode": null,
-    "total_pages": 0,
-    "total_properties": 0,
-    "traffic_bytes": 234797
+    "total_pages": 8,
+    "total_properties": 238,
+    "traffic_bytes": 10342877
   },
   "batch": {
     "total": 52,
@@ -104,10 +104,10 @@
       {
         "name": "Avila Provincia",
         "status": "active",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
+        "properties": 13,
+        "total_properties": 238,
+        "current_page": 8,
+        "total_pages": 8,
         "started_at": 1774895496.6859221,
         "finished_at": null
       },
