@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T19:46:57",
+  "timestamp": "2026-03-30T19:49:06",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 60,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 6107,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 2400,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Alicante_alquiler.xlsx",
-    "properties_count": 287,
-    "province_name": "Alicante",
-    "start_time": 1774890829.991778,
+    "output_file": "idealista_Almería_alquiler.xlsx",
+    "properties_count": 2,
+    "province_name": "Almería",
+    "start_time": 1774892880.3313015,
     "status": "running",
     "task_mode": null,
-    "total_pages": 196,
-    "total_properties": 5879,
-    "traffic_bytes": 138281768
+    "total_pages": 47,
+    "total_properties": 1391,
+    "traffic_bytes": 4845107
   },
   "batch": {
     "total": 52,
@@ -64,22 +64,25 @@
       },
       {
         "name": "Alicante",
-        "status": "active",
+        "status": "completed",
         "properties": 287,
         "total_properties": 5879,
         "current_page": 60,
         "total_pages": 196,
         "started_at": 1774890825.9559567,
-        "finished_at": null
+        "finished_at": 1774892847.2578917,
+        "traffic_bytes": 138281768,
+        "existing_count": 6107,
+        "bajas_count": 0
       },
       {
         "name": "Almeria Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
+        "status": "active",
+        "properties": 1,
+        "total_properties": 1391,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 47,
+        "started_at": 1774892876.3092327,
         "finished_at": null
       },
       {
@@ -7124,27 +7127,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774890829.9970338,
+        "last_ts": 1774892880.3367827,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774890829.9970338,
+        "last_ts": 1774892880.3367827,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774890829.9970338,
+        "last_ts": 1774892880.3367827,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774890829.9970338,
+        "last_ts": 1774892880.3367827,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774890829.9970338,
+        "last_ts": 1774892880.3367827,
         "last_ip": ""
       }
     },
