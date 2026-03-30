@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-30T22:28:13",
+  "timestamp": "2026-03-30T22:30:22",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 5,
+    "current_page": 12,
     "current_phase": "4: extracción de detalle",
     "existing_count": 1255,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Cantabria_alquiler.xlsx",
-    "properties_count": 50,
+    "properties_count": 56,
     "province_name": "Cantabria",
     "start_time": 1774902178.2610202,
     "status": "running",
     "task_mode": null,
     "total_pages": 37,
     "total_properties": 1084,
-    "traffic_bytes": 18532580
+    "traffic_bytes": 20277890
   },
   "batch": {
     "total": 52,
@@ -195,9 +195,9 @@
       {
         "name": "Cantabria",
         "status": "active",
-        "properties": 50,
+        "properties": 55,
         "total_properties": 1084,
-        "current_page": 5,
+        "current_page": 11,
         "total_pages": 37,
         "started_at": 1774902174.232974,
         "finished_at": null
