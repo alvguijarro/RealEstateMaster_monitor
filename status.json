@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-30T20:12:47",
+  "timestamp": "2026-03-30T20:14:56",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 11,
+    "current_page": 15,
     "current_phase": "4: extracción de detalle",
     "existing_count": 2417,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Asturias_alquiler.xlsx",
-    "properties_count": 61,
+    "properties_count": 67,
     "province_name": "Asturias",
     "start_time": 1774894121.1902874,
     "status": "running",
     "task_mode": null,
     "total_pages": 51,
     "total_properties": 1513,
-    "traffic_bytes": 24093128
+    "traffic_bytes": 28070772
   },
   "batch": {
     "total": 52,
@@ -91,9 +91,9 @@
       {
         "name": "Asturias",
         "status": "active",
-        "properties": 61,
+        "properties": 65,
         "total_properties": 1513,
-        "current_page": 11,
+        "current_page": 15,
         "total_pages": 51,
         "started_at": 1774894117.164128,
         "finished_at": null
