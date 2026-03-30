@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T01:24:51",
+  "timestamp": "2026-03-31T01:26:59",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
     "current_phase": "1-2: conexión y navegación",
-    "existing_count": 295,
+    "existing_count": 0,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Lleida_alquiler.xlsx",
-    "properties_count": 14,
-    "province_name": "Lleida",
-    "start_time": 1774912989.565924,
+    "output_file": null,
+    "properties_count": 0,
+    "province_name": "",
+    "start_time": 1774913221.3174186,
     "status": "running",
     "task_mode": null,
-    "total_pages": 6,
-    "total_properties": 172,
-    "traffic_bytes": 13504137
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 32,
@@ -142,22 +142,25 @@
       },
       {
         "name": "Lleida Provincia",
-        "status": "active",
-        "properties": 14,
+        "status": "completed",
+        "properties": 15,
         "total_properties": 172,
-        "current_page": 0,
+        "current_page": 7,
         "total_pages": 6,
         "started_at": 1774912985.5411258,
-        "finished_at": null
+        "finished_at": 1774913200.2293544,
+        "traffic_bytes": 15071001,
+        "existing_count": 295,
+        "bajas_count": 0
       },
       {
         "name": "Lugo Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774913217.267073,
         "finished_at": null
       },
       {
@@ -6942,27 +6945,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774912989.573622,
+        "last_ts": 1774913221.3219259,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774912989.573622,
+        "last_ts": 1774913221.3219259,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774912989.573622,
+        "last_ts": 1774913221.3219259,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774912989.573622,
+        "last_ts": 1774913221.3219259,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774912989.573622,
+        "last_ts": 1774913221.3219259,
         "last_ip": ""
       }
     },
