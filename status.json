@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T00:05:19",
+  "timestamp": "2026-03-31T00:07:29",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 60,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 3398,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 228,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Granada_alquiler.xlsx",
-    "properties_count": 60,
-    "province_name": "Granada",
-    "start_time": 1774906173.6510313,
+    "output_file": "idealista_Guadalajara_alquiler.xlsx",
+    "properties_count": 0,
+    "province_name": "Guadalajara",
+    "start_time": 1774908425.4677458,
     "status": "running",
     "task_mode": null,
-    "total_pages": 82,
-    "total_properties": 2455,
-    "traffic_bytes": 91170688
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 1972477
   },
   "batch": {
     "total": 32,
@@ -25,22 +25,25 @@
     "provinces": [
       {
         "name": "Granada Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 60,
         "total_properties": 2455,
         "current_page": 60,
         "total_pages": 82,
         "started_at": 1774906169.6196952,
-        "finished_at": null
+        "finished_at": 1774908391.4048228,
+        "traffic_bytes": 91170688,
+        "existing_count": 3398,
+        "bajas_count": 0
       },
       {
         "name": "Guadalajara Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774908421.4364808,
         "finished_at": null
       },
       {
@@ -6915,27 +6918,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774906173.6870115,
+        "last_ts": 1774908425.4736824,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774906173.6870115,
+        "last_ts": 1774908425.4736824,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774906173.6870115,
+        "last_ts": 1774908425.4736824,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774906173.6870115,
+        "last_ts": 1774908425.4736824,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774906173.6870115,
+        "last_ts": 1774908425.4736824,
         "last_ip": ""
       }
     },
