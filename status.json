@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T19:49:06",
+  "timestamp": "2026-03-30T19:51:17",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 6,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 2400,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Almería_alquiler.xlsx",
-    "properties_count": 2,
+    "properties_count": 44,
     "province_name": "Almería",
     "start_time": 1774892880.3313015,
     "status": "running",
     "task_mode": null,
     "total_pages": 47,
     "total_properties": 1391,
-    "traffic_bytes": 4845107
+    "traffic_bytes": 30990428
   },
   "batch": {
     "total": 52,
@@ -78,9 +78,9 @@
       {
         "name": "Almeria Provincia",
         "status": "active",
-        "properties": 1,
+        "properties": 44,
         "total_properties": 1391,
-        "current_page": 0,
+        "current_page": 6,
         "total_pages": 47,
         "started_at": 1774892876.3092327,
         "finished_at": null
