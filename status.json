@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-31T01:18:24",
+  "timestamp": "2026-03-31T01:20:33",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 3,
+    "current_page": 9,
     "current_phase": "4: extracción de detalle",
     "existing_count": 576,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_León_alquiler.xlsx",
-    "properties_count": 23,
+    "properties_count": 26,
     "province_name": "León",
     "start_time": 1774912594.1522367,
     "status": "running",
     "task_mode": null,
     "total_pages": 14,
     "total_properties": 399,
-    "traffic_bytes": 18729691
+    "traffic_bytes": 22638028
   },
   "batch": {
     "total": 32,
@@ -130,9 +130,9 @@
       {
         "name": "Leon Provincia",
         "status": "active",
-        "properties": 23,
+        "properties": 26,
         "total_properties": 399,
-        "current_page": 3,
+        "current_page": 9,
         "total_pages": 14,
         "started_at": 1774912590.1040237,
         "finished_at": null
