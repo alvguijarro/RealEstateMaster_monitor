@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T00:11:47",
+  "timestamp": "2026-03-31T00:13:56",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 7,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 711,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Guipúzcoa_alquiler.xlsx",
-    "properties_count": 6,
+    "properties_count": 9,
     "province_name": "Guipúzcoa",
     "start_time": 1774908630.965205,
     "status": "running",
     "task_mode": null,
     "total_pages": 16,
     "total_properties": 454,
-    "traffic_bytes": 11956799
+    "traffic_bytes": 15177097
   },
   "batch": {
     "total": 32,
@@ -52,9 +52,9 @@
       {
         "name": "Guipuzcoa",
         "status": "active",
-        "properties": 6,
+        "properties": 9,
         "total_properties": 454,
-        "current_page": 0,
+        "current_page": 7,
         "total_pages": 16,
         "started_at": 1774908626.9400258,
         "finished_at": null
