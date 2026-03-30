@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-30T23:07:00",
+  "timestamp": "2026-03-30T23:09:27",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 10,
+    "current_page": 17,
     "current_phase": "4: extracción de detalle",
     "existing_count": 847,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Córdoba_alquiler.xlsx",
-    "properties_count": 28,
+    "properties_count": 29,
     "province_name": "Córdoba",
     "start_time": 1774904570.193972,
     "status": "running",
     "task_mode": null,
     "total_pages": 21,
     "total_properties": 617,
-    "traffic_bytes": 22906043
+    "traffic_bytes": 25828747
   },
   "batch": {
     "total": 52,
@@ -247,9 +247,9 @@
       {
         "name": "Cordoba Provincia",
         "status": "active",
-        "properties": 28,
+        "properties": 29,
         "total_properties": 617,
-        "current_page": 10,
+        "current_page": 17,
         "total_pages": 21,
         "started_at": 1774904566.1624253,
         "finished_at": null
