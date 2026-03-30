@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T22:54:06",
+  "timestamp": "2026-03-30T22:56:15",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 29,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 1567,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 27,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Castellón_alquiler.xlsx",
-    "properties_count": 55,
-    "province_name": "Castellón",
-    "start_time": 1774903323.955566,
+    "output_file": "idealista_Ceuta_alquiler.xlsx",
+    "properties_count": 2,
+    "province_name": "Ceuta",
+    "start_time": 1774904129.7861607,
     "status": "running",
     "task_mode": null,
-    "total_pages": 33,
-    "total_properties": 982,
-    "traffic_bytes": 40638951
+    "total_pages": 1,
+    "total_properties": 17,
+    "traffic_bytes": 372794
   },
   "batch": {
     "total": 52,
@@ -207,22 +207,25 @@
       },
       {
         "name": "Castellon",
-        "status": "active",
+        "status": "completed",
         "properties": 55,
         "total_properties": 982,
-        "current_page": 29,
+        "current_page": 30,
         "total_pages": 33,
         "started_at": 1774903319.9105146,
-        "finished_at": null
+        "finished_at": 1774904096.6961925,
+        "traffic_bytes": 40780706,
+        "existing_count": 1567,
+        "bajas_count": 0
       },
       {
         "name": "Ceuta Ceuta",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
+        "status": "active",
+        "properties": 1,
+        "total_properties": 17,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 1,
+        "started_at": 1774904125.7485764,
         "finished_at": null
       },
       {
@@ -7157,27 +7160,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774903323.962303,
+        "last_ts": 1774904129.7913928,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774903323.962303,
+        "last_ts": 1774904129.7913928,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774903323.962303,
+        "last_ts": 1774904129.7913928,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774903323.962303,
+        "last_ts": 1774904129.7913928,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774903323.962303,
+        "last_ts": 1774904129.7913928,
         "last_ip": ""
       }
     },
