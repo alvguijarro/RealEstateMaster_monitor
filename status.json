@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T21:19:23",
+  "timestamp": "2026-03-30T21:21:32",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 5,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 5957,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Barcelona_alquiler.xlsx",
-    "properties_count": 0,
+    "properties_count": 44,
     "province_name": "Barcelona",
     "start_time": 1774898318.0605316,
     "status": "running",
     "task_mode": null,
     "total_pages": 131,
     "total_properties": 3908,
-    "traffic_bytes": 1649602
+    "traffic_bytes": 23928345
   },
   "batch": {
     "total": 52,
@@ -143,10 +143,10 @@
       {
         "name": "Barcelona Provincia",
         "status": "active",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
+        "properties": 43,
+        "total_properties": 3908,
+        "current_page": 5,
+        "total_pages": 131,
         "started_at": 1774898314.0183597,
         "finished_at": null
       },
