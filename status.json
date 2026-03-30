@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T00:07:29",
+  "timestamp": "2026-03-31T00:09:38",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 5,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 228,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Guadalajara_alquiler.xlsx",
-    "properties_count": 0,
+    "properties_count": 15,
     "province_name": "Guadalajara",
     "start_time": 1774908425.4677458,
     "status": "running",
     "task_mode": null,
-    "total_pages": 0,
-    "total_properties": 0,
-    "traffic_bytes": 1972477
+    "total_pages": 5,
+    "total_properties": 131,
+    "traffic_bytes": 22385252
   },
   "batch": {
     "total": 32,
@@ -39,10 +39,10 @@
       {
         "name": "Guadalajara Provincia",
         "status": "active",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
+        "properties": 15,
+        "total_properties": 131,
+        "current_page": 5,
+        "total_pages": 5,
         "started_at": 1774908421.4364808,
         "finished_at": null
       },
