@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-31T00:52:39",
+  "timestamp": "2026-03-31T00:54:48",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 32,
+    "current_page": 39,
     "current_phase": "4: extracción de detalle",
     "existing_count": 2635,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Las_Palmas_alquiler.xlsx",
-    "properties_count": 115,
+    "properties_count": 120,
     "province_name": "Las Palmas",
     "start_time": 1774910371.5601168,
     "status": "running",
     "task_mode": null,
     "total_pages": 61,
     "total_properties": 1823,
-    "traffic_bytes": 52266958
+    "traffic_bytes": 54142943
   },
   "batch": {
     "total": 32,
@@ -117,9 +117,9 @@
       {
         "name": "Las Palmas",
         "status": "active",
-        "properties": 115,
+        "properties": 120,
         "total_properties": 1823,
-        "current_page": 32,
+        "current_page": 38,
         "total_pages": 61,
         "started_at": 1774910367.5318842,
         "finished_at": null
