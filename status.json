@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T22:41:07",
+  "timestamp": "2026-03-30T22:43:16",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 37,
+    "current_page": 3,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 1255,
+    "existing_count": 1567,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Cantabria_alquiler.xlsx",
-    "properties_count": 61,
-    "province_name": "Cantabria",
-    "start_time": 1774902178.2610202,
+    "output_file": "idealista_Castellón_alquiler.xlsx",
+    "properties_count": 18,
+    "province_name": "Castellón",
+    "start_time": 1774903323.955566,
     "status": "running",
     "task_mode": null,
-    "total_pages": 37,
-    "total_properties": 1084,
-    "traffic_bytes": 26413818
+    "total_pages": 33,
+    "total_properties": 982,
+    "traffic_bytes": 6279341
   },
   "batch": {
     "total": 52,
@@ -194,22 +194,25 @@
       },
       {
         "name": "Cantabria",
-        "status": "active",
+        "status": "completed",
         "properties": 61,
         "total_properties": 1084,
-        "current_page": 37,
+        "current_page": 38,
         "total_pages": 37,
         "started_at": 1774902174.232974,
-        "finished_at": null
+        "finished_at": 1774903287.8600874,
+        "traffic_bytes": 26421041,
+        "existing_count": 1255,
+        "bajas_count": 0
       },
       {
         "name": "Castellon",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 12,
+        "total_properties": 982,
+        "current_page": 3,
+        "total_pages": 33,
+        "started_at": 1774903319.9105146,
         "finished_at": null
       },
       {
@@ -7154,27 +7157,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774902178.2646077,
+        "last_ts": 1774903323.962303,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774902178.2646077,
+        "last_ts": 1774903323.962303,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774902178.2646077,
+        "last_ts": 1774903323.962303,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774902178.2646077,
+        "last_ts": 1774903323.962303,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774902178.2646077,
+        "last_ts": 1774903323.962303,
         "last_ip": ""
       }
     },
