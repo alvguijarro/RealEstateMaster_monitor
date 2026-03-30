@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T22:21:46",
+  "timestamp": "2026-03-30T22:23:55",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 33,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 2765,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 1255,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Cádiz_alquiler.xlsx",
-    "properties_count": 86,
-    "province_name": "Cádiz",
-    "start_time": 1774900824.4365091,
+    "output_file": "idealista_Cantabria_alquiler.xlsx",
+    "properties_count": 0,
+    "province_name": "Cantabria",
+    "start_time": 1774902178.2610202,
     "status": "running",
     "task_mode": null,
-    "total_pages": 84,
-    "total_properties": 2519,
-    "traffic_bytes": 55855356
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 52,
@@ -181,22 +181,25 @@
       },
       {
         "name": "Cadiz Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 86,
         "total_properties": 2519,
         "current_page": 33,
         "total_pages": 84,
         "started_at": 1774900820.388292,
-        "finished_at": null
+        "finished_at": 1774902159.2168012,
+        "traffic_bytes": 55952509,
+        "existing_count": 2765,
+        "bajas_count": 0
       },
       {
         "name": "Cantabria",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774902174.232974,
         "finished_at": null
       },
       {
@@ -7151,27 +7154,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774900824.4410152,
+        "last_ts": 1774902178.2646077,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774900824.4410152,
+        "last_ts": 1774902178.2646077,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774900824.4410152,
+        "last_ts": 1774902178.2646077,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774900824.4410152,
+        "last_ts": 1774902178.2646077,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774900824.4410152,
+        "last_ts": 1774902178.2646077,
         "last_ip": ""
       }
     },
