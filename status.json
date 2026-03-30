@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T22:58:24",
+  "timestamp": "2026-03-30T23:00:33",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 6,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 510,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Ciudad_Real_alquiler.xlsx",
-    "properties_count": 0,
+    "properties_count": 14,
     "province_name": "Ciudad Real",
     "start_time": 1774904215.0469105,
     "status": "running",
     "task_mode": null,
     "total_pages": 9,
     "total_properties": 269,
-    "traffic_bytes": 288053
+    "traffic_bytes": 12585799
   },
   "batch": {
     "total": 52,
@@ -234,9 +234,9 @@
       {
         "name": "Ciudad Real Provincia",
         "status": "active",
-        "properties": 0,
+        "properties": 14,
         "total_properties": 269,
-        "current_page": 0,
+        "current_page": 6,
         "total_pages": 9,
         "started_at": 1774904211.0070088,
         "finished_at": null
