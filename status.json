@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T23:13:45",
+  "timestamp": "2026-03-30T23:15:53",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
+    "current_page": 3,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 211,
+    "existing_count": 992,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Cuenca_alquiler.xlsx",
-    "properties_count": 9,
-    "province_name": "Cuenca",
-    "start_time": 1774905114.1275387,
+    "output_file": "idealista_Girona_alquiler.xlsx",
+    "properties_count": 7,
+    "province_name": "Girona",
+    "start_time": 1774905285.866776,
     "status": "running",
     "task_mode": null,
-    "total_pages": 5,
-    "total_properties": 141,
-    "traffic_bytes": 16778907
+    "total_pages": 24,
+    "total_properties": 691,
+    "traffic_bytes": 8832108
   },
   "batch": {
     "total": 52,
@@ -259,22 +259,25 @@
       },
       {
         "name": "Cuenca Provincia",
-        "status": "active",
-        "properties": 9,
+        "status": "completed",
+        "properties": 10,
         "total_properties": 141,
         "current_page": 6,
         "total_pages": 5,
         "started_at": 1774905110.0924778,
-        "finished_at": null
+        "finished_at": 1774905247.7328315,
+        "traffic_bytes": 18271342,
+        "existing_count": 211,
+        "bajas_count": 0
       },
       {
         "name": "Girona Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 4,
+        "total_properties": 691,
+        "current_page": 3,
+        "total_pages": 24,
+        "started_at": 1774905281.8343065,
         "finished_at": null
       },
       {
@@ -7169,27 +7172,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774905114.1338463,
+        "last_ts": 1774905285.8726091,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774905114.1338463,
+        "last_ts": 1774905285.8726091,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774905114.1338463,
+        "last_ts": 1774905285.8726091,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774905114.1338463,
+        "last_ts": 1774905285.8726091,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774905114.1338463,
+        "last_ts": 1774905285.8726091,
         "last_ip": ""
       }
     },
