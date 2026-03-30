@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-30T22:04:43",
+  "timestamp": "2026-03-30T22:06:52",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 8,
+    "current_page": 15,
     "current_phase": "4: extracción de detalle",
     "existing_count": 2765,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Cádiz_alquiler.xlsx",
-    "properties_count": 66,
+    "properties_count": 73,
     "province_name": "Cádiz",
     "start_time": 1774900824.4365091,
     "status": "running",
     "task_mode": null,
     "total_pages": 84,
     "total_properties": 2519,
-    "traffic_bytes": 31544398
+    "traffic_bytes": 38068041
   },
   "batch": {
     "total": 52,
@@ -182,9 +182,9 @@
       {
         "name": "Cadiz Provincia",
         "status": "active",
-        "properties": 66,
+        "properties": 72,
         "total_properties": 2519,
-        "current_page": 8,
+        "current_page": 14,
         "total_pages": 84,
         "started_at": 1774900820.388292,
         "finished_at": null
