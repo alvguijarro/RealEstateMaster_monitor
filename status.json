@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-30T20:40:44",
+  "timestamp": "2026-03-30T20:42:53",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 13,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 829,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 4671,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Badajoz_alquiler.xlsx",
-    "properties_count": 32,
-    "province_name": "Badajoz",
-    "start_time": 1774895712.468987,
+    "output_file": "idealista_Baleares_alquiler.xlsx",
+    "properties_count": 0,
+    "province_name": "Baleares (Illes)",
+    "start_time": 1774896139.9836702,
     "status": "running",
     "task_mode": null,
-    "total_pages": 12,
-    "total_properties": 344,
-    "traffic_bytes": 26158858
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 248987
   },
   "batch": {
     "total": 52,
@@ -116,22 +116,25 @@
       },
       {
         "name": "Badajoz Provincia",
-        "status": "active",
-        "properties": 31,
+        "status": "completed",
+        "properties": 36,
         "total_properties": 344,
         "current_page": 13,
         "total_pages": 12,
         "started_at": 1774895708.419046,
-        "finished_at": null
+        "finished_at": 1774896119.9202826,
+        "traffic_bytes": 26335377,
+        "existing_count": 829,
+        "bajas_count": 0
       },
       {
         "name": "Balears Illes",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774896135.9404783,
         "finished_at": null
       },
       {
@@ -7136,27 +7139,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774895712.475445,
+        "last_ts": 1774896139.9892256,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774895712.475445,
+        "last_ts": 1774896139.9892256,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774895712.475445,
+        "last_ts": 1774896139.9892256,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774895712.475445,
+        "last_ts": 1774896139.9892256,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774895712.475445,
+        "last_ts": 1774896139.9892256,
         "last_ip": ""
       }
     },
