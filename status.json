@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T00:29:01",
+  "timestamp": "2026-03-31T00:31:11",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 3,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 238,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 443,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Huesca_alquiler.xlsx",
-    "properties_count": 1,
-    "province_name": "Huesca",
-    "start_time": 1774909688.608619,
+    "output_file": "idealista_Jaén_alquiler.xlsx",
+    "properties_count": 0,
+    "province_name": "Jaén",
+    "start_time": 1774909855.0440469,
     "status": "running",
     "task_mode": null,
-    "total_pages": 6,
-    "total_properties": 154,
-    "traffic_bytes": 3982380
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 1918498
   },
   "batch": {
     "total": 32,
@@ -77,22 +77,25 @@
       },
       {
         "name": "Huesca Provincia",
-        "status": "active",
-        "properties": 1,
+        "status": "completed",
+        "properties": 3,
         "total_properties": 154,
-        "current_page": 3,
+        "current_page": 7,
         "total_pages": 6,
         "started_at": 1774909684.5838084,
-        "finished_at": null
+        "finished_at": 1774909828.988462,
+        "traffic_bytes": 5916106,
+        "existing_count": 238,
+        "bajas_count": 0
       },
       {
         "name": "Jaen Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774909851.0138867,
         "finished_at": null
       },
       {
@@ -6927,27 +6930,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774909688.6145294,
+        "last_ts": 1774909855.0483627,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774909688.6145294,
+        "last_ts": 1774909855.0483627,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774909688.6145294,
+        "last_ts": 1774909855.0483627,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774909688.6145294,
+        "last_ts": 1774909855.0483627,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774909688.6145294,
+        "last_ts": 1774909855.0483627,
         "last_ip": ""
       }
     },
