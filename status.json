@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-31T00:22:34",
+  "timestamp": "2026-03-31T00:24:43",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 8,
+    "current_page": 14,
     "current_phase": "4: extracción de detalle",
     "existing_count": 930,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Huelva_alquiler.xlsx",
-    "properties_count": 17,
+    "properties_count": 22,
     "province_name": "Huelva",
     "start_time": 1774909147.2753532,
     "status": "running",
     "task_mode": null,
     "total_pages": 28,
     "total_properties": 832,
-    "traffic_bytes": 24459284
+    "traffic_bytes": 32582908
   },
   "batch": {
     "total": 32,
@@ -65,9 +65,9 @@
       {
         "name": "Huelva Provincia",
         "status": "active",
-        "properties": 17,
+        "properties": 22,
         "total_properties": 832,
-        "current_page": 7,
+        "current_page": 14,
         "total_pages": 28,
         "started_at": 1774909143.2509649,
         "finished_at": null
