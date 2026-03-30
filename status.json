@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-30T19:40:29",
+  "timestamp": "2026-03-30T19:42:38",
   "scraper": {
     "bajas_count": 0,
     "current_page": 60,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Alicante_alquiler.xlsx",
-    "properties_count": 282,
+    "properties_count": 284,
     "province_name": "Alicante",
     "start_time": 1774890829.991778,
     "status": "running",
     "task_mode": null,
     "total_pages": 196,
     "total_properties": 5879,
-    "traffic_bytes": 132953828
+    "traffic_bytes": 135235078
   },
   "batch": {
     "total": 52,
@@ -65,7 +65,7 @@
       {
         "name": "Alicante",
         "status": "active",
-        "properties": 282,
+        "properties": 284,
         "total_properties": 5879,
         "current_page": 60,
         "total_pages": 196,
