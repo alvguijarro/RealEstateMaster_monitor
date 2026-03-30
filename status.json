@@ -1,127 +1,306 @@
 {
-  "timestamp": "2026-03-31T01:14:07",
+  "timestamp": "2026-03-31T01:16:15",
   "scraper": {
     "bajas_count": 0,
     "current_page": 60,
-    "current_phase": "3: Deep Scrape",
+    "current_phase": "4: extracción de detalle",
     "existing_count": 2635,
-    "internal_status": "running",
+    "internal_status": "completed",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Las_Palmas_alquiler.xlsx",
-    "properties_count": 127,
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_Las_Palmas_alquiler.xlsx",
+    "properties_count": 128,
     "province_name": "Las Palmas",
     "start_time": 1774910371.5601168,
     "status": "running",
     "task_mode": null,
     "total_pages": 61,
     "total_properties": 1823,
-    "traffic_bytes": 64718386
+    "traffic_bytes": 65325764
   },
   "batch": {
-    "total": 32,
-    "started_at": 1774906169.614577,
+    "total": 52,
+    "started_at": 1774504991.7244503,
     "provinces": [
       {
+        "name": "A Coruna Provincia",
+        "status": "active",
+        "properties": 8,
+        "total_properties": 648,
+        "current_page": 16,
+        "total_pages": 22,
+        "started_at": 1774504991.7299151,
+        "finished_at": null
+      },
+      {
+        "name": "Alava",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Albacete Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Alicante",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Almeria Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Asturias",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Avila Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Badajoz Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Balears Illes",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Barcelona Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Burgos Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Caceres Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Cadiz Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Cantabria",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Castellon",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Ceuta Ceuta",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Ciudad Real Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Cordoba Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Cuenca Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Girona Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
         "name": "Granada Provincia",
-        "status": "completed",
-        "properties": 60,
-        "total_properties": 2455,
-        "current_page": 60,
-        "total_pages": 82,
-        "started_at": 1774906169.6196952,
-        "finished_at": 1774908391.4048228,
-        "traffic_bytes": 91170688,
-        "existing_count": 3398,
-        "bajas_count": 0
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
       },
       {
         "name": "Guadalajara Provincia",
-        "status": "completed",
-        "properties": 16,
-        "total_properties": 131,
-        "current_page": 6,
-        "total_pages": 5,
-        "started_at": 1774908421.4364808,
-        "finished_at": 1774908607.92354,
-        "traffic_bytes": 23537181,
-        "existing_count": 228,
-        "bajas_count": 0
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
       },
       {
         "name": "Guipuzcoa",
-        "status": "completed",
-        "properties": 13,
-        "total_properties": 454,
-        "current_page": 17,
-        "total_pages": 16,
-        "started_at": 1774908626.9400258,
-        "finished_at": 1774909108.2187092,
-        "traffic_bytes": 26220141,
-        "existing_count": 711,
-        "bajas_count": 0
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
       },
       {
         "name": "Huelva Provincia",
-        "status": "completed",
-        "properties": 22,
-        "total_properties": 832,
-        "current_page": 21,
-        "total_pages": 28,
-        "started_at": 1774909143.2509649,
-        "finished_at": 1774909652.5562146,
-        "traffic_bytes": 33524045,
-        "existing_count": 930,
-        "bajas_count": 0
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
       },
       {
         "name": "Huesca Provincia",
-        "status": "completed",
-        "properties": 3,
-        "total_properties": 154,
-        "current_page": 7,
-        "total_pages": 6,
-        "started_at": 1774909684.5838084,
-        "finished_at": 1774909828.988462,
-        "traffic_bytes": 5916106,
-        "existing_count": 238,
-        "bajas_count": 0
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
       },
       {
         "name": "Jaen Provincia",
-        "status": "completed",
-        "properties": 13,
-        "total_properties": 327,
-        "current_page": 12,
-        "total_pages": 11,
-        "started_at": 1774909851.0138867,
-        "finished_at": 1774910100.7963061,
-        "traffic_bytes": 8651400,
-        "existing_count": 443,
-        "bajas_count": 0
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
       },
       {
         "name": "La Rioja",
-        "status": "completed",
-        "properties": 23,
-        "total_properties": 210,
-        "current_page": 9,
-        "total_pages": 8,
-        "started_at": 1774910128.8210857,
-        "finished_at": 1774910336.5051832,
-        "traffic_bytes": 18517219,
-        "existing_count": 347,
-        "bajas_count": 0
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
       },
       {
         "name": "Las Palmas",
-        "status": "active",
-        "properties": 127,
-        "total_properties": 1823,
-        "current_page": 60,
-        "total_pages": 61,
-        "started_at": 1774910367.5318842,
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
         "finished_at": null
       },
       {
@@ -315,7 +494,7 @@
         "finished_at": null
       },
       {
-        "name": "Valencia Provincia",
+        "name": "Valladolid Provincia",
         "status": "pending",
         "properties": 0,
         "total_properties": 0,
@@ -325,7 +504,7 @@
         "finished_at": null
       },
       {
-        "name": "Valladolid Provincia",
+        "name": "Valencia Provincia",
         "status": "pending",
         "properties": 0,
         "total_properties": 0,
@@ -365,7 +544,7 @@
         "finished_at": null
       }
     ],
-    "_source": "alquiler"
+    "_source": "habitacion"
   },
   "cycle": {
     "last_completed": null,
