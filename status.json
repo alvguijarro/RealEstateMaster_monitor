@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T06:10:32",
+  "timestamp": "2026-03-31T06:12:41",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 9,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 1040,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 108,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Vizcaya_alquiler.xlsx",
-    "properties_count": 21,
-    "province_name": "Vizcaya",
-    "start_time": 1774930049.1268373,
+    "output_file": "idealista_Zamora_alquiler.xlsx",
+    "properties_count": 0,
+    "province_name": "Zamora",
+    "start_time": 1774930327.9691782,
     "status": "running",
     "task_mode": null,
-    "total_pages": 22,
-    "total_properties": 653,
-    "traffic_bytes": 11655461
+    "total_pages": 3,
+    "total_properties": 71,
+    "traffic_bytes": 1675568
   },
   "batch": {
     "total": 32,
@@ -402,22 +402,25 @@
       },
       {
         "name": "Vizcaya",
-        "status": "active",
+        "status": "completed",
         "properties": 21,
         "total_properties": 653,
-        "current_page": 9,
+        "current_page": 12,
         "total_pages": 22,
         "started_at": 1774930045.1078603,
-        "finished_at": null
+        "finished_at": 1774930308.905723,
+        "traffic_bytes": 12070508,
+        "existing_count": 1040,
+        "bajas_count": 0
       },
       {
         "name": "Zamora Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
+        "total_properties": 71,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 3,
+        "started_at": 1774930323.9207535,
         "finished_at": null
       },
       {
@@ -7002,27 +7005,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774930049.1333,
+        "last_ts": 1774930327.9745798,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774930049.1333,
+        "last_ts": 1774930327.9745798,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774930049.1333,
+        "last_ts": 1774930327.9745798,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774930049.1333,
+        "last_ts": 1774930327.9745798,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774930049.1333,
+        "last_ts": 1774930327.9745798,
         "last_ip": ""
       }
     },
