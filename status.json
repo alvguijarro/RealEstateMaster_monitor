@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T15:35:35",
+  "timestamp": "2026-03-31T15:37:44",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -461,22 +461,25 @@
       },
       {
         "name": "Murcia Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 79,
         "total_properties": 1183,
-        "current_page": 39,
+        "current_page": 41,
         "total_pages": 40,
         "started_at": 1774963272.5855315,
-        "finished_at": null
+        "finished_at": 1774964181.5916042,
+        "traffic_bytes": 54301312,
+        "existing_count": 1222,
+        "bajas_count": 0
       },
       {
         "name": "Navarra",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
+        "status": "active",
+        "properties": 3,
+        "total_properties": 382,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 13,
+        "started_at": 1774964210.61019,
         "finished_at": null
       },
       {
@@ -7211,27 +7214,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774963276.6188767,
+        "last_ts": 1774964214.6344178,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774963276.6188767,
+        "last_ts": 1774964214.6344178,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774963276.6188767,
+        "last_ts": 1774964214.6344178,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774963276.6188767,
+        "last_ts": 1774964214.6344178,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774963276.6188767,
+        "last_ts": 1774964214.6344178,
         "last_ip": ""
       }
     },
