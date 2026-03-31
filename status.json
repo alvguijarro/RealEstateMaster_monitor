@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T06:06:15",
+  "timestamp": "2026-03-31T06:08:23",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 12,
+    "current_page": 3,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 563,
+    "existing_count": 1040,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Valladolid_alquiler.xlsx",
-    "properties_count": 26,
-    "province_name": "Valladolid",
-    "start_time": 1774929688.9019287,
+    "output_file": "idealista_Vizcaya_alquiler.xlsx",
+    "properties_count": 4,
+    "province_name": "Vizcaya",
+    "start_time": 1774930049.1268373,
     "status": "running",
     "task_mode": null,
-    "total_pages": 12,
-    "total_properties": 333,
-    "traffic_bytes": 15505167
+    "total_pages": 22,
+    "total_properties": 653,
+    "traffic_bytes": 1690447
   },
   "batch": {
     "total": 32,
@@ -389,22 +389,25 @@
       },
       {
         "name": "Valladolid Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 26,
         "total_properties": 333,
-        "current_page": 12,
+        "current_page": 13,
         "total_pages": 12,
         "started_at": 1774929684.8677063,
-        "finished_at": null
+        "finished_at": 1774930012.0719092,
+        "traffic_bytes": 15628786,
+        "existing_count": 563,
+        "bajas_count": 0
       },
       {
         "name": "Vizcaya",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 4,
+        "total_properties": 653,
+        "current_page": 3,
+        "total_pages": 22,
+        "started_at": 1774930045.1078603,
         "finished_at": null
       },
       {
@@ -6999,27 +7002,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774929688.907489,
+        "last_ts": 1774930049.1333,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774929688.907489,
+        "last_ts": 1774930049.1333,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774929688.907489,
+        "last_ts": 1774930049.1333,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774929688.907489,
+        "last_ts": 1774930049.1333,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774929688.907489,
+        "last_ts": 1774930049.1333,
         "last_ip": ""
       }
     },
