@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T03:31:31",
+  "timestamp": "2026-03-31T03:33:40",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 9,
+    "current_page": 3,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 412,
+    "existing_count": 162,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Ourense_alquiler.xlsx",
-    "properties_count": 9,
-    "province_name": "Ourense",
-    "start_time": 1774920525.3319244,
+    "output_file": "idealista_Palencia_alquiler.xlsx",
+    "properties_count": 5,
+    "province_name": "Palencia",
+    "start_time": 1774920761.151957,
     "status": "running",
     "task_mode": null,
-    "total_pages": 9,
-    "total_properties": 243,
-    "traffic_bytes": 3612927
+    "total_pages": 4,
+    "total_properties": 94,
+    "traffic_bytes": 1228771
   },
   "batch": {
     "total": 32,
@@ -233,22 +233,25 @@
       },
       {
         "name": "Ourense Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 9,
         "total_properties": 243,
-        "current_page": 8,
+        "current_page": 10,
         "total_pages": 9,
         "started_at": 1774920521.2944112,
-        "finished_at": null
+        "finished_at": 1774920722.0814557,
+        "traffic_bytes": 3620231,
+        "existing_count": 412,
+        "bajas_count": 0
       },
       {
         "name": "Palencia Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 4,
+        "total_properties": 94,
+        "current_page": 3,
+        "total_pages": 4,
+        "started_at": 1774920757.1258795,
         "finished_at": null
       },
       {
@@ -6963,27 +6966,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774920525.3371236,
+        "last_ts": 1774920761.1572769,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774920525.3371236,
+        "last_ts": 1774920761.1572769,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774920525.3371236,
+        "last_ts": 1774920761.1572769,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774920525.3371236,
+        "last_ts": 1774920761.1572769,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774920525.3371236,
+        "last_ts": 1774920761.1572769,
         "last_ip": ""
       }
     },
