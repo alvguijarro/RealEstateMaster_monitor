@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T12:43:08",
+  "timestamp": "2026-03-31T12:45:17",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -230,22 +230,25 @@
       },
       {
         "name": "Ciudad Real Provincia",
-        "status": "active",
-        "properties": 10,
+        "status": "completed",
+        "properties": 11,
         "total_properties": 159,
-        "current_page": 4,
+        "current_page": 7,
         "total_pages": 6,
         "started_at": 1774953702.2393415,
-        "finished_at": null
+        "finished_at": 1774953846.5486684,
+        "traffic_bytes": 7736347,
+        "existing_count": 164,
+        "bajas_count": 0
       },
       {
         "name": "Cordoba Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
+        "total_properties": 533,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 18,
+        "started_at": 1774953872.5648882,
         "finished_at": null
       },
       {
@@ -7160,27 +7163,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774953706.2655294,
+        "last_ts": 1774953876.5888064,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774953706.2655294,
+        "last_ts": 1774953876.5888064,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774953706.2655294,
+        "last_ts": 1774953876.5888064,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774953706.2655294,
+        "last_ts": 1774953876.5888064,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774953706.2655294,
+        "last_ts": 1774953876.5888064,
         "last_ip": ""
       }
     },
