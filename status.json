@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T10:00:20",
+  "timestamp": "2026-03-31T10:02:29",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -21,16 +21,16 @@
   },
   "batch": {
     "total": 52,
-    "started_at": 1774504991.7244503,
+    "started_at": 1774944041.5476305,
     "provinces": [
       {
         "name": "A Coruna Provincia",
         "status": "active",
-        "properties": 8,
-        "total_properties": 648,
-        "current_page": 16,
-        "total_pages": 22,
-        "started_at": 1774504991.7299151,
+        "properties": 41,
+        "total_properties": 660,
+        "current_page": 5,
+        "total_pages": 23,
+        "started_at": 1774944041.5517752,
         "finished_at": null
       },
       {
@@ -7115,27 +7115,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774930470.4204073,
+        "last_ts": 1774944045.5942852,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774930470.4204073,
+        "last_ts": 1774944045.5942852,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774930470.4204073,
+        "last_ts": 1774944045.5942852,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774930470.4204073,
+        "last_ts": 1774944045.5942852,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774930470.4204073,
+        "last_ts": 1774944045.5942852,
         "last_ip": ""
       }
     },
