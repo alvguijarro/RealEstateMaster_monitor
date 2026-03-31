@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-31T04:33:56",
+  "timestamp": "2026-03-31T04:36:05",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 3,
+    "current_page": 9,
     "current_phase": "4: extracción de detalle",
     "existing_count": 2720,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Sevilla_alquiler.xlsx",
-    "properties_count": 3,
+    "properties_count": 72,
     "province_name": "Sevilla",
     "start_time": 1774924358.3418765,
     "status": "running",
     "task_mode": null,
     "total_pages": 68,
     "total_properties": 2036,
-    "traffic_bytes": 3481507
+    "traffic_bytes": 30349605
   },
   "batch": {
     "total": 32,
@@ -312,9 +312,9 @@
       {
         "name": "Sevilla Provincia",
         "status": "active",
-        "properties": 2,
+        "properties": 71,
         "total_properties": 2036,
-        "current_page": 3,
+        "current_page": 9,
         "total_pages": 68,
         "started_at": 1774924354.303869,
         "finished_at": null
