@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T05:12:33",
+  "timestamp": "2026-03-31T05:14:42",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 15,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 761,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 144,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Tarragona_alquiler.xlsx",
-    "properties_count": 37,
-    "province_name": "Tarragona",
-    "start_time": 1774926393.3022776,
+    "output_file": "idealista_Teruel_alquiler.xlsx",
+    "properties_count": 5,
+    "province_name": "Teruel",
+    "start_time": 1774926811.6605613,
     "status": "running",
     "task_mode": null,
-    "total_pages": 15,
-    "total_properties": 421,
-    "traffic_bytes": 20585125
+    "total_pages": 4,
+    "total_properties": 104,
+    "traffic_bytes": 9952032
   },
   "batch": {
     "total": 32,
@@ -337,22 +337,25 @@
       },
       {
         "name": "Tarragona Provincia",
-        "status": "active",
-        "properties": 37,
+        "status": "completed",
+        "properties": 38,
         "total_properties": 421,
-        "current_page": 15,
+        "current_page": 16,
         "total_pages": 15,
         "started_at": 1774926389.2823727,
-        "finished_at": null
+        "finished_at": 1774926779.5746686,
+        "traffic_bytes": 21815960,
+        "existing_count": 761,
+        "bajas_count": 0
       },
       {
         "name": "Teruel Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
+        "status": "active",
+        "properties": 5,
+        "total_properties": 104,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 4,
+        "started_at": 1774926807.6032107,
         "finished_at": null
       },
       {
@@ -6987,27 +6990,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774926393.3073783,
+        "last_ts": 1774926811.6647725,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774926393.3073783,
+        "last_ts": 1774926811.6647725,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774926393.3073783,
+        "last_ts": 1774926811.6647725,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774926393.3073783,
+        "last_ts": 1774926811.6647725,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774926393.3073783,
+        "last_ts": 1774926811.6647725,
         "last_ip": ""
       }
     },
