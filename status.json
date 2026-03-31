@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T14:08:59",
+  "timestamp": "2026-03-31T14:11:07",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -373,22 +373,25 @@
       },
       {
         "name": "Las Palmas",
-        "status": "active",
-        "properties": 28,
+        "status": "completed",
+        "properties": 29,
         "total_properties": 539,
-        "current_page": 17,
+        "current_page": 19,
         "total_pages": 18,
         "started_at": 1774957453.5167506,
-        "finished_at": null
+        "finished_at": 1774958986.0336084,
+        "traffic_bytes": 12117113,
+        "existing_count": 588,
+        "bajas_count": 0
       },
       {
         "name": "Leon Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
+        "status": "active",
+        "properties": 6,
+        "total_properties": 389,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 13,
+        "started_at": 1774959012.0512726,
         "finished_at": null
       },
       {
@@ -7193,27 +7196,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774958551.0788877,
+        "last_ts": 1774959016.076598,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774958551.0788877,
+        "last_ts": 1774959016.076598,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774958551.0788877,
+        "last_ts": 1774959016.076598,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774958551.0788877,
+        "last_ts": 1774959016.076598,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774958551.0788877,
+        "last_ts": 1774959016.076598,
         "last_ip": ""
       }
     },
