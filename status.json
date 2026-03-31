@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T18:26:40",
+  "timestamp": "2026-03-31T18:28:49",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -666,22 +666,25 @@
       },
       {
         "name": "Zamora Provincia",
+        "status": "completed",
+        "properties": 9,
+        "total_properties": 34,
+        "current_page": 3,
+        "total_pages": 2,
+        "started_at": 1774974375.8577023,
+        "finished_at": 1774974485.1297092,
+        "traffic_bytes": 3215249,
+        "existing_count": 30,
+        "bajas_count": 0
+      },
+      {
+        "name": "Zaragoza Provincia",
         "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1774974375.8577023,
-        "finished_at": null
-      },
-      {
-        "name": "Zaragoza Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774974519.1549027,
         "finished_at": null
       }
     ],
@@ -7256,27 +7259,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774974379.885253,
+        "last_ts": 1774974523.185775,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774974379.885253,
+        "last_ts": 1774974523.185775,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774974379.885253,
+        "last_ts": 1774974523.185775,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774974379.885253,
+        "last_ts": 1774974523.185775,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774974379.885253,
+        "last_ts": 1774974523.185775,
         "last_ip": ""
       }
     },
