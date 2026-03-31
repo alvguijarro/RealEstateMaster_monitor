@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T12:58:09",
+  "timestamp": "2026-03-31T13:00:18",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -269,22 +269,25 @@
       },
       {
         "name": "Girona Provincia",
-        "status": "active",
-        "properties": 17,
+        "status": "completed",
+        "properties": 21,
         "total_properties": 228,
-        "current_page": 6,
+        "current_page": 9,
         "total_pages": 8,
         "started_at": 1774954502.9646084,
-        "finished_at": null
+        "finished_at": 1774954745.4807158,
+        "traffic_bytes": 14848471,
+        "existing_count": 255,
+        "bajas_count": 0
       },
       {
         "name": "Granada Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 1,
+        "total_properties": 1298,
+        "current_page": 3,
+        "total_pages": 44,
+        "started_at": 1774954766.4995391,
         "finished_at": null
       },
       {
@@ -7169,27 +7172,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774954506.991328,
+        "last_ts": 1774954770.5429478,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774954506.991328,
+        "last_ts": 1774954770.5429478,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774954506.991328,
+        "last_ts": 1774954770.5429478,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774954506.991328,
+        "last_ts": 1774954770.5429478,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774954506.991328,
+        "last_ts": 1774954770.5429478,
         "last_ip": ""
       }
     },
