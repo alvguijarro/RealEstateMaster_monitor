@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T16:08:40",
+  "timestamp": "2026-03-31T16:10:49",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -539,22 +539,25 @@
       },
       {
         "name": "Santa Cruz De Tenerife Provincia",
-        "status": "active",
-        "properties": 47,
+        "status": "completed",
+        "properties": 49,
         "total_properties": 446,
-        "current_page": 12,
+        "current_page": 16,
         "total_pages": 15,
         "started_at": 1774965813.9819539,
-        "finished_at": null
+        "finished_at": 1774966218.0050602,
+        "traffic_bytes": 30838892,
+        "existing_count": 454,
+        "bajas_count": 0
       },
       {
         "name": "Segovia Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774966236.0279663,
         "finished_at": null
       },
       {
@@ -7229,27 +7232,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774965818.003952,
+        "last_ts": 1774966240.0642414,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774965818.003952,
+        "last_ts": 1774966240.0642414,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774965818.003952,
+        "last_ts": 1774966240.0642414,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774965818.003952,
+        "last_ts": 1774966240.0642414,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774965818.003952,
+        "last_ts": 1774966240.0642414,
         "last_ip": ""
       }
     },
