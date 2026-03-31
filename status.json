@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T12:53:52",
+  "timestamp": "2026-03-31T12:56:01",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -256,22 +256,25 @@
       },
       {
         "name": "Cuenca Provincia",
-        "status": "active",
-        "properties": 8,
+        "status": "completed",
+        "properties": 13,
         "total_properties": 96,
-        "current_page": 3,
+        "current_page": 5,
         "total_pages": 4,
         "started_at": 1774954362.6164846,
-        "finished_at": null
+        "finished_at": 1774954471.920156,
+        "traffic_bytes": 4803770,
+        "existing_count": 91,
+        "bajas_count": 0
       },
       {
         "name": "Girona Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
+        "status": "active",
+        "properties": 6,
+        "total_properties": 228,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 8,
+        "started_at": 1774954502.9646084,
         "finished_at": null
       },
       {
@@ -7166,27 +7169,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774954366.664295,
+        "last_ts": 1774954506.991328,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774954366.664295,
+        "last_ts": 1774954506.991328,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774954366.664295,
+        "last_ts": 1774954506.991328,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774954366.664295,
+        "last_ts": 1774954506.991328,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774954366.664295,
+        "last_ts": 1774954506.991328,
         "last_ip": ""
       }
     },
