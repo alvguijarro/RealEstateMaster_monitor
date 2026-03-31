@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T02:12:06",
+  "timestamp": "2026-03-31T02:14:15",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 60,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 13453,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 0,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Madrid_alquiler.xlsx",
-    "properties_count": 866,
-    "province_name": "Madrid",
-    "start_time": 1774913616.6635878,
+    "output_file": null,
+    "properties_count": 0,
+    "province_name": "",
+    "start_time": 1774916053.0911007,
     "status": "running",
     "task_mode": null,
-    "total_pages": 431,
-    "total_properties": 12922,
-    "traffic_bytes": 267549183
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 32,
@@ -168,22 +168,25 @@
       },
       {
         "name": "Madrid Provincia",
-        "status": "active",
-        "properties": 866,
+        "status": "completed",
+        "properties": 872,
         "total_properties": 12922,
         "current_page": 60,
         "total_pages": 431,
         "started_at": 1774913612.6324675,
-        "finished_at": null
+        "finished_at": 1774916027.0185661,
+        "traffic_bytes": 267998613,
+        "existing_count": 13453,
+        "bajas_count": 0
       },
       {
         "name": "Malaga Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774916049.0477612,
         "finished_at": null
       },
       {
@@ -6948,27 +6951,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774913616.6702244,
+        "last_ts": 1774916053.0977428,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774913616.6702244,
+        "last_ts": 1774916053.0977428,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774913616.6702244,
+        "last_ts": 1774916053.0977428,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774913616.6702244,
+        "last_ts": 1774916053.0977428,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774913616.6702244,
+        "last_ts": 1774916053.0977428,
         "last_ip": ""
       }
     },
