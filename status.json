@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T04:25:21",
+  "timestamp": "2026-03-31T04:27:30",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 54,
+    "current_page": 3,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 2123,
+    "existing_count": 513,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Santa_Cruz_de_Tenerife_alquiler.xlsx",
-    "properties_count": 90,
-    "province_name": "Santa Cruz de Tenerife",
-    "start_time": 1774922523.1376352,
+    "output_file": "idealista_Segovia_alquiler.xlsx",
+    "properties_count": 6,
+    "province_name": "Segovia",
+    "start_time": 1774923998.2015622,
     "status": "running",
     "task_mode": null,
-    "total_pages": 54,
-    "total_properties": 1618,
-    "traffic_bytes": 57016190
+    "total_pages": 12,
+    "total_properties": 358,
+    "traffic_bytes": 8426237
   },
   "batch": {
     "total": 32,
@@ -285,22 +285,25 @@
       },
       {
         "name": "Santa Cruz De Tenerife Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 90,
         "total_properties": 1618,
-        "current_page": 53,
+        "current_page": 55,
         "total_pages": 54,
         "started_at": 1774922519.1196556,
-        "finished_at": null
+        "finished_at": 1774923970.1250591,
+        "traffic_bytes": 57149004,
+        "existing_count": 2123,
+        "bajas_count": 0
       },
       {
         "name": "Segovia Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 5,
+        "total_properties": 358,
+        "current_page": 3,
+        "total_pages": 12,
+        "started_at": 1774923994.1538148,
         "finished_at": null
       },
       {
@@ -6975,27 +6978,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774922523.143093,
+        "last_ts": 1774923998.2071352,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774922523.143093,
+        "last_ts": 1774923998.2071352,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774922523.143093,
+        "last_ts": 1774923998.2071352,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774922523.143093,
+        "last_ts": 1774923998.2071352,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774922523.143093,
+        "last_ts": 1774923998.2071352,
         "last_ip": ""
       }
     },
