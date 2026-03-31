@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-31T03:55:07",
+  "timestamp": "2026-03-31T03:57:16",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 16,
+    "current_page": 23,
     "current_phase": "4: extracción de detalle",
     "existing_count": 1933,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Salamanca_alquiler.xlsx",
-    "properties_count": 48,
+    "properties_count": 52,
     "province_name": "Salamanca",
     "start_time": 1774921712.365889,
     "status": "running",
     "task_mode": null,
     "total_pages": 42,
     "total_properties": 1250,
-    "traffic_bytes": 42539951
+    "traffic_bytes": 53500577
   },
   "batch": {
     "total": 32,
@@ -273,9 +273,9 @@
       {
         "name": "Salamanca Provincia",
         "status": "active",
-        "properties": 44,
+        "properties": 52,
         "total_properties": 1250,
-        "current_page": 16,
+        "current_page": 23,
         "total_pages": 42,
         "started_at": 1774921708.3292685,
         "finished_at": null
