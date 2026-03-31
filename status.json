@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-31T02:59:19",
+  "timestamp": "2026-03-31T03:01:28",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 7,
+    "current_page": 13,
     "current_phase": "4: extracción de detalle",
     "existing_count": 3202,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Murcia_alquiler.xlsx",
-    "properties_count": 74,
+    "properties_count": 77,
     "province_name": "Murcia",
     "start_time": 1774918553.6109228,
     "status": "running",
     "task_mode": null,
     "total_pages": 77,
     "total_properties": 2295,
-    "traffic_bytes": 19683980
+    "traffic_bytes": 23618334
   },
   "batch": {
     "total": 32,
@@ -208,9 +208,9 @@
       {
         "name": "Murcia Provincia",
         "status": "active",
-        "properties": 74,
+        "properties": 77,
         "total_properties": 2295,
-        "current_page": 7,
+        "current_page": 13,
         "total_pages": 77,
         "started_at": 1774918549.5649753,
         "finished_at": null
