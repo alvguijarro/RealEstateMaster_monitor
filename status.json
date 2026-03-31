@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T13:43:13",
+  "timestamp": "2026-03-31T13:45:22",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -360,22 +360,25 @@
       },
       {
         "name": "La Rioja",
-        "status": "active",
-        "properties": 29,
+        "status": "completed",
+        "properties": 30,
         "total_properties": 259,
         "current_page": 10,
         "total_pages": 9,
         "started_at": 1774957137.8734026,
-        "finished_at": null
+        "finished_at": 1774957429.497312,
+        "traffic_bytes": 31878919,
+        "existing_count": 252,
+        "bajas_count": 0
       },
       {
         "name": "Las Palmas",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
+        "status": "active",
+        "properties": 9,
+        "total_properties": 538,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 18,
+        "started_at": 1774957453.5167506,
         "finished_at": null
       },
       {
@@ -7190,27 +7193,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774957141.9055102,
+        "last_ts": 1774957457.554697,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774957141.9055102,
+        "last_ts": 1774957457.554697,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774957141.9055102,
+        "last_ts": 1774957457.554697,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774957141.9055102,
+        "last_ts": 1774957457.554697,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774957141.9055102,
+        "last_ts": 1774957457.554697,
         "last_ip": ""
       }
     },
