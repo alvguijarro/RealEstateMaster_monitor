@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-31T06:21:17",
+  "timestamp": "2026-03-31T06:23:25",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 17,
+    "current_page": 21,
     "current_phase": "4: extracción de detalle",
     "existing_count": 960,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Zaragoza_alquiler.xlsx",
-    "properties_count": 41,
+    "properties_count": 42,
     "province_name": "Zaragoza",
     "start_time": 1774930470.4148786,
     "status": "running",
     "task_mode": null,
     "total_pages": 20,
     "total_properties": 588,
-    "traffic_bytes": 39288617
+    "traffic_bytes": 39847059
   },
   "batch": {
     "total": 32,
@@ -429,9 +429,9 @@
       {
         "name": "Zaragoza Provincia",
         "status": "active",
-        "properties": 41,
+        "properties": 42,
         "total_properties": 588,
-        "current_page": 17,
+        "current_page": 20,
         "total_pages": 20,
         "started_at": 1774930466.3782437,
         "finished_at": null
