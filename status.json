@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-31T05:08:16",
+  "timestamp": "2026-03-31T05:10:24",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 5,
+    "current_page": 12,
     "current_phase": "4: extracción de detalle",
     "existing_count": 761,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Tarragona_alquiler.xlsx",
-    "properties_count": 31,
+    "properties_count": 36,
     "province_name": "Tarragona",
     "start_time": 1774926393.3022776,
     "status": "running",
     "task_mode": null,
     "total_pages": 15,
     "total_properties": 421,
-    "traffic_bytes": 10836939
+    "traffic_bytes": 18571095
   },
   "batch": {
     "total": 32,
@@ -338,9 +338,9 @@
       {
         "name": "Tarragona Provincia",
         "status": "active",
-        "properties": 31,
+        "properties": 36,
         "total_properties": 421,
-        "current_page": 5,
+        "current_page": 11,
         "total_pages": 15,
         "started_at": 1774926389.2823727,
         "finished_at": null
