@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T04:31:47",
+  "timestamp": "2026-03-31T04:33:56",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 13,
+    "current_page": 3,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 513,
+    "existing_count": 2720,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Segovia_alquiler.xlsx",
-    "properties_count": 10,
-    "province_name": "Segovia",
-    "start_time": 1774923998.2015622,
+    "output_file": "idealista_Sevilla_alquiler.xlsx",
+    "properties_count": 3,
+    "province_name": "Sevilla",
+    "start_time": 1774924358.3418765,
     "status": "running",
     "task_mode": null,
-    "total_pages": 12,
-    "total_properties": 358,
-    "traffic_bytes": 12831548
+    "total_pages": 68,
+    "total_properties": 2036,
+    "traffic_bytes": 3481507
   },
   "batch": {
     "total": 32,
@@ -298,22 +298,25 @@
       },
       {
         "name": "Segovia Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 10,
         "total_properties": 358,
         "current_page": 13,
         "total_pages": 12,
         "started_at": 1774923994.1538148,
-        "finished_at": null
+        "finished_at": 1774924321.2747307,
+        "traffic_bytes": 12831548,
+        "existing_count": 513,
+        "bajas_count": 0
       },
       {
         "name": "Sevilla Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 2,
+        "total_properties": 2036,
+        "current_page": 3,
+        "total_pages": 68,
+        "started_at": 1774924354.303869,
         "finished_at": null
       },
       {
@@ -6978,27 +6981,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774923998.2071352,
+        "last_ts": 1774924358.3472824,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774923998.2071352,
+        "last_ts": 1774924358.3472824,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774923998.2071352,
+        "last_ts": 1774924358.3472824,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774923998.2071352,
+        "last_ts": 1774924358.3472824,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774923998.2071352,
+        "last_ts": 1774924358.3472824,
         "last_ip": ""
       }
     },
