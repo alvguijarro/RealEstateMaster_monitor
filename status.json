@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T15:46:20",
+  "timestamp": "2026-03-31T15:48:29",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -500,22 +500,25 @@
       },
       {
         "name": "Palencia Provincia",
+        "status": "completed",
+        "properties": 9,
+        "total_properties": 40,
+        "current_page": 3,
+        "total_pages": 2,
+        "started_at": 1774964781.7482753,
+        "finished_at": 1774964883.9671826,
+        "traffic_bytes": 9552520,
+        "existing_count": 41,
+        "bajas_count": 0
+      },
+      {
+        "name": "Pontevedra Provincia",
         "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1774964781.7482753,
-        "finished_at": null
-      },
-      {
-        "name": "Pontevedra Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774964909.9861326,
         "finished_at": null
       },
       {
@@ -7220,27 +7223,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774964785.7695122,
+        "last_ts": 1774964914.0223997,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774964785.7695122,
+        "last_ts": 1774964914.0223997,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774964785.7695122,
+        "last_ts": 1774964914.0223997,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774964785.7695122,
+        "last_ts": 1774964914.0223997,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774964785.7695122,
+        "last_ts": 1774964914.0223997,
         "last_ip": ""
       }
     },
