@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T17:06:29",
+  "timestamp": "2026-03-31T17:08:38",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -575,22 +575,25 @@
       },
       {
         "name": "Soria Provincia",
+        "status": "completed",
+        "properties": 9,
+        "total_properties": 67,
+        "current_page": 4,
+        "total_pages": 3,
+        "started_at": 1774969583.1278028,
+        "finished_at": 1774969678.4161987,
+        "traffic_bytes": 3839762,
+        "existing_count": 65,
+        "bajas_count": 0
+      },
+      {
+        "name": "Tarragona Provincia",
         "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1774969583.1278028,
-        "finished_at": null
-      },
-      {
-        "name": "Tarragona Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774969711.4374032,
         "finished_at": null
       },
       {
@@ -7235,27 +7238,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774969587.1465704,
+        "last_ts": 1774969715.483559,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774969587.1465704,
+        "last_ts": 1774969715.483559,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774969587.1465704,
+        "last_ts": 1774969715.483559,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774969587.1465704,
+        "last_ts": 1774969715.483559,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774969587.1465704,
+        "last_ts": 1774969715.483559,
         "last_ip": ""
       }
     },
