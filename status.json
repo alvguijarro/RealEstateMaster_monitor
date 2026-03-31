@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T05:14:42",
+  "timestamp": "2026-03-31T05:16:51",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
     "current_phase": "1-2: conexión y navegación",
-    "existing_count": 144,
+    "existing_count": 775,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Teruel_alquiler.xlsx",
-    "properties_count": 5,
-    "province_name": "Teruel",
-    "start_time": 1774926811.6605613,
+    "output_file": "idealista_Toledo_alquiler.xlsx",
+    "properties_count": 0,
+    "province_name": "Toledo",
+    "start_time": 1774926993.2749596,
     "status": "running",
     "task_mode": null,
-    "total_pages": 4,
-    "total_properties": 104,
-    "traffic_bytes": 9952032
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 2606
   },
   "batch": {
     "total": 32,
@@ -350,22 +350,25 @@
       },
       {
         "name": "Teruel Provincia",
-        "status": "active",
-        "properties": 5,
+        "status": "completed",
+        "properties": 7,
         "total_properties": 104,
-        "current_page": 0,
+        "current_page": 5,
         "total_pages": 4,
         "started_at": 1774926807.6032107,
-        "finished_at": null
+        "finished_at": 1774926973.2307277,
+        "traffic_bytes": 10990062,
+        "existing_count": 144,
+        "bajas_count": 0
       },
       {
         "name": "Toledo Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774926989.2465725,
         "finished_at": null
       },
       {
@@ -6990,27 +6993,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774926811.6647725,
+        "last_ts": 1774926993.2784026,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774926811.6647725,
+        "last_ts": 1774926993.2784026,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774926811.6647725,
+        "last_ts": 1774926993.2784026,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774926811.6647725,
+        "last_ts": 1774926993.2784026,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774926811.6647725,
+        "last_ts": 1774926993.2784026,
         "last_ip": ""
       }
     },
