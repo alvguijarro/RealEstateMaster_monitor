@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-31T05:19:00",
+  "timestamp": "2026-03-31T05:21:09",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 7,
+    "current_page": 12,
     "current_phase": "4: extracción de detalle",
     "existing_count": 775,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Toledo_alquiler.xlsx",
-    "properties_count": 32,
+    "properties_count": 38,
     "province_name": "Toledo",
     "start_time": 1774926993.2749596,
     "status": "running",
     "task_mode": null,
     "total_pages": 15,
     "total_properties": 443,
-    "traffic_bytes": 7838649
+    "traffic_bytes": 11621613
   },
   "batch": {
     "total": 32,
@@ -364,9 +364,9 @@
       {
         "name": "Toledo Provincia",
         "status": "active",
-        "properties": 32,
+        "properties": 38,
         "total_properties": 443,
-        "current_page": 7,
+        "current_page": 12,
         "total_pages": 15,
         "started_at": 1774926989.2465725,
         "finished_at": null
