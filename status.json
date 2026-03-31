@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-31T04:12:28",
+  "timestamp": "2026-03-31T04:14:36",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 22,
+    "current_page": 28,
     "current_phase": "4: extracción de detalle",
     "existing_count": 2123,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Santa_Cruz_de_Tenerife_alquiler.xlsx",
-    "properties_count": 77,
+    "properties_count": 80,
     "province_name": "Santa Cruz de Tenerife",
     "start_time": 1774922523.1376352,
     "status": "running",
     "task_mode": null,
     "total_pages": 54,
     "total_properties": 1618,
-    "traffic_bytes": 33972930
+    "traffic_bytes": 40229517
   },
   "batch": {
     "total": 32,
@@ -286,9 +286,9 @@
       {
         "name": "Santa Cruz De Tenerife Provincia",
         "status": "active",
-        "properties": 77,
+        "properties": 80,
         "total_properties": 1618,
-        "current_page": 22,
+        "current_page": 28,
         "total_pages": 54,
         "started_at": 1774922519.1196556,
         "finished_at": null
