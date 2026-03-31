@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T05:53:22",
+  "timestamp": "2026-03-31T05:55:31",
   "scraper": {
     "bajas_count": 0,
     "current_page": 60,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Valencia_alquiler.xlsx",
-    "properties_count": 264,
+    "properties_count": 268,
     "province_name": "Valencia",
     "start_time": 1774927409.6922567,
     "status": "running",
     "task_mode": null,
     "total_pages": 173,
     "total_properties": 5165,
-    "traffic_bytes": 85483945
+    "traffic_bytes": 90381951
   },
   "batch": {
     "total": 32,
@@ -377,7 +377,7 @@
       {
         "name": "Valencia Provincia",
         "status": "active",
-        "properties": 264,
+        "properties": 268,
         "total_properties": 5165,
         "current_page": 60,
         "total_pages": 173,
