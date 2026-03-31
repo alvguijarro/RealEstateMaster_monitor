@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T01:59:13",
+  "timestamp": "2026-03-31T02:01:22",
   "scraper": {
     "bajas_count": 0,
     "current_page": 60,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Madrid_alquiler.xlsx",
-    "properties_count": 787,
+    "properties_count": 789,
     "province_name": "Madrid",
     "start_time": 1774913616.6635878,
     "status": "running",
     "task_mode": null,
     "total_pages": 431,
     "total_properties": 12922,
-    "traffic_bytes": 200593824
+    "traffic_bytes": 203241010
   },
   "batch": {
     "total": 32,
@@ -169,7 +169,7 @@
       {
         "name": "Madrid Provincia",
         "status": "active",
-        "properties": 786,
+        "properties": 789,
         "total_properties": 12922,
         "current_page": 60,
         "total_pages": 431,
