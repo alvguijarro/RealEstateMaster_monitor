@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T03:22:57",
+  "timestamp": "2026-03-31T03:25:05",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 60,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 3202,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 389,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Murcia_alquiler.xlsx",
-    "properties_count": 94,
-    "province_name": "Murcia",
-    "start_time": 1774918553.6109228,
+    "output_file": "idealista_Navarra_alquiler.xlsx",
+    "properties_count": 19,
+    "province_name": "Navarra",
+    "start_time": 1774920237.3416245,
     "status": "running",
     "task_mode": null,
-    "total_pages": 77,
-    "total_properties": 2295,
-    "traffic_bytes": 39220634
+    "total_pages": 9,
+    "total_properties": 247,
+    "traffic_bytes": 3705497
   },
   "batch": {
     "total": 32,
@@ -207,22 +207,25 @@
       },
       {
         "name": "Murcia Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 94,
         "total_properties": 2295,
         "current_page": 60,
         "total_pages": 77,
         "started_at": 1774918549.5649753,
-        "finished_at": null
+        "finished_at": 1774920218.2239764,
+        "traffic_bytes": 39221812,
+        "existing_count": 3202,
+        "bajas_count": 0
       },
       {
         "name": "Navarra",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
+        "status": "active",
+        "properties": 19,
+        "total_properties": 247,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 9,
+        "started_at": 1774920233.2929258,
         "finished_at": null
       },
       {
@@ -6957,27 +6960,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774918553.6176906,
+        "last_ts": 1774920237.347257,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774918553.6176906,
+        "last_ts": 1774920237.347257,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774918553.6176906,
+        "last_ts": 1774920237.347257,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774918553.6176906,
+        "last_ts": 1774920237.347257,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774918553.6176906,
+        "last_ts": 1774920237.347257,
         "last_ip": ""
       }
     },
