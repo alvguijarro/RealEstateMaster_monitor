@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T17:31:03",
+  "timestamp": "2026-03-31T17:33:19",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -627,22 +627,25 @@
       },
       {
         "name": "Valladolid Provincia",
-        "status": "active",
-        "properties": 38,
+        "status": "completed",
+        "properties": 39,
         "total_properties": 415,
         "current_page": 15,
         "total_pages": 14,
         "started_at": 1774970683.5997806,
-        "finished_at": null
+        "finished_at": 1774971080.4740696,
+        "traffic_bytes": 23424255,
+        "existing_count": 442,
+        "bajas_count": 0
       },
       {
         "name": "Valencia Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 18,
+        "total_properties": 4497,
+        "current_page": 4,
+        "total_pages": 150,
+        "started_at": 1774971111.5075035,
         "finished_at": null
       },
       {
@@ -7247,27 +7250,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774970687.634207,
+        "last_ts": 1774971115.5413287,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774970687.634207,
+        "last_ts": 1774971115.5413287,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774970687.634207,
+        "last_ts": 1774971115.5413287,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774970687.634207,
+        "last_ts": 1774971115.5413287,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774970687.634207,
+        "last_ts": 1774971115.5413287,
         "last_ip": ""
       }
     },
