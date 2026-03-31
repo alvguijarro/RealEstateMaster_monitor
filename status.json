@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T18:24:32",
+  "timestamp": "2026-03-31T18:26:40",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -653,22 +653,25 @@
       },
       {
         "name": "Vizcaya",
-        "status": "active",
-        "properties": 75,
+        "status": "completed",
+        "properties": 79,
         "total_properties": 562,
-        "current_page": 17,
+        "current_page": 20,
         "total_pages": 19,
         "started_at": 1774973109.149696,
-        "finished_at": null
+        "finished_at": 1774974340.83298,
+        "traffic_bytes": 42457962,
+        "existing_count": 600,
+        "bajas_count": 0
       },
       {
         "name": "Zamora Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774974375.8577023,
         "finished_at": null
       },
       {
@@ -7253,27 +7256,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774973113.1933067,
+        "last_ts": 1774974379.885253,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774973113.1933067,
+        "last_ts": 1774974379.885253,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774973113.1933067,
+        "last_ts": 1774974379.885253,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774973113.1933067,
+        "last_ts": 1774974379.885253,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774973113.1933067,
+        "last_ts": 1774974379.885253,
         "last_ip": ""
       }
     },
