@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-31T02:33:33",
+  "timestamp": "2026-03-31T02:35:42",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 48,
+    "current_page": 53,
     "current_phase": "4: extracción de detalle",
     "existing_count": 5180,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Málaga_alquiler.xlsx",
-    "properties_count": 262,
+    "properties_count": 264,
     "province_name": "Málaga",
     "start_time": 1774916053.0911007,
     "status": "running",
     "task_mode": null,
     "total_pages": 282,
     "total_properties": 8451,
-    "traffic_bytes": 113875674
+    "traffic_bytes": 118849781
   },
   "batch": {
     "total": 32,
@@ -182,9 +182,9 @@
       {
         "name": "Malaga Provincia",
         "status": "active",
-        "properties": 262,
+        "properties": 264,
         "total_properties": 8451,
-        "current_page": 48,
+        "current_page": 52,
         "total_pages": 282,
         "started_at": 1774916049.0477612,
         "finished_at": null
