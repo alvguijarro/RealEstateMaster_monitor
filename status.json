@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T13:23:54",
+  "timestamp": "2026-03-31T13:26:03",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -308,22 +308,25 @@
       },
       {
         "name": "Guipuzcoa",
-        "status": "active",
-        "properties": 31,
+        "status": "completed",
+        "properties": 36,
         "total_properties": 278,
-        "current_page": 9,
+        "current_page": 11,
         "total_pages": 10,
         "started_at": 1774956057.4567783,
-        "finished_at": null
+        "finished_at": 1774956286.007068,
+        "traffic_bytes": 25064477,
+        "existing_count": 297,
+        "bajas_count": 0
       },
       {
         "name": "Huelva Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 5,
+        "total_properties": 156,
+        "current_page": 3,
+        "total_pages": 6,
+        "started_at": 1774956310.0232239,
         "finished_at": null
       },
       {
@@ -7178,27 +7181,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774956061.4820466,
+        "last_ts": 1774956314.0712507,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774956061.4820466,
+        "last_ts": 1774956314.0712507,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774956061.4820466,
+        "last_ts": 1774956314.0712507,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774956061.4820466,
+        "last_ts": 1774956314.0712507,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774956061.4820466,
+        "last_ts": 1774956314.0712507,
         "last_ip": ""
       }
     },
