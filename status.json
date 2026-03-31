@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T12:28:08",
+  "timestamp": "2026-03-31T12:30:16",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -194,22 +194,25 @@
       },
       {
         "name": "Cantabria",
-        "status": "active",
-        "properties": 34,
+        "status": "completed",
+        "properties": 35,
         "total_properties": 351,
-        "current_page": 11,
+        "current_page": 13,
         "total_pages": 12,
         "started_at": 1774952638.170757,
-        "finished_at": null
+        "finished_at": 1774952922.7884333,
+        "traffic_bytes": 13175681,
+        "existing_count": 368,
+        "bajas_count": 0
       },
       {
         "name": "Castellon",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
+        "status": "active",
+        "properties": 13,
+        "total_properties": 435,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 15,
+        "started_at": 1774952937.8051329,
         "finished_at": null
       },
       {
@@ -7154,27 +7157,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774952642.1941495,
+        "last_ts": 1774952941.8601234,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774952642.1941495,
+        "last_ts": 1774952941.8601234,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774952642.1941495,
+        "last_ts": 1774952941.8601234,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774952642.1941495,
+        "last_ts": 1774952941.8601234,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774952642.1941495,
+        "last_ts": 1774952941.8601234,
         "last_ip": ""
       }
     },
