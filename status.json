@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T13:36:46",
+  "timestamp": "2026-03-31T13:38:56",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -347,22 +347,25 @@
       },
       {
         "name": "Jaen Provincia",
-        "status": "active",
-        "properties": 15,
+        "status": "completed",
+        "properties": 20,
         "total_properties": 373,
-        "current_page": 8,
+        "current_page": 14,
         "total_pages": 13,
         "started_at": 1774956732.9936128,
-        "finished_at": null
+        "finished_at": 1774957122.8561504,
+        "traffic_bytes": 29398934,
+        "existing_count": 384,
+        "bajas_count": 0
       },
       {
         "name": "La Rioja",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774957137.8734026,
         "finished_at": null
       },
       {
@@ -7187,27 +7190,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774956737.0116336,
+        "last_ts": 1774957141.9055102,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774956737.0116336,
+        "last_ts": 1774957141.9055102,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774956737.0116336,
+        "last_ts": 1774957141.9055102,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774956737.0116336,
+        "last_ts": 1774957141.9055102,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774956737.0116336,
+        "last_ts": 1774957141.9055102,
         "last_ip": ""
       }
     },
