@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-31T04:27:30",
+  "timestamp": "2026-03-31T04:29:38",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 3,
+    "current_page": 10,
     "current_phase": "4: extracción de detalle",
     "existing_count": 513,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Segovia_alquiler.xlsx",
-    "properties_count": 6,
+    "properties_count": 10,
     "province_name": "Segovia",
     "start_time": 1774923998.2015622,
     "status": "running",
     "task_mode": null,
     "total_pages": 12,
     "total_properties": 358,
-    "traffic_bytes": 8426237
+    "traffic_bytes": 12434341
   },
   "batch": {
     "total": 32,
@@ -299,9 +299,9 @@
       {
         "name": "Segovia Provincia",
         "status": "active",
-        "properties": 5,
+        "properties": 10,
         "total_properties": 358,
-        "current_page": 3,
+        "current_page": 9,
         "total_pages": 12,
         "started_at": 1774923994.1538148,
         "finished_at": null
