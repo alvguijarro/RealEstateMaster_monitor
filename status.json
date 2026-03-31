@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T15:44:11",
+  "timestamp": "2026-03-31T15:46:20",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -487,22 +487,25 @@
       },
       {
         "name": "Ourense Provincia",
-        "status": "active",
-        "properties": 5,
+        "status": "completed",
+        "properties": 9,
         "total_properties": 118,
-        "current_page": 0,
+        "current_page": 5,
         "total_pages": 4,
         "started_at": 1774964585.3543286,
-        "finished_at": null
+        "finished_at": 1774964757.731565,
+        "traffic_bytes": 13296709,
+        "existing_count": 117,
+        "bajas_count": 0
       },
       {
         "name": "Palencia Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774964781.7482753,
         "finished_at": null
       },
       {
@@ -7217,27 +7220,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774964589.379305,
+        "last_ts": 1774964785.7695122,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774964589.379305,
+        "last_ts": 1774964785.7695122,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774964589.379305,
+        "last_ts": 1774964785.7695122,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774964589.379305,
+        "last_ts": 1774964785.7695122,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774964589.379305,
+        "last_ts": 1774964785.7695122,
         "last_ip": ""
       }
     },
