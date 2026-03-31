@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T10:17:31",
+  "timestamp": "2026-03-31T10:19:40",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -51,22 +51,25 @@
       },
       {
         "name": "Albacete Provincia",
-        "status": "active",
-        "properties": 33,
+        "status": "completed",
+        "properties": 36,
         "total_properties": 310,
-        "current_page": 9,
+        "current_page": 12,
         "total_pages": 11,
         "started_at": 1774944845.3552356,
-        "finished_at": null
+        "finished_at": 1774945151.026585,
+        "traffic_bytes": 22310399,
+        "existing_count": 308,
+        "bajas_count": 0
       },
       {
         "name": "Alicante",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1774945182.0489433,
         "finished_at": null
       },
       {
@@ -7121,27 +7124,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774944849.3803911,
+        "last_ts": 1774945186.074497,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774944849.3803911,
+        "last_ts": 1774945186.074497,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774944849.3803911,
+        "last_ts": 1774945186.074497,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774944849.3803911,
+        "last_ts": 1774945186.074497,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774944849.3803911,
+        "last_ts": 1774945186.074497,
         "last_ip": ""
       }
     },
