@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T14:15:25",
+  "timestamp": "2026-03-31T14:17:34",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -386,22 +386,25 @@
       },
       {
         "name": "Leon Provincia",
-        "status": "active",
-        "properties": 27,
+        "status": "completed",
+        "properties": 28,
         "total_properties": 389,
-        "current_page": 13,
+        "current_page": 14,
         "total_pages": 13,
         "started_at": 1774959012.0512726,
-        "finished_at": null
+        "finished_at": 1774959352.839831,
+        "traffic_bytes": 22771784,
+        "existing_count": 399,
+        "bajas_count": 0
       },
       {
         "name": "Lleida Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
+        "status": "active",
+        "properties": 13,
+        "total_properties": 169,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 6,
+        "started_at": 1774959368.8587515,
         "finished_at": null
       },
       {
@@ -7196,27 +7199,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774959016.076598,
+        "last_ts": 1774959372.8859265,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774959016.076598,
+        "last_ts": 1774959372.8859265,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774959016.076598,
+        "last_ts": 1774959372.8859265,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774959016.076598,
+        "last_ts": 1774959372.8859265,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774959016.076598,
+        "last_ts": 1774959372.8859265,
         "last_ip": ""
       }
     },
