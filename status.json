@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T16:02:13",
+  "timestamp": "2026-03-31T16:04:22",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -526,22 +526,25 @@
       },
       {
         "name": "Salamanca Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 28,
         "total_properties": 592,
-        "current_page": 19,
+        "current_page": 21,
         "total_pages": 20,
         "started_at": 1774965287.8043082,
-        "finished_at": null
+        "finished_at": 1774965782.95393,
+        "traffic_bytes": 23993742,
+        "existing_count": 604,
+        "bajas_count": 0
       },
       {
         "name": "Santa Cruz De Tenerife Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
+        "total_properties": 446,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 15,
+        "started_at": 1774965813.9819539,
         "finished_at": null
       },
       {
@@ -7226,27 +7229,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774965291.8265522,
+        "last_ts": 1774965818.003952,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774965291.8265522,
+        "last_ts": 1774965818.003952,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774965291.8265522,
+        "last_ts": 1774965818.003952,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774965291.8265522,
+        "last_ts": 1774965818.003952,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774965291.8265522,
+        "last_ts": 1774965818.003952,
         "last_ip": ""
       }
     },
