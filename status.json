@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T14:21:51",
+  "timestamp": "2026-03-31T14:24:00",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -412,22 +412,25 @@
       },
       {
         "name": "Lugo Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 7,
         "total_properties": 126,
         "current_page": 6,
         "total_pages": 5,
         "started_at": 1774959602.3868713,
-        "finished_at": null
+        "finished_at": 1774959725.711908,
+        "traffic_bytes": 6184022,
+        "existing_count": 128,
+        "bajas_count": 0
       },
       {
         "name": "Madrid Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
+        "status": "active",
+        "properties": 10,
+        "total_properties": 10573,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 353,
+        "started_at": 1774959750.7317615,
         "finished_at": null
       },
       {
@@ -7202,27 +7205,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774959606.412172,
+        "last_ts": 1774959754.7565458,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774959606.412172,
+        "last_ts": 1774959754.7565458,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774959606.412172,
+        "last_ts": 1774959754.7565458,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774959606.412172,
+        "last_ts": 1774959754.7565458,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774959606.412172,
+        "last_ts": 1774959754.7565458,
         "last_ip": ""
       }
     },
