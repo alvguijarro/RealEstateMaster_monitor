@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T10:08:55",
+  "timestamp": "2026-03-31T10:11:04",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -25,22 +25,25 @@
     "provinces": [
       {
         "name": "A Coruna Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 73,
         "total_properties": 660,
-        "current_page": 22,
+        "current_page": 24,
         "total_pages": 23,
         "started_at": 1774944041.5517752,
-        "finished_at": null
+        "finished_at": 1774944592.86415,
+        "traffic_bytes": 32719046,
+        "existing_count": 667,
+        "bajas_count": 0
       },
       {
         "name": "Alava",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
+        "total_properties": 144,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 5,
+        "started_at": 1774944622.8837104,
         "finished_at": null
       },
       {
@@ -7115,27 +7118,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1774944045.5942852,
+        "last_ts": 1774944626.9140882,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1774944045.5942852,
+        "last_ts": 1774944626.9140882,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1774944045.5942852,
+        "last_ts": 1774944626.9140882,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1774944045.5942852,
+        "last_ts": 1774944626.9140882,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1774944045.5942852,
+        "last_ts": 1774944626.9140882,
         "last_ip": ""
       }
     },
