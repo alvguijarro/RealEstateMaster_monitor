@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-03-31T06:01:57",
+  "timestamp": "2026-03-31T06:04:06",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 5,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 563,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Valladolid_alquiler.xlsx",
-    "properties_count": 0,
+    "properties_count": 22,
     "province_name": "Valladolid",
     "start_time": 1774929688.9019287,
     "status": "running",
     "task_mode": null,
     "total_pages": 12,
     "total_properties": 333,
-    "traffic_bytes": 342375
+    "traffic_bytes": 11205743
   },
   "batch": {
     "total": 32,
@@ -390,9 +390,9 @@
       {
         "name": "Valladolid Provincia",
         "status": "active",
-        "properties": 0,
+        "properties": 22,
         "total_properties": 333,
-        "current_page": 0,
+        "current_page": 5,
         "total_pages": 12,
         "started_at": 1774929684.8677063,
         "finished_at": null
