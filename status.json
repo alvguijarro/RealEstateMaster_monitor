@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T18:23:11",
+  "timestamp": "2026-04-01T18:25:20",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -220,22 +220,25 @@
       },
       {
         "name": "Ceuta Ceuta",
+        "status": "completed",
+        "properties": 1,
+        "total_properties": 79,
+        "current_page": 4,
+        "total_pages": 3,
+        "started_at": 1775060580.8039174,
+        "finished_at": 1775060669.067684,
+        "traffic_bytes": 3869400,
+        "existing_count": 126,
+        "bajas_count": 0
+      },
+      {
+        "name": "Ciudad Real Provincia",
         "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1775060580.8039174,
-        "finished_at": null
-      },
-      {
-        "name": "Ciudad Real Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775060690.0834112,
         "finished_at": null
       },
       {
@@ -7160,27 +7163,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775060584.837971,
+        "last_ts": 1775060694.116008,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775060584.837971,
+        "last_ts": 1775060694.116008,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775060584.837971,
+        "last_ts": 1775060694.116008,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775060584.837971,
+        "last_ts": 1775060694.116008,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775060584.837971,
+        "last_ts": 1775060694.116008,
         "last_ip": ""
       }
     },
