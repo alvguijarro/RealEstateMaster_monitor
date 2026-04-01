@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-02T01:38:46",
+  "timestamp": "2026-04-02T01:40:55",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -402,22 +402,25 @@
       },
       {
         "name": "Lleida Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 358,
         "total_properties": 3394,
         "current_page": 60,
         "total_pages": 114,
         "started_at": 1775084975.8267732,
-        "finished_at": null
+        "finished_at": 1775086769.0110307,
+        "traffic_bytes": 112648170,
+        "existing_count": 2995,
+        "bajas_count": 0
       },
       {
         "name": "Lugo Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 3,
+        "total_properties": 3386,
+        "current_page": 3,
+        "total_pages": 113,
+        "started_at": 1775086795.0300765,
         "finished_at": null
       },
       {
@@ -7202,27 +7205,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775084979.8721902,
+        "last_ts": 1775086799.0521574,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775084979.8721902,
+        "last_ts": 1775086799.0521574,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775084979.8721902,
+        "last_ts": 1775086799.0521574,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775084979.8721902,
+        "last_ts": 1775086799.0521574,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775084979.8721902,
+        "last_ts": 1775086799.0521574,
         "last_ip": ""
       }
     },
