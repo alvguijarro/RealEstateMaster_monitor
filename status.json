@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T22:47:10",
+  "timestamp": "2026-04-01T22:49:19",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -337,22 +337,25 @@
       },
       {
         "name": "Huesca Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 45,
         "total_properties": 1603,
         "current_page": 53,
         "total_pages": 54,
         "started_at": 1775075106.1640525,
-        "finished_at": null
+        "finished_at": 1775076436.1885796,
+        "traffic_bytes": 39528233,
+        "existing_count": 2208,
+        "bajas_count": 0
       },
       {
         "name": "Jaen Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 6,
+        "total_properties": 4912,
+        "current_page": 3,
+        "total_pages": 164,
+        "started_at": 1775076454.202506,
         "finished_at": null
       },
       {
@@ -7187,27 +7190,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775075110.1873553,
+        "last_ts": 1775076458.2363188,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775075110.1873553,
+        "last_ts": 1775076458.2363188,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775075110.1873553,
+        "last_ts": 1775076458.2363188,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775075110.1873553,
+        "last_ts": 1775076458.2363188,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775075110.1873553,
+        "last_ts": 1775076458.2363188,
         "last_ip": ""
       }
     },
