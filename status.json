@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T16:10:04",
+  "timestamp": "2026-04-01T16:12:13",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -155,22 +155,25 @@
       },
       {
         "name": "Burgos Provincia",
-        "status": "active",
-        "properties": 88,
+        "status": "completed",
+        "properties": 90,
         "total_properties": 3648,
         "current_page": 60,
         "total_pages": 122,
         "started_at": 1775050377.2266603,
-        "finished_at": null
+        "finished_at": 1775052710.3444655,
+        "traffic_bytes": 80618323,
+        "existing_count": 4629,
+        "bajas_count": 0
       },
       {
         "name": "Caceres Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775052732.3609173,
         "finished_at": null
       },
       {
@@ -7145,27 +7148,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775050381.2864106,
+        "last_ts": 1775052736.399775,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775050381.2864106,
+        "last_ts": 1775052736.399775,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775050381.2864106,
+        "last_ts": 1775052736.399775,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775050381.2864106,
+        "last_ts": 1775052736.399775,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775050381.2864106,
+        "last_ts": 1775052736.399775,
         "last_ip": ""
       }
     },
