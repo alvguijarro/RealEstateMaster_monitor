@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T12:59:03",
+  "timestamp": "2026-04-01T13:01:12",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -77,22 +77,25 @@
       },
       {
         "name": "Almeria Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 297,
         "total_properties": 9020,
         "current_page": 60,
         "total_pages": 301,
         "started_at": 1775038301.4035907,
-        "finished_at": null
+        "finished_at": 1775041153.848296,
+        "traffic_bytes": 127498415,
+        "existing_count": 7781,
+        "bajas_count": 0
       },
       {
         "name": "Asturias",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_properties": 7886,
+        "current_page": 5,
+        "total_pages": 263,
+        "started_at": 1775041170.8978107,
         "finished_at": null
       },
       {
@@ -7127,27 +7130,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775038305.4500122,
+        "last_ts": 1775041174.9208918,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775038305.4500122,
+        "last_ts": 1775041174.9208918,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775038305.4500122,
+        "last_ts": 1775041174.9208918,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775038305.4500122,
+        "last_ts": 1775041174.9208918,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775038305.4500122,
+        "last_ts": 1775041174.9208918,
         "last_ip": ""
       }
     },
