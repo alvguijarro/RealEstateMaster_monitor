@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T13:52:41",
+  "timestamp": "2026-04-01T13:54:50",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -103,22 +103,25 @@
       },
       {
         "name": "Avila Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 67,
         "total_properties": 1870,
         "current_page": 56,
         "total_pages": 63,
         "started_at": 1775042727.2751565,
-        "finished_at": null
+        "finished_at": 1775044429.030741,
+        "traffic_bytes": 40820464,
+        "existing_count": 2411,
+        "bajas_count": 0
       },
       {
         "name": "Badajoz Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
+        "total_properties": 3704,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 124,
+        "started_at": 1775044458.0618737,
         "finished_at": null
       },
       {
@@ -7133,27 +7136,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775042731.3018339,
+        "last_ts": 1775044462.0877132,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775042731.3018339,
+        "last_ts": 1775044462.0877132,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775042731.3018339,
+        "last_ts": 1775044462.0877132,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775042731.3018339,
+        "last_ts": 1775044462.0877132,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775042731.3018339,
+        "last_ts": 1775044462.0877132,
         "last_ip": ""
       }
     },
