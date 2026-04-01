@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T21:01:58",
+  "timestamp": "2026-04-01T21:04:07",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -285,22 +285,25 @@
       },
       {
         "name": "Granada Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 261,
         "total_properties": 13203,
         "current_page": 60,
         "total_pages": 441,
         "started_at": 1775066943.0953045,
-        "finished_at": null
+        "finished_at": 1775070124.38554,
+        "traffic_bytes": 89411424,
+        "existing_count": 7840,
+        "bajas_count": 0
       },
       {
         "name": "Guadalajara Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
+        "total_properties": 2290,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 77,
+        "started_at": 1775070156.4075515,
         "finished_at": null
       },
       {
@@ -7175,27 +7178,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775067872.1465342,
+        "last_ts": 1775070160.440416,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775067872.1465342,
+        "last_ts": 1775070160.440416,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775067872.1465342,
+        "last_ts": 1775070160.440416,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775067872.1465342,
+        "last_ts": 1775070160.440416,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775067872.1465342,
+        "last_ts": 1775070160.440416,
         "last_ip": ""
       }
     },
