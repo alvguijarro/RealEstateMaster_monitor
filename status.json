@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T14:18:26",
+  "timestamp": "2026-04-01T14:20:34",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -116,22 +116,25 @@
       },
       {
         "name": "Badajoz Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 100,
         "total_properties": 3704,
         "current_page": 47,
         "total_pages": 124,
         "started_at": 1775044458.0618737,
-        "finished_at": null
+        "finished_at": 1775045928.3204613,
+        "traffic_bytes": 51276952,
+        "existing_count": 4453,
+        "bajas_count": 0
       },
       {
         "name": "Balears Illes",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 5,
+        "total_properties": 22821,
+        "current_page": 4,
+        "total_pages": 761,
+        "started_at": 1775045946.3467662,
         "finished_at": null
       },
       {
@@ -7136,27 +7139,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775044462.0877132,
+        "last_ts": 1775045950.3776915,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775044462.0877132,
+        "last_ts": 1775045950.3776915,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775044462.0877132,
+        "last_ts": 1775045950.3776915,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775044462.0877132,
+        "last_ts": 1775045950.3776915,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775044462.0877132,
+        "last_ts": 1775045950.3776915,
         "last_ip": ""
       }
     },
