@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-02T09:21:52",
+  "timestamp": "2026-04-02T09:24:01",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -610,22 +610,25 @@
       },
       {
         "name": "Teruel Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 9,
         "total_properties": 1290,
-        "current_page": 17,
+        "current_page": 18,
         "total_pages": 44,
         "started_at": 1775114104.496955,
-        "finished_at": null
+        "finished_at": 1775114606.703259,
+        "traffic_bytes": 6409665,
+        "existing_count": 1523,
+        "bajas_count": 0
       },
       {
         "name": "Toledo Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775114630.7210257,
         "finished_at": null
       },
       {
@@ -7250,27 +7253,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775114108.5319703,
+        "last_ts": 1775114634.7534811,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775114108.5319703,
+        "last_ts": 1775114634.7534811,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775114108.5319703,
+        "last_ts": 1775114634.7534811,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775114108.5319703,
+        "last_ts": 1775114634.7534811,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775114108.5319703,
+        "last_ts": 1775114634.7534811,
         "last_ip": ""
       }
     },
