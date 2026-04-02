@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-02T08:11:07",
+  "timestamp": "2026-04-02T08:13:15",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -558,22 +558,25 @@
       },
       {
         "name": "Segovia Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 40,
         "total_properties": 1477,
-        "current_page": 46,
+        "current_page": 51,
         "total_pages": 50,
         "started_at": 1775109132.362312,
-        "finished_at": null
+        "finished_at": 1775110364.2580419,
+        "traffic_bytes": 49105509,
+        "existing_count": 1888,
+        "bajas_count": 0
       },
       {
         "name": "Sevilla Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775110393.2792206,
         "finished_at": null
       },
       {
@@ -7238,27 +7241,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775109136.3965998,
+        "last_ts": 1775110397.315509,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775109136.3965998,
+        "last_ts": 1775110397.315509,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775109136.3965998,
+        "last_ts": 1775110397.315509,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775109136.3965998,
+        "last_ts": 1775110397.315509,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775109136.3965998,
+        "last_ts": 1775110397.315509,
         "last_ip": ""
       }
     },
