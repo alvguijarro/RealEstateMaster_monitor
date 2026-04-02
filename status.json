@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-02T02:55:58",
+  "timestamp": "2026-04-02T02:58:07",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -428,22 +428,25 @@
       },
       {
         "name": "Madrid Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 838,
         "total_properties": 27411,
         "current_page": 60,
         "total_pages": 914,
         "started_at": 1775088130.8468122,
-        "finished_at": null
+        "finished_at": 1775091377.4201329,
+        "traffic_bytes": 205745408,
+        "existing_count": 11909,
+        "bajas_count": 0
       },
       {
         "name": "Malaga Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 3,
+        "total_properties": 40694,
+        "current_page": 3,
+        "total_pages": 1357,
+        "started_at": 1775091403.4439201,
         "finished_at": null
       },
       {
@@ -7208,27 +7211,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775088134.8693218,
+        "last_ts": 1775091407.4785237,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775088134.8693218,
+        "last_ts": 1775091407.4785237,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775088134.8693218,
+        "last_ts": 1775091407.4785237,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775088134.8693218,
+        "last_ts": 1775091407.4785237,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775088134.8693218,
+        "last_ts": 1775091407.4785237,
         "last_ip": ""
       }
     },
