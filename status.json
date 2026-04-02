@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-02T06:26:17",
+  "timestamp": "2026-04-02T06:28:26",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -519,22 +519,25 @@
       },
       {
         "name": "Pontevedra Provincia",
-        "status": "active",
-        "properties": 73,
+        "status": "completed",
+        "properties": 77,
         "total_properties": 6461,
         "current_page": 60,
         "total_pages": 216,
         "started_at": 1775102598.682331,
-        "finished_at": null
+        "finished_at": 1775104068.936849,
+        "traffic_bytes": 94529416,
+        "existing_count": 3699,
+        "bajas_count": 0
       },
       {
         "name": "Salamanca Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775104097.9593096,
         "finished_at": null
       },
       {
@@ -7229,27 +7232,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775102602.713535,
+        "last_ts": 1775104101.9907298,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775102602.713535,
+        "last_ts": 1775104101.9907298,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775102602.713535,
+        "last_ts": 1775104101.9907298,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775102602.713535,
+        "last_ts": 1775104101.9907298,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775102602.713535,
+        "last_ts": 1775104101.9907298,
         "last_ip": ""
       }
     },
