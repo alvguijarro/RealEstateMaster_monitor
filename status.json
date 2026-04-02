@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-02T10:55:54",
+  "timestamp": "2026-04-02T11:10:10",
   "scraper": {
     "bajas_count": 0,
     "current_page": 21,
@@ -649,22 +649,25 @@
       },
       {
         "name": "Valencia Provincia",
-        "status": "active",
-        "properties": 178,
+        "status": "completed",
+        "properties": 184,
         "total_properties": 21656,
         "current_page": 60,
         "total_pages": 722,
         "started_at": 1775118525.3040047,
-        "finished_at": null
+        "finished_at": 1775120355.8600197,
+        "traffic_bytes": 108332435,
+        "existing_count": 7071,
+        "bajas_count": 0
       },
       {
         "name": "Vizcaya",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 51,
+        "total_properties": 4348,
+        "current_page": 26,
+        "total_pages": 145,
+        "started_at": 1775120386.8938763,
         "finished_at": null
       },
       {
@@ -7259,27 +7262,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775118529.3451254,
+        "last_ts": 1775120390.9278738,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775118529.3451254,
+        "last_ts": 1775120390.9278738,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775118529.3451254,
+        "last_ts": 1775120390.9278738,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775118529.3451254,
+        "last_ts": 1775120390.9278738,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775118529.3451254,
+        "last_ts": 1775120390.9278738,
         "last_ip": ""
       }
     },
