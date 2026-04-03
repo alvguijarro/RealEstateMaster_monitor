@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T01:43:54",
+  "timestamp": "2026-04-04T01:46:03",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 5,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 6,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 1541,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Álava_venta.xlsx",
-    "properties_count": 19,
+    "properties_count": 22,
     "province_name": "Álava",
     "start_time": 1775259687.843718,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
     "total_properties": 0,
-    "traffic_bytes": 13252431
+    "traffic_bytes": 15209117
   },
   "batch": {
     "total": 52,
@@ -39,9 +39,9 @@
       {
         "name": "Alava",
         "status": "active",
-        "properties": 19,
+        "properties": 22,
         "total_properties": 0,
-        "current_page": 5,
+        "current_page": 6,
         "total_pages": 60,
         "started_at": 1775259683.7963269,
         "finished_at": null
