@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T22:41:57",
+  "timestamp": "2026-04-03T22:44:06",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 8,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 12,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 438,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_León_habitaciones.xlsx",
-    "properties_count": 6,
+    "properties_count": 7,
     "province_name": "León",
     "start_time": 1775248706.5265472,
     "status": "running",
     "task_mode": null,
     "total_pages": 13,
     "total_properties": 389,
-    "traffic_bytes": 6787492
+    "traffic_bytes": 7939978
   },
   "batch": {
     "total": 52,
@@ -372,9 +372,9 @@
       {
         "name": "Leon Provincia",
         "status": "active",
-        "properties": 6,
+        "properties": 7,
         "total_properties": 389,
-        "current_page": 8,
+        "current_page": 12,
         "total_pages": 13,
         "started_at": 1775248702.5021029,
         "finished_at": null
