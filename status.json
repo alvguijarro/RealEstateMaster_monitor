@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T23:49:42",
+  "timestamp": "2026-04-03T23:51:51",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 7,
+    "current_page": 0,
     "current_phase": "3: Deep Scrape",
-    "existing_count": 1906,
+    "existing_count": 0,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
-    "output_file": "idealista_Málaga_habitaciones.xlsx",
-    "properties_count": 24,
-    "province_name": "Málaga",
-    "start_time": 1775252587.7343018,
+    "output_file": "idealista_Melilla_habitaciones.xlsx",
+    "properties_count": 10,
+    "province_name": "Melilla",
+    "start_time": 1775253044.3391356,
     "status": "running",
     "task_mode": null,
-    "total_pages": 52,
-    "total_properties": 1548,
-    "traffic_bytes": 10786317
+    "total_pages": 1,
+    "total_properties": 15,
+    "traffic_bytes": 3116092
   },
   "batch": {
     "total": 52,
@@ -423,22 +423,25 @@
       },
       {
         "name": "Malaga Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 24,
         "total_properties": 1548,
         "current_page": 7,
         "total_pages": 52,
         "started_at": 1775252583.695769,
-        "finished_at": null
+        "finished_at": 1775253023.2018402,
+        "traffic_bytes": 10786317,
+        "existing_count": 1906,
+        "bajas_count": 0
       },
       {
         "name": "Melilla Melilla",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
+        "status": "active",
+        "properties": 8,
+        "total_properties": 15,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 1,
+        "started_at": 1775253040.2940462,
         "finished_at": null
       },
       {
@@ -7193,27 +7196,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775252587.739302,
+        "last_ts": 1775253044.3451357,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775252587.739302,
+        "last_ts": 1775253044.3451357,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775252587.739302,
+        "last_ts": 1775253044.3451357,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775252587.739302,
+        "last_ts": 1775253044.3451357,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775252587.739302,
+        "last_ts": 1775253044.3451357,
         "last_ip": ""
       }
     },
