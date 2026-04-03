@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-03T22:27:22",
+  "timestamp": "2026-04-03T22:29:31",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 3,
+    "current_page": 7,
     "current_phase": "4: extracción de detalle",
     "existing_count": 648,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_Las-Palmas_habitaciones.xlsx",
-    "properties_count": 17,
+    "properties_count": 166,
     "province_name": "Las Palmas",
     "start_time": 1775247967.9984338,
     "status": "running",
     "task_mode": null,
     "total_pages": 18,
     "total_properties": 527,
-    "traffic_bytes": 11154186
+    "traffic_bytes": 40644421
   },
   "batch": {
     "total": 52,
@@ -359,9 +359,9 @@
       {
         "name": "Las Palmas",
         "status": "active",
-        "properties": 11,
+        "properties": 166,
         "total_properties": 527,
-        "current_page": 3,
+        "current_page": 7,
         "total_pages": 18,
         "started_at": 1775247963.954779,
         "finished_at": null
