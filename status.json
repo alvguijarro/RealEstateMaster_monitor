@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T07:01:38",
+  "timestamp": "2026-04-03T07:03:46",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -298,22 +298,25 @@
       },
       {
         "name": "Guadalajara Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 15,
-        "total_properties": 0,
+        "total_properties": 15,
         "current_page": 7,
         "total_pages": 60,
         "started_at": 1775192136.7076838,
-        "finished_at": null
+        "finished_at": 1775192576.0961668,
+        "traffic_bytes": 18266221,
+        "existing_count": 217,
+        "bajas_count": 0
       },
       {
         "name": "Guipuzcoa",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775192608.1337135,
         "finished_at": null
       },
       {
@@ -7178,27 +7181,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775192140.7563667,
+        "last_ts": 1775192612.1759799,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775192140.7563667,
+        "last_ts": 1775192612.1759799,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775192140.7563667,
+        "last_ts": 1775192612.1759799,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775192140.7563667,
+        "last_ts": 1775192612.1759799,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775192140.7563667,
+        "last_ts": 1775192612.1759799,
         "last_ip": ""
       }
     },
