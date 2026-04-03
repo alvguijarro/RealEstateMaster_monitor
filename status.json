@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T07:25:13",
+  "timestamp": "2026-04-03T07:27:22",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -324,22 +324,25 @@
       },
       {
         "name": "Huelva Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 1,
-        "total_properties": 0,
+        "total_properties": 1,
         "current_page": 6,
         "total_pages": 60,
         "started_at": 1775193299.3073206,
-        "finished_at": null
+        "finished_at": 1775193983.3787766,
+        "traffic_bytes": 4731583,
+        "existing_count": 172,
+        "bajas_count": 0
       },
       {
         "name": "Huesca Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775194000.4018943,
         "finished_at": null
       },
       {
@@ -7184,27 +7187,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775193590.1895094,
+        "last_ts": 1775194004.4404411,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775193590.1895094,
+        "last_ts": 1775194004.4404411,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775193590.1895094,
+        "last_ts": 1775194004.4404411,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775193590.1895094,
+        "last_ts": 1775194004.4404411,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775193590.1895094,
+        "last_ts": 1775194004.4404411,
         "last_ip": ""
       }
     },
