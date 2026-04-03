@@ -1,12 +1,27 @@
 {
-  "timestamp": "2026-04-03T12:24:40",
+  "timestamp": "2026-04-03T12:26:51",
   "scraper": {
-    "status": "offline",
-    "properties_count": 0
+    "bajas_count": 0,
+    "current_page": 6,
+    "current_phase": "3: recolección de URLs",
+    "existing_count": 0,
+    "internal_status": "stopped",
+    "is_room_mode": true,
+    "mode": "fast",
+    "operation_type": "habitacion",
+    "output_file": "idealista_MultiProvince_habitaciones.xlsx",
+    "properties_count": 0,
+    "province_name": "A Coruña",
+    "start_time": 1775211900.9539437,
+    "status": "stopped",
+    "task_mode": null,
+    "total_pages": 22,
+    "total_properties": 655,
+    "traffic_bytes": 1151135
   },
   "batch": {
     "total": 52,
-    "started_at": 1775210291.997939,
+    "started_at": 1775211896.926609,
     "provinces": [
       {
         "name": "A Coruna Provincia",
@@ -15,7 +30,7 @@
         "total_properties": 0,
         "current_page": 6,
         "total_pages": 60,
-        "started_at": 1775210292.0018597,
+        "started_at": 1775211896.9296854,
         "finished_at": null
       },
       {
@@ -7100,27 +7115,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775210296.3004398,
+        "last_ts": 1775211900.9749463,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775210296.3004398,
+        "last_ts": 1775211900.9749463,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775210296.3004398,
+        "last_ts": 1775211900.9749463,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775210296.3004398,
+        "last_ts": 1775211900.9749463,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775210296.3004398,
+        "last_ts": 1775211900.9749463,
         "last_ip": ""
       }
     },
