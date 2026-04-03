@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T01:39:36",
+  "timestamp": "2026-04-04T01:41:45",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 60,
-    "current_phase": "5: enrichment",
-    "existing_count": 3892,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 1541,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_A-Coruña_venta.xlsx",
-    "properties_count": 1995,
-    "province_name": "A Coruña",
-    "start_time": 1775256832.641839,
+    "output_file": "idealista_Álava_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "Álava",
+    "start_time": 1775259687.843718,
     "status": "running",
     "task_mode": null,
-    "total_pages": 243,
-    "total_properties": 7286,
-    "traffic_bytes": 369897437
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 52,
@@ -25,22 +25,25 @@
     "provinces": [
       {
         "name": "A Coruna Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 1995,
         "total_properties": 7286,
         "current_page": 60,
         "total_pages": 243,
         "started_at": 1775256828.606799,
-        "finished_at": null
+        "finished_at": 1775259651.7483988,
+        "traffic_bytes": 377017488,
+        "existing_count": 3892,
+        "bajas_count": 177
       },
       {
         "name": "Alava",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775259683.7963269,
         "finished_at": null
       },
       {
@@ -7115,27 +7118,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775256832.679644,
+        "last_ts": 1775259687.8477173,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775256832.679644,
+        "last_ts": 1775259687.8477173,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775256832.679644,
+        "last_ts": 1775259687.8477173,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775256832.679644,
+        "last_ts": 1775259687.8477173,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775256832.679644,
+        "last_ts": 1775259687.8477173,
         "last_ip": ""
       }
     },
