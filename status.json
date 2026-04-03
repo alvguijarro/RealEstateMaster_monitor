@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T09:55:33",
+  "timestamp": "2026-04-03T09:57:42",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -455,9 +455,9 @@
       {
         "name": "Melilla Melilla",
         "status": "active",
-        "properties": 0,
+        "properties": 16,
         "total_properties": 0,
-        "current_page": 0,
+        "current_page": 5,
         "total_pages": 60,
         "started_at": 1775202885.247136,
         "finished_at": null
@@ -655,7 +655,7 @@
   "trends": {
     "status": "idle",
     "checkpoint": {
-      "completed_count": 1280,
+      "completed_count": 1293,
       "completed_keys": [
         [
           "Castellón",
@@ -1398,6 +1398,11 @@
           "alquiler"
         ],
         [
+          "Cerdanya Francesa",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Guadalajara",
           "Sierra",
           "alquiler"
@@ -2578,6 +2583,11 @@
           "habitacion"
         ],
         [
+          "Zaragoza",
+          "Comunidad de Calatayud",
+          "habitacion"
+        ],
+        [
           "Castellón",
           "Plana Baixa",
           "alquiler"
@@ -2755,6 +2765,11 @@
         [
           "Palencia",
           "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Zamora",
+          "Área de Zamora",
           "habitacion"
         ],
         [
@@ -3088,6 +3103,11 @@
           "venta"
         ],
         [
+          "Zaragoza",
+          "Campo de Borja",
+          "habitacion"
+        ],
+        [
           "Guadalajara",
           "Alcarria Alta",
           "venta"
@@ -3226,6 +3246,11 @@
           "Barcelona",
           "Barcelona",
           "venta"
+        ],
+        [
+          "Zaragoza",
+          "Caspe",
+          "habitacion"
         ],
         [
           "Zaragoza",
@@ -3486,6 +3511,11 @@
           "Albacete",
           "La Manchuela",
           "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Ribera Baja del Ebro",
+          "habitacion"
         ],
         [
           "Valencia",
@@ -3933,6 +3963,11 @@
           "habitacion"
         ],
         [
+          "Toledo",
+          "Talavera de la Reina",
+          "habitacion"
+        ],
+        [
           "Córdoba",
           "Campiña sur-Campiña este",
           "venta"
@@ -4061,6 +4096,11 @@
           "Ciudad Real",
           "Alcudia",
           "alquiler"
+        ],
+        [
+          "País Vasco Francés",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "Zaragoza",
@@ -4788,6 +4828,11 @@
           "venta"
         ],
         [
+          "Santa Cruz de Tenerife",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Badajoz",
           "Don Benito-Siberia-Serena",
           "alquiler"
@@ -5015,6 +5060,11 @@
         [
           "Lugo",
           "Chantada",
+          "habitacion"
+        ],
+        [
+          "Zaragoza",
+          "Área de Zaragoza",
           "habitacion"
         ],
         [
@@ -6713,6 +6763,11 @@
           "habitacion"
         ],
         [
+          "Zaragoza",
+          "La Muela-Valdejalón",
+          "habitacion"
+        ],
+        [
           "Castellón",
           "*(Toda la provincia)*",
           "alquiler"
@@ -7038,6 +7093,11 @@
           "venta"
         ],
         [
+          "Zaragoza",
+          "Ribera Alta del Ebro",
+          "habitacion"
+        ],
+        [
           "Lleida",
           "Noguera",
           "alquiler"
@@ -7050,6 +7110,11 @@
         [
           "Barcelona",
           "Osona",
+          "habitacion"
+        ],
+        [
+          "Vizcaya",
+          "Encartaciones",
           "habitacion"
         ],
         [
@@ -7179,15 +7244,15 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 634436.38,
+    "total_traffic_mb": 636082.38,
     "total_cost_usd": 0.2608,
-    "sessions": 608,
+    "sessions": 663,
     "last_entry": {
-      "fecha": "2026-04-01 10:01:00",
+      "fecha": "2026-04-03 09:30:16",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "2385",
-      "coste_usd": "39m 45s"
+      "trafico_mb": "",
+      "coste_usd": ""
     }
   }
 }
