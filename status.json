@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T03:37:48",
+  "timestamp": "2026-04-03T03:39:56",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -90,22 +90,25 @@
       },
       {
         "name": "Asturias",
-        "status": "active",
+        "status": "completed",
         "properties": 21,
-        "total_properties": 0,
+        "total_properties": 21,
         "current_page": 9,
         "total_pages": 60,
         "started_at": 1775179141.2203448,
-        "finished_at": null
+        "finished_at": 1775180289.9246163,
+        "traffic_bytes": 20106368,
+        "existing_count": 550,
+        "bajas_count": 0
       },
       {
         "name": "Avila Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "current_page": 4,
+        "total_pages": 60,
+        "started_at": 1775180305.9398592,
         "finished_at": null
       },
       {
@@ -7130,27 +7133,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775179145.2438116,
+        "last_ts": 1775180309.9798138,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775179145.2438116,
+        "last_ts": 1775180309.9798138,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775179145.2438116,
+        "last_ts": 1775180309.9798138,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775179145.2438116,
+        "last_ts": 1775180309.9798138,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775179145.2438116,
+        "last_ts": 1775180309.9798138,
         "last_ip": ""
       }
     },
