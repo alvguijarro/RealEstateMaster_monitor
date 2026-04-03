@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T02:59:12",
+  "timestamp": "2026-04-03T03:01:21",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -64,22 +64,25 @@
       },
       {
         "name": "Alicante",
-        "status": "active",
+        "status": "completed",
         "properties": 382,
         "total_properties": 75,
         "current_page": 60,
         "total_pages": 60,
         "started_at": 1775176199.0560522,
-        "finished_at": null
+        "finished_at": 1775177972.7836936,
+        "traffic_bytes": 128125034,
+        "existing_count": 2282,
+        "bajas_count": 0
       },
       {
         "name": "Almeria Provincia",
-        "status": "pending",
-        "properties": 0,
+        "status": "active",
+        "properties": 4,
         "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "current_page": 3,
+        "total_pages": 60,
+        "started_at": 1775177999.8120809,
         "finished_at": null
       },
       {
@@ -7124,27 +7127,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775176203.0877414,
+        "last_ts": 1775178003.861828,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775176203.0877414,
+        "last_ts": 1775178003.861828,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775176203.0877414,
+        "last_ts": 1775178003.861828,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775176203.0877414,
+        "last_ts": 1775178003.861828,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775176203.0877414,
+        "last_ts": 1775178003.861828,
         "last_ip": ""
       }
     },
