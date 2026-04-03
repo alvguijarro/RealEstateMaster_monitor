@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T04:12:07",
+  "timestamp": "2026-04-03T04:14:16",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -129,22 +129,25 @@
       },
       {
         "name": "Balears Illes",
-        "status": "active",
+        "status": "completed",
         "properties": 48,
         "total_properties": 48,
         "current_page": 27,
         "total_pages": 60,
         "started_at": 1775181458.4462266,
-        "finished_at": null
+        "finished_at": 1775182347.483813,
+        "traffic_bytes": 32757439,
+        "existing_count": 793,
+        "bajas_count": 0
       },
       {
         "name": "Barcelona Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "current_page": 3,
+        "total_pages": 60,
+        "started_at": 1775182381.5092146,
         "finished_at": null
       },
       {
@@ -7139,27 +7142,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775181462.4866185,
+        "last_ts": 1775182385.5442235,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775181462.4866185,
+        "last_ts": 1775182385.5442235,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775181462.4866185,
+        "last_ts": 1775182385.5442235,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775181462.4866185,
+        "last_ts": 1775182385.5442235,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775181462.4866185,
+        "last_ts": 1775182385.5442235,
         "last_ip": ""
       }
     },
