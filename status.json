@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T00:24:03",
+  "timestamp": "2026-04-04T00:26:12",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 494,
+    "current_page": 3,
+    "current_phase": "3: recolección de URLs",
+    "existing_count": 128,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
-    "output_file": "idealista_Navarra_habitaciones.xlsx",
-    "properties_count": 3,
-    "province_name": "Navarra",
-    "start_time": 1775254633.3103034,
+    "output_file": "idealista_Ourense_habitaciones.xlsx",
+    "properties_count": 0,
+    "province_name": "Ourense",
+    "start_time": 1775255108.050621,
     "status": "running",
     "task_mode": null,
-    "total_pages": 13,
-    "total_properties": 378,
-    "traffic_bytes": 3888916
+    "total_pages": 4,
+    "total_properties": 113,
+    "traffic_bytes": 2194240
   },
   "batch": {
     "total": 52,
@@ -459,22 +459,25 @@
       },
       {
         "name": "Navarra",
-        "status": "active",
+        "status": "completed",
         "properties": 3,
         "total_properties": 378,
         "current_page": 6,
         "total_pages": 13,
         "started_at": 1775254629.2774835,
-        "finished_at": null
+        "finished_at": 1775255068.994553,
+        "traffic_bytes": 3895719,
+        "existing_count": 494,
+        "bajas_count": 0
       },
       {
         "name": "Ourense Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_properties": 113,
+        "current_page": 3,
+        "total_pages": 4,
+        "started_at": 1775255104.025045,
         "finished_at": null
       },
       {
@@ -7199,27 +7202,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775254633.316303,
+        "last_ts": 1775255108.055622,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775254633.316303,
+        "last_ts": 1775255108.055622,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775254633.316303,
+        "last_ts": 1775255108.055622,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775254633.316303,
+        "last_ts": 1775255108.055622,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775254633.316303,
+        "last_ts": 1775255108.055622,
         "last_ip": ""
       }
     },
