@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-04-03T13:29:23",
+  "timestamp": "2026-04-03T13:31:33",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
-    "current_phase": "3: recolección de URLs",
-    "existing_count": 0,
-    "internal_status": "stopped",
+    "current_page": 8,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 754,
+    "internal_status": "running",
     "is_room_mode": true,
-    "mode": "fast",
+    "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_A-Coruña_habitaciones.xlsx",
-    "properties_count": 0,
+    "properties_count": 1,
     "province_name": "A Coruña",
-    "start_time": 1775215661.524253,
-    "status": "stopped",
+    "start_time": 1775215796.3993943,
+    "status": "running",
     "task_mode": null,
     "total_pages": 22,
     "total_properties": 655,
-    "traffic_bytes": 1326983
+    "traffic_bytes": 4100086
   },
   "batch": {
     "total": 52,
-    "started_at": 1775215657.4900231,
+    "started_at": 1775215792.3682048,
     "provinces": [
       {
         "name": "A Coruna Provincia",
         "status": "active",
-        "properties": 0,
+        "properties": 1,
         "total_properties": 655,
-        "current_page": 6,
+        "current_page": 8,
         "total_pages": 22,
-        "started_at": 1775215657.4958162,
+        "started_at": 1775215792.3722994,
         "finished_at": null
       },
       {
@@ -7115,27 +7115,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775215661.822749,
+        "last_ts": 1775215796.40251,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775215661.822749,
+        "last_ts": 1775215796.40251,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775215661.822749,
+        "last_ts": 1775215796.40251,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775215661.822749,
+        "last_ts": 1775215796.40251,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775215661.822749,
+        "last_ts": 1775215796.40251,
         "last_ip": ""
       }
     },
