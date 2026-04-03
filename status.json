@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-04-03T23:45:23",
+  "timestamp": "2026-04-03T23:47:32",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 7,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 1906,
     "internal_status": "running",
     "is_room_mode": true,
@@ -17,7 +17,7 @@
     "task_mode": null,
     "total_pages": 52,
     "total_properties": 1548,
-    "traffic_bytes": 8664158
+    "traffic_bytes": 10130453
   },
   "batch": {
     "total": 52,
@@ -424,9 +424,9 @@
       {
         "name": "Malaga Provincia",
         "status": "active",
-        "properties": 23,
+        "properties": 24,
         "total_properties": 1548,
-        "current_page": 6,
+        "current_page": 7,
         "total_pages": 52,
         "started_at": 1775252583.695769,
         "finished_at": null
