@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T22:03:40",
+  "timestamp": "2026-04-03T22:05:49",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 6,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 417,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_Jaén_habitaciones.xlsx",
-    "properties_count": 0,
+    "properties_count": 1,
     "province_name": "Jaén",
     "start_time": 1775246556.6190891,
     "status": "running",
     "task_mode": null,
     "total_pages": 13,
     "total_properties": 377,
-    "traffic_bytes": 1554910
+    "traffic_bytes": 2568929
   },
   "batch": {
     "total": 52,
@@ -333,9 +333,9 @@
       {
         "name": "Jaen Provincia",
         "status": "active",
-        "properties": 0,
+        "properties": 1,
         "total_properties": 377,
-        "current_page": 0,
+        "current_page": 6,
         "total_pages": 13,
         "started_at": 1775246552.587971,
         "finished_at": null
