@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T23:43:14",
+  "timestamp": "2026-04-03T23:45:23",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 6,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 1906,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_Málaga_habitaciones.xlsx",
-    "properties_count": 0,
+    "properties_count": 24,
     "province_name": "Málaga",
     "start_time": 1775252587.7343018,
     "status": "running",
     "task_mode": null,
-    "total_pages": 0,
-    "total_properties": 0,
-    "traffic_bytes": 0
+    "total_pages": 52,
+    "total_properties": 1548,
+    "traffic_bytes": 8664158
   },
   "batch": {
     "total": 52,
@@ -424,10 +424,10 @@
       {
         "name": "Malaga Provincia",
         "status": "active",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
+        "properties": 23,
+        "total_properties": 1548,
+        "current_page": 6,
+        "total_pages": 52,
         "started_at": 1775252583.695769,
         "finished_at": null
       },
