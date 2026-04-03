@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T23:51:51",
+  "timestamp": "2026-04-03T23:54:00",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_Melilla_habitaciones.xlsx",
-    "properties_count": 10,
+    "properties_count": 15,
     "province_name": "Melilla",
     "start_time": 1775253044.3391356,
     "status": "running",
     "task_mode": null,
     "total_pages": 1,
     "total_properties": 15,
-    "traffic_bytes": 3116092
+    "traffic_bytes": 4615331
   },
   "batch": {
     "total": 52,
@@ -437,7 +437,7 @@
       {
         "name": "Melilla Melilla",
         "status": "active",
-        "properties": 8,
+        "properties": 15,
         "total_properties": 15,
         "current_page": 0,
         "total_pages": 1,
