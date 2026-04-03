@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T05:42:12",
+  "timestamp": "2026-04-03T05:44:21",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -207,22 +207,25 @@
       },
       {
         "name": "Castellon",
-        "status": "active",
+        "status": "completed",
         "properties": 27,
         "total_properties": 25,
         "current_page": 14,
         "total_pages": 60,
         "started_at": 1775186428.555958,
-        "finished_at": null
+        "finished_at": 1775187837.2120292,
+        "traffic_bytes": 39477487,
+        "existing_count": 519,
+        "bajas_count": 0
       },
       {
         "name": "Ceuta Ceuta",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775187856.2299464,
         "finished_at": null
       },
       {
@@ -7157,27 +7160,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775186432.6058908,
+        "last_ts": 1775187860.2676969,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775186432.6058908,
+        "last_ts": 1775187860.2676969,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775186432.6058908,
+        "last_ts": 1775187860.2676969,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775186432.6058908,
+        "last_ts": 1775187860.2676969,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775186432.6058908,
+        "last_ts": 1775187860.2676969,
         "last_ip": ""
       }
     },
