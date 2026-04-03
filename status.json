@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T14:00:18",
+  "timestamp": "2026-04-03T14:02:26",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 6,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 2664,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_Alicante_habitaciones.xlsx",
-    "properties_count": 0,
+    "properties_count": 37,
     "province_name": "Alicante",
     "start_time": 1775217565.591011,
     "status": "running",
     "task_mode": null,
     "total_pages": 86,
     "total_properties": 2565,
-    "traffic_bytes": 1803552
+    "traffic_bytes": 18950544
   },
   "batch": {
     "total": 52,
@@ -65,9 +65,9 @@
       {
         "name": "Alicante",
         "status": "active",
-        "properties": 0,
+        "properties": 37,
         "total_properties": 2565,
-        "current_page": 0,
+        "current_page": 6,
         "total_pages": 86,
         "started_at": 1775217561.5601437,
         "finished_at": null
