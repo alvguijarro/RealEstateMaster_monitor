@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T23:26:00",
+  "timestamp": "2026-04-03T23:28:10",
   "scraper": {
     "bajas_count": 0,
     "current_page": 15,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_Madrid_habitaciones.xlsx",
-    "properties_count": 345,
+    "properties_count": 440,
     "province_name": "Madrid",
     "start_time": 1775250285.4418602,
     "status": "running",
     "task_mode": null,
     "total_pages": 353,
     "total_properties": 10586,
-    "traffic_bytes": 60673083
+    "traffic_bytes": 71656563
   },
   "batch": {
     "total": 52,
@@ -411,7 +411,7 @@
       {
         "name": "Madrid Provincia",
         "status": "active",
-        "properties": 344,
+        "properties": 436,
         "total_properties": 10586,
         "current_page": 15,
         "total_pages": 353,
