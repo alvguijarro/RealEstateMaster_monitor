@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T13:44:25",
+  "timestamp": "2026-04-03T13:46:44",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 4,
-    "current_phase": "3: recolección de URLs",
+    "current_page": 6,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 191,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_Álava_habitaciones.xlsx",
-    "properties_count": 0,
+    "properties_count": 1,
     "province_name": "Álava",
     "start_time": 1775216159.1897442,
     "status": "running",
     "task_mode": null,
     "total_pages": 5,
     "total_properties": 128,
-    "traffic_bytes": 2872129
+    "traffic_bytes": 5599667
   },
   "batch": {
     "total": 52,
@@ -39,9 +39,9 @@
       {
         "name": "Alava",
         "status": "active",
-        "properties": 0,
+        "properties": 1,
         "total_properties": 128,
-        "current_page": 4,
+        "current_page": 6,
         "total_pages": 5,
         "started_at": 1775216155.171141,
         "finished_at": null
