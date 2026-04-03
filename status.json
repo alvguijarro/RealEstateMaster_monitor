@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T15:02:17",
+  "timestamp": "2026-04-03T15:10:45",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 7,
+    "current_page": 8,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 841,
+    "existing_count": 0,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_Baleares-Illes_habitaciones.xlsx",
-    "properties_count": 5,
+    "properties_count": 164,
     "province_name": "Baleares (Illes)",
-    "start_time": 1775221110.3028212,
+    "start_time": 1775221615.0935369,
     "status": "running",
     "task_mode": null,
     "total_pages": 21,
-    "total_properties": 618,
-    "traffic_bytes": 9102414
+    "total_properties": 617,
+    "traffic_bytes": 24811635
   },
   "batch": {
     "total": 52,
@@ -127,9 +127,9 @@
       {
         "name": "Balears Illes",
         "status": "active",
-        "properties": 5,
-        "total_properties": 618,
-        "current_page": 7,
+        "properties": 164,
+        "total_properties": 617,
+        "current_page": 8,
         "total_pages": 21,
         "started_at": 1775221106.2822063,
         "finished_at": null
@@ -7136,27 +7136,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775221110.3052695,
+        "last_ts": 1775221615.0968773,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775221110.3052695,
+        "last_ts": 1775221615.0968773,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775221110.3052695,
+        "last_ts": 1775221615.0968773,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775221110.3052695,
+        "last_ts": 1775221615.0968773,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775221110.3052695,
+        "last_ts": 1775221615.0968773,
         "last_ip": ""
       }
     },
