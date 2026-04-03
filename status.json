@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T09:53:23",
+  "timestamp": "2026-04-03T09:55:33",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -441,22 +441,25 @@
       },
       {
         "name": "Malaga Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 59,
         "total_properties": 34,
         "current_page": 9,
         "total_pages": 60,
         "started_at": 1775202195.1956851,
-        "finished_at": null
+        "finished_at": 1775202866.2232246,
+        "traffic_bytes": 43367964,
+        "existing_count": 1847,
+        "bajas_count": 0
       },
       {
         "name": "Melilla Melilla",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 60,
+        "started_at": 1775202885.247136,
         "finished_at": null
       },
       {
@@ -652,7 +655,7 @@
   "trends": {
     "status": "idle",
     "checkpoint": {
-      "completed_count": 1260,
+      "completed_count": 1280,
       "completed_keys": [
         [
           "Castellón",
@@ -825,6 +828,11 @@
           "alquiler"
         ],
         [
+          "Valencia",
+          "Ribera Alta",
+          "habitacion"
+        ],
+        [
           "Murcia",
           "Río Mula",
           "alquiler"
@@ -908,6 +916,11 @@
           "Zaragoza",
           "Ribera Alta del Ebro",
           "alquiler"
+        ],
+        [
+          "Valencia",
+          "Los Serranos",
+          "habitacion"
         ],
         [
           "Jaén",
@@ -1080,6 +1093,11 @@
           "habitacion"
         ],
         [
+          "Lugo",
+          "Ulloa",
+          "habitacion"
+        ],
+        [
           "Lleida",
           "Alt Urgell",
           "venta"
@@ -1163,6 +1181,11 @@
           "Alicante",
           "L'Alcoià",
           "venta"
+        ],
+        [
+          "Valencia",
+          "Valencia",
+          "habitacion"
         ],
         [
           "Tarragona",
@@ -1655,6 +1678,11 @@
           "alquiler"
         ],
         [
+          "Zamora",
+          "Alfoz de Toro",
+          "habitacion"
+        ],
+        [
           "Cuenca",
           "*(Toda la provincia)*",
           "venta"
@@ -1753,6 +1781,11 @@
           "Murcia",
           "Alto Guadalentín",
           "alquiler"
+        ],
+        [
+          "Valencia",
+          "Ribera Baixa",
+          "habitacion"
         ],
         [
           "Guipúzcoa",
@@ -2575,6 +2608,11 @@
           "habitacion"
         ],
         [
+          "Zaragoza",
+          "Campo de Belchite",
+          "habitacion"
+        ],
+        [
           "Barcelona",
           "Barcelona",
           "habitacion"
@@ -2620,6 +2658,11 @@
           "habitacion"
         ],
         [
+          "Zaragoza",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Santa Cruz de Tenerife",
           "La Gomera",
           "venta"
@@ -2637,6 +2680,11 @@
         [
           "Cantabria",
           "Área de San Vicente de la Barquera",
+          "habitacion"
+        ],
+        [
+          "Vizcaya",
+          "Uribe-Butroe",
           "habitacion"
         ],
         [
@@ -2838,6 +2886,11 @@
           "Salamanca",
           "*(Toda la provincia)*",
           "alquiler"
+        ],
+        [
+          "Valencia",
+          "L'Horta Nord",
+          "habitacion"
         ],
         [
           "Zaragoza",
@@ -3118,6 +3171,11 @@
           "Huesca",
           "La Litera",
           "venta"
+        ],
+        [
+          "Zamora",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "Almería",
@@ -3905,6 +3963,11 @@
           "alquiler"
         ],
         [
+          "Zamora",
+          "Sanabria",
+          "habitacion"
+        ],
+        [
           "Toledo",
           "La Mesa de Ocaña",
           "venta"
@@ -4168,6 +4231,11 @@
           "Asturias",
           "Área de Oviedo",
           "alquiler"
+        ],
+        [
+          "Valencia",
+          "Safor",
+          "habitacion"
         ],
         [
           "Toledo",
@@ -4698,6 +4766,11 @@
           "León",
           "Maragatería- Cabrera",
           "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "Gran Bilbao",
+          "habitacion"
         ],
         [
           "Lleida",
@@ -5200,6 +5273,11 @@
           "habitacion"
         ],
         [
+          "Vizcaya",
+          "Arratia-Nervión",
+          "habitacion"
+        ],
+        [
           "Cantabria",
           "Saja - Nansa",
           "alquiler"
@@ -5293,6 +5371,11 @@
           "Lleida",
           "Alta Ribagorça",
           "venta"
+        ],
+        [
+          "Valencia",
+          "La Vall d'Albaida",
+          "habitacion"
         ],
         [
           "Granada",
@@ -5590,6 +5673,11 @@
           "habitacion"
         ],
         [
+          "Valencia",
+          "La Costera",
+          "habitacion"
+        ],
+        [
           "Cantabria",
           "Trasmiera",
           "habitacion"
@@ -5628,6 +5716,11 @@
           "Teruel",
           "Albarracín",
           "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "A Coruña",
@@ -6180,6 +6273,11 @@
           "alquiler"
         ],
         [
+          "Vizcaya",
+          "Busturialdea",
+          "habitacion"
+        ],
+        [
           "Granada",
           "Área de Baza",
           "habitacion"
@@ -6583,6 +6681,11 @@
           "Murcia",
           "Vega Media",
           "venta"
+        ],
+        [
+          "Zamora",
+          "Benavente",
+          "habitacion"
         ],
         [
           "Alicante",
@@ -7046,27 +7149,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775202199.241664,
+        "last_ts": 1775202889.280149,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775202199.241664,
+        "last_ts": 1775202889.280149,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775202199.241664,
+        "last_ts": 1775202889.280149,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775202199.241664,
+        "last_ts": 1775202889.280149,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775202199.241664,
+        "last_ts": 1775202889.280149,
         "last_ip": ""
       }
     },
