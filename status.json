@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T22:14:27",
+  "timestamp": "2026-04-03T22:16:37",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 8,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 10,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 289,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_La-Rioja_habitaciones.xlsx",
-    "properties_count": 163,
+    "properties_count": 244,
     "province_name": "La Rioja",
     "start_time": 1775247049.4044504,
     "status": "running",
     "task_mode": null,
     "total_pages": 9,
     "total_properties": 247,
-    "traffic_bytes": 25256534
+    "traffic_bytes": 35655812
   },
   "batch": {
     "total": 52,
@@ -346,9 +346,9 @@
       {
         "name": "La Rioja",
         "status": "active",
-        "properties": 158,
+        "properties": 244,
         "total_properties": 247,
-        "current_page": 8,
+        "current_page": 10,
         "total_pages": 9,
         "started_at": 1775247045.3714395,
         "finished_at": null
