@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T13:51:42",
+  "timestamp": "2026-04-03T13:53:51",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 6,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 357,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_Albacete_habitaciones.xlsx",
-    "properties_count": 0,
+    "properties_count": 2,
     "province_name": "Albacete",
     "start_time": 1775217062.3932118,
     "status": "running",
     "task_mode": null,
     "total_pages": 11,
     "total_properties": 305,
-    "traffic_bytes": 1647738
+    "traffic_bytes": 4830238
   },
   "batch": {
     "total": 52,
@@ -52,9 +52,9 @@
       {
         "name": "Albacete Provincia",
         "status": "active",
-        "properties": 0,
+        "properties": 2,
         "total_properties": 305,
-        "current_page": 0,
+        "current_page": 5,
         "total_pages": 11,
         "started_at": 1775217058.3740664,
         "finished_at": null
