@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T00:49:34",
+  "timestamp": "2026-04-04T00:51:48",
   "scraper": {
     "bajas_count": 0,
     "current_page": 3,
-    "current_phase": "3: Deep Scrape",
+    "current_phase": "3: recolección de URLs",
     "existing_count": 54,
-    "internal_status": "running",
+    "internal_status": "stopped",
     "is_room_mode": true,
-    "mode": "batch",
+    "mode": "fast",
     "operation_type": "habitacion",
     "output_file": "idealista_Palencia_habitaciones.xlsx",
     "properties_count": 0,
     "province_name": "Palencia",
     "start_time": 1775256348.3847127,
-    "status": "running",
+    "status": "stopped",
     "task_mode": null,
     "total_pages": 2,
     "total_properties": 42,
-    "traffic_bytes": 1231893
+    "traffic_bytes": 1900278
   },
   "batch": {
     "total": 52,
