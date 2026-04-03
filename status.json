@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T01:06:49",
+  "timestamp": "2026-04-04T01:09:27",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 32,
+    "current_page": 36,
     "current_phase": "4: extracción de detalle",
     "existing_count": 3892,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_A-Coruña_venta.xlsx",
-    "properties_count": 909,
+    "properties_count": 1046,
     "province_name": "A Coruña",
     "start_time": 1775256832.641839,
     "status": "running",
     "task_mode": null,
     "total_pages": 243,
     "total_properties": 7286,
-    "traffic_bytes": 101335981
+    "traffic_bytes": 127803869
   },
   "batch": {
     "total": 52,
@@ -26,9 +26,9 @@
       {
         "name": "A Coruna Provincia",
         "status": "active",
-        "properties": 900,
+        "properties": 1043,
         "total_properties": 7286,
-        "current_page": 31,
+        "current_page": 36,
         "total_pages": 243,
         "started_at": 1775256828.606799,
         "finished_at": null
