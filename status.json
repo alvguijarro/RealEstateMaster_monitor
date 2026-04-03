@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T02:13:20",
+  "timestamp": "2026-04-03T02:15:29",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -38,22 +38,25 @@
       },
       {
         "name": "Alava",
-        "status": "active",
+        "status": "completed",
         "properties": 6,
-        "total_properties": 0,
+        "total_properties": 6,
         "current_page": 11,
         "total_pages": 60,
         "started_at": 1775174755.414839,
-        "finished_at": null
+        "finished_at": 1775175279.1279955,
+        "traffic_bytes": 14657893,
+        "existing_count": 185,
+        "bajas_count": 0
       },
       {
         "name": "Albacete Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 60,
+        "started_at": 1775175299.1761715,
         "finished_at": null
       },
       {
@@ -7118,27 +7121,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775174759.4457617,
+        "last_ts": 1775175303.207299,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775174759.4457617,
+        "last_ts": 1775175303.207299,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775174759.4457617,
+        "last_ts": 1775175303.207299,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775174759.4457617,
+        "last_ts": 1775175303.207299,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775174759.4457617,
+        "last_ts": 1775175303.207299,
         "last_ip": ""
       }
     },
