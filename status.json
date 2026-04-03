@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T14:13:19",
+  "timestamp": "2026-04-03T14:15:27",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 578,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 571,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
-    "output_file": "idealista_Almería_habitaciones.xlsx",
-    "properties_count": 3,
-    "province_name": "Almería",
-    "start_time": 1775218064.6777868,
+    "output_file": "idealista_Asturias_habitaciones.xlsx",
+    "properties_count": 0,
+    "province_name": "Asturias",
+    "start_time": 1775218518.6409225,
     "status": "running",
     "task_mode": null,
-    "total_pages": 60,
+    "total_pages": 0,
     "total_properties": 0,
-    "traffic_bytes": 8541560
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 52,
@@ -77,22 +77,25 @@
       },
       {
         "name": "Almeria Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 3,
-        "total_properties": 0,
+        "total_properties": 3,
         "current_page": 6,
         "total_pages": 60,
         "started_at": 1775218060.6562252,
-        "finished_at": null
+        "finished_at": 1775218485.5877793,
+        "traffic_bytes": 9057636,
+        "existing_count": 578,
+        "bajas_count": 0
       },
       {
         "name": "Asturias",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775218514.6062784,
         "finished_at": null
       },
       {
@@ -7127,27 +7130,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775218064.6811526,
+        "last_ts": 1775218518.6434445,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775218064.6811526,
+        "last_ts": 1775218518.6434445,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775218064.6811526,
+        "last_ts": 1775218518.6434445,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775218064.6811526,
+        "last_ts": 1775218518.6434445,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775218064.6811526,
+        "last_ts": 1775218518.6434445,
         "last_ip": ""
       }
     },
