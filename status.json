@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T22:25:13",
+  "timestamp": "2026-04-03T22:27:22",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 10,
-    "current_phase": "5: enrichment",
-    "existing_count": 289,
+    "current_page": 3,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 648,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\habitacion\\idealista_La-Rioja_habitaciones.xlsx",
-    "properties_count": 245,
-    "province_name": "La Rioja",
-    "start_time": 1775247049.4044504,
+    "output_file": "idealista_Las-Palmas_habitaciones.xlsx",
+    "properties_count": 17,
+    "province_name": "Las Palmas",
+    "start_time": 1775247967.9984338,
     "status": "running",
     "task_mode": null,
-    "total_pages": 9,
-    "total_properties": 247,
-    "traffic_bytes": 41534462
+    "total_pages": 18,
+    "total_properties": 527,
+    "traffic_bytes": 11154186
   },
   "batch": {
     "total": 52,
@@ -345,22 +345,25 @@
       },
       {
         "name": "La Rioja",
-        "status": "active",
+        "status": "completed",
         "properties": 245,
         "total_properties": 247,
         "current_page": 10,
         "total_pages": 9,
         "started_at": 1775247045.3714395,
-        "finished_at": null
+        "finished_at": 1775247941.9345286,
+        "traffic_bytes": 41534462,
+        "existing_count": 289,
+        "bajas_count": 0
       },
       {
         "name": "Las Palmas",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 11,
+        "total_properties": 527,
+        "current_page": 3,
+        "total_pages": 18,
+        "started_at": 1775247963.954779,
         "finished_at": null
       },
       {
@@ -7175,27 +7178,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775247049.4109533,
+        "last_ts": 1775247968.0035055,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775247049.4109533,
+        "last_ts": 1775247968.0035055,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775247049.4109533,
+        "last_ts": 1775247968.0035055,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775247049.4109533,
+        "last_ts": 1775247968.0035055,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775247049.4109533,
+        "last_ts": 1775247968.0035055,
         "last_ip": ""
       }
     },
