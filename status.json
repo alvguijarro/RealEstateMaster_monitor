@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T10:48:24",
+  "timestamp": "2026-04-03T10:56:02",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -477,22 +477,25 @@
       },
       {
         "name": "Navarra",
-        "status": "active",
-        "properties": 23,
-        "total_properties": 0,
+        "status": "completed",
+        "properties": 24,
+        "total_properties": 24,
         "current_page": 11,
         "total_pages": 60,
         "started_at": 1775205547.661397,
-        "finished_at": null
+        "finished_at": 1775206324.188242,
+        "traffic_bytes": 26964326,
+        "existing_count": 470,
+        "bajas_count": 0
       },
       {
         "name": "Ourense Provincia",
-        "status": "pending",
-        "properties": 0,
+        "status": "active",
+        "properties": 2,
         "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "current_page": 10,
+        "total_pages": 60,
+        "started_at": 1775206342.2140925,
         "finished_at": null
       },
       {
@@ -7217,27 +7220,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775205551.7056177,
+        "last_ts": 1775206346.246655,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775205551.7056177,
+        "last_ts": 1775206346.246655,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775205551.7056177,
+        "last_ts": 1775206346.246655,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775205551.7056177,
+        "last_ts": 1775206346.246655,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775205551.7056177,
+        "last_ts": 1775206346.246655,
         "last_ip": ""
       }
     },
