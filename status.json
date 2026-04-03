@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T01:56:48",
+  "timestamp": "2026-04-04T01:58:57",
   "scraper": {
     "bajas_count": 0,
     "current_page": 6,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Albacete_venta.xlsx",
-    "properties_count": 21,
+    "properties_count": 22,
     "province_name": "Albacete",
     "start_time": 1775260188.4582825,
     "status": "running",
     "task_mode": null,
     "total_pages": 113,
     "total_properties": 3389,
-    "traffic_bytes": 14994585
+    "traffic_bytes": 15503113
   },
   "batch": {
     "total": 52,
@@ -52,7 +52,7 @@
       {
         "name": "Albacete Provincia",
         "status": "active",
-        "properties": 21,
+        "properties": 22,
         "total_properties": 3389,
         "current_page": 6,
         "total_pages": 113,
