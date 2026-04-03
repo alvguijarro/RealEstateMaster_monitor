@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T05:10:03",
+  "timestamp": "2026-04-03T05:12:11",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -181,22 +181,25 @@
       },
       {
         "name": "Cadiz Provincia",
-        "status": "active",
-        "properties": 3,
-        "total_properties": 0,
+        "status": "completed",
+        "properties": 4,
+        "total_properties": 4,
         "current_page": 12,
         "total_pages": 60,
         "started_at": 1775185512.6707907,
-        "finished_at": null
+        "finished_at": 1775185867.7979589,
+        "traffic_bytes": 5692897,
+        "existing_count": 443,
+        "bajas_count": 0
       },
       {
         "name": "Cantabria",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 60,
+        "started_at": 1775185893.8197596,
         "finished_at": null
       },
       {
@@ -7151,27 +7154,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775185516.7088335,
+        "last_ts": 1775185897.8701642,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775185516.7088335,
+        "last_ts": 1775185897.8701642,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775185516.7088335,
+        "last_ts": 1775185897.8701642,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775185516.7088335,
+        "last_ts": 1775185897.8701642,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775185516.7088335,
+        "last_ts": 1775185897.8701642,
         "last_ip": ""
       }
     },
