@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T11:43:02",
+  "timestamp": "2026-04-03T11:45:11",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 3,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 6,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 754,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_A_Coruña_habitaciones.xlsx",
-    "properties_count": 12,
+    "properties_count": 13,
     "province_name": "A Coruña",
     "start_time": 1775209277.3269851,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
     "total_properties": 0,
-    "traffic_bytes": 9593392
+    "traffic_bytes": 10633294
   },
   "batch": {
     "total": 52,
@@ -26,9 +26,9 @@
       {
         "name": "A Coruna Provincia",
         "status": "active",
-        "properties": 12,
+        "properties": 13,
         "total_properties": 0,
-        "current_page": 3,
+        "current_page": 6,
         "total_pages": 60,
         "started_at": 1775209273.2712595,
         "finished_at": null
