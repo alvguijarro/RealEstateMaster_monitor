@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T14:21:46",
+  "timestamp": "2026-04-03T14:26:22",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 571,
+    "current_page": 4,
+    "current_phase": "3: recolección de URLs",
+    "existing_count": 176,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
-    "output_file": "idealista_Asturias_habitaciones.xlsx",
-    "properties_count": 2,
-    "province_name": "Asturias",
-    "start_time": 1775218518.6409225,
+    "output_file": "idealista_Ávila_habitaciones.xlsx",
+    "properties_count": 0,
+    "province_name": "Ávila",
+    "start_time": 1775219030.451451,
     "status": "running",
     "task_mode": null,
-    "total_pages": 16,
-    "total_properties": 462,
-    "traffic_bytes": 7073688
+    "total_pages": 6,
+    "total_properties": 159,
+    "traffic_bytes": 1936598
   },
   "batch": {
     "total": 52,
@@ -90,22 +90,25 @@
       },
       {
         "name": "Asturias",
-        "status": "active",
+        "status": "completed",
         "properties": 2,
         "total_properties": 462,
         "current_page": 6,
         "total_pages": 16,
         "started_at": 1775218514.6062784,
-        "finished_at": null
+        "finished_at": 1775218996.3993127,
+        "traffic_bytes": 7073688,
+        "existing_count": 571,
+        "bajas_count": 0
       },
       {
         "name": "Avila Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_properties": 159,
+        "current_page": 4,
+        "total_pages": 6,
+        "started_at": 1775219026.4197083,
         "finished_at": null
       },
       {
@@ -7130,27 +7133,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775218518.6434445,
+        "last_ts": 1775219030.4536786,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775218518.6434445,
+        "last_ts": 1775219030.4536786,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775218518.6434445,
+        "last_ts": 1775219030.4536786,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775218518.6434445,
+        "last_ts": 1775219030.4536786,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775218518.6434445,
+        "last_ts": 1775219030.4536786,
         "last_ip": ""
       }
     },
