@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-03T14:55:59",
+  "timestamp": "2026-04-03T15:02:17",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 5,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 126,
+    "current_page": 7,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 841,
     "internal_status": "running",
     "is_room_mode": true,
     "mode": "batch",
     "operation_type": "habitacion",
-    "output_file": "idealista_Badajoz_habitaciones.xlsx",
-    "properties_count": 1,
-    "province_name": "Badajoz",
-    "start_time": 1775220498.4605348,
+    "output_file": "idealista_Baleares-Illes_habitaciones.xlsx",
+    "properties_count": 5,
+    "province_name": "Baleares (Illes)",
+    "start_time": 1775221110.3028212,
     "status": "running",
     "task_mode": null,
-    "total_pages": 4,
-    "total_properties": 115,
-    "traffic_bytes": 4071424
+    "total_pages": 21,
+    "total_properties": 618,
+    "traffic_bytes": 9102414
   },
   "batch": {
     "total": 52,
@@ -113,22 +113,25 @@
       },
       {
         "name": "Badajoz Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 1,
         "total_properties": 115,
         "current_page": 5,
         "total_pages": 4,
         "started_at": 1775220494.4171445,
-        "finished_at": null
+        "finished_at": 1775221088.2685263,
+        "traffic_bytes": 4920496,
+        "existing_count": 126,
+        "bajas_count": 0
       },
       {
         "name": "Balears Illes",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 5,
+        "total_properties": 618,
+        "current_page": 7,
+        "total_pages": 21,
+        "started_at": 1775221106.2822063,
         "finished_at": null
       },
       {
@@ -7133,27 +7136,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775220498.4626515,
+        "last_ts": 1775221110.3052695,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775220498.4626515,
+        "last_ts": 1775221110.3052695,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775220498.4626515,
+        "last_ts": 1775221110.3052695,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775220498.4626515,
+        "last_ts": 1775221110.3052695,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775220498.4626515,
+        "last_ts": 1775221110.3052695,
         "last_ip": ""
       }
     },
