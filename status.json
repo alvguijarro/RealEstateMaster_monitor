@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T09:36:47",
+  "timestamp": "2026-04-04T09:38:57",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 22,
+    "current_page": 28,
     "current_phase": "4: extracción de detalle",
     "existing_count": 3644,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_León_venta.xlsx",
-    "properties_count": 183,
+    "properties_count": 256,
     "province_name": "León",
     "start_time": 1775287623.328245,
     "status": "running",
     "task_mode": null,
     "total_pages": 155,
     "total_properties": 4633,
-    "traffic_bytes": 52020633
+    "traffic_bytes": 59811658
   },
   "batch": {
     "total": 52,
@@ -390,9 +390,9 @@
       {
         "name": "Leon Provincia",
         "status": "active",
-        "properties": 180,
+        "properties": 252,
         "total_properties": 4633,
-        "current_page": 22,
+        "current_page": 28,
         "total_pages": 155,
         "started_at": 1775287619.047253,
         "finished_at": null
@@ -640,8 +640,18 @@
   "trends": {
     "status": "idle",
     "checkpoint": {
-      "completed_count": 340,
+      "completed_count": 480,
       "completed_keys": [
+        [
+          "Valencia",
+          "Valencia",
+          "alquiler"
+        ],
+        [
+          "Álava",
+          "Laguardia-Rioja Alavesa",
+          "venta"
+        ],
         [
           "Asturias",
           "Área de Avilés",
@@ -653,9 +663,19 @@
           "alquiler"
         ],
         [
+          "Teruel",
+          "Bajo Aragón",
+          "alquiler"
+        ],
+        [
           "Lleida",
           "Segarra",
           "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Área de Ferrol",
+          "venta"
         ],
         [
           "Alicante",
@@ -688,6 +708,11 @@
           "alquiler"
         ],
         [
+          "Segovia",
+          "Área de Riaza",
+          "alquiler"
+        ],
+        [
           "Barcelona",
           "Alt Penedès",
           "alquiler"
@@ -695,6 +720,11 @@
         [
           "Murcia",
           "Noroeste",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "Los Serranos",
           "alquiler"
         ],
         [
@@ -708,8 +738,33 @@
           "alquiler"
         ],
         [
+          "Vizcaya",
+          "Arratia-Nervión",
+          "alquiler"
+        ],
+        [
           "Burgos",
           "Demanda",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "El Valle de Ayora",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Montsià",
+          "alquiler"
+        ],
+        [
+          "Zamora",
+          "Aliste",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Campo de Daroca",
           "alquiler"
         ],
         [
@@ -728,6 +783,11 @@
           "alquiler"
         ],
         [
+          "Santa Cruz de Tenerife",
+          "El Hierro",
+          "alquiler"
+        ],
+        [
           "Girona",
           "*(Toda la provincia)*",
           "alquiler"
@@ -735,6 +795,16 @@
         [
           "Lugo",
           "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "La Plana d'Utiel",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "Ribera Baixa",
           "alquiler"
         ],
         [
@@ -750,6 +820,11 @@
         [
           "Barcelona",
           "Barcelonès",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Campo de Belchite",
           "alquiler"
         ],
         [
@@ -793,13 +868,38 @@
           "alquiler"
         ],
         [
+          "Zaragoza",
+          "Comunidad de Calatayud",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Hoya de Huesca",
+          "alquiler"
+        ],
+        [
           "Málaga",
           "Costa del Sol Occidental-Área de Marbella",
           "alquiler"
         ],
         [
+          "Tarragona",
+          "Baix Camp",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "Sevilla",
+          "alquiler"
+        ],
+        [
           "Almería",
           "Área de Almería",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "*(Toda la provincia)*",
           "alquiler"
         ],
         [
@@ -823,6 +923,11 @@
           "alquiler"
         ],
         [
+          "Toledo",
+          "La Campana de Oropesa",
+          "alquiler"
+        ],
+        [
           "Murcia",
           "Vega Media",
           "alquiler"
@@ -833,8 +938,18 @@
           "alquiler"
         ],
         [
+          "Soria",
+          "Área de Soria",
+          "alquiler"
+        ],
+        [
           "Alicante",
           "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "Safor",
           "alquiler"
         ],
         [
@@ -868,6 +983,16 @@
           "alquiler"
         ],
         [
+          "Soria",
+          "Pinares y Tierras Altas",
+          "alquiler"
+        ],
+        [
+          "Segovia",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
           "Baleares (Illes)",
           "Mallorca",
           "alquiler"
@@ -881,6 +1006,11 @@
           "Navarra",
           "Área de Puente la Reina",
           "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Barbanza",
+          "venta"
         ],
         [
           "Córdoba",
@@ -918,13 +1048,43 @@
           "alquiler"
         ],
         [
+          "Valencia",
+          "L'Horta Sud",
+          "alquiler"
+        ],
+        [
+          "Álava",
+          "Campezo- Montaña Alavesa",
+          "venta"
+        ],
+        [
+          "Sevilla",
+          "La Campiña",
+          "alquiler"
+        ],
+        [
           "Huesca",
           "Los Monegros",
           "alquiler"
         ],
         [
+          "Álava",
+          "Vitoria-Gasteiz",
+          "venta"
+        ],
+        [
           "Ciudad Real",
           "Alcudia",
+          "alquiler"
+        ],
+        [
+          "Santa Cruz de Tenerife",
+          "Tenerife",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "Área Metropolitana",
           "alquiler"
         ],
         [
@@ -948,6 +1108,16 @@
           "alquiler"
         ],
         [
+          "Soria",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Valladolid",
+          "Área Metropolitana Valladolid",
+          "alquiler"
+        ],
+        [
           "A Coruña",
           "Área de Ferrol",
           "alquiler"
@@ -958,6 +1128,16 @@
           "alquiler"
         ],
         [
+          "Valencia",
+          "El Rincón de Ademuz",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
           "Cantabria",
           "Costa Oriental",
           "alquiler"
@@ -965,6 +1145,11 @@
         [
           "Madrid",
           "Madrid",
+          "alquiler"
+        ],
+        [
+          "Valladolid",
+          "*(Toda la provincia)*",
           "alquiler"
         ],
         [
@@ -988,13 +1173,28 @@
           "alquiler"
         ],
         [
+          "A Coruña",
+          "Ordes",
+          "venta"
+        ],
+        [
           "Guipúzcoa",
           "Tolosaldea",
           "alquiler"
         ],
         [
+          "Valencia",
+          "Camp de Morvedre",
+          "alquiler"
+        ],
+        [
           "Navarra",
           "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Teruel",
+          "Cuencas Mineras- Andorra-Bajo Martín",
           "alquiler"
         ],
         [
@@ -1033,6 +1233,11 @@
           "alquiler"
         ],
         [
+          "A Coruña",
+          "Terra de Soneira",
+          "venta"
+        ],
+        [
           "Barcelona",
           "Garraf",
           "alquiler"
@@ -1068,6 +1273,11 @@
           "alquiler"
         ],
         [
+          "Valladolid",
+          "Tierra de Medina",
+          "alquiler"
+        ],
+        [
           "Lleida",
           "Solsonès",
           "alquiler"
@@ -1088,6 +1298,11 @@
           "alquiler"
         ],
         [
+          "Zamora",
+          "Alfoz de Toro",
+          "alquiler"
+        ],
+        [
           "Albacete",
           "*(Toda la provincia)*",
           "alquiler"
@@ -1095,6 +1310,16 @@
         [
           "Palencia",
           "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "Área de Estepa",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "La Vega",
           "alquiler"
         ],
         [
@@ -1108,8 +1333,18 @@
           "alquiler"
         ],
         [
+          "Vizcaya",
+          "Duranguesado",
+          "alquiler"
+        ],
+        [
           "Cáceres",
           "Sierra de Gata",
+          "alquiler"
+        ],
+        [
+          "Teruel",
+          "Matarraña",
           "alquiler"
         ],
         [
@@ -1173,6 +1408,11 @@
           "alquiler"
         ],
         [
+          "Vizcaya",
+          "Lea-Artibai",
+          "alquiler"
+        ],
+        [
           "Las Palmas",
           "Gran Canaria",
           "alquiler"
@@ -1188,8 +1428,18 @@
           "alquiler"
         ],
         [
+          "Sevilla",
+          "Sierra norte",
+          "alquiler"
+        ],
+        [
           "Las Palmas",
           "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "Encartaciones",
           "alquiler"
         ],
         [
@@ -1203,6 +1453,11 @@
           "alquiler"
         ],
         [
+          "Tarragona",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
           "Palencia",
           "Tierra de Campos - Cerrato",
           "alquiler"
@@ -1210,6 +1465,16 @@
         [
           "Castellón",
           "L'Alcalaten",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "Ciudad Rodrigo",
+          "alquiler"
+        ],
+        [
+          "Zamora",
+          "Tierra de Campos",
           "alquiler"
         ],
         [
@@ -1233,6 +1498,11 @@
           "alquiler"
         ],
         [
+          "Zamora",
+          "Tierra del Vino - La Guareña",
+          "alquiler"
+        ],
+        [
           "A Coruña",
           "Barbanza",
           "alquiler"
@@ -1248,6 +1518,11 @@
           "alquiler"
         ],
         [
+          "Valencia",
+          "La Canal de Navarrés",
+          "alquiler"
+        ],
+        [
           "Álava",
           "Vitoria-Gasteiz",
           "alquiler"
@@ -1255,6 +1530,11 @@
         [
           "Cuenca",
           "Mancha Baja",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "La Mancha",
           "alquiler"
         ],
         [
@@ -1278,8 +1558,18 @@
           "alquiler"
         ],
         [
+          "A Coruña",
+          "Fisterra",
+          "venta"
+        ],
+        [
           "León",
           "Babia- Laciana- Omaña",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Caspe",
           "alquiler"
         ],
         [
@@ -1303,9 +1593,19 @@
           "alquiler"
         ],
         [
+          "Zaragoza",
+          "Campo de Cariñena",
+          "alquiler"
+        ],
+        [
           "A Coruña",
           "Ordes",
           "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Ortegal",
+          "venta"
         ],
         [
           "Ciudad Real",
@@ -1323,9 +1623,29 @@
           "alquiler"
         ],
         [
+          "Tarragona",
+          "Ribera d'Ebre",
+          "alquiler"
+        ],
+        [
+          "Santa Cruz de Tenerife",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
           "Asturias",
           "Área de Oviedo",
           "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Conca de Barberà",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Eume",
+          "venta"
         ],
         [
           "Almería",
@@ -1373,8 +1693,18 @@
           "alquiler"
         ],
         [
+          "Teruel",
+          "Albarracín",
+          "alquiler"
+        ],
+        [
           "Pontevedra",
           "Área de Terra Montes",
+          "alquiler"
+        ],
+        [
+          "Teruel",
+          "Jiloca",
           "alquiler"
         ],
         [
@@ -1385,6 +1715,11 @@
         [
           "Melilla",
           "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "La Jara",
           "alquiler"
         ],
         [
@@ -1413,6 +1748,21 @@
           "alquiler"
         ],
         [
+          "A Coruña",
+          "Arzúa",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Terra de Melide",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Miño - Betanzos",
+          "venta"
+        ],
+        [
           "Ourense",
           "Terra de Caldelas- Trive",
           "alquiler"
@@ -1425,6 +1775,21 @@
         [
           "Cáceres",
           "Campo Arañuelo",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "O Sar",
+          "venta"
+        ],
+        [
+          "Tarragona",
+          "Baix Penedès",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "Área de Torrijos",
           "alquiler"
         ],
         [
@@ -1463,6 +1828,16 @@
           "alquiler"
         ],
         [
+          "A Coruña",
+          "Bergantiños",
+          "venta"
+        ],
+        [
+          "Santa Cruz de Tenerife",
+          "La Palma",
+          "alquiler"
+        ],
+        [
           "Huesca",
           "Somontano de Barbastro",
           "alquiler"
@@ -1490,6 +1865,11 @@
         [
           "Granada",
           "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Segovia",
+          "Área de Sepúlveda - Cantalejo",
           "alquiler"
         ],
         [
@@ -1608,8 +1988,18 @@
           "alquiler"
         ],
         [
+          "Zaragoza",
+          "Ribera Baja del Ebro",
+          "alquiler"
+        ],
+        [
           "Cáceres",
           "Las Hurdes-Ambroz",
+          "alquiler"
+        ],
+        [
+          "Teruel",
+          "Gúdar- Javalambre",
           "alquiler"
         ],
         [
@@ -1621,6 +2011,11 @@
           "Cáceres",
           "Villuercas - Ibores - Jara",
           "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Área de A Coruña",
+          "venta"
         ],
         [
           "A Coruña",
@@ -1648,6 +2043,11 @@
           "alquiler"
         ],
         [
+          "A Coruña",
+          "Xallas",
+          "venta"
+        ],
+        [
           "Guipúzcoa",
           "Donostialdea",
           "alquiler"
@@ -1666,6 +2066,11 @@
           "Navarra",
           "Área de Tafalla",
           "alquiler"
+        ],
+        [
+          "Álava",
+          "Añana",
+          "venta"
         ],
         [
           "Jaén",
@@ -1688,6 +2093,16 @@
           "alquiler"
         ],
         [
+          "Zaragoza",
+          "Monegros",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "La Costera",
+          "alquiler"
+        ],
+        [
           "León",
           "Bierzo- Ancares",
           "alquiler"
@@ -1695,6 +2110,16 @@
         [
           "Barcelona",
           "Maresme",
+          "alquiler"
+        ],
+        [
+          "Teruel",
+          "Maestrazgo",
+          "alquiler"
+        ],
+        [
+          "Teruel",
+          "*(Toda la provincia)*",
           "alquiler"
         ],
         [
@@ -1713,6 +2138,11 @@
           "alquiler"
         ],
         [
+          "Vizcaya",
+          "Uribe-Butroe",
+          "alquiler"
+        ],
+        [
           "Cádiz",
           "Costa noroeste",
           "alquiler"
@@ -1728,8 +2158,23 @@
           "alquiler"
         ],
         [
+          "Vizcaya",
+          "Gran Bilbao",
+          "alquiler"
+        ],
+        [
           "Navarra",
           "Norte",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Santiago",
+          "venta"
+        ],
+        [
+          "Tarragona",
+          "Terra Alta",
           "alquiler"
         ],
         [
@@ -1778,6 +2223,16 @@
           "alquiler"
         ],
         [
+          "Zaragoza",
+          "Ribera Alta del Ebro",
+          "alquiler"
+        ],
+        [
+          "Álava",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
           "Badajoz",
           "Llanos de Olivenza",
           "alquiler"
@@ -1793,8 +2248,28 @@
           "alquiler"
         ],
         [
+          "Álava",
+          "Ayala",
+          "venta"
+        ],
+        [
           "Cáceres",
           "Trujillo",
+          "alquiler"
+        ],
+        [
+          "Santa Cruz de Tenerife",
+          "La Gomera",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Cinco Villas - Jacetania",
+          "alquiler"
+        ],
+        [
+          "Valladolid",
+          "Tierra de Campos",
           "alquiler"
         ],
         [
@@ -1833,6 +2308,11 @@
           "alquiler"
         ],
         [
+          "Valladolid",
+          "Tierra de Pinares",
+          "alquiler"
+        ],
+        [
           "Castellón",
           "*(Toda la provincia)*",
           "alquiler"
@@ -1843,13 +2323,33 @@
           "alquiler"
         ],
         [
+          "Zamora",
+          "Área de Zamora",
+          "alquiler"
+        ],
+        [
           "Ourense",
           "Ribeiro",
           "alquiler"
         ],
         [
+          "Soria",
+          "Burgo de Osma",
+          "alquiler"
+        ],
+        [
           "Málaga",
           "Serranía de Ronda",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "Toledo",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "*(Toda la provincia)*",
           "alquiler"
         ],
         [
@@ -1893,6 +2393,21 @@
           "alquiler"
         ],
         [
+          "Tarragona",
+          "Baix Ebre",
+          "alquiler"
+        ],
+        [
+          "Segovia",
+          "Área de Cuéllar",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
           "Granada",
           "Los Montes",
           "alquiler"
@@ -1918,6 +2433,11 @@
           "alquiler"
         ],
         [
+          "Zamora",
+          "Área de Sayago",
+          "alquiler"
+        ],
+        [
           "Burgos",
           "Área de Burgos",
           "alquiler"
@@ -1933,8 +2453,23 @@
           "alquiler"
         ],
         [
+          "Valencia",
+          "La Vall d'Albaida",
+          "alquiler"
+        ],
+        [
           "Huesca",
           "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Priorat",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Alt Camp",
           "alquiler"
         ],
         [
@@ -1945,6 +2480,11 @@
         [
           "Badajoz",
           "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "Ribera Alta",
           "alquiler"
         ],
         [
@@ -1963,6 +2503,11 @@
           "alquiler"
         ],
         [
+          "Tarragona",
+          "Tarragonès",
+          "alquiler"
+        ],
+        [
           "Badajoz",
           "Badajoz-Alburquerque",
           "alquiler"
@@ -1975,6 +2520,11 @@
         [
           "A Coruña",
           "Xallas",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Aranda",
           "alquiler"
         ],
         [
@@ -2003,6 +2553,11 @@
           "alquiler"
         ],
         [
+          "Álava",
+          "Salvatierra",
+          "venta"
+        ],
+        [
           "La Rioja",
           "Los Cameros",
           "alquiler"
@@ -2013,6 +2568,11 @@
           "alquiler"
         ],
         [
+          "Soria",
+          "Almazán",
+          "alquiler"
+        ],
+        [
           "La Rioja",
           "Rioja Alta",
           "alquiler"
@@ -2020,6 +2580,11 @@
         [
           "Navarra",
           "Área de Peralta",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "Peñaranda",
           "alquiler"
         ],
         [
@@ -2053,6 +2618,11 @@
           "alquiler"
         ],
         [
+          "Zamora",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
           "Jaén",
           "*(Toda la provincia)*",
           "alquiler"
@@ -2070,6 +2640,11 @@
         [
           "Navarra",
           "Área de Esteribar",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Tarazona-El Moncayo",
           "alquiler"
         ],
         [
@@ -2103,8 +2678,53 @@
           "alquiler"
         ],
         [
+          "Segovia",
+          "Área de Santa María Real de Nieva",
+          "alquiler"
+        ],
+        [
           "Albacete",
           "Campo de Hellín",
+          "alquiler"
+        ],
+        [
+          "Segovia",
+          "Área de Segovia",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "L'Horta Nord",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "La Mesa de Ocaña",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Campo de Borja",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "La Marisma",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "Los Montes de Toledo",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "El Camp de Tùria",
+          "alquiler"
+        ],
+        [
+          "Zamora",
+          "Benavente",
           "alquiler"
         ],
         [
@@ -2130,6 +2750,16 @@
         [
           "Barcelona",
           "Berguedà",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "Área Metropolitana",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "La Sagra",
           "alquiler"
         ],
         [
@@ -2173,6 +2803,11 @@
           "alquiler"
         ],
         [
+          "Salamanca",
+          "Vitigudino",
+          "alquiler"
+        ],
+        [
           "Burgos",
           "Ebro",
           "alquiler"
@@ -2193,14 +2828,34 @@
           "alquiler"
         ],
         [
+          "Vizcaya",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
           "Ávila",
           "*(Toda la provincia)*",
           "alquiler"
         ],
         [
+          "A Coruña",
+          "Noia",
+          "venta"
+        ],
+        [
           "Cáceres",
           "Valle del Alagón",
           "alquiler"
+        ],
+        [
+          "Sevilla",
+          "Aljarafe",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Muros",
+          "venta"
         ],
         [
           "León",
@@ -2215,6 +2870,11 @@
         [
           "Lugo",
           "Chantada",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "Talavera de la Reina",
           "alquiler"
         ],
         [
@@ -2238,6 +2898,11 @@
           "alquiler"
         ],
         [
+          "Vizcaya",
+          "Busturialdea",
+          "alquiler"
+        ],
+        [
           "Burgos",
           "La Bureba",
           "alquiler"
@@ -2245,6 +2910,16 @@
         [
           "Castellón",
           "Plana Alta",
+          "alquiler"
+        ],
+        [
+          "Valladolid",
+          "Tordesillas",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "La Muela-Valdejalón",
           "alquiler"
         ],
         [
@@ -2273,8 +2948,23 @@
           "alquiler"
         ],
         [
+          "Zamora",
+          "Sanabria",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Área de Zaragoza",
+          "alquiler"
+        ],
+        [
           "Cantabria",
           "Besaya",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "Hoya de Buñol",
           "alquiler"
         ],
         [
@@ -2318,6 +3008,11 @@
           "alquiler"
         ],
         [
+          "Teruel",
+          "Área de Teruel",
+          "alquiler"
+        ],
+        [
           "Barcelona",
           "Vallès Oriental",
           "alquiler"
@@ -2341,6 +3036,11 @@
           "Jaén",
           "Sierra sur",
           "alquiler"
+        ],
+        [
+          "A Coruña",
+          "*(Toda la provincia)*",
+          "venta"
         ]
       ],
       "date_record": "04-04-2026",
