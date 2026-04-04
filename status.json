@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-04-04T12:14:35",
+  "timestamp": "2026-04-04T12:16:44",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 10,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 3694,
     "internal_status": "running",
     "is_room_mode": false,
@@ -17,7 +17,7 @@
     "task_mode": null,
     "total_pages": 60,
     "total_properties": 120,
-    "traffic_bytes": 22141527
+    "traffic_bytes": 23304183
   },
   "batch": {
     "total": 52,
@@ -494,9 +494,9 @@
       {
         "name": "Ourense Provincia",
         "status": "active",
-        "properties": 28,
+        "properties": 31,
         "total_properties": 120,
-        "current_page": 6,
+        "current_page": 10,
         "total_pages": 60,
         "started_at": 1775297469.7727787,
         "finished_at": null
