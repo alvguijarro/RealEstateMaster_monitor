@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T16:13:25",
+  "timestamp": "2026-04-04T16:15:34",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 59,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 60,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 7255,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Valencia_venta.xlsx",
-    "properties_count": 1607,
+    "properties_count": 1675,
     "province_name": "Valencia",
     "start_time": 1775310442.0425305,
     "status": "running",
     "task_mode": null,
     "total_pages": 726,
     "total_properties": 21768,
-    "traffic_bytes": 219808961
+    "traffic_bytes": 228811267
   },
   "batch": {
     "total": 52,
@@ -637,9 +637,9 @@
       {
         "name": "Valencia Provincia",
         "status": "active",
-        "properties": 1607,
+        "properties": 1675,
         "total_properties": 21768,
-        "current_page": 59,
+        "current_page": 60,
         "total_pages": 726,
         "started_at": 1775310437.9968588,
         "finished_at": null
