@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T10:05:54",
+  "timestamp": "2026-04-04T10:08:03",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 17,
+    "current_page": 23,
     "current_phase": "4: extracción de detalle",
     "existing_count": 3353,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Lleida_venta.xlsx",
-    "properties_count": 128,
+    "properties_count": 188,
     "province_name": "Lleida",
     "start_time": 1775289494.8217275,
     "status": "running",
     "task_mode": null,
     "total_pages": 114,
     "total_properties": 3395,
-    "traffic_bytes": 44120342
+    "traffic_bytes": 62445265
   },
   "batch": {
     "total": 52,
@@ -403,9 +403,9 @@
       {
         "name": "Lleida Provincia",
         "status": "active",
-        "properties": 128,
+        "properties": 188,
         "total_properties": 3395,
-        "current_page": 17,
+        "current_page": 23,
         "total_pages": 114,
         "started_at": 1775289490.8031363,
         "finished_at": null
@@ -643,7 +643,7 @@
   "trends": {
     "status": "idle",
     "checkpoint": {
-      "completed_count": 1280,
+      "completed_count": 1293,
       "completed_keys": [
         [
           "Ciudad Real",
@@ -1291,8 +1291,18 @@
           "alquiler"
         ],
         [
+          "Zamora",
+          "Área de Zamora",
+          "habitacion"
+        ],
+        [
           "Soria",
           "Burgo de Osma",
+          "habitacion"
+        ],
+        [
+          "Zaragoza",
+          "*(Toda la provincia)*",
           "habitacion"
         ],
         [
@@ -2366,6 +2376,11 @@
           "venta"
         ],
         [
+          "Zaragoza",
+          "Caspe",
+          "habitacion"
+        ],
+        [
           "Ávila",
           "Área de Ávila",
           "venta"
@@ -2793,6 +2808,11 @@
         [
           "A Coruña",
           "O Sar",
+          "habitacion"
+        ],
+        [
+          "Zaragoza",
+          "Ribera Alta del Ebro",
           "habitacion"
         ],
         [
@@ -3751,6 +3771,11 @@
           "venta"
         ],
         [
+          "Cerdanya Francesa",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Guadalajara",
           "Sierra",
           "venta"
@@ -3769,6 +3794,11 @@
           "Madrid",
           "Zona sur",
           "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "La Muela-Valdejalón",
+          "habitacion"
         ],
         [
           "Albacete",
@@ -4129,6 +4159,11 @@
           "Madrid",
           "Corredor del Henares",
           "venta"
+        ],
+        [
+          "Navarra",
+          "Área de Tudela",
+          "habitacion"
         ],
         [
           "Santa Cruz de Tenerife",
@@ -4676,6 +4711,16 @@
           "habitacion"
         ],
         [
+          "Zaragoza",
+          "Campo de Borja",
+          "habitacion"
+        ],
+        [
+          "Madrid",
+          "Zona norte",
+          "venta"
+        ],
+        [
           "Baleares (Illes)",
           "Ibiza",
           "venta"
@@ -4769,6 +4814,11 @@
           "Tarragona",
           "Alt Camp",
           "venta"
+        ],
+        [
+          "Zaragoza",
+          "Ribera Baja del Ebro",
+          "habitacion"
         ],
         [
           "Cáceres",
@@ -4884,6 +4934,11 @@
           "Jaén",
           "La Campiña",
           "venta"
+        ],
+        [
+          "Zaragoza",
+          "Área de Zaragoza",
+          "habitacion"
         ],
         [
           "Jaén",
@@ -5106,6 +5161,11 @@
           "alquiler"
         ],
         [
+          "Zaragoza",
+          "Comunidad de Calatayud",
+          "habitacion"
+        ],
+        [
           "Murcia",
           "La Manga del Mar Menor",
           "venta"
@@ -5239,6 +5299,11 @@
           "Albacete",
           "Campo de Hellín",
           "alquiler"
+        ],
+        [
+          "País Vasco Francés",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "Sevilla",
@@ -7167,11 +7232,11 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 636082.38,
+    "total_traffic_mb": 638286.38,
     "total_cost_usd": 0.2608,
-    "sessions": 663,
+    "sessions": 718,
     "last_entry": {
-      "fecha": "2026-04-03 09:30:16",
+      "fecha": "2026-04-04 09:30:23",
       "provincia": "",
       "propiedades": "",
       "trafico_mb": "",
