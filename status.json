@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T11:42:20",
+  "timestamp": "2026-04-04T11:44:29",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 4,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 251,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Melilla_venta.xlsx",
-    "properties_count": 0,
+    "properties_count": 1,
     "province_name": "Melilla",
     "start_time": 1775295731.8059402,
     "status": "running",
     "task_mode": null,
-    "total_pages": 0,
+    "total_pages": 60,
     "total_properties": 0,
-    "traffic_bytes": 5469
+    "traffic_bytes": 767622
   },
   "batch": {
     "total": 52,
@@ -455,10 +455,10 @@
       {
         "name": "Melilla Melilla",
         "status": "active",
-        "properties": 0,
+        "properties": 1,
         "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
+        "current_page": 3,
+        "total_pages": 60,
         "started_at": 1775295727.7790937,
         "finished_at": null
       },
