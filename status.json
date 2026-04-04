@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T02:20:27",
+  "timestamp": "2026-04-04T02:22:36",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 51,
+    "current_page": 57,
     "current_phase": "4: extracción de detalle",
     "existing_count": 8190,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Alicante_venta.xlsx",
-    "properties_count": 1448,
+    "properties_count": 1586,
     "province_name": "Alicante",
     "start_time": 1775260787.5753286,
     "status": "running",
     "task_mode": null,
     "total_pages": 1603,
     "total_properties": 48073,
-    "traffic_bytes": 144838012
+    "traffic_bytes": 158929823
   },
   "batch": {
     "total": 52,
@@ -65,9 +65,9 @@
       {
         "name": "Alicante",
         "status": "active",
-        "properties": 1448,
+        "properties": 1586,
         "total_properties": 48073,
-        "current_page": 51,
+        "current_page": 57,
         "total_pages": 1603,
         "started_at": 1775260783.5338101,
         "finished_at": null
