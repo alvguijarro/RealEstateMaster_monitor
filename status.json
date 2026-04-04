@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T07:18:51",
+  "timestamp": "2026-04-04T07:21:00",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 3121,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 4472,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Guipúzcoa_venta.xlsx",
-    "properties_count": 12,
-    "province_name": "Guipúzcoa",
-    "start_time": 1775279521.5865395,
+    "output_file": "idealista_Huelva_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "Huelva",
+    "start_time": 1775280020.3246615,
     "status": "running",
     "task_mode": null,
-    "total_pages": 76,
-    "total_properties": 2259,
-    "traffic_bytes": 12220107
+    "total_pages": 126,
+    "total_properties": 3766,
+    "traffic_bytes": 284537
   },
   "batch": {
     "total": 52,
@@ -311,22 +311,25 @@
       },
       {
         "name": "Guipuzcoa",
-        "status": "active",
+        "status": "completed",
         "properties": 12,
         "total_properties": 2259,
         "current_page": 6,
         "total_pages": 76,
         "started_at": 1775279517.5405748,
-        "finished_at": null
+        "finished_at": 1775279999.2620416,
+        "traffic_bytes": 12220107,
+        "existing_count": 3121,
+        "bajas_count": 0
       },
       {
         "name": "Huelva Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
+        "total_properties": 3766,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 126,
+        "started_at": 1775280016.2793233,
         "finished_at": null
       },
       {
@@ -7181,27 +7184,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775279521.5915394,
+        "last_ts": 1775280020.3296604,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775279521.5915394,
+        "last_ts": 1775280020.3296604,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775279521.5915394,
+        "last_ts": 1775280020.3296604,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775279521.5915394,
+        "last_ts": 1775280020.3296604,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775279521.5915394,
+        "last_ts": 1775280020.3296604,
         "last_ip": ""
       }
     },
