@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T15:21:44",
+  "timestamp": "2026-04-04T15:23:53",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 24,
+    "current_page": 30,
     "current_phase": "4: extracción de detalle",
     "existing_count": 4181,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Toledo_venta.xlsx",
-    "properties_count": 281,
+    "properties_count": 372,
     "province_name": "Toledo",
     "start_time": 1775308305.3244188,
     "status": "running",
     "task_mode": null,
     "total_pages": 189,
     "total_properties": 5646,
-    "traffic_bytes": 49247747
+    "traffic_bytes": 60564832
   },
   "batch": {
     "total": 52,
@@ -624,9 +624,9 @@
       {
         "name": "Toledo Provincia",
         "status": "active",
-        "properties": 275,
+        "properties": 366,
         "total_properties": 5646,
-        "current_page": 24,
+        "current_page": 30,
         "total_pages": 189,
         "started_at": 1775308301.3023195,
         "finished_at": null
