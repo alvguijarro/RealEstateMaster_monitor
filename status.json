@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T04:09:59",
+  "timestamp": "2026-04-04T04:12:08",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 6,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 4719,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Burgos_venta.xlsx",
-    "properties_count": 0,
+    "properties_count": 42,
     "province_name": "Burgos",
     "start_time": 1775268518.2793877,
     "status": "running",
     "task_mode": null,
     "total_pages": 123,
     "total_properties": 3661,
-    "traffic_bytes": 1704924
+    "traffic_bytes": 12757692
   },
   "batch": {
     "total": 52,
@@ -156,9 +156,9 @@
       {
         "name": "Burgos Provincia",
         "status": "active",
-        "properties": 0,
+        "properties": 42,
         "total_properties": 3661,
-        "current_page": 0,
+        "current_page": 6,
         "total_pages": 123,
         "started_at": 1775268514.2462862,
         "finished_at": null
