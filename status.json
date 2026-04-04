@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T14:49:30",
+  "timestamp": "2026-04-04T14:51:39",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 21,
+    "current_page": 28,
     "current_phase": "4: extracción de detalle",
     "existing_count": 5135,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Tarragona_venta.xlsx",
-    "properties_count": 480,
+    "properties_count": 490,
     "province_name": "Tarragona",
     "start_time": 1775306386.380281,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
     "total_properties": 30,
-    "traffic_bytes": 81409849
+    "traffic_bytes": 83632447
   },
   "batch": {
     "total": 52,
@@ -598,9 +598,9 @@
       {
         "name": "Tarragona Provincia",
         "status": "active",
-        "properties": 480,
+        "properties": 490,
         "total_properties": 30,
-        "current_page": 21,
+        "current_page": 27,
         "total_pages": 60,
         "started_at": 1775306382.3503299,
         "finished_at": null
