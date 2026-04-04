@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T06:48:47",
+  "timestamp": "2026-04-04T06:50:56",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 5,
+    "current_page": 11,
     "current_phase": "4: extracción de detalle",
     "existing_count": 8101,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Granada_venta.xlsx",
-    "properties_count": 37,
+    "properties_count": 179,
     "province_name": "Granada",
     "start_time": 1775277961.3331473,
     "status": "running",
     "task_mode": null,
     "total_pages": 440,
     "total_properties": 13184,
-    "traffic_bytes": 10203581
+    "traffic_bytes": 26261544
   },
   "batch": {
     "total": 52,
@@ -286,9 +286,9 @@
       {
         "name": "Granada Provincia",
         "status": "active",
-        "properties": 25,
+        "properties": 174,
         "total_properties": 13184,
-        "current_page": 4,
+        "current_page": 11,
         "total_pages": 440,
         "started_at": 1775277957.2896671,
         "finished_at": null
