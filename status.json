@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-04-04T05:33:38",
+  "timestamp": "2026-04-04T05:35:47",
   "scraper": {
     "bajas_count": 0,
     "current_page": 4,
-    "current_phase": "3: Deep Scrape",
+    "current_phase": "4: extracción de detalle",
     "existing_count": 127,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Ceuta_venta.xlsx",
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Ceuta_venta.xlsx",
     "properties_count": 2,
     "province_name": "Ceuta",
     "start_time": 1775273407.2721276,
@@ -17,7 +17,7 @@
     "task_mode": null,
     "total_pages": 3,
     "total_properties": 81,
-    "traffic_bytes": 4593608
+    "traffic_bytes": 5400548
   },
   "batch": {
     "total": 52,
