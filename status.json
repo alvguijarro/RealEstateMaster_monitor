@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T14:08:36",
+  "timestamp": "2026-04-04T14:10:45",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 47,
+    "current_page": 50,
     "current_phase": "4: extracción de detalle",
     "existing_count": 4471,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Sevilla_venta.xlsx",
-    "properties_count": 948,
+    "properties_count": 1012,
     "province_name": "Sevilla",
     "start_time": 1775303358.9395733,
     "status": "running",
     "task_mode": null,
     "total_pages": 332,
     "total_properties": 9940,
-    "traffic_bytes": 123179446
+    "traffic_bytes": 136283234
   },
   "batch": {
     "total": 52,
@@ -572,9 +572,9 @@
       {
         "name": "Sevilla Provincia",
         "status": "active",
-        "properties": 947,
+        "properties": 1009,
         "total_properties": 9940,
-        "current_page": 47,
+        "current_page": 50,
         "total_pages": 332,
         "started_at": 1775303354.9078536,
         "finished_at": null
