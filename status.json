@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T12:27:28",
+  "timestamp": "2026-04-04T12:29:37",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
+    "current_page": 5,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 1996,
+    "existing_count": 3776,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Palencia_venta.xlsx",
-    "properties_count": 1,
-    "province_name": "Palencia",
-    "start_time": 1775298009.7608743,
+    "output_file": "idealista_Pontevedra_venta.xlsx",
+    "properties_count": 60,
+    "province_name": "Pontevedra",
+    "start_time": 1775298478.3921802,
     "status": "running",
     "task_mode": null,
-    "total_pages": 60,
-    "total_properties": 479,
-    "traffic_bytes": 3366183
+    "total_pages": 217,
+    "total_properties": 6496,
+    "traffic_bytes": 13050168
   },
   "batch": {
     "total": 52,
@@ -506,22 +506,25 @@
       },
       {
         "name": "Palencia Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 1,
-        "total_properties": 0,
+        "total_properties": 479,
         "current_page": 6,
         "total_pages": 60,
         "started_at": 1775298005.7286093,
-        "finished_at": null
+        "finished_at": 1775298459.327917,
+        "traffic_bytes": 3366183,
+        "existing_count": 1996,
+        "bajas_count": 0
       },
       {
         "name": "Pontevedra Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 54,
+        "total_properties": 6496,
+        "current_page": 5,
+        "total_pages": 217,
+        "started_at": 1775298474.3425112,
         "finished_at": null
       },
       {
@@ -7226,27 +7229,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775298009.7678742,
+        "last_ts": 1775298478.39818,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775298009.7678742,
+        "last_ts": 1775298478.39818,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775298009.7678742,
+        "last_ts": 1775298478.39818,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775298009.7678742,
+        "last_ts": 1775298478.39818,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775298009.7678742,
+        "last_ts": 1775298478.39818,
         "last_ip": ""
       }
     },
