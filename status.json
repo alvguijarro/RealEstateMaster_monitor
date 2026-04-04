@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T03:29:09",
+  "timestamp": "2026-04-04T03:31:18",
   "scraper": {
     "bajas_count": 0,
     "current_page": 18,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Baleares-Illes_venta.xlsx",
-    "properties_count": 551,
+    "properties_count": 688,
     "province_name": "Baleares (Illes)",
     "start_time": 1775265462.2150242,
     "status": "running",
     "task_mode": null,
     "total_pages": 763,
     "total_properties": 22884,
-    "traffic_bytes": 91424447
+    "traffic_bytes": 104688187
   },
   "batch": {
     "total": 52,
@@ -130,7 +130,7 @@
       {
         "name": "Balears Illes",
         "status": "active",
-        "properties": 551,
+        "properties": 688,
         "total_properties": 22884,
         "current_page": 18,
         "total_pages": 763,
