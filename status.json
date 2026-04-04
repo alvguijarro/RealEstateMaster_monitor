@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T05:59:24",
+  "timestamp": "2026-04-04T06:01:33",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 57,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 60,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 5089,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Ciudad-Real_venta.xlsx",
-    "properties_count": 1653,
+    "properties_count": 1800,
     "province_name": "Ciudad Real",
     "start_time": 1775273774.4260502,
     "status": "running",
     "task_mode": null,
     "total_pages": 177,
     "total_properties": 5281,
-    "traffic_bytes": 195837313
+    "traffic_bytes": 211262056
   },
   "batch": {
     "total": 52,
@@ -234,9 +234,9 @@
       {
         "name": "Ciudad Real Provincia",
         "status": "active",
-        "properties": 1648,
+        "properties": 1800,
         "total_properties": 5281,
-        "current_page": 57,
+        "current_page": 60,
         "total_pages": 177,
         "started_at": 1775273770.391005,
         "finished_at": null
