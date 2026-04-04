@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-05T00:18:02",
+  "timestamp": "2026-04-05T00:20:11",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 9,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 375,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Burgos_alquiler.xlsx",
-    "properties_count": 0,
+    "properties_count": 34,
     "province_name": "Burgos",
     "start_time": 1775341036.4139545,
     "status": "running",
     "task_mode": null,
     "total_pages": 10,
     "total_properties": 271,
-    "traffic_bytes": 2167564
+    "traffic_bytes": 14096516
   },
   "batch": {
     "total": 52,
@@ -156,9 +156,9 @@
       {
         "name": "Burgos Provincia",
         "status": "active",
-        "properties": 0,
+        "properties": 34,
         "total_properties": 271,
-        "current_page": 0,
+        "current_page": 8,
         "total_pages": 10,
         "started_at": 1775341032.3644493,
         "finished_at": null
