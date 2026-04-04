@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T10:57:10",
+  "timestamp": "2026-04-04T10:59:19",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 60,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 2906,
+    "current_page": 3,
+    "current_phase": "3: recolección de URLs",
+    "existing_count": 12747,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Lugo_venta.xlsx",
-    "properties_count": 378,
-    "province_name": "Lugo",
-    "start_time": 1775291324.2421527,
+    "output_file": "idealista_Madrid_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "Madrid",
+    "start_time": 1775293071.068491,
     "status": "running",
     "task_mode": null,
-    "total_pages": 113,
-    "total_properties": 3389,
-    "traffic_bytes": 181053587
+    "total_pages": 60,
+    "total_properties": 0,
+    "traffic_bytes": 216103
   },
   "batch": {
     "total": 52,
@@ -415,22 +415,25 @@
       },
       {
         "name": "Lugo Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 378,
         "total_properties": 3389,
         "current_page": 60,
         "total_pages": 113,
         "started_at": 1775291320.2068963,
-        "finished_at": null
+        "finished_at": 1775293037.957258,
+        "traffic_bytes": 181053587,
+        "existing_count": 2906,
+        "bajas_count": 0
       },
       {
         "name": "Madrid Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 60,
+        "started_at": 1775293067.013632,
         "finished_at": null
       },
       {
@@ -7205,27 +7208,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775291324.2471557,
+        "last_ts": 1775293071.0729928,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775291324.2471557,
+        "last_ts": 1775293071.0729928,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775291324.2471557,
+        "last_ts": 1775293071.0729928,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775291324.2471557,
+        "last_ts": 1775293071.0729928,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775291324.2471557,
+        "last_ts": 1775293071.0729928,
         "last_ip": ""
       }
     },
