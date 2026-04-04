@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T06:10:08",
+  "timestamp": "2026-04-04T06:12:17",
   "scraper": {
     "bajas_count": 0,
     "current_page": 15,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Córdoba_venta.xlsx",
-    "properties_count": 55,
+    "properties_count": 93,
     "province_name": "Córdoba",
     "start_time": 1775275375.049948,
     "status": "running",
     "task_mode": null,
     "total_pages": 218,
     "total_properties": 6536,
-    "traffic_bytes": 32182719
+    "traffic_bytes": 44908635
   },
   "batch": {
     "total": 52,
@@ -247,7 +247,7 @@
       {
         "name": "Cordoba Provincia",
         "status": "active",
-        "properties": 55,
+        "properties": 93,
         "total_properties": 6536,
         "current_page": 15,
         "total_pages": 218,
