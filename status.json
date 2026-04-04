@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T02:46:14",
+  "timestamp": "2026-04-04T02:48:23",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 10,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 8078,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 8153,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Almería_venta.xlsx",
-    "properties_count": 361,
-    "province_name": "Almería",
-    "start_time": 1775262705.4535558,
+    "output_file": "idealista_Asturias_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "Asturias",
+    "start_time": 1775263625.8862906,
     "status": "running",
     "task_mode": null,
-    "total_pages": 300,
-    "total_properties": 8973,
-    "traffic_bytes": 77812764
+    "total_pages": 264,
+    "total_properties": 7915,
+    "traffic_bytes": 1548312
   },
   "batch": {
     "total": 52,
@@ -77,22 +77,25 @@
       },
       {
         "name": "Almeria Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 361,
         "total_properties": 8973,
         "current_page": 10,
         "total_pages": 300,
         "started_at": 1775262701.409062,
-        "finished_at": null
+        "finished_at": 1775263604.8172553,
+        "traffic_bytes": 77812764,
+        "existing_count": 8078,
+        "bajas_count": 0
       },
       {
         "name": "Asturias",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
+        "total_properties": 7915,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 264,
+        "started_at": 1775263621.8416555,
         "finished_at": null
       },
       {
@@ -7127,27 +7130,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775262705.458556,
+        "last_ts": 1775263625.891289,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775262705.458556,
+        "last_ts": 1775263625.891289,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775262705.458556,
+        "last_ts": 1775263625.891289,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775262705.458556,
+        "last_ts": 1775263625.891289,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775262705.458556,
+        "last_ts": 1775263625.891289,
         "last_ip": ""
       }
     },
