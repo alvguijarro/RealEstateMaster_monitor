@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T08:12:32",
+  "timestamp": "2026-04-04T08:14:42",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 12,
+    "current_page": 16,
     "current_phase": "4: extracción de detalle",
     "existing_count": 3325,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_La-Rioja_venta.xlsx",
-    "properties_count": 299,
+    "properties_count": 450,
     "province_name": "La Rioja",
     "start_time": 1775282910.3338244,
     "status": "running",
     "task_mode": null,
     "total_pages": 113,
     "total_properties": 3373,
-    "traffic_bytes": 39224200
+    "traffic_bytes": 52200169
   },
   "batch": {
     "total": 52,
@@ -364,9 +364,9 @@
       {
         "name": "La Rioja",
         "status": "active",
-        "properties": 299,
+        "properties": 450,
         "total_properties": 3373,
-        "current_page": 11,
+        "current_page": 16,
         "total_pages": 113,
         "started_at": 1775282906.2927651,
         "finished_at": null
