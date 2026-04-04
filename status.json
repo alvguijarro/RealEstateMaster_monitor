@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T07:59:39",
+  "timestamp": "2026-04-04T08:01:48",
   "scraper": {
     "bajas_count": 0,
     "current_page": 8,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Jaén_venta.xlsx",
-    "properties_count": 202,
+    "properties_count": 268,
     "province_name": "Jaén",
     "start_time": 1775281422.4994454,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
     "total_properties": 751,
-    "traffic_bytes": 45231945
+    "traffic_bytes": 53503902
   },
   "batch": {
     "total": 52,
@@ -351,7 +351,7 @@
       {
         "name": "Jaen Provincia",
         "status": "active",
-        "properties": 196,
+        "properties": 261,
         "total_properties": 751,
         "current_page": 8,
         "total_pages": 60,
