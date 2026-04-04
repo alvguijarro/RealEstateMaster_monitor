@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T12:53:17",
+  "timestamp": "2026-04-04T12:55:25",
   "scraper": {
     "bajas_count": 0,
     "current_page": 60,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Pontevedra_venta.xlsx",
-    "properties_count": 1179,
+    "properties_count": 1217,
     "province_name": "Pontevedra",
     "start_time": 1775298478.3921802,
     "status": "running",
     "task_mode": null,
     "total_pages": 217,
     "total_properties": 6496,
-    "traffic_bytes": 164564417
+    "traffic_bytes": 177973289
   },
   "batch": {
     "total": 52,
@@ -520,7 +520,7 @@
       {
         "name": "Pontevedra Provincia",
         "status": "active",
-        "properties": 1179,
+        "properties": 1217,
         "total_properties": 6496,
         "current_page": 60,
         "total_pages": 217,
