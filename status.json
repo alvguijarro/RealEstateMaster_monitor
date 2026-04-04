@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T03:09:50",
+  "timestamp": "2026-04-04T03:11:59",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
+    "current_page": 13,
     "current_phase": "4: extracción de detalle",
     "existing_count": 4553,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Badajoz_venta.xlsx",
-    "properties_count": 35,
+    "properties_count": 38,
     "province_name": "Badajoz",
     "start_time": 1775264858.2024133,
     "status": "running",
     "task_mode": null,
     "total_pages": 124,
     "total_properties": 3706,
-    "traffic_bytes": 14081497
+    "traffic_bytes": 16862933
   },
   "batch": {
     "total": 52,
@@ -117,9 +117,9 @@
       {
         "name": "Badajoz Provincia",
         "status": "active",
-        "properties": 34,
+        "properties": 38,
         "total_properties": 3706,
-        "current_page": 6,
+        "current_page": 13,
         "total_pages": 124,
         "started_at": 1775264854.1660776,
         "finished_at": null
