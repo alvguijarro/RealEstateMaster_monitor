@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T04:18:34",
+  "timestamp": "2026-04-04T04:20:43",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 6,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 4949,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Cáceres_venta.xlsx",
-    "properties_count": 1,
+    "properties_count": 28,
     "province_name": "Cáceres",
     "start_time": 1775269046.033962,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
-    "total_properties": 0,
-    "traffic_bytes": 1173990
+    "total_properties": 120,
+    "traffic_bytes": 11197275
   },
   "batch": {
     "total": 52,
@@ -169,9 +169,9 @@
       {
         "name": "Caceres Provincia",
         "status": "active",
-        "properties": 1,
-        "total_properties": 0,
-        "current_page": 0,
+        "properties": 28,
+        "total_properties": 120,
+        "current_page": 6,
         "total_pages": 60,
         "started_at": 1775269042.0014682,
         "finished_at": null
