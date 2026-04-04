@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T23:19:51",
+  "timestamp": "2026-04-04T23:22:00",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 11,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 865,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Badajoz_alquiler.xlsx",
-    "properties_count": 30,
+    "properties_count": 31,
     "province_name": "Badajoz",
     "start_time": 1775337444.7177973,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
     "total_properties": 90,
-    "traffic_bytes": 8379080
+    "traffic_bytes": 9744209
   },
   "batch": {
     "total": 52,
@@ -117,9 +117,9 @@
       {
         "name": "Badajoz Provincia",
         "status": "active",
-        "properties": 30,
+        "properties": 31,
         "total_properties": 90,
-        "current_page": 6,
+        "current_page": 11,
         "total_pages": 60,
         "started_at": 1775337440.6773102,
         "finished_at": null
