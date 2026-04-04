@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T06:23:00",
+  "timestamp": "2026-04-04T06:25:09",
   "scraper": {
     "bajas_count": 0,
     "current_page": 6,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Cuenca_venta.xlsx",
-    "properties_count": 7,
+    "properties_count": 8,
     "province_name": "Cuenca",
     "start_time": 1775276280.172064,
     "status": "running",
     "task_mode": null,
     "total_pages": 57,
     "total_properties": 1690,
-    "traffic_bytes": 7365544
+    "traffic_bytes": 8149312
   },
   "batch": {
     "total": 52,
@@ -260,7 +260,7 @@
       {
         "name": "Cuenca Provincia",
         "status": "active",
-        "properties": 7,
+        "properties": 8,
         "total_properties": 1690,
         "current_page": 6,
         "total_pages": 57,
