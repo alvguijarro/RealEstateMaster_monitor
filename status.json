@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-04-04T08:49:04",
+  "timestamp": "2026-04-04T08:51:13",
   "scraper": {
-    "bajas_count": 0,
+    "bajas_count": 196,
     "current_page": 60,
-    "current_phase": "5: enrichment",
+    "current_phase": "4: extracción de detalle",
     "existing_count": 3325,
-    "internal_status": "running",
+    "internal_status": "completed",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
@@ -17,7 +17,7 @@
     "task_mode": null,
     "total_pages": 113,
     "total_properties": 3373,
-    "traffic_bytes": 329167435
+    "traffic_bytes": 334858984
   },
   "batch": {
     "total": 52,
@@ -363,22 +363,25 @@
       },
       {
         "name": "La Rioja",
-        "status": "active",
+        "status": "completed",
         "properties": 1898,
         "total_properties": 3373,
         "current_page": 60,
         "total_pages": 113,
         "started_at": 1775282906.2927651,
-        "finished_at": null
+        "finished_at": 1775285446.182555,
+        "traffic_bytes": 334858984,
+        "existing_count": 3325,
+        "bajas_count": 196
       },
       {
         "name": "Las Palmas",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775285472.2033527,
         "finished_at": null
       },
       {
@@ -7193,27 +7196,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775282910.3398244,
+        "last_ts": 1775285476.2558038,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775282910.3398244,
+        "last_ts": 1775285476.2558038,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775282910.3398244,
+        "last_ts": 1775285476.2558038,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775282910.3398244,
+        "last_ts": 1775285476.2558038,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775282910.3398244,
+        "last_ts": 1775285476.2558038,
         "last_ip": ""
       }
     },
