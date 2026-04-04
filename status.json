@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T09:21:29",
+  "timestamp": "2026-04-04T09:23:38",
   "scraper": {
     "bajas_count": 0,
     "current_page": 60,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Las-Palmas_venta.xlsx",
-    "properties_count": 2032,
+    "properties_count": 2194,
     "province_name": "Las Palmas",
     "start_time": 1775285476.2482967,
     "status": "running",
     "task_mode": null,
     "total_pages": 218,
     "total_properties": 6537,
-    "traffic_bytes": 267607202
+    "traffic_bytes": 282695654
   },
   "batch": {
     "total": 52,
@@ -377,7 +377,7 @@
       {
         "name": "Las Palmas",
         "status": "active",
-        "properties": 2032,
+        "properties": 2192,
         "total_properties": 6537,
         "current_page": 60,
         "total_pages": 218,
