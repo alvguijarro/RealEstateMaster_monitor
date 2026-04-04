@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T08:34:02",
+  "timestamp": "2026-04-04T08:36:12",
   "scraper": {
     "bajas_count": 0,
     "current_page": 60,
-    "current_phase": "3: Deep Scrape",
+    "current_phase": "5: enrichment",
     "existing_count": 3325,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_La-Rioja_venta.xlsx",
-    "properties_count": 1839,
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_La-Rioja_venta.xlsx",
+    "properties_count": 1898,
     "province_name": "La Rioja",
     "start_time": 1775282910.3338244,
     "status": "running",
     "task_mode": null,
     "total_pages": 113,
     "total_properties": 3373,
-    "traffic_bytes": 222317785
+    "traffic_bytes": 231415479
   },
   "batch": {
     "total": 52,
@@ -364,7 +364,7 @@
       {
         "name": "La Rioja",
         "status": "active",
-        "properties": 1839,
+        "properties": 1898,
         "total_properties": 3373,
         "current_page": 60,
         "total_pages": 113,
