@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T11:35:53",
+  "timestamp": "2026-04-04T11:38:02",
   "scraper": {
     "bajas_count": 0,
     "current_page": 17,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Málaga_venta.xlsx",
-    "properties_count": 237,
+    "properties_count": 247,
     "province_name": "Málaga",
     "start_time": 1775294735.2437677,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
     "total_properties": 90,
-    "traffic_bytes": 58402451
+    "traffic_bytes": 67584585
   },
   "batch": {
     "total": 52,
@@ -442,7 +442,7 @@
       {
         "name": "Malaga Provincia",
         "status": "active",
-        "properties": 237,
+        "properties": 247,
         "total_properties": 90,
         "current_page": 17,
         "total_pages": 60,
