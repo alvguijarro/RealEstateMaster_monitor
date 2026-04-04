@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T12:10:16",
+  "timestamp": "2026-04-04T12:12:25",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 10,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 3223,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 3694,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Navarra_venta.xlsx",
-    "properties_count": 11,
-    "province_name": "Navarra",
-    "start_time": 1775296999.2037282,
+    "output_file": "idealista_Ourense_venta.xlsx",
+    "properties_count": 6,
+    "province_name": "Ourense",
+    "start_time": 1775297473.819071,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
     "total_properties": 0,
-    "traffic_bytes": 10047343
+    "traffic_bytes": 4165455
   },
   "batch": {
     "total": 52,
@@ -480,22 +480,25 @@
       },
       {
         "name": "Navarra",
-        "status": "active",
+        "status": "completed",
         "properties": 11,
-        "total_properties": 0,
+        "total_properties": 473,
         "current_page": 10,
         "total_pages": 60,
         "started_at": 1775296995.172232,
-        "finished_at": null
+        "finished_at": 1775297434.7457843,
+        "traffic_bytes": 10047343,
+        "existing_count": 3223,
+        "bajas_count": 0
       },
       {
         "name": "Ourense Provincia",
-        "status": "pending",
-        "properties": 0,
+        "status": "active",
+        "properties": 4,
         "total_properties": 0,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 60,
+        "started_at": 1775297469.7727787,
         "finished_at": null
       },
       {
@@ -7220,27 +7223,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775296999.2107282,
+        "last_ts": 1775297473.824229,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775296999.2107282,
+        "last_ts": 1775297473.824229,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775296999.2107282,
+        "last_ts": 1775297473.824229,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775296999.2107282,
+        "last_ts": 1775297473.824229,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775296999.2107282,
+        "last_ts": 1775297473.824229,
         "last_ip": ""
       }
     },
