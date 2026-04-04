@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T09:53:00",
+  "timestamp": "2026-04-04T09:55:09",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 59,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 60,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 3644,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_León_venta.xlsx",
-    "properties_count": 595,
+    "properties_count": 616,
     "province_name": "León",
     "start_time": 1775287623.328245,
     "status": "running",
     "task_mode": null,
     "total_pages": 155,
     "total_properties": 4633,
-    "traffic_bytes": 142195336
+    "traffic_bytes": 151279839
   },
   "batch": {
     "total": 52,
@@ -390,9 +390,9 @@
       {
         "name": "Leon Provincia",
         "status": "active",
-        "properties": 595,
+        "properties": 616,
         "total_properties": 4633,
-        "current_page": 59,
+        "current_page": 60,
         "total_pages": 155,
         "started_at": 1775287619.047253,
         "finished_at": null
