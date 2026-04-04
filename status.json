@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T09:25:47",
+  "timestamp": "2026-04-04T09:27:57",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 60,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 4934,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 3644,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Las-Palmas_venta.xlsx",
-    "properties_count": 2301,
-    "province_name": "Las Palmas",
-    "start_time": 1775285476.2482967,
+    "output_file": "idealista_León_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "León",
+    "start_time": 1775287623.328245,
     "status": "running",
     "task_mode": null,
-    "total_pages": 218,
-    "total_properties": 6537,
-    "traffic_bytes": 292586623
+    "total_pages": 155,
+    "total_properties": 4633,
+    "traffic_bytes": 260885
   },
   "batch": {
     "total": 52,
@@ -376,22 +376,25 @@
       },
       {
         "name": "Las Palmas",
-        "status": "active",
+        "status": "completed",
         "properties": 2301,
         "total_properties": 6537,
         "current_page": 60,
         "total_pages": 218,
         "started_at": 1775285472.2033527,
-        "finished_at": null
+        "finished_at": 1775287599.0095394,
+        "traffic_bytes": 292586623,
+        "existing_count": 4934,
+        "bajas_count": 0
       },
       {
         "name": "Leon Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
+        "total_properties": 4633,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 155,
+        "started_at": 1775287619.047253,
         "finished_at": null
       },
       {
@@ -7196,27 +7199,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775285476.2558038,
+        "last_ts": 1775287623.335245,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775285476.2558038,
+        "last_ts": 1775287623.335245,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775285476.2558038,
+        "last_ts": 1775287623.335245,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775285476.2558038,
+        "last_ts": 1775287623.335245,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775285476.2558038,
+        "last_ts": 1775287623.335245,
         "last_ip": ""
       }
     },
