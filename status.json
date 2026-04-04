@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T04:46:26",
+  "timestamp": "2026-04-04T04:48:35",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 5,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 8,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 6858,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Cantabria_venta.xlsx",
-    "properties_count": 63,
+    "properties_count": 67,
     "province_name": "Cantabria",
     "start_time": 1775270669.8128803,
     "status": "running",
     "task_mode": null,
     "total_pages": 213,
     "total_properties": 6365,
-    "traffic_bytes": 19075356
+    "traffic_bytes": 21021226
   },
   "batch": {
     "total": 52,
@@ -195,9 +195,9 @@
       {
         "name": "Cantabria",
         "status": "active",
-        "properties": 61,
+        "properties": 67,
         "total_properties": 6365,
-        "current_page": 5,
+        "current_page": 8,
         "total_pages": 213,
         "started_at": 1775270665.7710965,
         "finished_at": null
