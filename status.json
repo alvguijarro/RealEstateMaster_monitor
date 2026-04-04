@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T16:33:04",
+  "timestamp": "2026-04-04T16:35:13",
   "scraper": {
     "bajas_count": 0,
     "current_page": 6,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Vizcaya_venta.xlsx",
-    "properties_count": 19,
+    "properties_count": 20,
     "province_name": "Vizcaya",
     "start_time": 1775312765.3597074,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
     "total_properties": 0,
-    "traffic_bytes": 19380179
+    "traffic_bytes": 20300932
   },
   "batch": {
     "total": 52,
@@ -663,7 +663,7 @@
       {
         "name": "Vizcaya",
         "status": "active",
-        "properties": 19,
+        "properties": 20,
         "total_properties": 0,
         "current_page": 6,
         "total_pages": 60,
