@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T04:25:00",
+  "timestamp": "2026-04-04T04:27:09",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 9,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 4949,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 7774,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Cáceres_venta.xlsx",
-    "properties_count": 28,
-    "province_name": "Cáceres",
-    "start_time": 1775269046.033962,
+    "output_file": "idealista_Cádiz_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "Cádiz",
+    "start_time": 1775269578.7996535,
     "status": "running",
     "task_mode": null,
-    "total_pages": 60,
-    "total_properties": 120,
-    "traffic_bytes": 12756503
+    "total_pages": 343,
+    "total_properties": 10281,
+    "traffic_bytes": 1800045
   },
   "batch": {
     "total": 52,
@@ -168,22 +168,25 @@
       },
       {
         "name": "Caceres Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 28,
         "total_properties": 120,
         "current_page": 9,
         "total_pages": 60,
         "started_at": 1775269042.0014682,
-        "finished_at": null
+        "finished_at": 1775269551.7478502,
+        "traffic_bytes": 12756503,
+        "existing_count": 4949,
+        "bajas_count": 0
       },
       {
         "name": "Cadiz Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
+        "total_properties": 10281,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 343,
+        "started_at": 1775269574.7663274,
         "finished_at": null
       },
       {
@@ -7148,27 +7151,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775269046.039962,
+        "last_ts": 1775269578.8046558,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775269046.039962,
+        "last_ts": 1775269578.8046558,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775269046.039962,
+        "last_ts": 1775269578.8046558,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775269046.039962,
+        "last_ts": 1775269578.8046558,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775269046.039962,
+        "last_ts": 1775269578.8046558,
         "last_ip": ""
       }
     },
