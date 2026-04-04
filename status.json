@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T12:03:49",
+  "timestamp": "2026-04-04T12:05:58",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 7,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 3223,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Navarra_venta.xlsx",
-    "properties_count": 0,
+    "properties_count": 11,
     "province_name": "Navarra",
     "start_time": 1775296999.2037282,
     "status": "running",
     "task_mode": null,
-    "total_pages": 0,
+    "total_pages": 60,
     "total_properties": 0,
-    "traffic_bytes": 5453
+    "traffic_bytes": 8395160
   },
   "batch": {
     "total": 52,
@@ -481,10 +481,10 @@
       {
         "name": "Navarra",
         "status": "active",
-        "properties": 0,
+        "properties": 11,
         "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
+        "current_page": 7,
+        "total_pages": 60,
         "started_at": 1775296995.172232,
         "finished_at": null
       },
