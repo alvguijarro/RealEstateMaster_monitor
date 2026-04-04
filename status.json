@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T01:58:57",
+  "timestamp": "2026-04-04T02:01:06",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 3822,
+    "current_page": 3,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 8190,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Albacete_venta.xlsx",
-    "properties_count": 22,
-    "province_name": "Albacete",
-    "start_time": 1775260188.4582825,
+    "output_file": "idealista_Alicante_venta.xlsx",
+    "properties_count": 5,
+    "province_name": "Alicante",
+    "start_time": 1775260787.5753286,
     "status": "running",
     "task_mode": null,
-    "total_pages": 113,
-    "total_properties": 3389,
-    "traffic_bytes": 15503113
+    "total_pages": 1603,
+    "total_properties": 48073,
+    "traffic_bytes": 3644089
   },
   "batch": {
     "total": 52,
@@ -51,22 +51,25 @@
       },
       {
         "name": "Albacete Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 22,
         "total_properties": 3389,
         "current_page": 6,
         "total_pages": 113,
         "started_at": 1775260184.433248,
-        "finished_at": null
+        "finished_at": 1775260764.516466,
+        "traffic_bytes": 15504877,
+        "existing_count": 3822,
+        "bajas_count": 0
       },
       {
         "name": "Alicante",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 3,
+        "total_properties": 48073,
+        "current_page": 3,
+        "total_pages": 1603,
+        "started_at": 1775260783.5338101,
         "finished_at": null
       },
       {
@@ -7121,27 +7124,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775260188.4632819,
+        "last_ts": 1775260787.5813727,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775260188.4632819,
+        "last_ts": 1775260787.5813727,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775260188.4632819,
+        "last_ts": 1775260787.5813727,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775260188.4632819,
+        "last_ts": 1775260787.5813727,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775260188.4632819,
+        "last_ts": 1775260787.5813727,
         "last_ip": ""
       }
     },
