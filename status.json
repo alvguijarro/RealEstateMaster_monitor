@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T09:50:39",
+  "timestamp": "2026-04-04T09:53:00",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 57,
+    "current_page": 59,
     "current_phase": "4: extracción de detalle",
     "existing_count": 3644,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_León_venta.xlsx",
-    "properties_count": 570,
+    "properties_count": 595,
     "province_name": "León",
     "start_time": 1775287623.328245,
     "status": "running",
     "task_mode": null,
     "total_pages": 155,
     "total_properties": 4633,
-    "traffic_bytes": 126673056
+    "traffic_bytes": 142195336
   },
   "batch": {
     "total": 52,
@@ -390,9 +390,9 @@
       {
         "name": "Leon Provincia",
         "status": "active",
-        "properties": 562,
+        "properties": 595,
         "total_properties": 4633,
-        "current_page": 56,
+        "current_page": 59,
         "total_pages": 155,
         "started_at": 1775287619.047253,
         "finished_at": null
@@ -640,13 +640,8 @@
   "trends": {
     "status": "idle",
     "checkpoint": {
-      "completed_count": 1160,
+      "completed_count": 1280,
       "completed_keys": [
-        [
-          "Valencia",
-          "Valencia",
-          "alquiler"
-        ],
         [
           "Ciudad Real",
           "Alcudia",
@@ -655,31 +650,6 @@
         [
           "Santa Cruz de Tenerife",
           "Tenerife",
-          "venta"
-        ],
-        [
-          "Sevilla",
-          "Área Metropolitana",
-          "venta"
-        ],
-        [
-          "Álava",
-          "Laguardia-Rioja Alavesa",
-          "venta"
-        ],
-        [
-          "Cantabria",
-          "Área de Santander",
-          "habitacion"
-        ],
-        [
-          "Asturias",
-          "Área de Avilés",
-          "alquiler"
-        ],
-        [
-          "Burgos",
-          "Odra-Paramos",
           "venta"
         ],
         [
@@ -694,52 +664,7 @@
         ],
         [
           "Castellón",
-          "Alto Mijares",
-          "habitacion"
-        ],
-        [
-          "Pontevedra",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Soria",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Teruel",
-          "Bajo Aragón",
-          "alquiler"
-        ],
-        [
-          "Castellón",
           "Alt Maestrat",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Segarra",
-          "alquiler"
-        ],
-        [
-          "Valladolid",
-          "Área Metropolitana Valladolid",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Área de Ferrol",
-          "venta"
-        ],
-        [
-          "Almería",
-          "Los Vélez",
-          "habitacion"
-        ],
-        [
-          "Las Palmas",
-          "Fuerteventura",
           "venta"
         ],
         [
@@ -748,99 +673,24 @@
           "habitacion"
         ],
         [
-          "Alicante",
-          "L'Alacantí",
-          "alquiler"
-        ],
-        [
-          "Almería",
-          "Los Vélez",
-          "alquiler"
-        ],
-        [
-          "Cantabria",
-          "Área de San Vicente de la Barquera",
-          "alquiler"
-        ],
-        [
-          "Toledo",
+          "Tarragona",
           "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Albacete",
-          "La Manchuela",
           "habitacion"
         ],
         [
           "Cantabria",
-          "Costa Oriental",
-          "venta"
-        ],
-        [
-          "Madrid",
-          "Madrid",
-          "venta"
-        ],
-        [
-          "Cantabria",
           "*(Toda la provincia)*",
           "alquiler"
-        ],
-        [
-          "Valladolid",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "Moianès",
-          "venta"
-        ],
-        [
-          "Huesca",
-          "Sobrarbe",
-          "venta"
         ],
         [
           "Albacete",
           "La Manchuela",
           "alquiler"
-        ],
-        [
-          "Navarra",
-          "Área de Estella y Urbasa",
-          "venta"
         ],
         [
           "Ciudad Real",
           "Calatrava",
           "venta"
-        ],
-        [
-          "Almería",
-          "Campo de Tabernas",
-          "alquiler"
-        ],
-        [
-          "Lleida",
-          "Alt Urgell",
-          "habitacion"
-        ],
-        [
-          "Jaén",
-          "Jaén",
-          "habitacion"
-        ],
-        [
-          "Madrid",
-          "Corredor del Henares",
-          "habitacion"
-        ],
-        [
-          "Huesca",
-          "Hoya de Huesca",
-          "habitacion"
         ],
         [
           "Barcelona",
@@ -853,44 +703,14 @@
           "venta"
         ],
         [
-          "Segovia",
-          "Área de Riaza",
-          "alquiler"
-        ],
-        [
-          "Valencia",
-          "Camp de Morvedre",
-          "venta"
-        ],
-        [
-          "Navarra",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
           "Barcelona",
           "Alt Penedès",
           "alquiler"
         ],
         [
-          "Murcia",
-          "Noroeste",
-          "alquiler"
-        ],
-        [
           "Valencia",
-          "Los Serranos",
-          "alquiler"
-        ],
-        [
-          "Teruel",
-          "Cuencas Mineras- Andorra-Bajo Martín",
-          "venta"
-        ],
-        [
-          "Málaga",
-          "Área de Antequera",
-          "venta"
+          "La Canal de Navarrés",
+          "habitacion"
         ],
         [
           "Albacete",
@@ -903,39 +723,14 @@
           "venta"
         ],
         [
-          "Murcia",
-          "Altiplano-Oriental",
-          "alquiler"
-        ],
-        [
-          "Guadalajara",
-          "Alcarria Alta",
-          "venta"
-        ],
-        [
-          "Murcia",
-          "Campo de Cartagena",
-          "venta"
-        ],
-        [
-          "Álava",
-          "Vitoria-Gasteiz",
+          "Tarragona",
+          "Montsià",
           "habitacion"
         ],
         [
           "Ciudad Real",
           "*(Toda la provincia)*",
           "venta"
-        ],
-        [
-          "Asturias",
-          "Narcea",
-          "alquiler"
-        ],
-        [
-          "Vizcaya",
-          "Arratia-Nervión",
-          "alquiler"
         ],
         [
           "Cuenca",
@@ -948,49 +743,9 @@
           "habitacion"
         ],
         [
-          "Burgos",
-          "Demanda",
-          "alquiler"
-        ],
-        [
-          "Valencia",
-          "El Valle de Ayora",
-          "alquiler"
-        ],
-        [
-          "Tarragona",
-          "Montsià",
-          "alquiler"
-        ],
-        [
           "Zamora",
           "Aliste",
           "alquiler"
-        ],
-        [
-          "Zaragoza",
-          "Campo de Daroca",
-          "alquiler"
-        ],
-        [
-          "Lugo",
-          "A Mariña",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Garraf",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Pallars Jussà",
-          "venta"
-        ],
-        [
-          "Girona",
-          "La Cerdanya",
-          "venta"
         ],
         [
           "Lugo",
@@ -1008,33 +763,13 @@
           "venta"
         ],
         [
-          "Girona",
-          "Gironès",
-          "venta"
-        ],
-        [
-          "León",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
           "Asturias",
           "Área de Gijón",
           "alquiler"
         ],
         [
-          "Ávila",
-          "Área de Ávila",
-          "venta"
-        ],
-        [
           "Granada",
           "Costa Tropical",
-          "venta"
-        ],
-        [
-          "Valladolid",
-          "Tierra de Medina",
           "venta"
         ],
         [
@@ -1043,64 +778,9 @@
           "alquiler"
         ],
         [
-          "Girona",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Córdoba",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
           "Lleida",
           "Solsonès",
           "venta"
-        ],
-        [
-          "Alicante",
-          "L'Alcoià",
-          "habitacion"
-        ],
-        [
-          "Albacete",
-          "Sierra de Alcaraz-Segura",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Alta Ribagorça",
-          "venta"
-        ],
-        [
-          "Zamora",
-          "Alfoz de Toro",
-          "venta"
-        ],
-        [
-          "Lugo",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "A Coruña",
-          "Ordes",
-          "habitacion"
-        ],
-        [
-          "Valencia",
-          "La Plana d'Utiel",
-          "alquiler"
-        ],
-        [
-          "Huelva",
-          "El Condado",
-          "habitacion"
-        ],
-        [
-          "Ciudad Real",
-          "Los Montes",
-          "habitacion"
         ],
         [
           "Valencia",
@@ -1113,24 +793,14 @@
           "venta"
         ],
         [
-          "A Coruña",
-          "Noia",
-          "habitacion"
-        ],
-        [
           "Ciudad Real",
           "La Mancha",
           "habitacion"
         ],
         [
-          "Huelva",
-          "El Condado",
-          "alquiler"
-        ],
-        [
-          "Palencia",
+          "Ourense",
           "*(Toda la provincia)*",
-          "venta"
+          "habitacion"
         ],
         [
           "Sevilla",
@@ -1139,47 +809,12 @@
         ],
         [
           "Asturias",
-          "Área de Oviedo",
-          "habitacion"
-        ],
-        [
-          "Baleares (Illes)",
-          "Menorca",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Barcelonès",
-          "alquiler"
-        ],
-        [
-          "Zaragoza",
-          "Campo de Belchite",
-          "alquiler"
-        ],
-        [
-          "Ciudad Real",
-          "La Mancha",
-          "alquiler"
-        ],
-        [
-          "Ourense",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Asturias",
           "Caudal",
           "venta"
         ],
         [
-          "Sevilla",
-          "La Vega",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Muros",
+          "Girona",
+          "Alt Empordà",
           "habitacion"
         ],
         [
@@ -1188,63 +823,8 @@
           "alquiler"
         ],
         [
-          "Girona",
-          "Alt Empordà",
-          "habitacion"
-        ],
-        [
           "Las Palmas",
           "Lanzarote",
-          "venta"
-        ],
-        [
-          "Vizcaya",
-          "Duranguesado",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "Osona",
-          "alquiler"
-        ],
-        [
-          "A Coruña",
-          "Muros",
-          "alquiler"
-        ],
-        [
-          "Girona",
-          "Alt Empordà",
-          "alquiler"
-        ],
-        [
-          "Almería",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Huesca",
-          "La Jacetania",
-          "habitacion"
-        ],
-        [
-          "Cáceres",
-          "Sierra de Gata",
-          "venta"
-        ],
-        [
-          "Zaragoza",
-          "Monegros",
-          "venta"
-        ],
-        [
-          "Huesca",
-          "La Jacetania",
-          "alquiler"
-        ],
-        [
-          "Teruel",
-          "Matarraña",
           "venta"
         ],
         [
@@ -1253,88 +833,13 @@
           "alquiler"
         ],
         [
-          "Alicante",
-          "Marina Alta",
-          "habitacion"
-        ],
-        [
-          "Zaragoza",
-          "Comunidad de Calatayud",
-          "alquiler"
-        ],
-        [
-          "Almería",
-          "Área de Almería",
-          "habitacion"
-        ],
-        [
-          "Zaragoza",
-          "Hoya de Huesca",
-          "alquiler"
-        ],
-        [
-          "Málaga",
-          "Costa del Sol Occidental-Área de Marbella",
-          "alquiler"
-        ],
-        [
-          "Teruel",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Terra de Soneira",
-          "habitacion"
-        ],
-        [
           "Tarragona",
           "Baix Camp",
-          "alquiler"
+          "habitacion"
         ],
         [
           "Alicante",
           "Comtat",
-          "venta"
-        ],
-        [
-          "Sevilla",
-          "Sevilla",
-          "alquiler"
-        ],
-        [
-          "Almería",
-          "Área de Almería",
-          "alquiler"
-        ],
-        [
-          "Sevilla",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Guadalajara",
-          "Sierra",
-          "alquiler"
-        ],
-        [
-          "Huesca",
-          "La Litera",
-          "venta"
-        ],
-        [
-          "Málaga",
-          "Valle de Guadalhorce",
-          "venta"
-        ],
-        [
-          "Murcia",
-          "Área de Murcia",
-          "venta"
-        ],
-        [
-          "Pontevedra",
-          "Área de Pontevedra",
           "venta"
         ],
         [
@@ -1343,24 +848,14 @@
           "habitacion"
         ],
         [
+          "Almería",
+          "Área de Almería",
+          "alquiler"
+        ],
+        [
           "Murcia",
           "Alto Guadalentín",
           "venta"
-        ],
-        [
-          "Asturias",
-          "Eo-Navia",
-          "venta"
-        ],
-        [
-          "Córdoba",
-          "Los Pedroches",
-          "venta"
-        ],
-        [
-          "Ourense",
-          "Valdeorras",
-          "alquiler"
         ],
         [
           "Albacete",
@@ -1368,29 +863,9 @@
           "habitacion"
         ],
         [
-          "Córdoba",
-          "La Subbética",
-          "alquiler"
-        ],
-        [
-          "Madrid",
-          "Zona noroeste",
-          "venta"
-        ],
-        [
-          "Huesca",
-          "Alto Gállego",
-          "venta"
-        ],
-        [
-          "Vizcaya",
-          "Lea-Artibai",
-          "venta"
-        ],
-        [
-          "Navarra",
-          "Norte",
-          "venta"
+          "Teruel",
+          "Jiloca",
+          "habitacion"
         ],
         [
           "Melilla",
@@ -1398,68 +873,13 @@
           "habitacion"
         ],
         [
-          "Murcia",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Las Palmas",
-          "Gran Canaria",
-          "venta"
-        ],
-        [
-          "Pontevedra",
-          "Baixo Miño",
-          "alquiler"
-        ],
-        [
           "Girona",
           "Baix Empordà",
           "habitacion"
         ],
         [
-          "Toledo",
-          "La Campana de Oropesa",
-          "alquiler"
-        ],
-        [
-          "Murcia",
-          "Vega Media",
-          "alquiler"
-        ],
-        [
-          "Lugo",
-          "Meira",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "Barcelona",
-          "alquiler"
-        ],
-        [
           "Las Palmas",
           "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Soria",
-          "Área de Soria",
-          "alquiler"
-        ],
-        [
-          "Cádiz",
-          "Sierra de Cádiz",
-          "habitacion"
-        ],
-        [
-          "Huelva",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Vizcaya",
-          "Encartaciones",
           "venta"
         ],
         [
@@ -1468,98 +888,13 @@
           "venta"
         ],
         [
-          "Alicante",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Huesca",
-          "Ribagorza",
-          "venta"
-        ],
-        [
-          "Cádiz",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Tarragona",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Valencia",
-          "Safor",
-          "alquiler"
-        ],
-        [
-          "Cantabria",
-          "Asón-Agüera",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Baix Llobregat Nord",
-          "alquiler"
-        ],
-        [
-          "Palencia",
-          "Tierra de Campos - Cerrato",
-          "venta"
-        ],
-        [
-          "Cádiz",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Lleida",
-          "Segrià",
-          "habitacion"
-        ],
-        [
           "Castellón",
           "L'Alcalaten",
           "venta"
         ],
         [
-          "Salamanca",
-          "Ciudad Rodrigo",
-          "venta"
-        ],
-        [
-          "Cádiz",
-          "Campo de Gibraltar",
-          "alquiler"
-        ],
-        [
-          "Jaén",
-          "Alto Guadalquivir",
-          "alquiler"
-        ],
-        [
-          "Cuenca",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Cáceres",
-          "Campo Arañuelo",
-          "habitacion"
-        ],
-        [
-          "Lleida",
-          "Segrià",
-          "alquiler"
-        ],
-        [
           "Soria",
           "Pinares y Tierras Altas",
-          "alquiler"
-        ],
-        [
-          "Segovia",
-          "*(Toda la provincia)*",
           "alquiler"
         ],
         [
@@ -1568,28 +903,8 @@
           "alquiler"
         ],
         [
-          "Zamora",
-          "Tierra de Campos",
-          "venta"
-        ],
-        [
-          "Palencia",
-          "Camino de Santiago",
-          "alquiler"
-        ],
-        [
           "Lleida",
           "Alt Urgell",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Noguera",
-          "habitacion"
-        ],
-        [
-          "Madrid",
-          "Corredor del Henares",
           "venta"
         ],
         [
@@ -1598,54 +913,14 @@
           "venta"
         ],
         [
-          "Barcelona",
-          "Anoia",
-          "venta"
-        ],
-        [
-          "Navarra",
-          "Área de Puente la Reina",
-          "alquiler"
-        ],
-        [
-          "Badajoz",
-          "Don Benito-Siberia-Serena",
-          "habitacion"
-        ],
-        [
-          "Zamora",
-          "Tierra del Vino - La Guareña",
-          "venta"
-        ],
-        [
           "A Coruña",
           "Barbanza",
           "venta"
         ],
         [
-          "Córdoba",
-          "Campiña sur-Campiña este",
-          "alquiler"
-        ],
-        [
-          "Almería",
-          "Levante",
-          "alquiler"
-        ],
-        [
           "Granada",
           "Poniente Granadino",
           "alquiler"
-        ],
-        [
-          "A Coruña",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Granada",
-          "Área de Guadix",
-          "venta"
         ],
         [
           "Cáceres",
@@ -1658,49 +933,14 @@
           "alquiler"
         ],
         [
-          "Burgos",
-          "Montes de Oca",
-          "alquiler"
-        ],
-        [
-          "A Coruña",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Cantabria",
-          "Saja - Nansa",
-          "alquiler"
-        ],
-        [
-          "Valencia",
-          "L'Horta Sud",
-          "alquiler"
-        ],
-        [
           "Álava",
           "Campezo- Montaña Alavesa",
           "venta"
         ],
         [
-          "Valencia",
-          "La Canal de Navarrés",
-          "venta"
-        ],
-        [
           "Córdoba",
           "Córdoba",
           "venta"
-        ],
-        [
-          "Sevilla",
-          "La Campiña",
-          "alquiler"
-        ],
-        [
-          "Huesca",
-          "Los Monegros",
-          "alquiler"
         ],
         [
           "Álava",
@@ -1710,26 +950,6 @@
         [
           "Cáceres",
           "La Vera",
-          "habitacion"
-        ],
-        [
-          "Cuenca",
-          "Mancha Baja",
-          "venta"
-        ],
-        [
-          "Guadalajara",
-          "Molina de Aragón",
-          "venta"
-        ],
-        [
-          "Alicante",
-          "Marina Baixa",
-          "habitacion"
-        ],
-        [
-          "Guipúzcoa",
-          "Urola Kosta",
           "habitacion"
         ],
         [
@@ -1743,68 +963,8 @@
           "alquiler"
         ],
         [
-          "Sevilla",
-          "Área Metropolitana",
-          "alquiler"
-        ],
-        [
-          "Álava",
-          "Laguardia-Rioja Alavesa",
-          "alquiler"
-        ],
-        [
-          "Burgos",
-          "Odra-Paramos",
-          "alquiler"
-        ],
-        [
           "Alicante",
           "Marina Baixa",
-          "alquiler"
-        ],
-        [
-          "León",
-          "El Páramo",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Granada",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Pontevedra",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Soria",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Soria",
-          "Burgo de Osma",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Área de Ferrol",
-          "habitacion"
-        ],
-        [
-          "Valladolid",
-          "Área Metropolitana Valladolid",
-          "alquiler"
-        ],
-        [
-          "A Coruña",
-          "Área de Ferrol",
           "alquiler"
         ],
         [
@@ -1813,28 +973,8 @@
           "venta"
         ],
         [
-          "Las Palmas",
-          "Fuerteventura",
-          "alquiler"
-        ],
-        [
-          "León",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Lugo",
-          "Terra Chá",
-          "venta"
-        ],
-        [
           "Zaragoza",
           "Caspe",
-          "venta"
-        ],
-        [
-          "Toledo",
-          "Sierra de San Vicente",
           "venta"
         ],
         [
@@ -1843,94 +983,14 @@
           "habitacion"
         ],
         [
-          "Valencia",
-          "El Rincón de Ademuz",
-          "alquiler"
-        ],
-        [
-          "Murcia",
-          "Río Mula",
-          "venta"
-        ],
-        [
-          "Toledo",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Alicante",
-          "L'Alcoià",
-          "venta"
-        ],
-        [
-          "Cantabria",
-          "Costa Oriental",
-          "alquiler"
-        ],
-        [
-          "Madrid",
-          "Madrid",
-          "alquiler"
-        ],
-        [
-          "Valladolid",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "León",
-          "Tierras de León",
-          "habitacion"
-        ],
-        [
-          "Barcelona",
-          "Moianès",
-          "alquiler"
-        ],
-        [
-          "Huesca",
-          "Sobrarbe",
-          "alquiler"
-        ],
-        [
-          "Badajoz",
-          "Campiña sur",
-          "venta"
-        ],
-        [
           "Zaragoza",
           "Campo de Cariñena",
           "venta"
         ],
         [
-          "Navarra",
-          "Área de Estella y Urbasa",
-          "alquiler"
-        ],
-        [
           "Ciudad Real",
           "Calatrava",
           "alquiler"
-        ],
-        [
-          "A Coruña",
-          "Ordes",
-          "venta"
-        ],
-        [
-          "Ciudad Real",
-          "Los Montes",
-          "venta"
-        ],
-        [
-          "Córdoba",
-          "Vega del Guadalquivir",
-          "habitacion"
-        ],
-        [
-          "Lugo",
-          "Área de Lugo",
-          "venta"
         ],
         [
           "Tarragona",
@@ -1941,36 +1001,6 @@
           "Santa Cruz de Tenerife",
           "*(Toda la provincia)*",
           "venta"
-        ],
-        [
-          "Barcelona",
-          "Vallès Occidental",
-          "habitacion"
-        ],
-        [
-          "Asturias",
-          "Área de Oviedo",
-          "venta"
-        ],
-        [
-          "Almería",
-          "Valle de Almanzora",
-          "habitacion"
-        ],
-        [
-          "Guipúzcoa",
-          "Tolosaldea",
-          "habitacion"
-        ],
-        [
-          "Girona",
-          "La Garrotxa",
-          "habitacion"
-        ],
-        [
-          "Jaén",
-          "La Loma y las Villas",
-          "habitacion"
         ],
         [
           "Guipúzcoa",
@@ -1988,44 +1018,14 @@
           "venta"
         ],
         [
-          "Valencia",
-          "Camp de Morvedre",
-          "alquiler"
-        ],
-        [
-          "Navarra",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Almería",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Guipúzcoa",
-          "Bajo Deba",
+          "Teruel",
+          "Cuencas Mineras- Andorra-Bajo Martín",
           "habitacion"
         ],
         [
           "Albacete",
           "Centro",
           "habitacion"
-        ],
-        [
-          "Teruel",
-          "Cuencas Mineras- Andorra-Bajo Martín",
-          "alquiler"
-        ],
-        [
-          "Málaga",
-          "Área de Antequera",
-          "alquiler"
-        ],
-        [
-          "Cuenca",
-          "Serranía Media",
-          "venta"
         ],
         [
           "Albacete",
@@ -2038,69 +1038,9 @@
           "alquiler"
         ],
         [
-          "Murcia",
-          "Campo de Cartagena",
-          "alquiler"
-        ],
-        [
-          "Guadalajara",
-          "Alcarria Alta",
-          "alquiler"
-        ],
-        [
-          "La Rioja",
-          "Área de Logroño",
-          "habitacion"
-        ],
-        [
-          "Huelva",
-          "El Andévalo",
-          "habitacion"
-        ],
-        [
-          "Ciudad Real",
-          "Montiel",
-          "habitacion"
-        ],
-        [
-          "Alicante",
-          "Marina Alta",
-          "venta"
-        ],
-        [
           "Ciudad Real",
           "*(Toda la provincia)*",
           "alquiler"
-        ],
-        [
-          "Jaén",
-          "Comarca norte - El Condado",
-          "habitacion"
-        ],
-        [
-          "Burgos",
-          "Ribera",
-          "alquiler"
-        ],
-        [
-          "A Coruña",
-          "Terra de Soneira",
-          "venta"
-        ],
-        [
-          "Almería",
-          "Parque Natural Cabo de Gata - Níjar",
-          "venta"
-        ],
-        [
-          "Lugo",
-          "Lemos",
-          "habitacion"
-        ],
-        [
-          "Girona",
-          "La Cerdanya",
-          "habitacion"
         ],
         [
           "Guadalajara",
@@ -2108,48 +1048,8 @@
           "venta"
         ],
         [
-          "Barcelona",
-          "Garraf",
-          "alquiler"
-        ],
-        [
-          "Lleida",
-          "Pallars Jussà",
-          "alquiler"
-        ],
-        [
-          "Girona",
-          "La Cerdanya",
-          "alquiler"
-        ],
-        [
           "Salamanca",
           "Campo Charro",
-          "venta"
-        ],
-        [
-          "Girona",
-          "Pla de l'Estany",
-          "venta"
-        ],
-        [
-          "Teruel",
-          "Albarracín",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Fisterra",
-          "habitacion"
-        ],
-        [
-          "Pontevedra",
-          "Área de Terra Montes",
-          "venta"
-        ],
-        [
-          "Teruel",
-          "Jiloca",
           "venta"
         ],
         [
@@ -2158,38 +1058,8 @@
           "alquiler"
         ],
         [
-          "Girona",
-          "Gironès",
-          "alquiler"
-        ],
-        [
-          "Murcia",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Córdoba",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Melilla",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Ávila",
-          "Área de Ávila",
-          "alquiler"
-        ],
-        [
           "Granada",
           "Costa Tropical",
-          "alquiler"
-        ],
-        [
-          "Valladolid",
-          "Tierra de Medina",
           "alquiler"
         ],
         [
@@ -2198,89 +1068,14 @@
           "alquiler"
         ],
         [
-          "Córdoba",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Girona",
-          "Baix Empordà",
-          "venta"
-        ],
-        [
-          "Pontevedra",
-          "Morrazo",
-          "venta"
-        ],
-        [
-          "Albacete",
-          "Sierra de Alcaraz-Segura",
-          "alquiler"
-        ],
-        [
-          "Cáceres",
-          "Villuercas - Ibores - Jara",
-          "habitacion"
-        ],
-        [
-          "Castellón",
-          "Alto Palancia",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Alta Ribagorça",
-          "alquiler"
-        ],
-        [
-          "Cádiz",
-          "Sierra de Cádiz",
-          "venta"
-        ],
-        [
-          "Zamora",
-          "Alfoz de Toro",
-          "alquiler"
-        ],
-        [
-          "Huelva",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Ortegal",
-          "habitacion"
-        ],
-        [
-          "Barcelona",
-          "Bages",
-          "habitacion"
-        ],
-        [
-          "Almería",
-          "Bajo Almanzora",
-          "habitacion"
-        ],
-        [
           "Albacete",
           "*(Toda la provincia)*",
           "alquiler"
         ],
         [
-          "Guipúzcoa",
-          "Donostialdea",
+          "Navarra",
+          "Área de Tafalla",
           "habitacion"
-        ],
-        [
-          "Asturias",
-          "Caudal",
-          "habitacion"
-        ],
-        [
-          "Palencia",
-          "*(Toda la provincia)*",
-          "alquiler"
         ],
         [
           "Sevilla",
@@ -2288,43 +1083,13 @@
           "alquiler"
         ],
         [
-          "Ourense",
-          "Terra de Caldelas- Trive",
-          "venta"
-        ],
-        [
-          "Sevilla",
-          "La Vega",
-          "alquiler"
-        ],
-        [
-          "Cáceres",
-          "Campo Arañuelo",
-          "venta"
-        ],
-        [
           "Asturias",
           "Caudal",
           "alquiler"
         ],
         [
-          "Cuenca",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
           "Cádiz",
           "Bahía de Cádiz",
-          "habitacion"
-        ],
-        [
-          "Tarragona",
-          "Baix Penedès",
-          "venta"
-        ],
-        [
-          "León",
-          "Las Montañas",
           "habitacion"
         ],
         [
@@ -2333,49 +1098,14 @@
           "alquiler"
         ],
         [
-          "Vizcaya",
-          "Duranguesado",
-          "alquiler"
-        ],
-        [
           "A Coruña",
           "Eume",
           "habitacion"
         ],
         [
-          "Toledo",
-          "Área de Torrijos",
-          "venta"
-        ],
-        [
-          "Ourense",
-          "Terra de Celanova",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Noguera",
-          "venta"
-        ],
-        [
-          "Cáceres",
-          "Sierra de Gata",
-          "alquiler"
-        ],
-        [
           "León",
           "Bierzo- Ancares",
           "habitacion"
-        ],
-        [
-          "Barcelona",
-          "Maresme",
-          "habitacion"
-        ],
-        [
-          "Teruel",
-          "Matarraña",
-          "alquiler"
         ],
         [
           "Badajoz",
@@ -2393,54 +1123,14 @@
           "venta"
         ],
         [
-          "Jaén",
-          "Sierra de Segura",
-          "venta"
-        ],
-        [
-          "Navarra",
-          "Área de Tudela",
-          "venta"
-        ],
-        [
           "Murcia",
-          "Bajo Guadalentín",
+          "Área de Murcia",
           "habitacion"
         ],
         [
           "Alicante",
           "Comtat",
           "alquiler"
-        ],
-        [
-          "Huesca",
-          "La Litera",
-          "alquiler"
-        ],
-        [
-          "Pontevedra",
-          "Área de Pontevedra",
-          "alquiler"
-        ],
-        [
-          "Murcia",
-          "Área de Murcia",
-          "alquiler"
-        ],
-        [
-          "Málaga",
-          "Valle de Guadalhorce",
-          "alquiler"
-        ],
-        [
-          "Santa Cruz de Tenerife",
-          "La Palma",
-          "venta"
-        ],
-        [
-          "Cádiz",
-          "Costa noroeste",
-          "habitacion"
         ],
         [
           "Granada",
@@ -2453,109 +1143,24 @@
           "alquiler"
         ],
         [
-          "Asturias",
-          "Eo-Navia",
-          "alquiler"
-        ],
-        [
-          "Huesca",
-          "Somontano de Barbastro",
-          "venta"
-        ],
-        [
-          "Burgos",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Córdoba",
-          "Los Pedroches",
-          "alquiler"
-        ],
-        [
-          "Madrid",
-          "Zona noroeste",
-          "habitacion"
-        ],
-        [
-          "Huesca",
-          "Alto Gállego",
-          "habitacion"
-        ],
-        [
           "Ourense",
-          "Área de Ourense",
-          "venta"
-        ],
-        [
-          "Cáceres",
-          "La Vera",
-          "venta"
-        ],
-        [
-          "Las Palmas",
-          "Gran Canaria",
+          "Limia",
           "habitacion"
-        ],
-        [
-          "Madrid",
-          "Zona noroeste",
-          "alquiler"
-        ],
-        [
-          "Guipúzcoa",
-          "Urola Kosta",
-          "venta"
         ],
         [
           "Huesca",
           "Alto Gállego",
-          "alquiler"
+          "habitacion"
         ],
         [
-          "Vizcaya",
-          "Lea-Artibai",
-          "alquiler"
-        ],
-        [
-          "Las Palmas",
-          "Gran Canaria",
-          "alquiler"
+          "Navarra",
+          "Norte",
+          "habitacion"
         ],
         [
           "Guadalajara",
           "Campiña",
           "venta"
-        ],
-        [
-          "Las Palmas",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Castellón",
-          "Alto Mijares",
-          "alquiler"
-        ],
-        [
-          "Lugo",
-          "Meira",
-          "alquiler"
-        ],
-        [
-          "Granada",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Segovia",
-          "Área de Sepúlveda - Cantalejo",
-          "venta"
-        ],
-        [
-          "Burgos",
-          "Arlanza",
-          "habitacion"
         ],
         [
           "Sevilla",
@@ -2568,34 +1173,9 @@
           "alquiler"
         ],
         [
-          "A Coruña",
-          "Arzúa",
-          "habitacion"
-        ],
-        [
-          "Vizcaya",
-          "Encartaciones",
-          "alquiler"
-        ],
-        [
           "Burgos",
           "Arlanza",
           "alquiler"
-        ],
-        [
-          "Huesca",
-          "Ribagorza",
-          "alquiler"
-        ],
-        [
-          "Tarragona",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Girona",
-          "La Selva",
-          "venta"
         ],
         [
           "A Coruña",
@@ -2603,29 +1183,14 @@
           "habitacion"
         ],
         [
-          "Palencia",
-          "Tierra de Campos - Cerrato",
-          "alquiler"
-        ],
-        [
-          "Castellón",
-          "L'Alcalaten",
+          "Navarra",
+          "Olite",
           "habitacion"
         ],
         [
           "Castellón",
           "L'Alcalaten",
           "alquiler"
-        ],
-        [
-          "Salamanca",
-          "Ciudad Rodrigo",
-          "alquiler"
-        ],
-        [
-          "León",
-          "Tierras de León",
-          "venta"
         ],
         [
           "Murcia",
@@ -2638,29 +1203,9 @@
           "venta"
         ],
         [
-          "Ceuta",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "A Coruña",
-          "O Sar",
-          "habitacion"
-        ],
-        [
-          "Almería",
-          "Poniente",
-          "habitacion"
-        ],
-        [
           "Cáceres",
           "Alcántara",
           "venta"
-        ],
-        [
-          "Zamora",
-          "Tierra de Campos",
-          "alquiler"
         ],
         [
           "Lleida",
@@ -2683,13 +1228,8 @@
           "venta"
         ],
         [
-          "Madrid",
-          "Corredor del Henares",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Vallès Occidental",
+          "Murcia",
+          "Mar Menor",
           "venta"
         ],
         [
@@ -2703,34 +1243,9 @@
           "alquiler"
         ],
         [
-          "Lugo",
-          "A Fonsagrada",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "Anoia",
-          "alquiler"
-        ],
-        [
-          "Almería",
-          "Valle de Almanzora",
-          "venta"
-        ],
-        [
-          "Murcia",
-          "Mar Menor",
-          "venta"
-        ],
-        [
           "Girona",
           "La Garrotxa",
           "venta"
-        ],
-        [
-          "Zamora",
-          "Tierra del Vino - La Guareña",
-          "alquiler"
         ],
         [
           "Jaén",
@@ -2740,62 +1255,12 @@
         [
           "A Coruña",
           "Barbanza",
-          "habitacion"
-        ],
-        [
-          "A Coruña",
-          "Barbanza",
           "alquiler"
-        ],
-        [
-          "Cáceres",
-          "Trujillo",
-          "habitacion"
-        ],
-        [
-          "Cáceres",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Toledo",
-          "La Sagra",
-          "venta"
         ],
         [
           "Granada",
           "Área de Guadix",
           "habitacion"
-        ],
-        [
-          "Navarra",
-          "Área de Pamplona",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Bergantiños",
-          "habitacion"
-        ],
-        [
-          "Cáceres",
-          "Área de Cáceres",
-          "habitacion"
-        ],
-        [
-          "Málaga",
-          "Costa del Sol Occidental - Área de Estepona",
-          "habitacion"
-        ],
-        [
-          "Albacete",
-          "Centro",
-          "venta"
-        ],
-        [
-          "Granada",
-          "Área de Guadix",
-          "alquiler"
         ],
         [
           "Granada",
@@ -2803,18 +1268,8 @@
           "venta"
         ],
         [
-          "Córdoba",
-          "Córdoba",
-          "habitacion"
-        ],
-        [
           "Cáceres",
           "Área de Cáceres",
-          "alquiler"
-        ],
-        [
-          "Valencia",
-          "La Canal de Navarrés",
           "alquiler"
         ],
         [
@@ -2823,23 +1278,8 @@
           "venta"
         ],
         [
-          "Huelva",
-          "El Andévalo",
-          "venta"
-        ],
-        [
-          "Ciudad Real",
-          "Montiel",
-          "venta"
-        ],
-        [
           "Álava",
           "Vitoria-Gasteiz",
-          "alquiler"
-        ],
-        [
-          "Cuenca",
-          "Mancha Baja",
           "alquiler"
         ],
         [
@@ -2848,53 +1288,8 @@
           "alquiler"
         ],
         [
-          "Guadalajara",
-          "Molina de Aragón",
-          "alquiler"
-        ],
-        [
-          "Jaén",
-          "Comarca norte - El Condado",
-          "venta"
-        ],
-        [
-          "Castellón",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "León",
-          "El Páramo",
-          "habitacion"
-        ],
-        [
-          "Lugo",
-          "Lemos",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "León",
-          "El Páramo",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Salamanca",
-          "Béjar",
-          "alquiler"
-        ],
-        [
-          "Asturias",
-          "Oriente",
+          "Soria",
+          "Burgo de Osma",
           "habitacion"
         ],
         [
@@ -2913,34 +1308,9 @@
           "alquiler"
         ],
         [
-          "Lugo",
-          "Terra Chá",
-          "alquiler"
-        ],
-        [
-          "León",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
           "Zaragoza",
           "Ribera Baja del Ebro",
           "venta"
-        ],
-        [
-          "Toledo",
-          "Sierra de San Vicente",
-          "alquiler"
-        ],
-        [
-          "Madrid",
-          "Zona norte",
-          "habitacion"
-        ],
-        [
-          "Murcia",
-          "Río Mula",
-          "alquiler"
         ],
         [
           "Cáceres",
@@ -2950,31 +1320,6 @@
         [
           "Teruel",
           "Gúdar- Javalambre",
-          "venta"
-        ],
-        [
-          "Guipúzcoa",
-          "Bajo Bidasoa",
-          "habitacion"
-        ],
-        [
-          "Alicante",
-          "L'Alcoià",
-          "alquiler"
-        ],
-        [
-          "Badajoz",
-          "Campiña sur",
-          "habitacion"
-        ],
-        [
-          "Ávila",
-          "Arévalo",
-          "habitacion"
-        ],
-        [
-          "Córdoba",
-          "Alto Guadalquivir",
           "venta"
         ],
         [
@@ -2988,54 +1333,14 @@
           "alquiler"
         ],
         [
-          "A Coruña",
-          "Ordes",
-          "alquiler"
-        ],
-        [
-          "A Coruña",
-          "Ortegal",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "Bages",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Garrigues",
-          "venta"
-        ],
-        [
-          "Ciudad Real",
-          "Los Montes",
-          "alquiler"
-        ],
-        [
-          "Almería",
-          "Bajo Almanzora",
-          "venta"
+          "Segovia",
+          "Área de Cuéllar",
+          "habitacion"
         ],
         [
           "Lugo",
           "Área de Lugo",
           "habitacion"
-        ],
-        [
-          "Navarra",
-          "Área de Sangüesa",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Noia",
-          "alquiler"
-        ],
-        [
-          "Lugo",
-          "Área de Lugo",
-          "alquiler"
         ],
         [
           "Tarragona",
@@ -3048,43 +1353,8 @@
           "alquiler"
         ],
         [
-          "Castellón",
-          "Plana Baixa",
-          "venta"
-        ],
-        [
-          "Asturias",
-          "Área de Oviedo",
-          "alquiler"
-        ],
-        [
-          "Granada",
-          "Área de Granada",
-          "venta"
-        ],
-        [
-          "Guipúzcoa",
-          "Donostialdea",
-          "venta"
-        ],
-        [
-          "Navarra",
-          "Área de Tafalla",
-          "venta"
-        ],
-        [
-          "Granada",
-          "Los Montes",
-          "habitacion"
-        ],
-        [
-          "Jaén",
-          "Jaén",
-          "venta"
-        ],
-        [
-          "Córdoba",
-          "Alto Guadiato",
+          "Pontevedra",
+          "Área de Vigo",
           "habitacion"
         ],
         [
@@ -3093,108 +1363,18 @@
           "alquiler"
         ],
         [
-          "Cádiz",
-          "Bahía de Cádiz",
-          "venta"
-        ],
-        [
           "León",
           "Las Montañas",
           "venta"
         ],
         [
-          "A Coruña",
-          "Eume",
-          "venta"
-        ],
-        [
           "Cuenca",
           "Serranía Media",
           "habitacion"
-        ],
-        [
-          "Almería",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Valencia",
-          "La Costera",
-          "venta"
-        ],
-        [
-          "Cuenca",
-          "Mancha Alta",
-          "habitacion"
-        ],
-        [
-          "León",
-          "Bierzo- Ancares",
-          "venta"
-        ],
-        [
-          "Cuenca",
-          "Serranía Media",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Maresme",
-          "venta"
-        ],
-        [
-          "Teruel",
-          "Maestrazgo",
-          "venta"
-        ],
-        [
-          "La Rioja",
-          "Rioja Baja",
-          "habitacion"
-        ],
-        [
-          "Alicante",
-          "Marina Alta",
-          "alquiler"
         ],
         [
           "Madrid",
           "Zona sureste",
-          "venta"
-        ],
-        [
-          "Murcia",
-          "Bajo Guadalentín",
-          "venta"
-        ],
-        [
-          "Palencia",
-          "Montaña Palentina",
-          "venta"
-        ],
-        [
-          "Vizcaya",
-          "Uribe-Butroe",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Terra de Soneira",
-          "alquiler"
-        ],
-        [
-          "Castellón",
-          "Plana Alta",
-          "venta"
-        ],
-        [
-          "Almería",
-          "Parque Natural Cabo de Gata - Níjar",
-          "alquiler"
-        ],
-        [
-          "Cádiz",
-          "Costa noroeste",
           "venta"
         ],
         [
@@ -3203,124 +1383,19 @@
           "alquiler"
         ],
         [
-          "Málaga",
-          "Costa del Sol Occidental-Área de Benalmádena-Costa",
-          "venta"
-        ],
-        [
-          "Girona",
-          "Pla de l'Estany",
-          "habitacion"
-        ],
-        [
-          "Ourense",
-          "Limia",
-          "venta"
-        ],
-        [
-          "Vizcaya",
-          "Gran Bilbao",
-          "venta"
-        ],
-        [
-          "Badajoz",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Albacete",
-          "La Mancha",
-          "alquiler"
-        ],
-        [
           "Salamanca",
           "Campo Charro",
           "alquiler"
         ],
         [
-          "Girona",
-          "Pla de l'Estany",
-          "alquiler"
-        ],
-        [
-          "Teruel",
-          "Albarracín",
-          "alquiler"
-        ],
-        [
-          "Pontevedra",
-          "Área de Terra Montes",
-          "alquiler"
-        ],
-        [
-          "Teruel",
-          "Jiloca",
-          "alquiler"
-        ],
-        [
-          "Ávila",
-          "Valle del Tiétar",
+          "Valencia",
+          "Ribera Alta",
           "habitacion"
-        ],
-        [
-          "Murcia",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Cantabria",
-          "Campoo-Los Valles",
-          "habitacion"
-        ],
-        [
-          "Melilla",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Toledo",
-          "La Jara",
-          "alquiler"
-        ],
-        [
-          "Pontevedra",
-          "Morrazo",
-          "alquiler"
-        ],
-        [
-          "Girona",
-          "Baix Empordà",
-          "alquiler"
         ],
         [
           "Tarragona",
           "Terra Alta",
           "venta"
-        ],
-        [
-          "Almería",
-          "Filabres",
-          "habitacion"
-        ],
-        [
-          "Castellón",
-          "Alto Palancia",
-          "alquiler"
-        ],
-        [
-          "Cádiz",
-          "Sierra de Cádiz",
-          "alquiler"
-        ],
-        [
-          "Badajoz",
-          "Badajoz-Alburquerque",
-          "habitacion"
-        ],
-        [
-          "Huelva",
-          "*(Toda la provincia)*",
-          "alquiler"
         ],
         [
           "A Coruña",
@@ -3333,63 +1408,8 @@
           "venta"
         ],
         [
-          "A Coruña",
-          "Área de A Coruña",
-          "habitacion"
-        ],
-        [
-          "A Coruña",
-          "Terra de Melide",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Navarra",
-          "Olite",
-          "venta"
-        ],
-        [
-          "Badajoz",
-          "Área de Mérida",
-          "venta"
-        ],
-        [
           "Ciudad Real",
           "Sierra Morena",
-          "venta"
-        ],
-        [
-          "Álava",
-          "Añana",
-          "habitacion"
-        ],
-        [
-          "A Coruña",
-          "Miño - Betanzos",
-          "venta"
-        ],
-        [
-          "Ourense",
-          "Terra de Caldelas- Trive",
-          "alquiler"
-        ],
-        [
-          "Cuenca",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Cáceres",
-          "Campo Arañuelo",
-          "alquiler"
-        ],
-        [
-          "Castellón",
-          "Baix Maestrat",
           "venta"
         ],
         [
@@ -3398,59 +1418,9 @@
           "venta"
         ],
         [
-          "Almería",
-          "Poniente",
-          "venta"
-        ],
-        [
-          "Ceuta",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Teruel",
-          "Área de Teruel",
-          "venta"
-        ],
-        [
-          "Tarragona",
-          "Baix Penedès",
-          "alquiler"
-        ],
-        [
           "Zaragoza",
           "Ribera Alta del Ebro",
           "venta"
-        ],
-        [
-          "Granada",
-          "Área de Huéscar",
-          "habitacion"
-        ],
-        [
-          "Barcelona",
-          "Vallès Oriental",
-          "venta"
-        ],
-        [
-          "Toledo",
-          "Área de Torrijos",
-          "alquiler"
-        ],
-        [
-          "Badajoz",
-          "Llanos de Olivenza",
-          "venta"
-        ],
-        [
-          "Ourense",
-          "Terra de Celanova",
-          "alquiler"
-        ],
-        [
-          "Lleida",
-          "Noguera",
-          "alquiler"
         ],
         [
           "Alicante",
@@ -3463,11 +1433,6 @@
           "alquiler"
         ],
         [
-          "Málaga",
-          "Málaga",
-          "venta"
-        ],
-        [
           "Cantabria",
           "Trasmiera",
           "habitacion"
@@ -3476,16 +1441,6 @@
           "La Rioja",
           "Rioja Alta",
           "habitacion"
-        ],
-        [
-          "Cáceres",
-          "Trujillo",
-          "venta"
-        ],
-        [
-          "Santa Cruz de Tenerife",
-          "La Gomera",
-          "venta"
         ],
         [
           "Zaragoza",
@@ -3508,29 +1463,9 @@
           "venta"
         ],
         [
-          "Cádiz",
-          "La Janda",
-          "venta"
-        ],
-        [
-          "Jaén",
-          "Sierra de Segura",
-          "alquiler"
-        ],
-        [
-          "Navarra",
-          "Área de Tudela",
-          "alquiler"
-        ],
-        [
           "A Coruña",
           "Bergantiños",
           "venta"
-        ],
-        [
-          "Santa Cruz de Tenerife",
-          "La Palma",
-          "alquiler"
         ],
         [
           "Málaga",
@@ -3543,114 +1478,9 @@
           "habitacion"
         ],
         [
-          "Pontevedra",
-          "Condado - Paradanta",
-          "venta"
-        ],
-        [
-          "Burgos",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Cantabria",
-          "Costa Occidental",
-          "habitacion"
-        ],
-        [
-          "Huesca",
-          "Somontano de Barbastro",
-          "alquiler"
-        ],
-        [
-          "Alicante",
-          "Alt Vinalopó",
-          "habitacion"
-        ],
-        [
-          "Guipúzcoa",
-          "Goierri",
-          "venta"
-        ],
-        [
-          "Valladolid",
-          "Tierra de Pinares",
-          "venta"
-        ],
-        [
-          "Ourense",
-          "Área de Ourense",
-          "alquiler"
-        ],
-        [
-          "Cáceres",
-          "La Vera",
-          "alquiler"
-        ],
-        [
           "Castellón",
           "*(Toda la provincia)*",
           "venta"
-        ],
-        [
-          "Guipúzcoa",
-          "Urola Kosta",
-          "alquiler"
-        ],
-        [
-          "Guadalajara",
-          "Campiña",
-          "habitacion"
-        ],
-        [
-          "Jaén",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Huelva",
-          "La Costa",
-          "venta"
-        ],
-        [
-          "Zamora",
-          "Área de Zamora",
-          "venta"
-        ],
-        [
-          "Ourense",
-          "Ribeiro",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Santiago",
-          "habitacion"
-        ],
-        [
-          "Castellón",
-          "Alt Maestrat",
-          "alquiler"
-        ],
-        [
-          "Málaga",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Málaga",
-          "Costa del Sol Oriental - Axarquía",
-          "habitacion"
-        ],
-        [
-          "Granada",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Segovia",
-          "Área de Sepúlveda - Cantalejo",
-          "alquiler"
         ],
         [
           "Málaga",
@@ -3663,49 +1493,9 @@
           "venta"
         ],
         [
-          "Zaragoza",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Urgell",
-          "venta"
-        ],
-        [
           "Asturias",
           "Oriente",
           "venta"
-        ],
-        [
-          "Badajoz",
-          "Tentudía",
-          "venta"
-        ],
-        [
-          "Girona",
-          "La Selva",
-          "alquiler"
-        ],
-        [
-          "Baleares (Illes)",
-          "Ibiza",
-          "venta"
-        ],
-        [
-          "Almería",
-          "Alpujarras",
-          "habitacion"
-        ],
-        [
-          "Guipúzcoa",
-          "Bajo Bidasoa",
-          "venta"
-        ],
-        [
-          "León",
-          "Tierras de León",
-          "alquiler"
         ],
         [
           "Murcia",
@@ -3713,28 +1503,13 @@
           "alquiler"
         ],
         [
-          "Ávila",
-          "Arévalo",
-          "venta"
-        ],
-        [
           "Almería",
           "Alpujarras",
           "alquiler"
         ],
         [
-          "Tarragona",
-          "Baix Ebre",
-          "venta"
-        ],
-        [
           "Huesca",
           "Cinca",
-          "habitacion"
-        ],
-        [
-          "Barcelona",
-          "Baix Llobregat Sud",
           "habitacion"
         ],
         [
@@ -3746,11 +1521,6 @@
           "Cáceres",
           "Alcántara",
           "alquiler"
-        ],
-        [
-          "Segovia",
-          "Área de Cuéllar",
-          "venta"
         ],
         [
           "Valencia",
@@ -3778,16 +1548,6 @@
           "alquiler"
         ],
         [
-          "Lugo",
-          "A Fonsagrada",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Vallès Occidental",
-          "alquiler"
-        ],
-        [
           "Granada",
           "Valle de Lecrín",
           "alquiler"
@@ -3798,14 +1558,9 @@
           "venta"
         ],
         [
-          "Almería",
-          "Valle de Almanzora",
-          "alquiler"
-        ],
-        [
-          "Cuenca",
-          "Serranía Baja",
-          "venta"
+          "Toledo",
+          "La Sagra",
+          "habitacion"
         ],
         [
           "Girona",
@@ -3818,134 +1573,9 @@
           "alquiler"
         ],
         [
-          "Castellón",
-          "Els Ports",
-          "venta"
-        ],
-        [
-          "Asturias",
-          "Narcea",
-          "venta"
-        ],
-        [
-          "Cáceres",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Córdoba",
-          "Alto Guadiato",
-          "venta"
-        ],
-        [
-          "Pontevedra",
-          "Área de Vigo",
-          "venta"
-        ],
-        [
-          "Granada",
-          "Área de Baza",
-          "habitacion"
-        ],
-        [
-          "Navarra",
-          "Área de Pamplona",
-          "alquiler"
-        ],
-        [
-          "Zamora",
-          "Área de Sayago",
-          "venta"
-        ],
-        [
-          "Albacete",
-          "Centro",
-          "alquiler"
-        ],
-        [
-          "Burgos",
-          "Área de Burgos",
-          "venta"
-        ],
-        [
-          "Cuenca",
-          "Mancha Alta",
-          "venta"
-        ],
-        [
-          "La Rioja",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
           "La Rioja",
           "Área de Logroño",
           "alquiler"
-        ],
-        [
-          "Huelva",
-          "El Andévalo",
-          "alquiler"
-        ],
-        [
-          "Ciudad Real",
-          "Montiel",
-          "alquiler"
-        ],
-        [
-          "La Rioja",
-          "Rioja Baja",
-          "venta"
-        ],
-        [
-          "Jaén",
-          "Comarca norte - El Condado",
-          "alquiler"
-        ],
-        [
-          "Valencia",
-          "La Vall d'Albaida",
-          "venta"
-        ],
-        [
-          "Huesca",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Lugo",
-          "Lemos",
-          "alquiler"
-        ],
-        [
-          "Tarragona",
-          "Priorat",
-          "venta"
-        ],
-        [
-          "Burgos",
-          "Ebro",
-          "habitacion"
-        ],
-        [
-          "Cuenca",
-          "La Alcarria",
-          "habitacion"
-        ],
-        [
-          "Tarragona",
-          "Alt Camp",
-          "venta"
-        ],
-        [
-          "Lugo",
-          "Ulloa",
-          "habitacion"
-        ],
-        [
-          "Guadalajara",
-          "*(Toda la provincia)*",
-          "venta"
         ],
         [
           "Badajoz",
@@ -3953,9 +1583,9 @@
           "venta"
         ],
         [
-          "Valencia",
-          "Ribera Alta",
-          "venta"
+          "Vizcaya",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "A Coruña",
@@ -3963,29 +1593,14 @@
           "alquiler"
         ],
         [
-          "Cáceres",
-          "Las Hurdes-Ambroz",
-          "habitacion"
-        ],
-        [
           "Zaragoza",
           "Ribera Baja del Ebro",
           "alquiler"
         ],
         [
-          "Ávila",
-          "Valle del Tiétar",
-          "venta"
-        ],
-        [
           "Cantabria",
           "Campoo-Los Valles",
           "venta"
-        ],
-        [
-          "Ávila",
-          "*(Toda la provincia)*",
-          "habitacion"
         ],
         [
           "Cáceres",
@@ -3998,16 +1613,6 @@
           "alquiler"
         ],
         [
-          "Córdoba",
-          "Alto Guadalquivir",
-          "alquiler"
-        ],
-        [
-          "Almería",
-          "Filabres",
-          "venta"
-        ],
-        [
           "Tarragona",
           "Tarragonès",
           "venta"
@@ -4018,94 +1623,9 @@
           "alquiler"
         ],
         [
-          "Badajoz",
-          "Badajoz-Alburquerque",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Área de A Coruña",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Ortegal",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Bages",
-          "alquiler"
-        ],
-        [
-          "Lleida",
-          "Garrigues",
-          "alquiler"
-        ],
-        [
-          "Cádiz",
-          "Campiña de Jerez",
+          "Jaén",
+          "Jaén",
           "habitacion"
-        ],
-        [
-          "Almería",
-          "Bajo Almanzora",
-          "alquiler"
-        ],
-        [
-          "Castellón",
-          "Plana Baixa",
-          "habitacion"
-        ],
-        [
-          "Granada",
-          "Área de Granada",
-          "habitacion"
-        ],
-        [
-          "Navarra",
-          "Área de Sangüesa",
-          "alquiler"
-        ],
-        [
-          "Lugo",
-          "Chantada",
-          "habitacion"
-        ],
-        [
-          "A Coruña",
-          "Xallas",
-          "venta"
-        ],
-        [
-          "Guipúzcoa",
-          "Donostialdea",
-          "alquiler"
-        ],
-        [
-          "Zaragoza",
-          "Aranda",
-          "venta"
-        ],
-        [
-          "Castellón",
-          "Plana Baixa",
-          "alquiler"
-        ],
-        [
-          "Granada",
-          "Área de Granada",
-          "alquiler"
-        ],
-        [
-          "Navarra",
-          "Área de Tafalla",
-          "alquiler"
-        ],
-        [
-          "Lleida",
-          "Val d'Aran",
-          "venta"
         ],
         [
           "Álava",
@@ -4113,54 +1633,9 @@
           "venta"
         ],
         [
-          "Álava",
-          "Zuya",
-          "venta"
-        ],
-        [
-          "Salamanca",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Jaén",
-          "Jaén",
-          "alquiler"
-        ],
-        [
-          "Granada",
-          "Área de Huéscar",
-          "venta"
-        ],
-        [
-          "Cádiz",
-          "Bahía de Cádiz",
-          "alquiler"
-        ],
-        [
           "León",
           "Las Montañas",
           "alquiler"
-        ],
-        [
-          "A Coruña",
-          "Eume",
-          "alquiler"
-        ],
-        [
-          "Zaragoza",
-          "Monegros",
-          "alquiler"
-        ],
-        [
-          "La Rioja",
-          "Los Cameros",
-          "venta"
-        ],
-        [
-          "Sevilla",
-          "Sevilla",
-          "venta"
         ],
         [
           "Cáceres",
@@ -4168,74 +1643,9 @@
           "habitacion"
         ],
         [
-          "Guipúzcoa",
-          "*(Toda la provincia)*",
+          "Vizcaya",
+          "Busturialdea",
           "habitacion"
-        ],
-        [
-          "Valencia",
-          "La Costera",
-          "alquiler"
-        ],
-        [
-          "León",
-          "Bierzo- Ancares",
-          "alquiler"
-        ],
-        [
-          "Cantabria",
-          "Trasmiera",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "Maresme",
-          "alquiler"
-        ],
-        [
-          "La Rioja",
-          "Rioja Alta",
-          "venta"
-        ],
-        [
-          "Navarra",
-          "Área de Peralta",
-          "venta"
-        ],
-        [
-          "Salamanca",
-          "Peñaranda",
-          "venta"
-        ],
-        [
-          "Teruel",
-          "Maestrazgo",
-          "alquiler"
-        ],
-        [
-          "Soria",
-          "Almazán",
-          "venta"
-        ],
-        [
-          "Madrid",
-          "Zona sureste",
-          "habitacion"
-        ],
-        [
-          "Madrid",
-          "Zona sur",
-          "habitacion"
-        ],
-        [
-          "Burgos",
-          "La Bureba",
-          "habitacion"
-        ],
-        [
-          "Teruel",
-          "*(Toda la provincia)*",
-          "alquiler"
         ],
         [
           "Castellón",
@@ -4248,44 +1658,9 @@
           "alquiler"
         ],
         [
-          "Murcia",
-          "Bajo Guadalentín",
-          "alquiler"
-        ],
-        [
-          "Cantabria",
-          "Valles Pasiegos",
-          "venta"
-        ],
-        [
-          "Palencia",
-          "Montaña Palentina",
-          "alquiler"
-        ],
-        [
-          "Vizcaya",
-          "Uribe-Butroe",
-          "alquiler"
-        ],
-        [
           "Málaga",
           "Costa del Sol Occidental-Área de Benalmádena-Costa",
           "habitacion"
-        ],
-        [
-          "Cantabria",
-          "Costa Occidental",
-          "venta"
-        ],
-        [
-          "Cádiz",
-          "Costa noroeste",
-          "alquiler"
-        ],
-        [
-          "Málaga",
-          "Costa del Sol Occidental-Área de Benalmádena-Costa",
-          "alquiler"
         ],
         [
           "Toledo",
@@ -4293,83 +1668,8 @@
           "venta"
         ],
         [
-          "Alicante",
-          "Alt Vinalopó",
-          "venta"
-        ],
-        [
-          "Madrid",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Ourense",
-          "Limia",
-          "alquiler"
-        ],
-        [
-          "Vizcaya",
-          "Gran Bilbao",
-          "alquiler"
-        ],
-        [
-          "Alicante",
-          "Vinalopó Mitjà",
-          "habitacion"
-        ],
-        [
-          "Jaén",
-          "La Campiña",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Pallars Sobirà",
-          "venta"
-        ],
-        [
-          "Navarra",
-          "Norte",
-          "alquiler"
-        ],
-        [
-          "Zamora",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Jaén",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Ávila",
-          "Burgohondo - Cebreros - El Tiemblo",
-          "venta"
-        ],
-        [
-          "Cantabria",
-          "Besaya",
-          "habitacion"
-        ],
-        [
-          "Navarra",
-          "Área de Esteribar",
-          "venta"
-        ],
-        [
           "Zaragoza",
           "Tarazona-El Moncayo",
-          "venta"
-        ],
-        [
-          "Jaén",
-          "Sierra Mágina",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Santiago",
           "venta"
         ],
         [
@@ -4383,44 +1683,9 @@
           "venta"
         ],
         [
-          "Asturias",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
           "Tarragona",
           "Terra Alta",
           "alquiler"
-        ],
-        [
-          "Asturias",
-          "Nalón",
-          "habitacion"
-        ],
-        [
-          "Lugo",
-          "Sarria",
-          "venta"
-        ],
-        [
-          "Lugo",
-          "Quiroga",
-          "venta"
-        ],
-        [
-          "Segovia",
-          "Área de Santa María Real de Nieva",
-          "venta"
-        ],
-        [
-          "Albacete",
-          "Campo de Hellín",
-          "venta"
-        ],
-        [
-          "Segovia",
-          "Área de Segovia",
-          "venta"
         ],
         [
           "A Coruña",
@@ -4443,34 +1708,1594 @@
           "venta"
         ],
         [
-          "Zaragoza",
-          "Campo de Borja",
-          "venta"
-        ],
-        [
           "Alicante",
           "Baix Vinalopó",
           "habitacion"
         ],
         [
-          "Badajoz",
-          "Área de Mérida",
+          "Ciudad Real",
+          "Sierra Morena",
+          "alquiler"
+        ],
+        [
+          "Teruel",
+          "Área de Teruel",
+          "habitacion"
+        ],
+        [
+          "Zamora",
+          "Benavente",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "O Sar",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Ribera Alta del Ebro",
+          "alquiler"
+        ],
+        [
+          "Alicante",
+          "Baix Segura",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Cinco Villas - Jacetania",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Berguedà",
+          "venta"
+        ],
+        [
+          "Salamanca",
+          "Área Metropolitana",
+          "venta"
+        ],
+        [
+          "Valladolid",
+          "Tierra de Campos",
+          "alquiler"
+        ],
+        [
+          "Pontevedra",
+          "Condado - Paradanta",
           "habitacion"
         ],
         [
           "A Coruña",
-          "Terra de Melide",
+          "Bergantiños",
           "alquiler"
         ],
         [
-          "Sevilla",
-          "La Marisma",
+          "Málaga",
+          "Costa del Sol Occidental - Área de Estepona",
+          "alquiler"
+        ],
+        [
+          "Burgos",
+          "Merindades",
+          "venta"
+        ],
+        [
+          "Girona",
+          "Ripollès",
+          "venta"
+        ],
+        [
+          "Castellón",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "Vitigudino",
+          "venta"
+        ],
+        [
+          "Cantabria",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Lugo",
+          "Ulloa",
+          "venta"
+        ],
+        [
+          "Málaga",
+          "Serranía de Ronda",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "Toledo",
+          "alquiler"
+        ],
+        [
+          "Asturias",
+          "Oriente",
+          "alquiler"
+        ],
+        [
+          "Baleares (Illes)",
+          "Ibiza",
+          "habitacion"
+        ],
+        [
+          "Ávila",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Tarragona",
+          "Baix Ebre",
+          "habitacion"
+        ],
+        [
+          "Badajoz",
+          "Campiña sur",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Alt Penedès",
+          "habitacion"
+        ],
+        [
+          "Cádiz",
+          "Campiña de Jerez",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Lugo",
+          "Chantada",
+          "venta"
+        ],
+        [
+          "Granada",
+          "Los Montes",
+          "alquiler"
+        ],
+        [
+          "Asturias",
+          "Área de Gijón",
+          "habitacion"
+        ],
+        [
+          "Valladolid",
+          "Tordesillas",
+          "venta"
+        ],
+        [
+          "Huesca",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Pontevedra",
+          "Área de Deza",
+          "venta"
+        ],
+        [
+          "Guipúzcoa",
+          "Alto Deba",
+          "venta"
+        ],
+        [
+          "Badajoz",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "Ribera Baixa",
+          "habitacion"
+        ],
+        [
+          "Cantabria",
+          "Campoo-Los Valles",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "Hoya de Buñol",
+          "venta"
+        ],
+        [
+          "León",
+          "Maragatería- Cabrera",
+          "habitacion"
+        ],
+        [
+          "Tarragona",
+          "Tarragonès",
+          "alquiler"
+        ],
+        [
+          "Baleares (Illes)",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Álava",
+          "Añana",
+          "alquiler"
+        ],
+        [
+          "Álava",
+          "Salvatierra",
+          "venta"
+        ],
+        [
+          "Soria",
+          "Almazán",
+          "habitacion"
+        ],
+        [
+          "Asturias",
+          "Área de Avilés",
+          "venta"
+        ],
+        [
+          "Burgos",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Castellón",
+          "Alto Mijares",
+          "venta"
+        ],
+        [
+          "Zaragoza",
+          "Tarazona-El Moncayo",
+          "alquiler"
+        ],
+        [
+          "Málaga",
+          "Costa del Sol Oriental - Axarquía",
+          "alquiler"
+        ],
+        [
+          "Málaga",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Albacete",
+          "Campo de Hellín",
+          "habitacion"
+        ],
+        [
+          "Baleares (Illes)",
+          "Mallorca",
+          "habitacion"
+        ],
+        [
+          "Valencia",
+          "L'Horta Nord",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "La Mesa de Ocaña",
+          "alquiler"
+        ],
+        [
+          "Zamora",
+          "Benavente",
+          "alquiler"
+        ],
+        [
+          "Granada",
+          "Poniente Granadino",
+          "habitacion"
+        ],
+        [
+          "Álava",
+          "Ayala",
+          "habitacion"
+        ],
+        [
+          "Murcia",
+          "Altiplano-Oriental",
+          "venta"
+        ],
+        [
+          "Madrid",
+          "Zona suroeste",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "Berguedà",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "Área Metropolitana",
+          "alquiler"
+        ],
+        [
+          "Burgos",
+          "Demanda",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "El Valle de Ayora",
+          "venta"
+        ],
+        [
+          "Ciudad Real",
+          "Alcudia",
+          "habitacion"
+        ],
+        [
+          "Santa Cruz de Tenerife",
+          "Tenerife",
+          "habitacion"
+        ],
+        [
+          "Lleida",
+          "Pla d'Urgell",
+          "habitacion"
+        ],
+        [
+          "Burgos",
+          "Merindades",
+          "alquiler"
+        ],
+        [
+          "Girona",
+          "Ripollès",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "Béjar",
+          "venta"
+        ],
+        [
+          "Salamanca",
+          "Vitigudino",
+          "alquiler"
+        ],
+        [
+          "Ciudad Real",
+          "Calatrava",
+          "habitacion"
+        ],
+        [
+          "Lugo",
+          "Ulloa",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "La Plana d'Utiel",
+          "venta"
+        ],
+        [
+          "Ávila",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Barcelonès",
+          "venta"
+        ],
+        [
+          "León",
+          "Tierra de Campos",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "Osona",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Muros",
+          "venta"
+        ],
+        [
+          "Cádiz",
+          "Campiña de Jerez",
+          "alquiler"
+        ],
+        [
+          "Albacete",
+          "Corredor de Almansa",
+          "habitacion"
+        ],
+        [
+          "Huesca",
+          "La Jacetania",
+          "venta"
+        ],
+        [
+          "Lugo",
+          "Chantada",
+          "alquiler"
+        ],
+        [
+          "Ciudad Real",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Zaragoza",
+          "Hoya de Huesca",
+          "venta"
+        ],
+        [
+          "Cuenca",
+          "Manchuela",
+          "habitacion"
+        ],
+        [
+          "Valladolid",
+          "Tordesillas",
+          "alquiler"
+        ],
+        [
+          "Granada",
+          "Costa Tropical",
+          "habitacion"
+        ],
+        [
+          "Toledo",
+          "La Jara",
+          "venta"
+        ],
+        [
+          "Pontevedra",
+          "Área de Deza",
+          "alquiler"
+        ],
+        [
+          "Ourense",
+          "Carballiño",
+          "habitacion"
+        ],
+        [
+          "Soria",
+          "Área de Soria",
+          "venta"
+        ],
+        [
+          "Guipúzcoa",
+          "Alto Deba",
+          "alquiler"
+        ],
+        [
+          "Zamora",
+          "Sanabria",
+          "habitacion"
+        ],
+        [
+          "Albacete",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Cádiz",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "Hoya de Buñol",
+          "alquiler"
+        ],
+        [
+          "Las Palmas",
+          "Lanzarote",
+          "habitacion"
+        ],
+        [
+          "Palencia",
+          "Camino de Santiago",
           "venta"
         ],
         [
           "Navarra",
-          "Olite",
+          "Área de Puente la Reina",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Miño - Betanzos",
           "alquiler"
+        ],
+        [
+          "Murcia",
+          "La Manga del Mar Menor",
+          "habitacion"
+        ],
+        [
+          "Pontevedra",
+          "Salnés",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "Vallès Oriental",
+          "alquiler"
+        ],
+        [
+          "Álava",
+          "Salvatierra",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Cantabria",
+          "Saja - Nansa",
+          "venta"
+        ],
+        [
+          "Granada",
+          "Alpujarra Granadina",
+          "habitacion"
+        ],
+        [
+          "Murcia",
+          "Alto Guadalentín",
+          "habitacion"
+        ],
+        [
+          "Sevilla",
+          "La Campiña",
+          "venta"
+        ],
+        [
+          "Huesca",
+          "Los Monegros",
+          "venta"
+        ],
+        [
+          "Sevilla",
+          "Área Metropolitana",
+          "venta"
+        ],
+        [
+          "Álava",
+          "Laguardia-Rioja Alavesa",
+          "venta"
+        ],
+        [
+          "Asturias",
+          "Área de Avilés",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "Sierra norte",
+          "habitacion"
+        ],
+        [
+          "Valladolid",
+          "Área Metropolitana Valladolid",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Área de Ferrol",
+          "venta"
+        ],
+        [
+          "Almería",
+          "Los Vélez",
+          "habitacion"
+        ],
+        [
+          "Toledo",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Madrid",
+          "Madrid",
+          "venta"
+        ],
+        [
+          "Lleida",
+          "Alt Urgell",
+          "habitacion"
+        ],
+        [
+          "Huesca",
+          "Hoya de Huesca",
+          "habitacion"
+        ],
+        [
+          "Valencia",
+          "Los Serranos",
+          "habitacion"
+        ],
+        [
+          "Murcia",
+          "Altiplano-Oriental",
+          "alquiler"
+        ],
+        [
+          "Álava",
+          "Vitoria-Gasteiz",
+          "habitacion"
+        ],
+        [
+          "Toledo",
+          "La Mancha",
+          "habitacion"
+        ],
+        [
+          "Burgos",
+          "Demanda",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "El Valle de Ayora",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Garraf",
+          "venta"
+        ],
+        [
+          "Ávila",
+          "Área de Ávila",
+          "venta"
+        ],
+        [
+          "Córdoba",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Albacete",
+          "Sierra de Alcaraz-Segura",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "La Plana d'Utiel",
+          "alquiler"
+        ],
+        [
+          "Huelva",
+          "El Condado",
+          "habitacion"
+        ],
+        [
+          "Tarragona",
+          "Ribera d'Ebre",
+          "habitacion"
+        ],
+        [
+          "Palencia",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Santa Cruz de Tenerife",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "Barcelonès",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Conca de Barberà",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "Osona",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Muros",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Monegros",
+          "venta"
+        ],
+        [
+          "Huesca",
+          "La Jacetania",
+          "alquiler"
+        ],
+        [
+          "Teruel",
+          "Matarraña",
+          "venta"
+        ],
+        [
+          "Zaragoza",
+          "Hoya de Huesca",
+          "alquiler"
+        ],
+        [
+          "Teruel",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Sevilla",
+          "Sevilla",
+          "alquiler"
+        ],
+        [
+          "Huesca",
+          "La Litera",
+          "venta"
+        ],
+        [
+          "Ourense",
+          "Valdeorras",
+          "habitacion"
+        ],
+        [
+          "Soria",
+          "Área de Soria",
+          "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "Encartaciones",
+          "venta"
+        ],
+        [
+          "Palencia",
+          "Tierra de Campos - Cerrato",
+          "venta"
+        ],
+        [
+          "Cádiz",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Lleida",
+          "Segrià",
+          "habitacion"
+        ],
+        [
+          "Salamanca",
+          "Ciudad Rodrigo",
+          "venta"
+        ],
+        [
+          "Palencia",
+          "Camino de Santiago",
+          "alquiler"
+        ],
+        [
+          "Navarra",
+          "Área de Puente la Reina",
+          "alquiler"
+        ],
+        [
+          "Badajoz",
+          "Don Benito-Siberia-Serena",
+          "habitacion"
+        ],
+        [
+          "A Coruña",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Cantabria",
+          "Saja - Nansa",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "La Campiña",
+          "alquiler"
+        ],
+        [
+          "Huesca",
+          "Los Monegros",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "Área Metropolitana",
+          "alquiler"
+        ],
+        [
+          "Álava",
+          "Laguardia-Rioja Alavesa",
+          "alquiler"
+        ],
+        [
+          "León",
+          "El Páramo",
+          "venta"
+        ],
+        [
+          "Valladolid",
+          "Área Metropolitana Valladolid",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Área de Ferrol",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "Sierra de San Vicente",
+          "venta"
+        ],
+        [
+          "Murcia",
+          "Río Mula",
+          "venta"
+        ],
+        [
+          "Toledo",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Alicante",
+          "L'Alcoià",
+          "venta"
+        ],
+        [
+          "Madrid",
+          "Madrid",
+          "alquiler"
+        ],
+        [
+          "Murcia",
+          "Valle de Ricote",
+          "habitacion"
+        ],
+        [
+          "Ciudad Real",
+          "Los Montes",
+          "venta"
+        ],
+        [
+          "Córdoba",
+          "Vega del Guadalquivir",
+          "habitacion"
+        ],
+        [
+          "Murcia",
+          "Mar Menor",
+          "habitacion"
+        ],
+        [
+          "Asturias",
+          "Área de Oviedo",
+          "venta"
+        ],
+        [
+          "Girona",
+          "La Garrotxa",
+          "habitacion"
+        ],
+        [
+          "Jaén",
+          "La Loma y las Villas",
+          "habitacion"
+        ],
+        [
+          "La Rioja",
+          "Área de Logroño",
+          "habitacion"
+        ],
+        [
+          "Alicante",
+          "Marina Alta",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Terra de Soneira",
+          "venta"
+        ],
+        [
+          "Girona",
+          "La Cerdanya",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "Garraf",
+          "alquiler"
+        ],
+        [
+          "Teruel",
+          "Albarracín",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Fisterra",
+          "habitacion"
+        ],
+        [
+          "Pontevedra",
+          "Área de Terra Montes",
+          "venta"
+        ],
+        [
+          "Murcia",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Ávila",
+          "Área de Ávila",
+          "alquiler"
+        ],
+        [
+          "Pontevedra",
+          "Morrazo",
+          "venta"
+        ],
+        [
+          "Teruel",
+          "Gúdar- Javalambre",
+          "habitacion"
+        ],
+        [
+          "Córdoba",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Albacete",
+          "Sierra de Alcaraz-Segura",
+          "alquiler"
+        ],
+        [
+          "Cáceres",
+          "Villuercas - Ibores - Jara",
+          "habitacion"
+        ],
+        [
+          "Palencia",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Cáceres",
+          "Campo Arañuelo",
+          "venta"
+        ],
+        [
+          "León",
+          "Las Montañas",
+          "habitacion"
+        ],
+        [
+          "Toledo",
+          "Área de Torrijos",
+          "venta"
+        ],
+        [
+          "Ourense",
+          "Terra de Celanova",
+          "venta"
+        ],
+        [
+          "Teruel",
+          "Matarraña",
+          "alquiler"
+        ],
+        [
+          "Navarra",
+          "Área de Tudela",
+          "venta"
+        ],
+        [
+          "Santa Cruz de Tenerife",
+          "La Palma",
+          "venta"
+        ],
+        [
+          "Huesca",
+          "La Litera",
+          "alquiler"
+        ],
+        [
+          "Madrid",
+          "Zona noroeste",
+          "habitacion"
+        ],
+        [
+          "Ourense",
+          "Área de Ourense",
+          "venta"
+        ],
+        [
+          "Las Palmas",
+          "Gran Canaria",
+          "habitacion"
+        ],
+        [
+          "Tarragona",
+          "Terra Alta",
+          "habitacion"
+        ],
+        [
+          "Granada",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Segovia",
+          "Área de Sepúlveda - Cantalejo",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Arzúa",
+          "habitacion"
+        ],
+        [
+          "Vizcaya",
+          "Encartaciones",
+          "alquiler"
+        ],
+        [
+          "Palencia",
+          "Tierra de Campos - Cerrato",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "Ciudad Rodrigo",
+          "alquiler"
+        ],
+        [
+          "León",
+          "Tierras de León",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "O Sar",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "Vallès Occidental",
+          "venta"
+        ],
+        [
+          "Lugo",
+          "A Fonsagrada",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Bergantiños",
+          "habitacion"
+        ],
+        [
+          "Málaga",
+          "Costa del Sol Occidental - Área de Estepona",
+          "habitacion"
+        ],
+        [
+          "Huelva",
+          "El Andévalo",
+          "venta"
+        ],
+        [
+          "Jaén",
+          "Comarca norte - El Condado",
+          "venta"
+        ],
+        [
+          "Castellón",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "León",
+          "El Páramo",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "Toledo",
+          "habitacion"
+        ],
+        [
+          "Asturias",
+          "Oriente",
+          "habitacion"
+        ],
+        [
+          "Toledo",
+          "Sierra de San Vicente",
+          "alquiler"
+        ],
+        [
+          "Murcia",
+          "Río Mula",
+          "alquiler"
+        ],
+        [
+          "Alicante",
+          "L'Alcoià",
+          "alquiler"
+        ],
+        [
+          "Badajoz",
+          "Campiña sur",
+          "habitacion"
+        ],
+        [
+          "Córdoba",
+          "Alto Guadalquivir",
+          "venta"
+        ],
+        [
+          "Ciudad Real",
+          "Los Montes",
+          "alquiler"
+        ],
+        [
+          "Almería",
+          "Bajo Almanzora",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "A Coruña",
+          "Noia",
+          "alquiler"
+        ],
+        [
+          "Castellón",
+          "Plana Baixa",
+          "venta"
+        ],
+        [
+          "Granada",
+          "Área de Granada",
+          "venta"
+        ],
+        [
+          "Asturias",
+          "Área de Oviedo",
+          "alquiler"
+        ],
+        [
+          "Granada",
+          "Los Montes",
+          "habitacion"
+        ],
+        [
+          "Valencia",
+          "La Costera",
+          "venta"
+        ],
+        [
+          "Teruel",
+          "Maestrazgo",
+          "venta"
+        ],
+        [
+          "Alicante",
+          "Marina Alta",
+          "alquiler"
+        ],
+        [
+          "Murcia",
+          "Bajo Guadalentín",
+          "venta"
+        ],
+        [
+          "Palencia",
+          "Montaña Palentina",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Terra de Soneira",
+          "alquiler"
+        ],
+        [
+          "Cádiz",
+          "Costa noroeste",
+          "venta"
+        ],
+        [
+          "Girona",
+          "Pla de l'Estany",
+          "habitacion"
+        ],
+        [
+          "Badajoz",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Teruel",
+          "Albarracín",
+          "alquiler"
+        ],
+        [
+          "Pontevedra",
+          "Área de Terra Montes",
+          "alquiler"
+        ],
+        [
+          "Cantabria",
+          "Campoo-Los Valles",
+          "habitacion"
+        ],
+        [
+          "Murcia",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Pontevedra",
+          "Morrazo",
+          "alquiler"
+        ],
+        [
+          "Badajoz",
+          "Área de Mérida",
+          "venta"
+        ],
+        [
+          "Álava",
+          "Añana",
+          "habitacion"
+        ],
+        [
+          "Cáceres",
+          "Campo Arañuelo",
+          "alquiler"
+        ],
+        [
+          "Almería",
+          "Poniente",
+          "venta"
+        ],
+        [
+          "Toledo",
+          "Área de Torrijos",
+          "alquiler"
+        ],
+        [
+          "Badajoz",
+          "Llanos de Olivenza",
+          "venta"
+        ],
+        [
+          "Ourense",
+          "Terra de Celanova",
+          "alquiler"
+        ],
+        [
+          "Santa Cruz de Tenerife",
+          "La Gomera",
+          "venta"
+        ],
+        [
+          "Cádiz",
+          "La Janda",
+          "venta"
+        ],
+        [
+          "Navarra",
+          "Área de Tudela",
+          "alquiler"
+        ],
+        [
+          "Santa Cruz de Tenerife",
+          "La Palma",
+          "alquiler"
+        ],
+        [
+          "Burgos",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Ourense",
+          "Área de Ourense",
+          "alquiler"
+        ],
+        [
+          "Castellón",
+          "Alt Maestrat",
+          "alquiler"
+        ],
+        [
+          "Málaga",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Málaga",
+          "Costa del Sol Oriental - Axarquía",
+          "habitacion"
+        ],
+        [
+          "Granada",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Segovia",
+          "Área de Sepúlveda - Cantalejo",
+          "alquiler"
+        ],
+        [
+          "Lleida",
+          "Urgell",
+          "venta"
+        ],
+        [
+          "Toledo",
+          "La Mesa de Ocaña",
+          "habitacion"
+        ],
+        [
+          "León",
+          "Tierras de León",
+          "alquiler"
+        ],
+        [
+          "Ávila",
+          "Arévalo",
+          "venta"
+        ],
+        [
+          "Zamora",
+          "Benavente",
+          "habitacion"
+        ],
+        [
+          "Lugo",
+          "A Fonsagrada",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Vallès Occidental",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "Área Metropolitana",
+          "habitacion"
+        ],
+        [
+          "Asturias",
+          "Narcea",
+          "venta"
+        ],
+        [
+          "Zamora",
+          "Área de Sayago",
+          "venta"
+        ],
+        [
+          "Burgos",
+          "Área de Burgos",
+          "venta"
+        ],
+        [
+          "Huelva",
+          "El Andévalo",
+          "alquiler"
+        ],
+        [
+          "Jaén",
+          "Comarca norte - El Condado",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "Vitigudino",
+          "habitacion"
+        ],
+        [
+          "Lugo",
+          "Ulloa",
+          "habitacion"
+        ],
+        [
+          "Guadalajara",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Ávila",
+          "Valle del Tiétar",
+          "venta"
+        ],
+        [
+          "Ávila",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Córdoba",
+          "Alto Guadalquivir",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Área de A Coruña",
+          "venta"
+        ],
+        [
+          "Cádiz",
+          "Campiña de Jerez",
+          "habitacion"
+        ],
+        [
+          "Almería",
+          "Bajo Almanzora",
+          "alquiler"
+        ],
+        [
+          "Lugo",
+          "Chantada",
+          "habitacion"
+        ],
+        [
+          "Castellón",
+          "Plana Baixa",
+          "alquiler"
+        ],
+        [
+          "Granada",
+          "Área de Granada",
+          "alquiler"
+        ],
+        [
+          "Lleida",
+          "Val d'Aran",
+          "venta"
+        ],
+        [
+          "Salamanca",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Granada",
+          "Área de Huéscar",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "La Costera",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "Peñaranda",
+          "venta"
+        ],
+        [
+          "Navarra",
+          "Área de Peralta",
+          "venta"
+        ],
+        [
+          "Teruel",
+          "Maestrazgo",
+          "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "Uribe-Butroe",
+          "habitacion"
+        ],
+        [
+          "Cantabria",
+          "Valles Pasiegos",
+          "venta"
+        ],
+        [
+          "Murcia",
+          "Bajo Guadalentín",
+          "alquiler"
+        ],
+        [
+          "Palencia",
+          "Montaña Palentina",
+          "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "Gran Bilbao",
+          "habitacion"
+        ],
+        [
+          "Cádiz",
+          "Costa noroeste",
+          "alquiler"
+        ],
+        [
+          "Lleida",
+          "Pallars Sobirà",
+          "venta"
+        ],
+        [
+          "Zamora",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "Hoya de Buñol",
+          "habitacion"
+        ],
+        [
+          "Navarra",
+          "Área de Esteribar",
+          "venta"
+        ],
+        [
+          "Jaén",
+          "Sierra Mágina",
+          "venta"
+        ],
+        [
+          "Segovia",
+          "Área de Segovia",
+          "venta"
+        ],
+        [
+          "Zaragoza",
+          "Campo de Borja",
+          "venta"
         ],
         [
           "A Coruña",
@@ -4483,16 +3308,6 @@
           "alquiler"
         ],
         [
-          "Ciudad Real",
-          "Sierra Morena",
-          "alquiler"
-        ],
-        [
-          "Toledo",
-          "Los Montes de Toledo",
-          "venta"
-        ],
-        [
           "Castellón",
           "Baix Maestrat",
           "habitacion"
@@ -4503,24 +3318,9 @@
           "venta"
         ],
         [
-          "Zamora",
-          "Benavente",
-          "venta"
-        ],
-        [
-          "Ceuta",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Castellón",
-          "Baix Maestrat",
-          "alquiler"
-        ],
-        [
-          "A Coruña",
-          "O Sar",
-          "alquiler"
+          "Barcelona",
+          "Vallès Oriental",
+          "habitacion"
         ],
         [
           "Almería",
@@ -4528,38 +3328,8 @@
           "alquiler"
         ],
         [
-          "Zaragoza",
-          "Ribera Alta del Ebro",
-          "alquiler"
-        ],
-        [
-          "Huesca",
-          "Cinca",
-          "venta"
-        ],
-        [
           "Álava",
           "Salvatierra",
-          "habitacion"
-        ],
-        [
-          "Álava",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "Vallès Oriental",
-          "habitacion"
-        ],
-        [
-          "Alicante",
-          "Baix Segura",
-          "habitacion"
-        ],
-        [
-          "Jaén",
-          "Sierra sur",
           "habitacion"
         ],
         [
@@ -4578,74 +3348,14 @@
           "alquiler"
         ],
         [
-          "Granada",
-          "Poniente Granadino",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Cerdanya",
-          "venta"
-        ],
-        [
-          "Alicante",
-          "Baix Segura",
-          "alquiler"
-        ],
-        [
-          "Málaga",
-          "Málaga",
-          "alquiler"
-        ],
-        [
-          "Álava",
-          "Ayala",
-          "venta"
-        ],
-        [
-          "Cádiz",
-          "La Janda",
-          "habitacion"
-        ],
-        [
-          "Cáceres",
-          "Trujillo",
-          "alquiler"
-        ],
-        [
           "Santa Cruz de Tenerife",
           "La Gomera",
           "alquiler"
         ],
         [
-          "Zaragoza",
-          "Cinco Villas - Jacetania",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Berguedà",
-          "venta"
-        ],
-        [
-          "Valladolid",
-          "Tierra de Campos",
-          "alquiler"
-        ],
-        [
-          "Salamanca",
-          "Área Metropolitana",
-          "venta"
-        ],
-        [
           "Cádiz",
           "La Janda",
           "alquiler"
-        ],
-        [
-          "Madrid",
-          "Zona suroeste",
-          "venta"
         ],
         [
           "Asturias",
@@ -4653,9 +3363,3209 @@
           "habitacion"
         ],
         [
-          "A Coruña",
-          "Bergantiños",
+          "Álava",
+          "Campezo- Montaña Alavesa",
           "alquiler"
+        ],
+        [
+          "Guipúzcoa",
+          "Goierri",
+          "habitacion"
+        ],
+        [
+          "Córdoba",
+          "Córdoba",
+          "alquiler"
+        ],
+        [
+          "Murcia",
+          "Vega Alta",
+          "venta"
+        ],
+        [
+          "Ourense",
+          "Ribeiro",
+          "habitacion"
+        ],
+        [
+          "Burgos",
+          "Ebro",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "El Rincón de Ademuz",
+          "venta"
+        ],
+        [
+          "Badajoz",
+          "Tierra de Barros - Tierras de Zafra",
+          "venta"
+        ],
+        [
+          "Lleida",
+          "Urgell",
+          "alquiler"
+        ],
+        [
+          "Cáceres",
+          "Valle del Alagón",
+          "venta"
+        ],
+        [
+          "Sevilla",
+          "Aljarafe",
+          "venta"
+        ],
+        [
+          "Ávila",
+          "Arévalo",
+          "alquiler"
+        ],
+        [
+          "Murcia",
+          "Altiplano-Oriental",
+          "habitacion"
+        ],
+        [
+          "Toledo",
+          "Talavera de la Reina",
+          "venta"
+        ],
+        [
+          "Pontevedra",
+          "Área de Caldas",
+          "venta"
+        ],
+        [
+          "Burgos",
+          "Ribera",
+          "venta"
+        ],
+        [
+          "Zamora",
+          "Área de Sayago",
+          "alquiler"
+        ],
+        [
+          "Burgos",
+          "Área de Burgos",
+          "alquiler"
+        ],
+        [
+          "Madrid",
+          "Zona sur",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "La Vall d'Albaida",
+          "habitacion"
+        ],
+        [
+          "Guadalajara",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Alicante",
+          "Vinalopó Mitjà",
+          "venta"
+        ],
+        [
+          "Zaragoza",
+          "Área de Zaragoza",
+          "venta"
+        ],
+        [
+          "Ávila",
+          "Valle del Tiétar",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Barcelonès",
+          "habitacion"
+        ],
+        [
+          "Cuenca",
+          "Serranía Alta",
+          "venta"
+        ],
+        [
+          "Asturias",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Ourense",
+          "Allariz- Maceda",
+          "venta"
+        ],
+        [
+          "Barcelona",
+          "Osona",
+          "habitacion"
+        ],
+        [
+          "A Coruña",
+          "Área de A Coruña",
+          "alquiler"
+        ],
+        [
+          "Álava",
+          "Zuya",
+          "habitacion"
+        ],
+        [
+          "Lleida",
+          "Val d'Aran",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Granada",
+          "Área de Huéscar",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "Sevilla",
+          "habitacion"
+        ],
+        [
+          "Salamanca",
+          "Peñaranda",
+          "alquiler"
+        ],
+        [
+          "Navarra",
+          "Área de Peralta",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "Valencia",
+          "venta"
+        ],
+        [
+          "Cantabria",
+          "Valles Pasiegos",
+          "alquiler"
+        ],
+        [
+          "Lleida",
+          "Segarra",
+          "venta"
+        ],
+        [
+          "Soria",
+          "Área de Soria",
+          "habitacion"
+        ],
+        [
+          "Lleida",
+          "Pallars Sobirà",
+          "alquiler"
+        ],
+        [
+          "Ávila",
+          "Burgohondo - Cebreros - El Tiemblo",
+          "habitacion"
+        ],
+        [
+          "Zamora",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Guadalajara",
+          "Campiña",
+          "alquiler"
+        ],
+        [
+          "Navarra",
+          "Área de Esteribar",
+          "alquiler"
+        ],
+        [
+          "Jaén",
+          "Sierra Mágina",
+          "alquiler"
+        ],
+        [
+          "Segovia",
+          "Área de Segovia",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Campo de Borja",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "Los Montes de Toledo",
+          "habitacion"
+        ],
+        [
+          "Segovia",
+          "Área de Riaza",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "El Camp de Tùria",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Baix Llobregat Sud",
+          "alquiler"
+        ],
+        [
+          "Cantabria",
+          "Saja - Nansa",
+          "habitacion"
+        ],
+        [
+          "Vizcaya",
+          "Arratia-Nervión",
+          "venta"
+        ],
+        [
+          "Sevilla",
+          "Área Metropolitana",
+          "habitacion"
+        ],
+        [
+          "Tarragona",
+          "Montsià",
+          "venta"
+        ],
+        [
+          "Álava",
+          "Laguardia-Rioja Alavesa",
+          "habitacion"
+        ],
+        [
+          "Granada",
+          "Área de Baza",
+          "alquiler"
+        ],
+        [
+          "Lugo",
+          "A Mariña",
+          "venta"
+        ],
+        [
+          "Badajoz",
+          "Jerez de los Caballeros",
+          "habitacion"
+        ],
+        [
+          "Valladolid",
+          "Área Metropolitana Valladolid",
+          "habitacion"
+        ],
+        [
+          "Murcia",
+          "Vega Alta",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Burgos",
+          "Ebro",
+          "alquiler"
+        ],
+        [
+          "Badajoz",
+          "Tierra de Barros - Tierras de Zafra",
+          "alquiler"
+        ],
+        [
+          "Lugo",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Ciudad Real",
+          "La Mancha",
+          "venta"
+        ],
+        [
+          "Ourense",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Cáceres",
+          "Valle del Alagón",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "Aljarafe",
+          "alquiler"
+        ],
+        [
+          "Girona",
+          "Alt Empordà",
+          "venta"
+        ],
+        [
+          "Zaragoza",
+          "Comunidad de Calatayud",
+          "venta"
+        ],
+        [
+          "Toledo",
+          "Talavera de la Reina",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Baix Camp",
+          "venta"
+        ],
+        [
+          "Pontevedra",
+          "Área de Caldas",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Guadalajara",
+          "Sierra",
+          "venta"
+        ],
+        [
+          "Barcelona",
+          "Garraf",
+          "habitacion"
+        ],
+        [
+          "Córdoba",
+          "La Subbética",
+          "venta"
+        ],
+        [
+          "Madrid",
+          "Zona sur",
+          "alquiler"
+        ],
+        [
+          "Albacete",
+          "La Mancha",
+          "venta"
+        ],
+        [
+          "Ávila",
+          "Área de Ávila",
+          "habitacion"
+        ],
+        [
+          "Murcia",
+          "Vega Media",
+          "venta"
+        ],
+        [
+          "Alicante",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Alicante",
+          "Vinalopó Mitjà",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "Safor",
+          "venta"
+        ],
+        [
+          "Zaragoza",
+          "Área de Zaragoza",
+          "alquiler"
+        ],
+        [
+          "Cádiz",
+          "Campo de Gibraltar",
+          "venta"
+        ],
+        [
+          "Cuenca",
+          "Serranía Alta",
+          "alquiler"
+        ],
+        [
+          "Asturias",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Ourense",
+          "Allariz- Maceda",
+          "alquiler"
+        ],
+        [
+          "Asturias",
+          "Nalón",
+          "alquiler"
+        ],
+        [
+          "Huesca",
+          "La Litera",
+          "habitacion"
+        ],
+        [
+          "Burgos",
+          "Montes de Oca",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "L'Horta Sud",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "Valencia",
+          "alquiler"
+        ],
+        [
+          "Cantabria",
+          "Área de Santander",
+          "habitacion"
+        ],
+        [
+          "Burgos",
+          "Odra-Paramos",
+          "venta"
+        ],
+        [
+          "Pontevedra",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Lleida",
+          "Segarra",
+          "alquiler"
+        ],
+        [
+          "Las Palmas",
+          "Fuerteventura",
+          "venta"
+        ],
+        [
+          "Palencia",
+          "Tierra de Campos - Cerrato",
+          "habitacion"
+        ],
+        [
+          "Albacete",
+          "La Manchuela",
+          "habitacion"
+        ],
+        [
+          "Cantabria",
+          "Costa Oriental",
+          "venta"
+        ],
+        [
+          "Valladolid",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Barcelona",
+          "Moianès",
+          "venta"
+        ],
+        [
+          "Huesca",
+          "Sobrarbe",
+          "venta"
+        ],
+        [
+          "Segovia",
+          "Área de Riaza",
+          "alquiler"
+        ],
+        [
+          "Navarra",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Teruel",
+          "Cuencas Mineras- Andorra-Bajo Martín",
+          "venta"
+        ],
+        [
+          "Málaga",
+          "Área de Antequera",
+          "venta"
+        ],
+        [
+          "Vizcaya",
+          "Arratia-Nervión",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Montsià",
+          "alquiler"
+        ],
+        [
+          "Lugo",
+          "A Mariña",
+          "alquiler"
+        ],
+        [
+          "Lleida",
+          "Pallars Jussà",
+          "venta"
+        ],
+        [
+          "Murcia",
+          "Río Mula",
+          "habitacion"
+        ],
+        [
+          "Alicante",
+          "L'Alcoià",
+          "habitacion"
+        ],
+        [
+          "Lleida",
+          "Alta Ribagorça",
+          "venta"
+        ],
+        [
+          "Zamora",
+          "Alfoz de Toro",
+          "venta"
+        ],
+        [
+          "Lugo",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Ciudad Real",
+          "Los Montes",
+          "habitacion"
+        ],
+        [
+          "A Coruña",
+          "Noia",
+          "habitacion"
+        ],
+        [
+          "Asturias",
+          "Área de Oviedo",
+          "habitacion"
+        ],
+        [
+          "Ciudad Real",
+          "La Mancha",
+          "alquiler"
+        ],
+        [
+          "Ourense",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Girona",
+          "Alt Empordà",
+          "alquiler"
+        ],
+        [
+          "Cáceres",
+          "Sierra de Gata",
+          "venta"
+        ],
+        [
+          "Alicante",
+          "Marina Alta",
+          "habitacion"
+        ],
+        [
+          "Zaragoza",
+          "Comunidad de Calatayud",
+          "alquiler"
+        ],
+        [
+          "Almería",
+          "Área de Almería",
+          "habitacion"
+        ],
+        [
+          "A Coruña",
+          "Terra de Soneira",
+          "habitacion"
+        ],
+        [
+          "Tarragona",
+          "Baix Camp",
+          "alquiler"
+        ],
+        [
+          "Pontevedra",
+          "Área de Pontevedra",
+          "venta"
+        ],
+        [
+          "Sevilla",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Murcia",
+          "Área de Murcia",
+          "venta"
+        ],
+        [
+          "Guadalajara",
+          "Sierra",
+          "alquiler"
+        ],
+        [
+          "Asturias",
+          "Eo-Navia",
+          "venta"
+        ],
+        [
+          "Córdoba",
+          "La Subbética",
+          "alquiler"
+        ],
+        [
+          "Pontevedra",
+          "Área de Terra Montes",
+          "habitacion"
+        ],
+        [
+          "Huesca",
+          "Alto Gállego",
+          "venta"
+        ],
+        [
+          "Murcia",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Navarra",
+          "Norte",
+          "venta"
+        ],
+        [
+          "Toledo",
+          "La Campana de Oropesa",
+          "alquiler"
+        ],
+        [
+          "Murcia",
+          "Vega Media",
+          "alquiler"
+        ],
+        [
+          "Lugo",
+          "Meira",
+          "venta"
+        ],
+        [
+          "Alicante",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "Safor",
+          "alquiler"
+        ],
+        [
+          "Cádiz",
+          "Campo de Gibraltar",
+          "alquiler"
+        ],
+        [
+          "Cáceres",
+          "Campo Arañuelo",
+          "habitacion"
+        ],
+        [
+          "Toledo",
+          "Área de Torrijos",
+          "habitacion"
+        ],
+        [
+          "Zamora",
+          "Tierra de Campos",
+          "venta"
+        ],
+        [
+          "Madrid",
+          "Corredor del Henares",
+          "venta"
+        ],
+        [
+          "Santa Cruz de Tenerife",
+          "La Palma",
+          "habitacion"
+        ],
+        [
+          "Granada",
+          "Área de Guadix",
+          "venta"
+        ],
+        [
+          "Burgos",
+          "Montes de Oca",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "L'Horta Sud",
+          "alquiler"
+        ],
+        [
+          "Ourense",
+          "Área de Ourense",
+          "habitacion"
+        ],
+        [
+          "Alicante",
+          "Marina Baixa",
+          "habitacion"
+        ],
+        [
+          "Burgos",
+          "Odra-Paramos",
+          "alquiler"
+        ],
+        [
+          "Granada",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Pontevedra",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Soria",
+          "Burgo de Osma",
+          "venta"
+        ],
+        [
+          "Las Palmas",
+          "Fuerteventura",
+          "alquiler"
+        ],
+        [
+          "León",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Cantabria",
+          "Costa Oriental",
+          "alquiler"
+        ],
+        [
+          "León",
+          "Tierras de León",
+          "habitacion"
+        ],
+        [
+          "Valladolid",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Moianès",
+          "alquiler"
+        ],
+        [
+          "Huesca",
+          "Sobrarbe",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Ordes",
+          "venta"
+        ],
+        [
+          "Lugo",
+          "Área de Lugo",
+          "venta"
+        ],
+        [
+          "Barcelona",
+          "Vallès Occidental",
+          "habitacion"
+        ],
+        [
+          "Guipúzcoa",
+          "Tolosaldea",
+          "habitacion"
+        ],
+        [
+          "Navarra",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Almería",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Guipúzcoa",
+          "Bajo Deba",
+          "habitacion"
+        ],
+        [
+          "Teruel",
+          "Cuencas Mineras- Andorra-Bajo Martín",
+          "alquiler"
+        ],
+        [
+          "Málaga",
+          "Área de Antequera",
+          "alquiler"
+        ],
+        [
+          "Cuenca",
+          "Serranía Media",
+          "venta"
+        ],
+        [
+          "Huelva",
+          "El Andévalo",
+          "habitacion"
+        ],
+        [
+          "Jaén",
+          "Comarca norte - El Condado",
+          "habitacion"
+        ],
+        [
+          "Lleida",
+          "Pallars Jussà",
+          "alquiler"
+        ],
+        [
+          "Lleida",
+          "Alta Ribagorça",
+          "alquiler"
+        ],
+        [
+          "Cádiz",
+          "Sierra de Cádiz",
+          "venta"
+        ],
+        [
+          "Zamora",
+          "Alfoz de Toro",
+          "alquiler"
+        ],
+        [
+          "Huelva",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Almería",
+          "Bajo Almanzora",
+          "habitacion"
+        ],
+        [
+          "Sevilla",
+          "Área de Estepa",
+          "habitacion"
+        ],
+        [
+          "Asturias",
+          "Caudal",
+          "habitacion"
+        ],
+        [
+          "Ourense",
+          "Terra de Caldelas- Trive",
+          "venta"
+        ],
+        [
+          "Cuenca",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Tarragona",
+          "Baix Penedès",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "La Costera",
+          "habitacion"
+        ],
+        [
+          "Lleida",
+          "Noguera",
+          "venta"
+        ],
+        [
+          "Cáceres",
+          "Sierra de Gata",
+          "alquiler"
+        ],
+        [
+          "Murcia",
+          "Bajo Guadalentín",
+          "habitacion"
+        ],
+        [
+          "Pontevedra",
+          "Área de Pontevedra",
+          "alquiler"
+        ],
+        [
+          "Murcia",
+          "Área de Murcia",
+          "alquiler"
+        ],
+        [
+          "Cádiz",
+          "Costa noroeste",
+          "habitacion"
+        ],
+        [
+          "Huesca",
+          "Somontano de Barbastro",
+          "venta"
+        ],
+        [
+          "Asturias",
+          "Eo-Navia",
+          "alquiler"
+        ],
+        [
+          "Guipúzcoa",
+          "Urola Kosta",
+          "venta"
+        ],
+        [
+          "Huesca",
+          "Alto Gállego",
+          "alquiler"
+        ],
+        [
+          "Las Palmas",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Castellón",
+          "Alto Mijares",
+          "alquiler"
+        ],
+        [
+          "Lugo",
+          "Meira",
+          "alquiler"
+        ],
+        [
+          "Burgos",
+          "Arlanza",
+          "habitacion"
+        ],
+        [
+          "Castellón",
+          "L'Alcalaten",
+          "habitacion"
+        ],
+        [
+          "Almería",
+          "Poniente",
+          "habitacion"
+        ],
+        [
+          "Zamora",
+          "Tierra de Campos",
+          "alquiler"
+        ],
+        [
+          "Madrid",
+          "Corredor del Henares",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Barbanza",
+          "habitacion"
+        ],
+        [
+          "Santa Cruz de Tenerife",
+          "La Gomera",
+          "habitacion"
+        ],
+        [
+          "Almería",
+          "Valle de Almanzora",
+          "venta"
+        ],
+        [
+          "Toledo",
+          "La Sagra",
+          "venta"
+        ],
+        [
+          "Navarra",
+          "Área de Pamplona",
+          "venta"
+        ],
+        [
+          "Cáceres",
+          "Área de Cáceres",
+          "habitacion"
+        ],
+        [
+          "Granada",
+          "Área de Guadix",
+          "alquiler"
+        ],
+        [
+          "Córdoba",
+          "Córdoba",
+          "habitacion"
+        ],
+        [
+          "Ciudad Real",
+          "Montiel",
+          "venta"
+        ],
+        [
+          "Lugo",
+          "Lemos",
+          "venta"
+        ],
+        [
+          "Salamanca",
+          "Béjar",
+          "alquiler"
+        ],
+        [
+          "León",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Ávila",
+          "Arévalo",
+          "habitacion"
+        ],
+        [
+          "A Coruña",
+          "Ordes",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Ortegal",
+          "venta"
+        ],
+        [
+          "Barcelona",
+          "Bages",
+          "venta"
+        ],
+        [
+          "Lleida",
+          "Garrigues",
+          "venta"
+        ],
+        [
+          "Navarra",
+          "Área de Sangüesa",
+          "venta"
+        ],
+        [
+          "Lugo",
+          "Área de Lugo",
+          "alquiler"
+        ],
+        [
+          "Guipúzcoa",
+          "Donostialdea",
+          "venta"
+        ],
+        [
+          "Jaén",
+          "Jaén",
+          "venta"
+        ],
+        [
+          "Almería",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Cuenca",
+          "Serranía Media",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Maresme",
+          "venta"
+        ],
+        [
+          "Castellón",
+          "Plana Alta",
+          "venta"
+        ],
+        [
+          "Málaga",
+          "Costa del Sol Occidental-Área de Benalmádena-Costa",
+          "venta"
+        ],
+        [
+          "Ávila",
+          "Valle del Tiétar",
+          "habitacion"
+        ],
+        [
+          "Toledo",
+          "La Jara",
+          "alquiler"
+        ],
+        [
+          "Cádiz",
+          "Sierra de Cádiz",
+          "alquiler"
+        ],
+        [
+          "Huelva",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Área de A Coruña",
+          "habitacion"
+        ],
+        [
+          "Lleida",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Salamanca",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Ourense",
+          "Terra de Caldelas- Trive",
+          "alquiler"
+        ],
+        [
+          "Cuenca",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Ceuta",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Granada",
+          "Área de Huéscar",
+          "habitacion"
+        ],
+        [
+          "Teruel",
+          "Área de Teruel",
+          "venta"
+        ],
+        [
+          "Tarragona",
+          "Baix Penedès",
+          "alquiler"
+        ],
+        [
+          "Lleida",
+          "Noguera",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "Peñaranda",
+          "habitacion"
+        ],
+        [
+          "Navarra",
+          "Área de Peralta",
+          "habitacion"
+        ],
+        [
+          "Cáceres",
+          "Trujillo",
+          "venta"
+        ],
+        [
+          "Pontevedra",
+          "Condado - Paradanta",
+          "venta"
+        ],
+        [
+          "Huesca",
+          "Somontano de Barbastro",
+          "alquiler"
+        ],
+        [
+          "Zamora",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Guipúzcoa",
+          "Urola Kosta",
+          "alquiler"
+        ],
+        [
+          "Guadalajara",
+          "Campiña",
+          "habitacion"
+        ],
+        [
+          "Huelva",
+          "La Costa",
+          "venta"
+        ],
+        [
+          "Segovia",
+          "Área de Segovia",
+          "habitacion"
+        ],
+        [
+          "Baleares (Illes)",
+          "Ibiza",
+          "venta"
+        ],
+        [
+          "Almería",
+          "Alpujarras",
+          "habitacion"
+        ],
+        [
+          "Guipúzcoa",
+          "Bajo Bidasoa",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "El Camp de Tùria",
+          "habitacion"
+        ],
+        [
+          "Tarragona",
+          "Baix Ebre",
+          "venta"
+        ],
+        [
+          "Barcelona",
+          "Baix Llobregat Sud",
+          "habitacion"
+        ],
+        [
+          "Almería",
+          "Valle de Almanzora",
+          "alquiler"
+        ],
+        [
+          "Córdoba",
+          "Alto Guadiato",
+          "venta"
+        ],
+        [
+          "Granada",
+          "Área de Baza",
+          "habitacion"
+        ],
+        [
+          "Navarra",
+          "Área de Pamplona",
+          "alquiler"
+        ],
+        [
+          "Cuenca",
+          "Mancha Alta",
+          "venta"
+        ],
+        [
+          "Murcia",
+          "Vega Alta",
+          "habitacion"
+        ],
+        [
+          "Ciudad Real",
+          "Montiel",
+          "alquiler"
+        ],
+        [
+          "La Rioja",
+          "Rioja Baja",
+          "venta"
+        ],
+        [
+          "Burgos",
+          "Ebro",
+          "habitacion"
+        ],
+        [
+          "Huesca",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Lugo",
+          "Lemos",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Priorat",
+          "venta"
+        ],
+        [
+          "Tarragona",
+          "Alt Camp",
+          "venta"
+        ],
+        [
+          "Cáceres",
+          "Las Hurdes-Ambroz",
+          "habitacion"
+        ],
+        [
+          "Sevilla",
+          "Aljarafe",
+          "habitacion"
+        ],
+        [
+          "Almería",
+          "Filabres",
+          "venta"
+        ],
+        [
+          "Badajoz",
+          "Badajoz-Alburquerque",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Ortegal",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Bages",
+          "alquiler"
+        ],
+        [
+          "Lleida",
+          "Garrigues",
+          "alquiler"
+        ],
+        [
+          "Navarra",
+          "Área de Sangüesa",
+          "alquiler"
+        ],
+        [
+          "Guipúzcoa",
+          "Donostialdea",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "Talavera de la Reina",
+          "habitacion"
+        ],
+        [
+          "Jaén",
+          "Jaén",
+          "alquiler"
+        ],
+        [
+          "Pontevedra",
+          "Área de Caldas",
+          "habitacion"
+        ],
+        [
+          "Zaragoza",
+          "Monegros",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Maresme",
+          "alquiler"
+        ],
+        [
+          "Soria",
+          "Almazán",
+          "venta"
+        ],
+        [
+          "Madrid",
+          "Zona sur",
+          "habitacion"
+        ],
+        [
+          "Madrid",
+          "Zona sureste",
+          "habitacion"
+        ],
+        [
+          "Teruel",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Cantabria",
+          "Costa Occidental",
+          "venta"
+        ],
+        [
+          "Málaga",
+          "Costa del Sol Occidental-Área de Benalmádena-Costa",
+          "alquiler"
+        ],
+        [
+          "Alicante",
+          "Alt Vinalopó",
+          "venta"
+        ],
+        [
+          "Alicante",
+          "Vinalopó Mitjà",
+          "habitacion"
+        ],
+        [
+          "Jaén",
+          "La Campiña",
+          "venta"
+        ],
+        [
+          "Jaén",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Asturias",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "A Coruña",
+          "Santiago",
+          "venta"
+        ],
+        [
+          "Ourense",
+          "Allariz- Maceda",
+          "habitacion"
+        ],
+        [
+          "Asturias",
+          "Nalón",
+          "habitacion"
+        ],
+        [
+          "Lugo",
+          "Quiroga",
+          "venta"
+        ],
+        [
+          "Segovia",
+          "Área de Santa María Real de Nieva",
+          "venta"
+        ],
+        [
+          "Albacete",
+          "Campo de Hellín",
+          "venta"
+        ],
+        [
+          "Sevilla",
+          "La Marisma",
+          "venta"
+        ],
+        [
+          "Ceuta",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Alicante",
+          "Baix Segura",
+          "habitacion"
+        ],
+        [
+          "Granada",
+          "Poniente Granadino",
+          "venta"
+        ],
+        [
+          "Álava",
+          "Ayala",
+          "venta"
+        ],
+        [
+          "Cáceres",
+          "Trujillo",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "Valencia",
+          "habitacion"
+        ],
+        [
+          "Madrid",
+          "Zona suroeste",
+          "venta"
+        ],
+        [
+          "Pontevedra",
+          "Condado - Paradanta",
+          "alquiler"
+        ],
+        [
+          "Lleida",
+          "Segarra",
+          "habitacion"
+        ],
+        [
+          "La Rioja",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Lleida",
+          "Pla d'Urgell",
+          "venta"
+        ],
+        [
+          "Huelva",
+          "La Costa",
+          "alquiler"
+        ],
+        [
+          "Málaga",
+          "Serranía de Ronda",
+          "habitacion"
+        ],
+        [
+          "Cuenca",
+          "La Alcarria",
+          "venta"
+        ],
+        [
+          "Madrid",
+          "Zona norte",
+          "alquiler"
+        ],
+        [
+          "Baleares (Illes)",
+          "Ibiza",
+          "alquiler"
+        ],
+        [
+          "Guipúzcoa",
+          "Bajo Bidasoa",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Baix Ebre",
+          "alquiler"
+        ],
+        [
+          "León",
+          "Tierra de Campos",
+          "venta"
+        ],
+        [
+          "Vizcaya",
+          "Arratia-Nervión",
+          "habitacion"
+        ],
+        [
+          "Córdoba",
+          "Alto Guadiato",
+          "alquiler"
+        ],
+        [
+          "Guipúzcoa",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Cuenca",
+          "Mancha Alta",
+          "alquiler"
+        ],
+        [
+          "Burgos",
+          "La Bureba",
+          "venta"
+        ],
+        [
+          "La Rioja",
+          "Rioja Baja",
+          "alquiler"
+        ],
+        [
+          "Huesca",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Priorat",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Alt Camp",
+          "alquiler"
+        ],
+        [
+          "Lugo",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Ourense",
+          "Carballiño",
+          "venta"
+        ],
+        [
+          "Madrid",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Zamora",
+          "Sanabria",
+          "venta"
+        ],
+        [
+          "Cantabria",
+          "Besaya",
+          "venta"
+        ],
+        [
+          "Almería",
+          "Filabres",
+          "alquiler"
+        ],
+        [
+          "Badajoz",
+          "Badajoz-Alburquerque",
+          "alquiler"
+        ],
+        [
+          "Murcia",
+          "La Manga del Mar Menor",
+          "venta"
+        ],
+        [
+          "Pontevedra",
+          "Salnés",
+          "venta"
+        ],
+        [
+          "Sevilla",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Guadalajara",
+          "Sierra",
+          "habitacion"
+        ],
+        [
+          "Jaén",
+          "Sierra sur",
+          "venta"
+        ],
+        [
+          "Soria",
+          "Almazán",
+          "alquiler"
+        ],
+        [
+          "Granada",
+          "Alpujarra Granadina",
+          "venta"
+        ],
+        [
+          "Córdoba",
+          "La Subbética",
+          "habitacion"
+        ],
+        [
+          "Murcia",
+          "Vega Media",
+          "habitacion"
+        ],
+        [
+          "Teruel",
+          "Bajo Aragón",
+          "venta"
+        ],
+        [
+          "Cantabria",
+          "Costa Occidental",
+          "alquiler"
+        ],
+        [
+          "Alicante",
+          "Alt Vinalopó",
+          "alquiler"
+        ],
+        [
+          "Alicante",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Jaén",
+          "La Campiña",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "Sierra norte",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "Safor",
+          "habitacion"
+        ],
+        [
+          "Alicante",
+          "L'Alacantí",
+          "venta"
+        ],
+        [
+          "Almería",
+          "Los Vélez",
+          "venta"
+        ],
+        [
+          "Cantabria",
+          "Área de San Vicente de la Barquera",
+          "venta"
+        ],
+        [
+          "Jaén",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Cádiz",
+          "Campo de Gibraltar",
+          "habitacion"
+        ],
+        [
+          "A Coruña",
+          "Santiago",
+          "alquiler"
+        ],
+        [
+          "Lugo",
+          "Quiroga",
+          "alquiler"
+        ],
+        [
+          "Almería",
+          "Campo de Tabernas",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "L'Horta Nord",
+          "habitacion"
+        ],
+        [
+          "Segovia",
+          "Área de Santa María Real de Nieva",
+          "alquiler"
+        ],
+        [
+          "Albacete",
+          "Campo de Hellín",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "La Marisma",
+          "alquiler"
+        ],
+        [
+          "Murcia",
+          "Noroeste",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "Los Serranos",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "L'Horta Sud",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "Berguedà",
+          "habitacion"
+        ],
+        [
+          "Madrid",
+          "Zona suroeste",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Campo de Daroca",
+          "venta"
+        ],
+        [
+          "Toledo",
+          "La Mancha",
+          "venta"
+        ],
+        [
+          "Burgos",
+          "Odra-Paramos",
+          "habitacion"
+        ],
+        [
+          "Pontevedra",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Burgos",
+          "Merindades",
+          "habitacion"
+        ],
+        [
+          "La Rioja",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Lleida",
+          "Pla d'Urgell",
+          "alquiler"
+        ],
+        [
+          "Las Palmas",
+          "Fuerteventura",
+          "habitacion"
+        ],
+        [
+          "Girona",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Cantabria",
+          "Costa Oriental",
+          "habitacion"
+        ],
+        [
+          "Valladolid",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Huesca",
+          "Sobrarbe",
+          "habitacion"
+        ],
+        [
+          "Cuenca",
+          "La Alcarria",
+          "alquiler"
+        ],
+        [
+          "Huelva",
+          "El Condado",
+          "venta"
+        ],
+        [
+          "Baleares (Illes)",
+          "Menorca",
+          "venta"
+        ],
+        [
+          "Zaragoza",
+          "Campo de Belchite",
+          "venta"
+        ],
+        [
+          "Navarra",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "León",
+          "Tierra de Campos",
+          "alquiler"
+        ],
+        [
+          "Málaga",
+          "Área de Antequera",
+          "habitacion"
+        ],
+        [
+          "Málaga",
+          "Costa del Sol Occidental-Área de Marbella",
+          "venta"
+        ],
+        [
+          "Guipúzcoa",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Lleida",
+          "Pallars Jussà",
+          "habitacion"
+        ],
+        [
+          "Ourense",
+          "Valdeorras",
+          "venta"
+        ],
+        [
+          "Burgos",
+          "La Bureba",
+          "alquiler"
+        ],
+        [
+          "Pontevedra",
+          "Área de Deza",
+          "habitacion"
+        ],
+        [
+          "Pontevedra",
+          "Baixo Miño",
+          "venta"
+        ],
+        [
+          "Barcelona",
+          "Barcelona",
+          "venta"
+        ],
+        [
+          "Guipúzcoa",
+          "Alto Deba",
+          "habitacion"
+        ],
+        [
+          "Lleida",
+          "Alta Ribagorça",
+          "habitacion"
+        ],
+        [
+          "Zamora",
+          "Alfoz de Toro",
+          "habitacion"
+        ],
+        [
+          "Ourense",
+          "Carballiño",
+          "alquiler"
+        ],
+        [
+          "Madrid",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Cantabria",
+          "Asón-Agüera",
+          "venta"
+        ],
+        [
+          "Barcelona",
+          "Baix Llobregat Nord",
+          "venta"
+        ],
+        [
+          "Zamora",
+          "Sanabria",
+          "alquiler"
+        ],
+        [
+          "Cantabria",
+          "Besaya",
+          "alquiler"
+        ],
+        [
+          "Jaén",
+          "Alto Guadalquivir",
+          "venta"
+        ],
+        [
+          "Lleida",
+          "Segrià",
+          "venta"
+        ],
+        [
+          "Segovia",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Cáceres",
+          "Sierra de Gata",
+          "habitacion"
+        ],
+        [
+          "Huelva",
+          "Sierra",
+          "venta"
+        ],
+        [
+          "Pontevedra",
+          "Salnés",
+          "alquiler"
+        ],
+        [
+          "Córdoba",
+          "Campiña sur-Campiña este",
+          "venta"
+        ],
+        [
+          "Pontevedra",
+          "Área de Pontevedra",
+          "habitacion"
+        ],
+        [
+          "Jaén",
+          "Sierra sur",
+          "alquiler"
+        ],
+        [
+          "Asturias",
+          "Eo-Navia",
+          "habitacion"
+        ],
+        [
+          "Castellón",
+          "Alto Mijares",
+          "habitacion"
+        ],
+        [
+          "Soria",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Teruel",
+          "Bajo Aragón",
+          "alquiler"
+        ],
+        [
+          "Alicante",
+          "L'Alacantí",
+          "alquiler"
+        ],
+        [
+          "Almería",
+          "Los Vélez",
+          "alquiler"
+        ],
+        [
+          "Cantabria",
+          "Área de San Vicente de la Barquera",
+          "alquiler"
+        ],
+        [
+          "Navarra",
+          "Área de Estella y Urbasa",
+          "venta"
+        ],
+        [
+          "Almería",
+          "Campo de Tabernas",
+          "alquiler"
+        ],
+        [
+          "Madrid",
+          "Corredor del Henares",
+          "habitacion"
+        ],
+        [
+          "Valencia",
+          "Camp de Morvedre",
+          "venta"
+        ],
+        [
+          "Murcia",
+          "Noroeste",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "Los Serranos",
+          "alquiler"
+        ],
+        [
+          "Murcia",
+          "Campo de Cartagena",
+          "venta"
+        ],
+        [
+          "Guadalajara",
+          "Alcarria Alta",
+          "venta"
+        ],
+        [
+          "Asturias",
+          "Narcea",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Campo de Daroca",
+          "alquiler"
+        ],
+        [
+          "Salamanca",
+          "Béjar",
+          "habitacion"
+        ],
+        [
+          "Girona",
+          "La Cerdanya",
+          "venta"
+        ],
+        [
+          "León",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Girona",
+          "Gironès",
+          "venta"
+        ],
+        [
+          "Valladolid",
+          "Tierra de Medina",
+          "venta"
+        ],
+        [
+          "Girona",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Valencia",
+          "La Plana d'Utiel",
+          "habitacion"
+        ],
+        [
+          "A Coruña",
+          "Ordes",
+          "habitacion"
+        ],
+        [
+          "Huelva",
+          "El Condado",
+          "alquiler"
+        ],
+        [
+          "Baleares (Illes)",
+          "Menorca",
+          "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Campo de Belchite",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "La Vega",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Muros",
+          "habitacion"
+        ],
+        [
+          "Vizcaya",
+          "Duranguesado",
+          "venta"
+        ],
+        [
+          "Almería",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Huesca",
+          "La Jacetania",
+          "habitacion"
+        ],
+        [
+          "Málaga",
+          "Costa del Sol Occidental-Área de Marbella",
+          "alquiler"
+        ],
+        [
+          "Málaga",
+          "Valle de Guadalhorce",
+          "venta"
+        ],
+        [
+          "Córdoba",
+          "Los Pedroches",
+          "venta"
+        ],
+        [
+          "Ourense",
+          "Valdeorras",
+          "alquiler"
+        ],
+        [
+          "Madrid",
+          "Zona noroeste",
+          "venta"
+        ],
+        [
+          "Vizcaya",
+          "Lea-Artibai",
+          "venta"
+        ],
+        [
+          "Las Palmas",
+          "Gran Canaria",
+          "venta"
+        ],
+        [
+          "Pontevedra",
+          "Baixo Miño",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Barcelona",
+          "alquiler"
+        ],
+        [
+          "Cádiz",
+          "Sierra de Cádiz",
+          "habitacion"
+        ],
+        [
+          "Huelva",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Huesca",
+          "Ribagorza",
+          "venta"
+        ],
+        [
+          "Cádiz",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Tarragona",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Cantabria",
+          "Asón-Agüera",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Baix Llobregat Nord",
+          "alquiler"
+        ],
+        [
+          "Jaén",
+          "Alto Guadalquivir",
+          "alquiler"
+        ],
+        [
+          "Cuenca",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Lleida",
+          "Segrià",
+          "alquiler"
+        ],
+        [
+          "Segovia",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Baix Penedès",
+          "habitacion"
+        ],
+        [
+          "Navarra",
+          "Área de Puente la Reina",
+          "habitacion"
+        ],
+        [
+          "Lleida",
+          "Noguera",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "Anoia",
+          "venta"
+        ],
+        [
+          "Zamora",
+          "Tierra del Vino - La Guareña",
+          "venta"
+        ],
+        [
+          "Córdoba",
+          "Campiña sur-Campiña este",
+          "alquiler"
+        ],
+        [
+          "Almería",
+          "Levante",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Valencia",
+          "La Canal de Navarrés",
+          "venta"
+        ],
+        [
+          "Sevilla",
+          "La Campiña",
+          "habitacion"
+        ],
+        [
+          "Cuenca",
+          "Mancha Baja",
+          "venta"
+        ],
+        [
+          "Guadalajara",
+          "Molina de Aragón",
+          "venta"
+        ],
+        [
+          "Guipúzcoa",
+          "Urola Kosta",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Soria",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Área de Ferrol",
+          "habitacion"
+        ],
+        [
+          "Lugo",
+          "Terra Chá",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "El Rincón de Ademuz",
+          "alquiler"
+        ],
+        [
+          "Badajoz",
+          "Campiña sur",
+          "venta"
+        ],
+        [
+          "Navarra",
+          "Área de Estella y Urbasa",
+          "alquiler"
+        ],
+        [
+          "Almería",
+          "Valle de Almanzora",
+          "habitacion"
+        ],
+        [
+          "Valencia",
+          "Camp de Morvedre",
+          "alquiler"
+        ],
+        [
+          "Navarra",
+          "Área de Pamplona",
+          "habitacion"
+        ],
+        [
+          "Murcia",
+          "Campo de Cartagena",
+          "alquiler"
+        ],
+        [
+          "Guadalajara",
+          "Alcarria Alta",
+          "alquiler"
+        ],
+        [
+          "Ciudad Real",
+          "Montiel",
+          "habitacion"
+        ],
+        [
+          "Burgos",
+          "Ribera",
+          "alquiler"
+        ],
+        [
+          "Almería",
+          "Parque Natural Cabo de Gata - Níjar",
+          "venta"
+        ],
+        [
+          "Lugo",
+          "Lemos",
+          "habitacion"
+        ],
+        [
+          "Girona",
+          "La Cerdanya",
+          "alquiler"
+        ],
+        [
+          "Girona",
+          "Pla de l'Estany",
+          "venta"
+        ],
+        [
+          "Teruel",
+          "Jiloca",
+          "venta"
+        ],
+        [
+          "Girona",
+          "Gironès",
+          "alquiler"
+        ],
+        [
+          "Córdoba",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Melilla",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Valladolid",
+          "Tierra de Medina",
+          "alquiler"
+        ],
+        [
+          "Girona",
+          "Baix Empordà",
+          "venta"
+        ],
+        [
+          "Castellón",
+          "Alto Palancia",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Ortegal",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "Bages",
+          "habitacion"
+        ],
+        [
+          "Palencia",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Navarra",
+          "Área de Sangüesa",
+          "habitacion"
+        ],
+        [
+          "Guipúzcoa",
+          "Donostialdea",
+          "habitacion"
+        ],
+        [
+          "Sevilla",
+          "La Vega",
+          "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "Duranguesado",
+          "alquiler"
+        ],
+        [
+          "Barcelona",
+          "Maresme",
+          "habitacion"
+        ],
+        [
+          "Teruel",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Jaén",
+          "Sierra de Segura",
+          "venta"
+        ],
+        [
+          "Málaga",
+          "Valle de Guadalhorce",
+          "alquiler"
+        ],
+        [
+          "Burgos",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Córdoba",
+          "Los Pedroches",
+          "alquiler"
+        ],
+        [
+          "Cáceres",
+          "La Vera",
+          "venta"
+        ],
+        [
+          "Madrid",
+          "Zona noroeste",
+          "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "Lea-Artibai",
+          "alquiler"
+        ],
+        [
+          "Las Palmas",
+          "Gran Canaria",
+          "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "Encartaciones",
+          "habitacion"
+        ],
+        [
+          "Huesca",
+          "Ribagorza",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Girona",
+          "La Selva",
+          "venta"
+        ],
+        [
+          "Ceuta",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Cáceres",
+          "Trujillo",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "Anoia",
+          "alquiler"
+        ],
+        [
+          "Zamora",
+          "Tierra del Vino - La Guareña",
+          "alquiler"
+        ],
+        [
+          "Cáceres",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Albacete",
+          "Centro",
+          "venta"
+        ],
+        [
+          "Valencia",
+          "La Canal de Navarrés",
+          "alquiler"
+        ],
+        [
+          "Cuenca",
+          "Mancha Baja",
+          "alquiler"
+        ],
+        [
+          "Guadalajara",
+          "Molina de Aragón",
+          "alquiler"
+        ],
+        [
+          "León",
+          "El Páramo",
+          "habitacion"
+        ],
+        [
+          "Barcelona",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "Sierra de San Vicente",
+          "habitacion"
+        ],
+        [
+          "Lugo",
+          "Terra Chá",
+          "alquiler"
+        ],
+        [
+          "Madrid",
+          "Zona norte",
+          "habitacion"
+        ],
+        [
+          "Guipúzcoa",
+          "Bajo Bidasoa",
+          "habitacion"
+        ],
+        [
+          "Navarra",
+          "Área de Tafalla",
+          "venta"
+        ],
+        [
+          "Córdoba",
+          "Alto Guadiato",
+          "habitacion"
+        ],
+        [
+          "Cádiz",
+          "Bahía de Cádiz",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Eume",
+          "venta"
+        ],
+        [
+          "Cuenca",
+          "Mancha Alta",
+          "habitacion"
+        ],
+        [
+          "León",
+          "Bierzo- Ancares",
+          "venta"
+        ],
+        [
+          "La Rioja",
+          "Rioja Baja",
+          "habitacion"
+        ],
+        [
+          "Vizcaya",
+          "Uribe-Butroe",
+          "venta"
+        ],
+        [
+          "Tarragona",
+          "Priorat",
+          "habitacion"
+        ],
+        [
+          "Almería",
+          "Parque Natural Cabo de Gata - Níjar",
+          "alquiler"
+        ],
+        [
+          "Tarragona",
+          "Alt Camp",
+          "habitacion"
+        ],
+        [
+          "Ourense",
+          "Limia",
+          "venta"
+        ],
+        [
+          "Vizcaya",
+          "Gran Bilbao",
+          "venta"
+        ],
+        [
+          "Albacete",
+          "La Mancha",
+          "alquiler"
+        ],
+        [
+          "Girona",
+          "Pla de l'Estany",
+          "alquiler"
+        ],
+        [
+          "Pontevedra",
+          "Morrazo",
+          "habitacion"
+        ],
+        [
+          "Teruel",
+          "Jiloca",
+          "alquiler"
+        ],
+        [
+          "Melilla",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Girona",
+          "Baix Empordà",
+          "alquiler"
+        ],
+        [
+          "Almería",
+          "Filabres",
+          "habitacion"
+        ],
+        [
+          "Castellón",
+          "Alto Palancia",
+          "alquiler"
+        ],
+        [
+          "Badajoz",
+          "Badajoz-Alburquerque",
+          "habitacion"
+        ],
+        [
+          "A Coruña",
+          "Terra de Melide",
+          "venta"
+        ],
+        [
+          "Navarra",
+          "Olite",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Miño - Betanzos",
+          "venta"
+        ],
+        [
+          "Castellón",
+          "Baix Maestrat",
+          "venta"
+        ],
+        [
+          "Barcelona",
+          "Vallès Oriental",
+          "venta"
+        ],
+        [
+          "Málaga",
+          "Málaga",
+          "venta"
+        ],
+        [
+          "Jaén",
+          "Sierra de Segura",
+          "alquiler"
+        ],
+        [
+          "Cantabria",
+          "Costa Occidental",
+          "habitacion"
+        ],
+        [
+          "Alicante",
+          "Alt Vinalopó",
+          "habitacion"
+        ],
+        [
+          "Guipúzcoa",
+          "Goierri",
+          "venta"
+        ],
+        [
+          "Valladolid",
+          "Tierra de Pinares",
+          "venta"
+        ],
+        [
+          "Cáceres",
+          "La Vera",
+          "alquiler"
+        ],
+        [
+          "Jaén",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Zamora",
+          "Área de Zamora",
+          "venta"
+        ],
+        [
+          "Segovia",
+          "Área de Sepúlveda - Cantalejo",
+          "habitacion"
+        ],
+        [
+          "Ourense",
+          "Ribeiro",
+          "venta"
+        ],
+        [
+          "A Coruña",
+          "Santiago",
+          "habitacion"
+        ],
+        [
+          "Zaragoza",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Badajoz",
+          "Tentudía",
+          "venta"
+        ],
+        [
+          "Girona",
+          "La Selva",
+          "alquiler"
+        ],
+        [
+          "Sevilla",
+          "La Marisma",
+          "habitacion"
+        ],
+        [
+          "Segovia",
+          "Área de Cuéllar",
+          "venta"
+        ],
+        [
+          "Cuenca",
+          "Serranía Baja",
+          "venta"
+        ],
+        [
+          "Castellón",
+          "Els Ports",
+          "venta"
+        ],
+        [
+          "Pontevedra",
+          "Área de Vigo",
+          "venta"
+        ],
+        [
+          "Cáceres",
+          "*(Toda la provincia)*",
+          "alquiler"
+        ],
+        [
+          "Albacete",
+          "Centro",
+          "alquiler"
+        ],
+        [
+          "La Rioja",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Valencia",
+          "La Vall d'Albaida",
+          "venta"
+        ],
+        [
+          "Cuenca",
+          "La Alcarria",
+          "habitacion"
+        ],
+        [
+          "Valencia",
+          "Ribera Alta",
+          "venta"
+        ],
+        [
+          "Castellón",
+          "Plana Baixa",
+          "habitacion"
+        ],
+        [
+          "Granada",
+          "Área de Granada",
+          "habitacion"
+        ],
+        [
+          "A Coruña",
+          "Xallas",
+          "venta"
+        ],
+        [
+          "Zaragoza",
+          "Aranda",
+          "venta"
+        ],
+        [
+          "Navarra",
+          "Área de Tafalla",
+          "alquiler"
+        ],
+        [
+          "Álava",
+          "Zuya",
+          "venta"
+        ],
+        [
+          "Cádiz",
+          "Bahía de Cádiz",
+          "alquiler"
+        ],
+        [
+          "A Coruña",
+          "Eume",
+          "alquiler"
+        ],
+        [
+          "La Rioja",
+          "Los Cameros",
+          "venta"
+        ],
+        [
+          "Sevilla",
+          "Sevilla",
+          "venta"
+        ],
+        [
+          "Guipúzcoa",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "León",
+          "Bierzo- Ancares",
+          "alquiler"
+        ],
+        [
+          "Cantabria",
+          "Trasmiera",
+          "venta"
+        ],
+        [
+          "La Rioja",
+          "Rioja Alta",
+          "venta"
+        ],
+        [
+          "Burgos",
+          "La Bureba",
+          "habitacion"
+        ],
+        [
+          "Palencia",
+          "Montaña Palentina",
+          "habitacion"
+        ],
+        [
+          "Vizcaya",
+          "Uribe-Butroe",
+          "alquiler"
+        ],
+        [
+          "Madrid",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Ourense",
+          "Limia",
+          "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "Gran Bilbao",
+          "alquiler"
+        ],
+        [
+          "Navarra",
+          "Norte",
+          "alquiler"
+        ],
+        [
+          "Ávila",
+          "Burgohondo - Cebreros - El Tiemblo",
+          "venta"
+        ],
+        [
+          "Cantabria",
+          "Besaya",
+          "habitacion"
+        ],
+        [
+          "Lugo",
+          "Sarria",
+          "venta"
+        ],
+        [
+          "Badajoz",
+          "Área de Mérida",
+          "habitacion"
+        ],
+        [
+          "A Coruña",
+          "Terra de Melide",
+          "alquiler"
+        ],
+        [
+          "Navarra",
+          "Olite",
+          "alquiler"
+        ],
+        [
+          "Toledo",
+          "Los Montes de Toledo",
+          "venta"
+        ],
+        [
+          "Castellón",
+          "Baix Maestrat",
+          "alquiler"
+        ],
+        [
+          "Huesca",
+          "Cinca",
+          "venta"
+        ],
+        [
+          "Álava",
+          "*(Toda la provincia)*",
+          "venta"
+        ],
+        [
+          "Jaén",
+          "Sierra sur",
+          "habitacion"
+        ],
+        [
+          "Lleida",
+          "Cerdanya",
+          "venta"
+        ],
+        [
+          "Málaga",
+          "Málaga",
+          "alquiler"
+        ],
+        [
+          "Cádiz",
+          "La Janda",
+          "habitacion"
         ],
         [
           "A Coruña",
@@ -4663,39 +6573,9 @@
           "habitacion"
         ],
         [
-          "Málaga",
-          "Costa del Sol Occidental - Área de Estepona",
-          "alquiler"
-        ],
-        [
-          "Pontevedra",
-          "Condado - Paradanta",
-          "alquiler"
-        ],
-        [
-          "Álava",
-          "Campezo- Montaña Alavesa",
-          "alquiler"
-        ],
-        [
-          "Guipúzcoa",
-          "Goierri",
+          "Teruel",
+          "Bajo Aragón",
           "habitacion"
-        ],
-        [
-          "Córdoba",
-          "Córdoba",
-          "alquiler"
-        ],
-        [
-          "Lleida",
-          "Segarra",
-          "habitacion"
-        ],
-        [
-          "Murcia",
-          "Vega Alta",
-          "venta"
         ],
         [
           "Badajoz",
@@ -4703,29 +6583,9 @@
           "venta"
         ],
         [
-          "Burgos",
-          "Merindades",
-          "venta"
-        ],
-        [
           "Guipúzcoa",
           "Goierri",
           "alquiler"
-        ],
-        [
-          "Girona",
-          "Ripollès",
-          "venta"
-        ],
-        [
-          "La Rioja",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Pla d'Urgell",
-          "venta"
         ],
         [
           "Valladolid",
@@ -4743,39 +6603,9 @@
           "habitacion"
         ],
         [
-          "Castellón",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Salamanca",
-          "Vitigudino",
-          "venta"
-        ],
-        [
-          "Burgos",
-          "Ebro",
-          "venta"
-        ],
-        [
-          "Valencia",
-          "El Rincón de Ademuz",
-          "venta"
-        ],
-        [
-          "Huelva",
-          "La Costa",
-          "alquiler"
-        ],
-        [
           "Zamora",
           "Área de Zamora",
           "alquiler"
-        ],
-        [
-          "Badajoz",
-          "Tierra de Barros - Tierras de Zafra",
-          "venta"
         ],
         [
           "Ourense",
@@ -4788,48 +6618,13 @@
           "alquiler"
         ],
         [
-          "Cantabria",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Cuenca",
-          "La Alcarria",
-          "venta"
-        ],
-        [
           "Lleida",
           "Urgell",
           "habitacion"
-        ],
-        [
-          "Málaga",
-          "Serranía de Ronda",
-          "habitacion"
-        ],
-        [
-          "Lugo",
-          "Ulloa",
-          "venta"
-        ],
-        [
-          "Málaga",
-          "Serranía de Ronda",
-          "alquiler"
-        ],
-        [
-          "Toledo",
-          "Toledo",
-          "alquiler"
         ],
         [
           "Zaragoza",
           "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Lleida",
-          "Urgell",
           "alquiler"
         ],
         [
@@ -4838,108 +6633,18 @@
           "venta"
         ],
         [
-          "Asturias",
-          "Oriente",
-          "alquiler"
-        ],
-        [
           "Badajoz",
           "Tentudía",
           "alquiler"
         ],
         [
-          "Baleares (Illes)",
-          "Ibiza",
+          "Murcia",
+          "Noroeste",
           "habitacion"
-        ],
-        [
-          "Madrid",
-          "Zona norte",
-          "alquiler"
-        ],
-        [
-          "Ávila",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Baleares (Illes)",
-          "Ibiza",
-          "alquiler"
-        ],
-        [
-          "Cáceres",
-          "Valle del Alagón",
-          "venta"
-        ],
-        [
-          "Guipúzcoa",
-          "Bajo Bidasoa",
-          "alquiler"
-        ],
-        [
-          "Badajoz",
-          "Campiña sur",
-          "alquiler"
-        ],
-        [
-          "Sevilla",
-          "Aljarafe",
-          "venta"
-        ],
-        [
-          "Ávila",
-          "Arévalo",
-          "alquiler"
-        ],
-        [
-          "Tarragona",
-          "Baix Ebre",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Alt Penedès",
-          "habitacion"
-        ],
-        [
-          "León",
-          "Tierra de Campos",
-          "venta"
-        ],
-        [
-          "Cádiz",
-          "Campiña de Jerez",
-          "venta"
         ],
         [
           "Segovia",
           "Área de Cuéllar",
-          "alquiler"
-        ],
-        [
-          "Valencia",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Murcia",
-          "Altiplano-Oriental",
-          "habitacion"
-        ],
-        [
-          "Lugo",
-          "Chantada",
-          "venta"
-        ],
-        [
-          "Toledo",
-          "Talavera de la Reina",
-          "venta"
-        ],
-        [
-          "Granada",
-          "Los Montes",
           "alquiler"
         ],
         [
@@ -4954,27 +6659,7 @@
         ],
         [
           "Pontevedra",
-          "Área de Caldas",
-          "venta"
-        ],
-        [
-          "Córdoba",
-          "Alto Guadiato",
-          "alquiler"
-        ],
-        [
-          "Pontevedra",
           "Área de Vigo",
-          "alquiler"
-        ],
-        [
-          "Burgos",
-          "Ribera",
-          "venta"
-        ],
-        [
-          "Zamora",
-          "Área de Sayago",
           "alquiler"
         ],
         [
@@ -4983,59 +6668,14 @@
           "venta"
         ],
         [
-          "Guipúzcoa",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Burgos",
-          "Área de Burgos",
-          "alquiler"
-        ],
-        [
-          "Cuenca",
-          "Mancha Alta",
-          "alquiler"
-        ],
-        [
-          "Madrid",
-          "Zona sur",
-          "venta"
-        ],
-        [
           "Vizcaya",
           "Busturialdea",
-          "venta"
-        ],
-        [
-          "Burgos",
-          "La Bureba",
-          "venta"
-        ],
-        [
-          "La Rioja",
-          "Rioja Baja",
-          "alquiler"
-        ],
-        [
-          "Asturias",
-          "Área de Gijón",
-          "habitacion"
-        ],
-        [
-          "Valladolid",
-          "Tordesillas",
           "venta"
         ],
         [
           "Zaragoza",
           "La Muela-Valdejalón",
           "venta"
-        ],
-        [
-          "Huesca",
-          "*(Toda la provincia)*",
-          "habitacion"
         ],
         [
           "Girona",
@@ -5048,64 +6688,9 @@
           "alquiler"
         ],
         [
-          "Huesca",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Tarragona",
-          "Priorat",
-          "alquiler"
-        ],
-        [
-          "Pontevedra",
-          "Área de Deza",
-          "venta"
-        ],
-        [
           "Guadalajara",
           "*(Toda la provincia)*",
           "habitacion"
-        ],
-        [
-          "Tarragona",
-          "Alt Camp",
-          "alquiler"
-        ],
-        [
-          "Lugo",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Ourense",
-          "Carballiño",
-          "venta"
-        ],
-        [
-          "Guadalajara",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Guipúzcoa",
-          "Alto Deba",
-          "venta"
-        ],
-        [
-          "Badajoz",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Alicante",
-          "Vinalopó Mitjà",
-          "venta"
-        ],
-        [
-          "Madrid",
-          "*(Toda la provincia)*",
-          "venta"
         ],
         [
           "Valencia",
@@ -5113,94 +6698,19 @@
           "alquiler"
         ],
         [
-          "Zamora",
-          "Sanabria",
-          "venta"
-        ],
-        [
-          "Zaragoza",
-          "Área de Zaragoza",
-          "venta"
-        ],
-        [
-          "Ávila",
-          "Valle del Tiétar",
-          "alquiler"
-        ],
-        [
-          "Cantabria",
-          "Campoo-Los Valles",
-          "alquiler"
-        ],
-        [
-          "Cantabria",
-          "Besaya",
-          "venta"
-        ],
-        [
-          "Valencia",
-          "Hoya de Buñol",
-          "venta"
-        ],
-        [
           "Baleares (Illes)",
           "Menorca",
           "habitacion"
         ],
         [
-          "Cuenca",
-          "Serranía Alta",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "Barcelonès",
-          "habitacion"
-        ],
-        [
-          "Asturias",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Ourense",
-          "Allariz- Maceda",
-          "venta"
-        ],
-        [
-          "León",
-          "Maragatería- Cabrera",
+          "Zaragoza",
+          "Campo de Belchite",
           "habitacion"
         ],
         [
           "Ourense",
           "Viana- Verín",
           "venta"
-        ],
-        [
-          "Almería",
-          "Filabres",
-          "alquiler"
-        ],
-        [
-          "Tarragona",
-          "Tarragonès",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Osona",
-          "habitacion"
-        ],
-        [
-          "Badajoz",
-          "Badajoz-Alburquerque",
-          "alquiler"
-        ],
-        [
-          "A Coruña",
-          "Área de A Coruña",
-          "alquiler"
         ],
         [
           "Alicante",
@@ -5210,16 +6720,6 @@
         [
           "Lleida",
           "Val d'Aran",
-          "habitacion"
-        ],
-        [
-          "Baleares (Illes)",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Álava",
-          "Zuya",
           "habitacion"
         ],
         [
@@ -5233,19 +6733,9 @@
           "alquiler"
         ],
         [
-          "Lleida",
-          "Val d'Aran",
-          "alquiler"
-        ],
-        [
           "Málaga",
           "Costa del Sol Occidental-Área de Marbella",
           "habitacion"
-        ],
-        [
-          "Álava",
-          "Añana",
-          "alquiler"
         ],
         [
           "Álava",
@@ -5253,38 +6743,8 @@
           "alquiler"
         ],
         [
-          "Salamanca",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Murcia",
-          "La Manga del Mar Menor",
-          "venta"
-        ],
-        [
-          "Granada",
-          "Área de Huéscar",
-          "alquiler"
-        ],
-        [
-          "Pontevedra",
-          "Salnés",
-          "venta"
-        ],
-        [
           "Burgos",
           "Treviño",
-          "venta"
-        ],
-        [
-          "Guadalajara",
-          "Sierra",
-          "habitacion"
-        ],
-        [
-          "Álava",
-          "Salvatierra",
           "venta"
         ],
         [
@@ -5293,18 +6753,8 @@
           "alquiler"
         ],
         [
-          "Jaén",
-          "Sierra sur",
-          "venta"
-        ],
-        [
           "Cantabria",
           "Trasmiera",
-          "alquiler"
-        ],
-        [
-          "Soria",
-          "Almazán",
           "alquiler"
         ],
         [
@@ -5313,39 +6763,14 @@
           "alquiler"
         ],
         [
-          "Navarra",
-          "Área de Peralta",
-          "alquiler"
-        ],
-        [
-          "Salamanca",
-          "Peñaranda",
-          "alquiler"
-        ],
-        [
-          "Granada",
-          "Alpujarra Granadina",
-          "venta"
-        ],
-        [
-          "Córdoba",
-          "La Subbética",
+          "Cantabria",
+          "Valles Pasiegos",
           "habitacion"
         ],
         [
-          "Valencia",
-          "Valencia",
-          "venta"
-        ],
-        [
-          "Asturias",
-          "Área de Avilés",
-          "venta"
-        ],
-        [
-          "Cantabria",
-          "Valles Pasiegos",
-          "alquiler"
+          "Pontevedra",
+          "Baixo Miño",
+          "habitacion"
         ],
         [
           "Cantabria",
@@ -5358,64 +6783,9 @@
           "habitacion"
         ],
         [
-          "Teruel",
-          "Bajo Aragón",
-          "venta"
-        ],
-        [
-          "Burgos",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
           "Cantabria",
-          "Costa Occidental",
-          "alquiler"
-        ],
-        [
-          "Castellón",
-          "Alto Mijares",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Segarra",
-          "venta"
-        ],
-        [
-          "Alicante",
-          "Alt Vinalopó",
-          "alquiler"
-        ],
-        [
-          "Alicante",
-          "*(Toda la provincia)*",
+          "Asón-Agüera",
           "habitacion"
-        ],
-        [
-          "Jaén",
-          "La Campiña",
-          "alquiler"
-        ],
-        [
-          "Sevilla",
-          "Sierra norte",
-          "venta"
-        ],
-        [
-          "Lleida",
-          "Pallars Sobirà",
-          "alquiler"
-        ],
-        [
-          "Ávila",
-          "Burgohondo - Cebreros - El Tiemblo",
-          "habitacion"
-        ],
-        [
-          "Alicante",
-          "L'Alacantí",
-          "venta"
         ],
         [
           "Barcelona",
@@ -5423,34 +6793,9 @@
           "habitacion"
         ],
         [
-          "Almería",
-          "Los Vélez",
-          "venta"
-        ],
-        [
-          "Cantabria",
-          "Área de San Vicente de la Barquera",
-          "venta"
-        ],
-        [
-          "Zamora",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Cantabria",
-          "Asón-Agüera",
-          "habitacion"
-        ],
-        [
           "Jaén",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Guadalajara",
-          "Campiña",
-          "alquiler"
+          "Sierra Mágina",
+          "habitacion"
         ],
         [
           "Ávila",
@@ -5458,59 +6803,9 @@
           "alquiler"
         ],
         [
-          "Cádiz",
-          "Campo de Gibraltar",
-          "habitacion"
-        ],
-        [
-          "Jaén",
-          "Sierra Mágina",
-          "habitacion"
-        ],
-        [
-          "Navarra",
-          "Área de Esteribar",
-          "alquiler"
-        ],
-        [
-          "Zaragoza",
-          "Tarazona-El Moncayo",
-          "alquiler"
-        ],
-        [
           "Cantabria",
           "*(Toda la provincia)*",
           "venta"
-        ],
-        [
-          "Jaén",
-          "Sierra Mágina",
-          "alquiler"
-        ],
-        [
-          "A Coruña",
-          "Santiago",
-          "alquiler"
-        ],
-        [
-          "Málaga",
-          "Costa del Sol Oriental - Axarquía",
-          "alquiler"
-        ],
-        [
-          "Málaga",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Albacete",
-          "La Manchuela",
-          "venta"
-        ],
-        [
-          "Albacete",
-          "Campo de Hellín",
-          "habitacion"
         ],
         [
           "Jaén",
@@ -5518,14 +6813,14 @@
           "habitacion"
         ],
         [
-          "Baleares (Illes)",
-          "Mallorca",
-          "habitacion"
+          "Albacete",
+          "La Manchuela",
+          "venta"
         ],
         [
-          "Lugo",
-          "Quiroga",
-          "alquiler"
+          "Segovia",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "Lugo",
@@ -5533,63 +6828,8 @@
           "alquiler"
         ],
         [
-          "Almería",
-          "Campo de Tabernas",
-          "venta"
-        ],
-        [
-          "Segovia",
-          "Área de Santa María Real de Nieva",
-          "alquiler"
-        ],
-        [
-          "Albacete",
-          "Campo de Hellín",
-          "alquiler"
-        ],
-        [
-          "Segovia",
-          "Área de Segovia",
-          "alquiler"
-        ],
-        [
-          "Valencia",
-          "L'Horta Nord",
-          "alquiler"
-        ],
-        [
-          "Toledo",
-          "La Mesa de Ocaña",
-          "alquiler"
-        ],
-        [
-          "Zaragoza",
-          "Campo de Borja",
-          "alquiler"
-        ],
-        [
-          "Sevilla",
-          "La Marisma",
-          "alquiler"
-        ],
-        [
           "Toledo",
           "Los Montes de Toledo",
-          "alquiler"
-        ],
-        [
-          "Segovia",
-          "Área de Riaza",
-          "venta"
-        ],
-        [
-          "Valencia",
-          "El Camp de Tùria",
-          "alquiler"
-        ],
-        [
-          "Zamora",
-          "Benavente",
           "alquiler"
         ],
         [
@@ -5603,18 +6843,8 @@
           "alquiler"
         ],
         [
-          "Murcia",
-          "Noroeste",
-          "venta"
-        ],
-        [
           "Almería",
           "Levante",
-          "habitacion"
-        ],
-        [
-          "Granada",
-          "Poniente Granadino",
           "habitacion"
         ],
         [
@@ -5623,63 +6853,13 @@
           "habitacion"
         ],
         [
-          "Barcelona",
-          "Baix Llobregat Sud",
-          "alquiler"
-        ],
-        [
           "Álava",
           "*(Toda la provincia)*",
           "alquiler"
         ],
         [
-          "Valencia",
-          "Los Serranos",
-          "venta"
-        ],
-        [
-          "Álava",
-          "Ayala",
-          "habitacion"
-        ],
-        [
-          "Cantabria",
-          "Saja - Nansa",
-          "habitacion"
-        ],
-        [
           "Lleida",
           "Cerdanya",
-          "alquiler"
-        ],
-        [
-          "Murcia",
-          "Altiplano-Oriental",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "Berguedà",
-          "habitacion"
-        ],
-        [
-          "Madrid",
-          "Zona suroeste",
-          "habitacion"
-        ],
-        [
-          "Vizcaya",
-          "Arratia-Nervión",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "Berguedà",
-          "alquiler"
-        ],
-        [
-          "Salamanca",
-          "Área Metropolitana",
           "alquiler"
         ],
         [
@@ -5688,108 +6868,18 @@
           "alquiler"
         ],
         [
-          "Burgos",
-          "Demanda",
-          "venta"
-        ],
-        [
-          "Valencia",
-          "El Valle de Ayora",
-          "venta"
-        ],
-        [
-          "Tarragona",
-          "Montsià",
-          "venta"
-        ],
-        [
-          "Madrid",
-          "Zona suroeste",
-          "alquiler"
-        ],
-        [
-          "Álava",
-          "Laguardia-Rioja Alavesa",
-          "habitacion"
-        ],
-        [
-          "Ciudad Real",
-          "Alcudia",
-          "habitacion"
-        ],
-        [
           "Zamora",
           "Aliste",
           "venta"
         ],
         [
-          "Toledo",
-          "La Mancha",
-          "venta"
-        ],
-        [
-          "Granada",
-          "Área de Baza",
-          "alquiler"
-        ],
-        [
-          "Zaragoza",
-          "Campo de Daroca",
-          "venta"
-        ],
-        [
-          "Burgos",
-          "Odra-Paramos",
-          "habitacion"
-        ],
-        [
-          "Lugo",
-          "A Mariña",
-          "venta"
-        ],
-        [
-          "Badajoz",
-          "Jerez de los Caballeros",
-          "habitacion"
-        ],
-        [
-          "Burgos",
-          "Merindades",
-          "habitacion"
-        ],
-        [
-          "Lleida",
-          "Pla d'Urgell",
-          "habitacion"
-        ],
-        [
-          "Murcia",
-          "Vega Alta",
-          "alquiler"
-        ],
-        [
-          "Badajoz",
-          "Jerez de los Caballeros",
-          "alquiler"
-        ],
-        [
-          "Burgos",
-          "Merindades",
-          "alquiler"
-        ],
-        [
-          "Girona",
-          "Ripollès",
-          "alquiler"
-        ],
-        [
-          "La Rioja",
+          "Soria",
           "*(Toda la provincia)*",
-          "alquiler"
+          "habitacion"
         ],
         [
-          "Lleida",
-          "Pla d'Urgell",
+          "Badajoz",
+          "Jerez de los Caballeros",
           "alquiler"
         ],
         [
@@ -5798,34 +6888,14 @@
           "venta"
         ],
         [
-          "Salamanca",
-          "Béjar",
-          "venta"
-        ],
-        [
           "Asturias",
           "Área de Gijón",
           "venta"
         ],
         [
-          "Las Palmas",
-          "Fuerteventura",
-          "habitacion"
-        ],
-        [
           "Badajoz",
           "Tierra de Barros - Tierras de Zafra",
           "habitacion"
-        ],
-        [
-          "Salamanca",
-          "Vitigudino",
-          "alquiler"
-        ],
-        [
-          "Girona",
-          "*(Toda la provincia)*",
-          "venta"
         ],
         [
           "Santa Cruz de Tenerife",
@@ -5833,49 +6903,9 @@
           "venta"
         ],
         [
-          "Burgos",
-          "Ebro",
-          "alquiler"
-        ],
-        [
-          "Cantabria",
-          "Costa Oriental",
+          "Navarra",
+          "Área de Estella y Urbasa",
           "habitacion"
-        ],
-        [
-          "Badajoz",
-          "Tierra de Barros - Tierras de Zafra",
-          "alquiler"
-        ],
-        [
-          "Huesca",
-          "Sobrarbe",
-          "habitacion"
-        ],
-        [
-          "Cuenca",
-          "La Alcarria",
-          "alquiler"
-        ],
-        [
-          "Lugo",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Lugo",
-          "Ulloa",
-          "alquiler"
-        ],
-        [
-          "Ciudad Real",
-          "Calatrava",
-          "habitacion"
-        ],
-        [
-          "Valencia",
-          "La Plana d'Utiel",
-          "venta"
         ],
         [
           "Vizcaya",
@@ -5888,53 +6918,13 @@
           "venta"
         ],
         [
-          "Huelva",
-          "El Condado",
-          "venta"
-        ],
-        [
           "Cáceres",
           "Valle del Alagón",
           "habitacion"
         ],
         [
-          "Ávila",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Baleares (Illes)",
-          "Menorca",
-          "venta"
-        ],
-        [
           "A Coruña",
           "Noia",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "Barcelonès",
-          "venta"
-        ],
-        [
-          "Ciudad Real",
-          "La Mancha",
-          "venta"
-        ],
-        [
-          "Ourense",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Cáceres",
-          "Valle del Alagón",
-          "alquiler"
-        ],
-        [
-          "Zaragoza",
-          "Campo de Belchite",
           "venta"
         ],
         [
@@ -5943,54 +6933,14 @@
           "venta"
         ],
         [
-          "León",
-          "Tierra de Campos",
+          "Valencia",
+          "Camp de Morvedre",
           "habitacion"
         ],
         [
-          "Sevilla",
-          "Aljarafe",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Osona",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Muros",
-          "venta"
-        ],
-        [
-          "Girona",
-          "Alt Empordà",
-          "venta"
-        ],
-        [
-          "León",
-          "Tierra de Campos",
-          "alquiler"
-        ],
-        [
-          "Cádiz",
-          "Campiña de Jerez",
-          "alquiler"
-        ],
-        [
-          "Málaga",
-          "Área de Antequera",
+          "Murcia",
+          "Campo de Cartagena",
           "habitacion"
-        ],
-        [
-          "Albacete",
-          "Corredor de Almansa",
-          "habitacion"
-        ],
-        [
-          "Huesca",
-          "La Jacetania",
-          "venta"
         ],
         [
           "Baleares (Illes)",
@@ -6003,63 +6953,13 @@
           "habitacion"
         ],
         [
-          "Lugo",
-          "Chantada",
-          "alquiler"
-        ],
-        [
-          "Zaragoza",
-          "Comunidad de Calatayud",
-          "venta"
-        ],
-        [
-          "Toledo",
-          "Talavera de la Reina",
-          "alquiler"
-        ],
-        [
-          "Zaragoza",
-          "Hoya de Huesca",
-          "venta"
-        ],
-        [
-          "Málaga",
-          "Costa del Sol Occidental-Área de Marbella",
-          "venta"
-        ],
-        [
-          "Ciudad Real",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
           "Burgos",
           "Ribera",
           "habitacion"
         ],
         [
-          "Tarragona",
-          "Baix Camp",
-          "venta"
-        ],
-        [
-          "Pontevedra",
-          "Área de Caldas",
-          "alquiler"
-        ],
-        [
           "Almería",
           "Área de Almería",
-          "venta"
-        ],
-        [
-          "Sevilla",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Guadalajara",
-          "Sierra",
           "venta"
         ],
         [
@@ -6068,58 +6968,8 @@
           "alquiler"
         ],
         [
-          "Guipúzcoa",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Garraf",
-          "habitacion"
-        ],
-        [
-          "Lleida",
-          "Pallars Jussà",
-          "habitacion"
-        ],
-        [
-          "Ourense",
-          "Valdeorras",
-          "venta"
-        ],
-        [
-          "Córdoba",
-          "La Subbética",
-          "venta"
-        ],
-        [
-          "Madrid",
-          "Zona sur",
-          "alquiler"
-        ],
-        [
           "Vizcaya",
           "Busturialdea",
-          "alquiler"
-        ],
-        [
-          "Cuenca",
-          "Manchuela",
-          "habitacion"
-        ],
-        [
-          "Burgos",
-          "La Bureba",
-          "alquiler"
-        ],
-        [
-          "Albacete",
-          "La Mancha",
-          "venta"
-        ],
-        [
-          "Castellón",
-          "Plana Alta",
           "alquiler"
         ],
         [
@@ -6128,8 +6978,8 @@
           "habitacion"
         ],
         [
-          "Valladolid",
-          "Tordesillas",
+          "Castellón",
+          "Plana Alta",
           "alquiler"
         ],
         [
@@ -6138,163 +6988,18 @@
           "alquiler"
         ],
         [
-          "Ávila",
-          "Área de Ávila",
+          "Valladolid",
+          "Tierra de Medina",
           "habitacion"
         ],
         [
-          "Granada",
-          "Costa Tropical",
+          "Sevilla",
+          "La Vega",
           "habitacion"
-        ],
-        [
-          "Pontevedra",
-          "Baixo Miño",
-          "venta"
-        ],
-        [
-          "Murcia",
-          "Vega Media",
-          "venta"
-        ],
-        [
-          "Toledo",
-          "La Jara",
-          "venta"
-        ],
-        [
-          "Pontevedra",
-          "Área de Deza",
-          "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Barcelona",
-          "venta"
-        ],
-        [
-          "Guipúzcoa",
-          "Alto Deba",
-          "habitacion"
-        ],
-        [
-          "Lleida",
-          "Alta Ribagorça",
-          "habitacion"
-        ],
-        [
-          "Soria",
-          "Área de Soria",
-          "venta"
-        ],
-        [
-          "Ourense",
-          "Carballiño",
-          "alquiler"
-        ],
-        [
-          "Guipúzcoa",
-          "Alto Deba",
-          "alquiler"
-        ],
-        [
-          "Madrid",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Alicante",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Alicante",
-          "Vinalopó Mitjà",
-          "alquiler"
-        ],
-        [
-          "Valencia",
-          "Safor",
-          "venta"
-        ],
-        [
-          "Cantabria",
-          "Asón-Agüera",
-          "venta"
-        ],
-        [
-          "Barcelona",
-          "Baix Llobregat Nord",
-          "venta"
-        ],
-        [
-          "Albacete",
-          "*(Toda la provincia)*",
-          "habitacion"
-        ],
-        [
-          "Zamora",
-          "Sanabria",
-          "alquiler"
-        ],
-        [
-          "Cádiz",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Zaragoza",
-          "Área de Zaragoza",
-          "alquiler"
-        ],
-        [
-          "Cantabria",
-          "Besaya",
-          "alquiler"
-        ],
-        [
-          "Valencia",
-          "Hoya de Buñol",
-          "alquiler"
-        ],
-        [
-          "Cádiz",
-          "Campo de Gibraltar",
-          "venta"
-        ],
-        [
-          "Jaén",
-          "Alto Guadalquivir",
-          "venta"
-        ],
-        [
-          "Cuenca",
-          "Serranía Alta",
-          "alquiler"
-        ],
-        [
-          "Asturias",
-          "*(Toda la provincia)*",
-          "alquiler"
-        ],
-        [
-          "Lleida",
-          "Segrià",
-          "venta"
-        ],
-        [
-          "Ourense",
-          "Allariz- Maceda",
-          "alquiler"
         ],
         [
           "Soria",
           "Pinares y Tierras Altas",
-          "venta"
-        ],
-        [
-          "Segovia",
-          "*(Toda la provincia)*",
           "venta"
         ],
         [
@@ -6303,18 +7008,8 @@
           "alquiler"
         ],
         [
-          "Asturias",
-          "Nalón",
-          "alquiler"
-        ],
-        [
           "Baleares (Illes)",
           "Mallorca",
-          "venta"
-        ],
-        [
-          "Palencia",
-          "Camino de Santiago",
           "venta"
         ],
         [
@@ -6323,54 +7018,14 @@
           "alquiler"
         ],
         [
-          "Cáceres",
-          "Sierra de Gata",
-          "habitacion"
-        ],
-        [
           "Alicante",
           "Baix Vinalopó",
           "alquiler"
         ],
         [
-          "Navarra",
-          "Área de Puente la Reina",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "Miño - Betanzos",
-          "alquiler"
-        ],
-        [
-          "Huelva",
-          "Sierra",
-          "venta"
-        ],
-        [
           "Teruel",
           "Área de Teruel",
           "alquiler"
-        ],
-        [
-          "Barcelona",
-          "Vallès Oriental",
-          "alquiler"
-        ],
-        [
-          "Pontevedra",
-          "Salnés",
-          "alquiler"
-        ],
-        [
-          "Córdoba",
-          "Campiña sur-Campiña este",
-          "venta"
-        ],
-        [
-          "Huesca",
-          "La Litera",
-          "habitacion"
         ],
         [
           "Burgos",
@@ -6383,64 +7038,9 @@
           "habitacion"
         ],
         [
-          "Álava",
-          "Salvatierra",
-          "alquiler"
-        ],
-        [
-          "Jaén",
-          "Sierra sur",
-          "alquiler"
-        ],
-        [
-          "Burgos",
-          "Montes de Oca",
-          "venta"
-        ],
-        [
-          "A Coruña",
-          "*(Toda la provincia)*",
-          "venta"
-        ],
-        [
-          "Cantabria",
-          "Saja - Nansa",
-          "venta"
-        ],
-        [
-          "Valencia",
-          "L'Horta Sud",
-          "venta"
-        ],
-        [
-          "Asturias",
-          "Eo-Navia",
-          "habitacion"
-        ],
-        [
-          "Granada",
-          "Alpujarra Granadina",
-          "habitacion"
-        ],
-        [
           "Córdoba",
           "Los Pedroches",
           "habitacion"
-        ],
-        [
-          "Murcia",
-          "Alto Guadalentín",
-          "habitacion"
-        ],
-        [
-          "Sevilla",
-          "La Campiña",
-          "venta"
-        ],
-        [
-          "Huesca",
-          "Los Monegros",
-          "venta"
         ]
       ],
       "date_record": "04-04-2026",
