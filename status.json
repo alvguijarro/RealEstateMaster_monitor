@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T03:59:14",
+  "timestamp": "2026-04-04T04:01:23",
   "scraper": {
     "bajas_count": 0,
     "current_page": 60,
-    "current_phase": "4: extracción de detalle",
+    "current_phase": "3: Deep Scrape",
     "existing_count": 16188,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Barcelona_venta.xlsx",
-    "properties_count": 1327,
+    "properties_count": 1449,
     "province_name": "Barcelona",
     "start_time": 1775266413.4048266,
     "status": "running",
     "task_mode": null,
     "total_pages": 1472,
     "total_properties": 44137,
-    "traffic_bytes": 139291847
+    "traffic_bytes": 152735349
   },
   "batch": {
     "total": 52,
@@ -143,7 +143,7 @@
       {
         "name": "Barcelona Provincia",
         "status": "active",
-        "properties": 1327,
+        "properties": 1449,
         "total_properties": 44137,
         "current_page": 60,
         "total_pages": 1472,
