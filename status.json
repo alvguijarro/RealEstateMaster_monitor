@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T04:07:51",
+  "timestamp": "2026-04-04T04:09:59",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 60,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 16188,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 4719,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Barcelona_venta.xlsx",
-    "properties_count": 1682,
-    "province_name": "Barcelona",
-    "start_time": 1775266413.4048266,
+    "output_file": "idealista_Burgos_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "Burgos",
+    "start_time": 1775268518.2793877,
     "status": "running",
     "task_mode": null,
-    "total_pages": 1472,
-    "total_properties": 44137,
-    "traffic_bytes": 185567715
+    "total_pages": 123,
+    "total_properties": 3661,
+    "traffic_bytes": 1704924
   },
   "batch": {
     "total": 52,
@@ -142,22 +142,25 @@
       },
       {
         "name": "Barcelona Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 1682,
         "total_properties": 44137,
         "current_page": 60,
         "total_pages": 1472,
         "started_at": 1775266409.3620229,
-        "finished_at": null
+        "finished_at": 1775268482.21893,
+        "traffic_bytes": 185567715,
+        "existing_count": 16188,
+        "bajas_count": 0
       },
       {
         "name": "Burgos Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
+        "total_properties": 3661,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 123,
+        "started_at": 1775268514.2462862,
         "finished_at": null
       },
       {
@@ -7142,27 +7145,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775266413.409826,
+        "last_ts": 1775268518.2853878,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775266413.409826,
+        "last_ts": 1775268518.2853878,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775266413.409826,
+        "last_ts": 1775268518.2853878,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775266413.409826,
+        "last_ts": 1775268518.2853878,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775266413.409826,
+        "last_ts": 1775268518.2853878,
         "last_ip": ""
       }
     },
