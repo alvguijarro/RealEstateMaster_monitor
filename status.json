@@ -1,23 +1,8 @@
 {
-  "timestamp": "2026-04-05T00:43:53",
+  "timestamp": "2026-04-05T00:45:29",
   "scraper": {
-    "bajas_count": 0,
-    "current_page": 11,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 2851,
-    "internal_status": "running",
-    "is_room_mode": false,
-    "mode": "batch",
-    "operation_type": "alquiler",
-    "output_file": "idealista_Cádiz_alquiler.xlsx",
-    "properties_count": 114,
-    "province_name": "Cádiz",
-    "start_time": 1775342083.1042902,
-    "status": "running",
-    "task_mode": null,
-    "total_pages": 86,
-    "total_properties": 2558,
-    "traffic_bytes": 31373054
+    "status": "offline",
+    "properties_count": 0
   },
   "batch": {
     "total": 52,
@@ -590,9 +575,10 @@
     "history": []
   },
   "trends": {
-    "status": "idle",
+    "status": "offline",
     "checkpoint": {
-      "completed_count": 1293,
+      "version": 2,
+      "date_record": "04-04-2026",
       "completed_keys": [
         [
           "Ciudad Real",
@@ -7060,9 +7046,8 @@
           "habitacion"
         ]
       ],
-      "date_record": "04-04-2026",
-      "total": 1293,
-      "version": 2
+      "completed_count": 1293,
+      "total": 1293
     }
   },
   "history": [
