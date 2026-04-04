@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-04-04T21:10:31",
+  "timestamp": "2026-04-04T21:12:41",
   "scraper": {
     "bajas_count": 0,
     "current_page": 50,
-    "current_phase": "3: Deep Scrape",
+    "current_phase": "5: enrichment",
     "existing_count": 2779,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_A-Coruña_alquiler.xlsx",
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_A-Coruña_alquiler.xlsx",
     "properties_count": 1451,
     "province_name": "A Coruña",
     "start_time": 1775328400.3314977,
@@ -17,7 +17,7 @@
     "task_mode": null,
     "total_pages": 49,
     "total_properties": 1451,
-    "traffic_bytes": 199397801
+    "traffic_bytes": 205288721
   },
   "batch": {
     "total": 52,
