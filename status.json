@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T05:31:30",
+  "timestamp": "2026-04-04T05:33:38",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 3,
-    "current_phase": "3: recolección de URLs",
+    "current_page": 4,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 127,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Ceuta_venta.xlsx",
-    "properties_count": 0,
+    "properties_count": 2,
     "province_name": "Ceuta",
     "start_time": 1775273407.2721276,
     "status": "running",
     "task_mode": null,
     "total_pages": 3,
     "total_properties": 81,
-    "traffic_bytes": 2267961
+    "traffic_bytes": 4593608
   },
   "batch": {
     "total": 52,
@@ -221,9 +221,9 @@
       {
         "name": "Ceuta Ceuta",
         "status": "active",
-        "properties": 0,
+        "properties": 2,
         "total_properties": 81,
-        "current_page": 3,
+        "current_page": 4,
         "total_pages": 3,
         "started_at": 1775273403.2396817,
         "finished_at": null
