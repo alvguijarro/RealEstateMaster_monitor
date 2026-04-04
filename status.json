@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T11:59:32",
+  "timestamp": "2026-04-04T12:01:40",
   "scraper": {
     "bajas_count": 0,
     "current_page": 13,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Murcia_venta.xlsx",
-    "properties_count": 336,
+    "properties_count": 456,
     "province_name": "Murcia",
     "start_time": 1775296203.4615312,
     "status": "running",
     "task_mode": null,
     "total_pages": 526,
     "total_properties": 15779,
-    "traffic_bytes": 69532302
+    "traffic_bytes": 82719470
   },
   "batch": {
     "total": 52,
@@ -468,7 +468,7 @@
       {
         "name": "Murcia Provincia",
         "status": "active",
-        "properties": 336,
+        "properties": 456,
         "total_properties": 15779,
         "current_page": 13,
         "total_pages": 526,
