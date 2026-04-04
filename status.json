@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T05:20:46",
+  "timestamp": "2026-04-04T05:22:54",
   "scraper": {
     "bajas_count": 0,
     "current_page": 60,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Castellón_venta.xlsx",
-    "properties_count": 1182,
+    "properties_count": 1184,
     "province_name": "Castellón",
     "start_time": 1775271191.5611305,
     "status": "running",
     "task_mode": null,
     "total_pages": 311,
     "total_properties": 9326,
-    "traffic_bytes": 169225769
+    "traffic_bytes": 171483017
   },
   "batch": {
     "total": 52,
@@ -208,7 +208,7 @@
       {
         "name": "Castellon",
         "status": "active",
-        "properties": 1182,
+        "properties": 1184,
         "total_properties": 9326,
         "current_page": 60,
         "total_pages": 311,
