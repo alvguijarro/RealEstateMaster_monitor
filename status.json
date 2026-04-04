@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T12:59:46",
+  "timestamp": "2026-04-04T13:01:55",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 60,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 3776,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 3452,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Pontevedra_venta.xlsx",
-    "properties_count": 1360,
-    "province_name": "Pontevedra",
-    "start_time": 1775298478.3921802,
+    "output_file": "idealista_Salamanca_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "Salamanca",
+    "start_time": 1775300457.4268382,
     "status": "running",
     "task_mode": null,
-    "total_pages": 217,
-    "total_properties": 6496,
-    "traffic_bytes": 196412317
+    "total_pages": 60,
+    "total_properties": 0,
+    "traffic_bytes": 3016368
   },
   "batch": {
     "total": 52,
@@ -519,22 +519,25 @@
       },
       {
         "name": "Pontevedra Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 1360,
         "total_properties": 6496,
         "current_page": 60,
         "total_pages": 217,
         "started_at": 1775298474.3425112,
-        "finished_at": null
+        "finished_at": 1775300432.3752816,
+        "traffic_bytes": 196412317,
+        "existing_count": 3776,
+        "bajas_count": 0
       },
       {
         "name": "Salamanca Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 60,
+        "started_at": 1775300453.3941271,
         "finished_at": null
       },
       {
@@ -7229,27 +7232,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775298478.39818,
+        "last_ts": 1775300457.4338434,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775298478.39818,
+        "last_ts": 1775300457.4338434,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775298478.39818,
+        "last_ts": 1775300457.4338434,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775298478.39818,
+        "last_ts": 1775300457.4338434,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775298478.39818,
+        "last_ts": 1775300457.4338434,
         "last_ip": ""
       }
     },
