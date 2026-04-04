@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T15:02:24",
+  "timestamp": "2026-04-04T15:04:33",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 32,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 5135,
-    "internal_status": "completed",
+    "current_page": 3,
+    "current_phase": "3: recolección de URLs",
+    "existing_count": 1532,
+    "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Tarragona_venta.xlsx",
-    "properties_count": 756,
-    "province_name": "Tarragona",
-    "start_time": 1775306386.380281,
+    "output_file": "idealista_Teruel_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "Teruel",
+    "start_time": 1775307779.4821951,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
-    "total_properties": 30,
-    "traffic_bytes": 128003307
+    "total_properties": 0,
+    "traffic_bytes": 473070
   },
   "batch": {
     "total": 52,
@@ -597,22 +597,25 @@
       },
       {
         "name": "Tarragona Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 756,
         "total_properties": 30,
         "current_page": 32,
         "total_pages": 60,
         "started_at": 1775306382.3503299,
-        "finished_at": null
+        "finished_at": 1775307749.3945513,
+        "traffic_bytes": 128003307,
+        "existing_count": 5135,
+        "bajas_count": 0
       },
       {
         "name": "Teruel Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 60,
+        "started_at": 1775307775.4495397,
         "finished_at": null
       },
       {
@@ -7247,27 +7250,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775306386.3852773,
+        "last_ts": 1775307779.4861946,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775306386.3852773,
+        "last_ts": 1775307779.4861946,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775306386.3852773,
+        "last_ts": 1775307779.4861946,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775306386.3852773,
+        "last_ts": 1775307779.4861946,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775306386.3852773,
+        "last_ts": 1775307779.4861946,
         "last_ip": ""
       }
     },
