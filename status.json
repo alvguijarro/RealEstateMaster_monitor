@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T22:00:04",
+  "timestamp": "2026-04-04T22:02:14",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 50,
-    "current_phase": "5: enrichment",
-    "existing_count": 2779,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 198,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_A-Coruña_alquiler.xlsx",
-    "properties_count": 1451,
-    "province_name": "A Coruña",
-    "start_time": 1775328400.3314977,
+    "output_file": "idealista_Álava_alquiler.xlsx",
+    "properties_count": 0,
+    "province_name": "Álava",
+    "start_time": 1775332933.0383942,
     "status": "running",
     "task_mode": null,
-    "total_pages": 49,
-    "total_properties": 1451,
-    "traffic_bytes": 324238505
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 52,
@@ -25,22 +25,25 @@
     "provinces": [
       {
         "name": "A Coruna Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 1451,
         "total_properties": 1451,
         "current_page": 50,
         "total_pages": 49,
         "started_at": 1775328396.2922366,
-        "finished_at": null
+        "finished_at": 1775332897.951658,
+        "traffic_bytes": 327603126,
+        "existing_count": 2779,
+        "bajas_count": 1348
       },
       {
         "name": "Alava",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775332929.001436,
         "finished_at": null
       },
       {
@@ -7115,27 +7118,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775328400.3594978,
+        "last_ts": 1775332933.0463939,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775328400.3594978,
+        "last_ts": 1775332933.0463939,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775328400.3594978,
+        "last_ts": 1775332933.0463939,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775328400.3594978,
+        "last_ts": 1775332933.0463939,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775328400.3594978,
+        "last_ts": 1775332933.0463939,
         "last_ip": ""
       }
     },
