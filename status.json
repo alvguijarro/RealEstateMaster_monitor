@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T12:21:01",
+  "timestamp": "2026-04-04T12:23:10",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 6,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 1996,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Palencia_venta.xlsx",
-    "properties_count": 0,
+    "properties_count": 1,
     "province_name": "Palencia",
     "start_time": 1775298009.7608743,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
     "total_properties": 0,
-    "traffic_bytes": 1053697
+    "traffic_bytes": 1582383
   },
   "batch": {
     "total": 52,
@@ -507,9 +507,9 @@
       {
         "name": "Palencia Provincia",
         "status": "active",
-        "properties": 0,
+        "properties": 1,
         "total_properties": 0,
-        "current_page": 0,
+        "current_page": 6,
         "total_pages": 60,
         "started_at": 1775298005.7286093,
         "finished_at": null
