@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T16:50:17",
+  "timestamp": "2026-04-04T16:52:26",
   "scraper": {
     "bajas_count": 0,
     "current_page": 6,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Zaragoza_venta.xlsx",
-    "properties_count": 44,
+    "properties_count": 98,
     "province_name": "Zaragoza",
     "start_time": 1775313900.1401463,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
     "total_properties": 295,
-    "traffic_bytes": 19765074
+    "traffic_bytes": 30128976
   },
   "batch": {
     "total": 52,
@@ -689,7 +689,7 @@
       {
         "name": "Zaragoza Provincia",
         "status": "active",
-        "properties": 44,
+        "properties": 95,
         "total_properties": 295,
         "current_page": 6,
         "total_pages": 60,
