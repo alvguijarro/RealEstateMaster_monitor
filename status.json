@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T06:16:34",
+  "timestamp": "2026-04-04T06:18:43",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 15,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 5532,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 2204,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Córdoba_venta.xlsx",
-    "properties_count": 218,
-    "province_name": "Córdoba",
-    "start_time": 1775275375.049948,
+    "output_file": "idealista_Cuenca_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "Cuenca",
+    "start_time": 1775276280.172064,
     "status": "running",
     "task_mode": null,
-    "total_pages": 218,
-    "total_properties": 6536,
-    "traffic_bytes": 70173207
+    "total_pages": 57,
+    "total_properties": 1690,
+    "traffic_bytes": 335342
   },
   "batch": {
     "total": 52,
@@ -246,22 +246,25 @@
       },
       {
         "name": "Cordoba Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 218,
         "total_properties": 6536,
         "current_page": 15,
         "total_pages": 218,
         "started_at": 1775275371.0039654,
-        "finished_at": null
+        "finished_at": 1775276253.09207,
+        "traffic_bytes": 70325416,
+        "existing_count": 5532,
+        "bajas_count": 0
       },
       {
         "name": "Cuenca Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
-        "total_properties": 0,
+        "total_properties": 1690,
         "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "total_pages": 57,
+        "started_at": 1775276276.1115909,
         "finished_at": null
       },
       {
@@ -7166,27 +7169,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775275375.0549443,
+        "last_ts": 1775276280.177064,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775275375.0549443,
+        "last_ts": 1775276280.177064,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775275375.0549443,
+        "last_ts": 1775276280.177064,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775275375.0549443,
+        "last_ts": 1775276280.177064,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775275375.0549443,
+        "last_ts": 1775276280.177064,
         "last_ip": ""
       }
     },
