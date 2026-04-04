@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T10:42:05",
+  "timestamp": "2026-04-04T10:44:15",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 33,
+    "current_page": 39,
     "current_phase": "4: extracción de detalle",
     "existing_count": 2906,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Lugo_venta.xlsx",
-    "properties_count": 167,
+    "properties_count": 206,
     "province_name": "Lugo",
     "start_time": 1775291324.2421527,
     "status": "running",
     "task_mode": null,
     "total_pages": 113,
     "total_properties": 3389,
-    "traffic_bytes": 124185188
+    "traffic_bytes": 139377170
   },
   "batch": {
     "total": 52,
@@ -416,9 +416,9 @@
       {
         "name": "Lugo Provincia",
         "status": "active",
-        "properties": 167,
+        "properties": 205,
         "total_properties": 3389,
-        "current_page": 33,
+        "current_page": 39,
         "total_pages": 113,
         "started_at": 1775291320.2068963,
         "finished_at": null
