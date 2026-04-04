@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T02:50:31",
+  "timestamp": "2026-04-04T02:52:40",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 7,
+    "current_page": 13,
     "current_phase": "4: extracción de detalle",
     "existing_count": 8153,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Asturias_venta.xlsx",
-    "properties_count": 128,
+    "properties_count": 272,
     "province_name": "Asturias",
     "start_time": 1775263625.8862906,
     "status": "running",
     "task_mode": null,
     "total_pages": 264,
     "total_properties": 7915,
-    "traffic_bytes": 30487875
+    "traffic_bytes": 43807404
   },
   "batch": {
     "total": 52,
@@ -91,9 +91,9 @@
       {
         "name": "Asturias",
         "status": "active",
-        "properties": 120,
+        "properties": 272,
         "total_properties": 7915,
-        "current_page": 6,
+        "current_page": 13,
         "total_pages": 264,
         "started_at": 1775263621.8416555,
         "finished_at": null
