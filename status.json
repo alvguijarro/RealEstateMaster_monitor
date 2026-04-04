@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T06:33:45",
+  "timestamp": "2026-04-04T06:35:54",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 17,
+    "current_page": 24,
     "current_phase": "4: extracción de detalle",
     "existing_count": 7109,
     "internal_status": "running",
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Girona_venta.xlsx",
-    "properties_count": 408,
+    "properties_count": 547,
     "province_name": "Girona",
     "start_time": 1775276793.8523624,
     "status": "running",
     "task_mode": null,
     "total_pages": 651,
     "total_properties": 19504,
-    "traffic_bytes": 61435431
+    "traffic_bytes": 76014631
   },
   "batch": {
     "total": 52,
@@ -273,9 +273,9 @@
       {
         "name": "Girona Provincia",
         "status": "active",
-        "properties": 408,
+        "properties": 547,
         "total_properties": 19504,
-        "current_page": 17,
+        "current_page": 24,
         "total_pages": 651,
         "started_at": 1775276789.8201404,
         "finished_at": null
