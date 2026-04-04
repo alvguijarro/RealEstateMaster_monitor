@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T22:10:55",
+  "timestamp": "2026-04-04T22:13:04",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 7,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 9,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 471,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_Albacete_alquiler.xlsx",
-    "properties_count": 21,
+    "properties_count": 22,
     "province_name": "Albacete",
     "start_time": 1775333330.5914414,
     "status": "running",
     "task_mode": null,
     "total_pages": 8,
     "total_properties": 224,
-    "traffic_bytes": 6322771
+    "traffic_bytes": 7244843
   },
   "batch": {
     "total": 52,
@@ -52,9 +52,9 @@
       {
         "name": "Albacete Provincia",
         "status": "active",
-        "properties": 21,
+        "properties": 22,
         "total_properties": 224,
-        "current_page": 6,
+        "current_page": 9,
         "total_pages": 8,
         "started_at": 1775333326.545353,
         "finished_at": null
