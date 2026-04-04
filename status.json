@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T16:35:13",
+  "timestamp": "2026-04-04T16:37:22",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 5730,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 1679,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Vizcaya_venta.xlsx",
-    "properties_count": 20,
-    "province_name": "Vizcaya",
-    "start_time": 1775312765.3597074,
+    "output_file": "idealista_Zamora_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "Zamora",
+    "start_time": 1775313433.5022702,
     "status": "running",
     "task_mode": null,
-    "total_pages": 60,
+    "total_pages": 0,
     "total_properties": 0,
-    "traffic_bytes": 20300932
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 52,
@@ -662,22 +662,25 @@
       },
       {
         "name": "Vizcaya",
-        "status": "active",
-        "properties": 20,
-        "total_properties": 0,
+        "status": "completed",
+        "properties": 21,
+        "total_properties": 725,
         "current_page": 6,
         "total_pages": 60,
         "started_at": 1775312761.3206565,
-        "finished_at": null
+        "finished_at": 1775313397.4306908,
+        "traffic_bytes": 22477013,
+        "existing_count": 5730,
+        "bajas_count": 0
       },
       {
         "name": "Zamora Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1775313429.4575942,
         "finished_at": null
       },
       {
@@ -7262,27 +7265,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775312765.3657067,
+        "last_ts": 1775313433.5062687,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775312765.3657067,
+        "last_ts": 1775313433.5062687,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775312765.3657067,
+        "last_ts": 1775313433.5062687,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775312765.3657067,
+        "last_ts": 1775313433.5062687,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775312765.3657067,
+        "last_ts": 1775313433.5062687,
         "last_ip": ""
       }
     },
