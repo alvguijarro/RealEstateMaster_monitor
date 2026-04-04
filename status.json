@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T02:41:56",
+  "timestamp": "2026-04-04T02:44:05",
   "scraper": {
     "bajas_count": 0,
     "current_page": 10,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Almería_venta.xlsx",
-    "properties_count": 209,
+    "properties_count": 313,
     "province_name": "Almería",
     "start_time": 1775262705.4535558,
     "status": "running",
     "task_mode": null,
     "total_pages": 300,
     "total_properties": 8973,
-    "traffic_bytes": 62490455
+    "traffic_bytes": 72928088
   },
   "batch": {
     "total": 52,
@@ -78,7 +78,7 @@
       {
         "name": "Almeria Provincia",
         "status": "active",
-        "properties": 209,
+        "properties": 302,
         "total_properties": 8973,
         "current_page": 10,
         "total_pages": 300,
