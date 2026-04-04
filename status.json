@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-04-04T02:29:03",
+  "timestamp": "2026-04-04T02:31:12",
   "scraper": {
     "bajas_count": 0,
     "current_page": 60,
-    "current_phase": "3: Deep Scrape",
+    "current_phase": "4: extracción de detalle",
     "existing_count": 8190,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Alicante_venta.xlsx",
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Alicante_venta.xlsx",
     "properties_count": 1796,
     "province_name": "Alicante",
     "start_time": 1775260787.5753286,
@@ -17,7 +17,7 @@
     "task_mode": null,
     "total_pages": 1603,
     "total_properties": 48073,
-    "traffic_bytes": 182269410
+    "traffic_bytes": 182404404
   },
   "batch": {
     "total": 52,
