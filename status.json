@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T05:35:47",
+  "timestamp": "2026-04-04T05:37:56",
   "scraper": {
     "bajas_count": 0,
     "current_page": 4,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 127,
+    "existing_count": 5089,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Ceuta_venta.xlsx",
-    "properties_count": 2,
-    "province_name": "Ceuta",
-    "start_time": 1775273407.2721276,
+    "output_file": "idealista_Ciudad-Real_venta.xlsx",
+    "properties_count": 35,
+    "province_name": "Ciudad Real",
+    "start_time": 1775273774.4260502,
     "status": "running",
     "task_mode": null,
-    "total_pages": 3,
-    "total_properties": 81,
-    "traffic_bytes": 5400548
+    "total_pages": 177,
+    "total_properties": 5281,
+    "traffic_bytes": 8703235
   },
   "batch": {
     "total": 52,
@@ -220,22 +220,25 @@
       },
       {
         "name": "Ceuta Ceuta",
-        "status": "active",
+        "status": "completed",
         "properties": 2,
         "total_properties": 81,
         "current_page": 4,
         "total_pages": 3,
         "started_at": 1775273403.2396817,
-        "finished_at": null
+        "finished_at": 1775273751.3699455,
+        "traffic_bytes": 5400548,
+        "existing_count": 127,
+        "bajas_count": 0
       },
       {
         "name": "Ciudad Real Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 29,
+        "total_properties": 5281,
+        "current_page": 4,
+        "total_pages": 177,
+        "started_at": 1775273770.391005,
         "finished_at": null
       },
       {
@@ -7160,27 +7163,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775273407.2751276,
+        "last_ts": 1775273774.4330504,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775273407.2751276,
+        "last_ts": 1775273774.4330504,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775273407.2751276,
+        "last_ts": 1775273774.4330504,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775273407.2751276,
+        "last_ts": 1775273774.4330504,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775273407.2751276,
+        "last_ts": 1775273774.4330504,
         "last_ip": ""
       }
     },
