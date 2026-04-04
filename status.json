@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T10:23:06",
+  "timestamp": "2026-04-04T10:26:29",
   "scraper": {
     "bajas_count": 0,
     "current_page": 60,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Lleida_venta.xlsx",
-    "properties_count": 498,
+    "properties_count": 520,
     "province_name": "Lleida",
     "start_time": 1775289494.8217275,
     "status": "running",
     "task_mode": null,
     "total_pages": 114,
     "total_properties": 3395,
-    "traffic_bytes": 163196191
+    "traffic_bytes": 188805595
   },
   "batch": {
     "total": 52,
@@ -403,7 +403,7 @@
       {
         "name": "Lleida Provincia",
         "status": "active",
-        "properties": 498,
+        "properties": 520,
         "total_properties": 3395,
         "current_page": 60,
         "total_pages": 114,
