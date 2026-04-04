@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-04-05T00:20:11",
+  "timestamp": "2026-04-05T00:22:20",
   "scraper": {
     "bajas_count": 0,
     "current_page": 9,
-    "current_phase": "4: extracción de detalle",
+    "current_phase": "3: Deep Scrape",
     "existing_count": 375,
     "internal_status": "running",
     "is_room_mode": false,
@@ -17,7 +17,7 @@
     "task_mode": null,
     "total_pages": 10,
     "total_properties": 271,
-    "traffic_bytes": 14096516
+    "traffic_bytes": 14770647
   },
   "batch": {
     "total": 52,
@@ -158,7 +158,7 @@
         "status": "active",
         "properties": 34,
         "total_properties": 271,
-        "current_page": 8,
+        "current_page": 9,
         "total_pages": 10,
         "started_at": 1775341032.3644493,
         "finished_at": null
