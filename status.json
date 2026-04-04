@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T15:06:42",
+  "timestamp": "2026-04-04T15:08:51",
   "scraper": {
     "bajas_count": 0,
     "current_page": 6,
@@ -10,14 +10,14 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Teruel_venta.xlsx",
-    "properties_count": 0,
+    "properties_count": 1,
     "province_name": "Teruel",
     "start_time": 1775307779.4821951,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
     "total_properties": 0,
-    "traffic_bytes": 2017065
+    "traffic_bytes": 2708203
   },
   "batch": {
     "total": 52,
@@ -611,7 +611,7 @@
       {
         "name": "Teruel Provincia",
         "status": "active",
-        "properties": 0,
+        "properties": 1,
         "total_properties": 0,
         "current_page": 6,
         "total_pages": 60,
