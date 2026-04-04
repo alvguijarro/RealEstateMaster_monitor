@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-04T12:12:25",
+  "timestamp": "2026-04-04T12:14:35",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_page": 6,
+    "current_phase": "4: extracción de detalle",
     "existing_count": 3694,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Ourense_venta.xlsx",
-    "properties_count": 6,
+    "properties_count": 31,
     "province_name": "Ourense",
     "start_time": 1775297473.819071,
     "status": "running",
     "task_mode": null,
     "total_pages": 60,
-    "total_properties": 0,
-    "traffic_bytes": 4165455
+    "total_properties": 120,
+    "traffic_bytes": 22141527
   },
   "batch": {
     "total": 52,
@@ -494,9 +494,9 @@
       {
         "name": "Ourense Provincia",
         "status": "active",
-        "properties": 4,
-        "total_properties": 0,
-        "current_page": 0,
+        "properties": 28,
+        "total_properties": 120,
+        "current_page": 6,
         "total_pages": 60,
         "started_at": 1775297469.7727787,
         "finished_at": null
