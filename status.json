@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-05T23:44:24",
+  "timestamp": "2026-04-05T23:46:40",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -592,7 +592,7 @@
   "trends": {
     "status": "idle",
     "checkpoint": {
-      "completed_count": 1280,
+      "completed_count": 1293,
       "completed_keys": [
         [
           "Castellón",
@@ -657,6 +657,11 @@
         [
           "Lleida",
           "Urgell",
+          "habitacion"
+        ],
+        [
+          "Valladolid",
+          "*(Toda la provincia)*",
           "habitacion"
         ],
         [
@@ -1870,6 +1875,11 @@
           "alquiler"
         ],
         [
+          "Valencia",
+          "La Canal de Navarrés",
+          "habitacion"
+        ],
+        [
           "Teruel",
           "Área de Teruel",
           "venta"
@@ -2850,6 +2860,16 @@
           "venta"
         ],
         [
+          "Vizcaya",
+          "Arratia-Nervión",
+          "habitacion"
+        ],
+        [
+          "Valencia",
+          "Ribera Alta",
+          "habitacion"
+        ],
+        [
           "Zamora",
           "Tierra de Campos",
           "alquiler"
@@ -3710,6 +3730,11 @@
           "venta"
         ],
         [
+          "Zaragoza",
+          "La Muela-Valdejalón",
+          "habitacion"
+        ],
+        [
           "Guipúzcoa",
           "*(Toda la provincia)*",
           "alquiler"
@@ -4473,6 +4498,11 @@
           "Almería",
           "Bajo Almanzora",
           "venta"
+        ],
+        [
+          "Zaragoza",
+          "Caspe",
+          "habitacion"
         ],
         [
           "Córdoba",
@@ -5315,6 +5345,11 @@
           "venta"
         ],
         [
+          "Cerdanya Francesa",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Zamora",
           "Área de Zamora",
           "habitacion"
@@ -5855,6 +5890,11 @@
           "venta"
         ],
         [
+          "Zaragoza",
+          "Comunidad de Calatayud",
+          "habitacion"
+        ],
+        [
           "Granada",
           "Área de Huéscar",
           "habitacion"
@@ -5980,6 +6020,11 @@
           "habitacion"
         ],
         [
+          "Zaragoza",
+          "Ribera Alta del Ebro",
+          "habitacion"
+        ],
+        [
           "Lugo",
           "Meira",
           "alquiler"
@@ -6030,9 +6075,19 @@
           "venta"
         ],
         [
+          "País Vasco Francés",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Asturias",
           "Oriente",
           "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "Girona",
@@ -6133,6 +6188,11 @@
           "Ourense",
           "Ribeiro",
           "venta"
+        ],
+        [
+          "Zaragoza",
+          "Área de Zaragoza",
+          "habitacion"
         ],
         [
           "Cádiz",
@@ -6498,6 +6558,11 @@
           "Lleida",
           "Noguera",
           "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Ribera Baja del Ebro",
+          "habitacion"
         ],
         [
           "Tarragona",
@@ -7086,27 +7151,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775424784.7304716,
+        "last_ts": 1775425517.04493,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775424784.7304716,
+        "last_ts": 1775425517.04493,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775424784.7304716,
+        "last_ts": 1775425517.04493,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775424784.7304716,
+        "last_ts": 1775425517.04493,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775424784.7304716,
+        "last_ts": 1775425517.04493,
         "last_ip": ""
       }
     },
@@ -7116,11 +7181,11 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 753565.38,
+    "total_traffic_mb": 753975.38,
     "total_cost_usd": 0.2608,
-    "sessions": 824,
+    "sessions": 879,
     "last_entry": {
-      "fecha": "2026-04-05 09:31:18",
+      "fecha": "2026-04-05 23:37:51",
       "provincia": "",
       "propiedades": "",
       "trafico_mb": "",
