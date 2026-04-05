@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-05T09:48:44",
+  "timestamp": "2026-04-05T09:51:18",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -592,7 +592,7 @@
   "trends": {
     "status": "idle",
     "checkpoint": {
-      "completed_count": 960,
+      "completed_count": 979,
       "completed_keys": [
         [
           "A Coruña",
@@ -1435,6 +1435,11 @@
           "alquiler"
         ],
         [
+          "Badajoz",
+          "Don Benito-Siberia-Serena",
+          "habitacion"
+        ],
+        [
           "Barcelona",
           "Osona",
           "venta"
@@ -1768,6 +1773,11 @@
           "Valladolid",
           "Tordesillas",
           "alquiler"
+        ],
+        [
+          "Ávila",
+          "Área de Ávila",
+          "habitacion"
         ],
         [
           "Lugo",
@@ -2140,6 +2150,11 @@
           "venta"
         ],
         [
+          "Badajoz",
+          "Badajoz-Alburquerque",
+          "habitacion"
+        ],
+        [
           "Huesca",
           "La Litera",
           "venta"
@@ -2235,6 +2250,11 @@
           "alquiler"
         ],
         [
+          "Asturias",
+          "Oriente",
+          "habitacion"
+        ],
+        [
           "Girona",
           "Alt Empordà",
           "alquiler"
@@ -2273,6 +2293,11 @@
           "Alicante",
           "Alt Vinalopó",
           "alquiler"
+        ],
+        [
+          "Asturias",
+          "Área de Avilés",
+          "habitacion"
         ],
         [
           "Girona",
@@ -2463,6 +2488,11 @@
           "Cantabria",
           "*(Toda la provincia)*",
           "alquiler"
+        ],
+        [
+          "Ávila",
+          "Burgohondo - Cebreros - El Tiemblo",
+          "habitacion"
         ],
         [
           "Ciudad Real",
@@ -3210,6 +3240,11 @@
           "alquiler"
         ],
         [
+          "Asturias",
+          "Área de Gijón",
+          "habitacion"
+        ],
+        [
           "A Coruña",
           "Muros",
           "alquiler"
@@ -3555,6 +3590,11 @@
           "alquiler"
         ],
         [
+          "Soria",
+          "Almazán",
+          "venta"
+        ],
+        [
           "Vizcaya",
           "Gran Bilbao",
           "alquiler"
@@ -3845,6 +3885,11 @@
           "venta"
         ],
         [
+          "Asturias",
+          "Eo-Navia",
+          "habitacion"
+        ],
+        [
           "Almería",
           "Los Vélez",
           "alquiler"
@@ -3968,6 +4013,11 @@
           "Sevilla",
           "Área de Estepa",
           "venta"
+        ],
+        [
+          "Badajoz",
+          "Campiña sur",
+          "habitacion"
         ],
         [
           "A Coruña",
@@ -4166,6 +4216,11 @@
         ],
         [
           "Ávila",
+          "Valle del Tiétar",
+          "habitacion"
+        ],
+        [
+          "Ávila",
           "*(Toda la provincia)*",
           "venta"
         ],
@@ -4263,6 +4318,11 @@
           "A Coruña",
           "Xallas",
           "alquiler"
+        ],
+        [
+          "Asturias",
+          "Área de Oviedo",
+          "habitacion"
         ],
         [
           "Burgos",
@@ -4368,6 +4428,11 @@
           "Valencia",
           "*(Toda la provincia)*",
           "venta"
+        ],
+        [
+          "Baleares (Illes)",
+          "Menorca",
+          "habitacion"
         ],
         [
           "Ávila",
@@ -4615,6 +4680,11 @@
           "venta"
         ],
         [
+          "Badajoz",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Girona",
           "Ripollès",
           "alquiler"
@@ -4745,6 +4815,11 @@
           "venta"
         ],
         [
+          "Asturias",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Pontevedra",
           "*(Toda la provincia)*",
           "alquiler"
@@ -4788,6 +4863,11 @@
           "A Coruña",
           "Ordes",
           "venta"
+        ],
+        [
+          "Asturias",
+          "Nalón",
+          "habitacion"
         ],
         [
           "Salamanca",
@@ -4918,6 +4998,11 @@
           "Álava",
           "Salvatierra",
           "alquiler"
+        ],
+        [
+          "Barcelona",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "Albacete",
@@ -5083,6 +5168,11 @@
           "Granada",
           "Valle de Lecrín",
           "alquiler"
+        ],
+        [
+          "Ávila",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "Valencia",
@@ -5278,6 +5368,11 @@
           "Cádiz",
           "Sierra de Cádiz",
           "alquiler"
+        ],
+        [
+          "Ávila",
+          "Arévalo",
+          "habitacion"
         ],
         [
           "Pontevedra",
@@ -5516,15 +5611,15 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 752486.38,
+    "total_traffic_mb": 753565.38,
     "total_cost_usd": 0.2608,
-    "sessions": 771,
+    "sessions": 824,
     "last_entry": {
-      "fecha": "2026-04-04 00:53:48",
+      "fecha": "2026-04-05 09:31:18",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "692",
-      "coste_usd": "11m 32s"
+      "trafico_mb": "",
+      "coste_usd": ""
     }
   }
 }
