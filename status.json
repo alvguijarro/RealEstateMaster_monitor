@@ -1,8 +1,23 @@
 {
-  "timestamp": "2026-04-06T16:59:45",
+  "timestamp": "2026-04-06T17:02:23",
   "scraper": {
-    "status": "offline",
-    "properties_count": 0
+    "bajas_count": 0,
+    "current_page": 0,
+    "current_phase": "",
+    "existing_count": 0,
+    "internal_status": "idle",
+    "is_room_mode": false,
+    "mode": "fast",
+    "operation_type": "",
+    "output_file": null,
+    "properties_count": 0,
+    "province_name": "",
+    "start_time": null,
+    "status": "idle",
+    "task_mode": null,
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 52,
@@ -575,10 +590,9 @@
     "history": []
   },
   "trends": {
-    "status": "offline",
+    "status": "idle",
     "checkpoint": {
-      "version": 2,
-      "date_record": "06-04-2026",
+      "completed_count": 1293,
       "completed_keys": [
         [
           "Burgos",
@@ -7046,8 +7060,9 @@
           "alquiler"
         ]
       ],
-      "completed_count": 1293,
-      "total": 1293
+      "date_record": "06-04-2026",
+      "total": 1293,
+      "version": 2
     }
   },
   "history": [
@@ -7136,27 +7151,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775486987.0021834,
+        "last_ts": 1775487634.0671449,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775486987.0021834,
+        "last_ts": 1775487634.0671449,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775486987.0021834,
+        "last_ts": 1775487634.0671449,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775486987.0021834,
+        "last_ts": 1775487634.0671449,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775486987.0021834,
+        "last_ts": 1775487634.0671449,
         "last_ip": ""
       }
     },
