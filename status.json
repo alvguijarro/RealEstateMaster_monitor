@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-04-08T08:41:35",
+  "timestamp": "2026-04-08T08:43:46",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 5,
+    "current_phase": "5: enrichment",
     "existing_count": 500,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Albacete_alquiler.xlsx",
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_Albacete_alquiler.xlsx",
     "properties_count": 15,
     "province_name": "Albacete",
     "start_time": 1775630411.115436,
@@ -54,7 +54,7 @@
         "status": "active",
         "properties": 15,
         "total_properties": 223,
-        "current_page": 6,
+        "current_page": 5,
         "total_pages": 8,
         "started_at": 1775630407.0271049,
         "finished_at": null
