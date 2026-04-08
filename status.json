@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-08T08:32:58",
+  "timestamp": "2026-04-08T08:35:07",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 8,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 2992,
+    "current_page": 4,
+    "current_phase": "3: Deep Scrape",
+    "existing_count": 213,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_A-Coruña_alquiler.xlsx",
-    "properties_count": 50,
-    "province_name": "A Coruña",
-    "start_time": 1775629655.3280597,
+    "output_file": "idealista_Álava_alquiler.xlsx",
+    "properties_count": 9,
+    "province_name": "Álava",
+    "start_time": 1775630040.7519143,
     "status": "running",
     "task_mode": null,
-    "total_pages": 50,
-    "total_properties": 1488,
+    "total_pages": 3,
+    "total_properties": 82,
     "traffic_bytes": 0
   },
   "batch": {
@@ -25,22 +25,25 @@
     "provinces": [
       {
         "name": "A Coruna Provincia",
-        "status": "active",
-        "properties": 50,
+        "status": "completed",
+        "properties": 52,
         "total_properties": 1488,
         "current_page": 8,
         "total_pages": 50,
         "started_at": 1775629651.3032072,
-        "finished_at": null
+        "finished_at": 1775630020.7067895,
+        "traffic_bytes": 0,
+        "existing_count": 2992,
+        "bajas_count": 0
       },
       {
         "name": "Alava",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 9,
+        "total_properties": 82,
+        "current_page": 4,
+        "total_pages": 3,
+        "started_at": 1775630036.7274585,
         "finished_at": null
       },
       {
@@ -7115,27 +7118,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775629655.3442457,
+        "last_ts": 1775630040.7549813,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775629655.3442457,
+        "last_ts": 1775630040.7549813,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775629655.3442457,
+        "last_ts": 1775630040.7549813,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775629655.3442457,
+        "last_ts": 1775630040.7549813,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775629655.3442457,
+        "last_ts": 1775630040.7549813,
         "last_ip": ""
       }
     },
