@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-04-08T23:07:57",
+  "timestamp": "2026-04-08T23:10:07",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 11,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 5,
+    "current_phase": "5: enrichment",
     "existing_count": 604,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_León_alquiler.xlsx",
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_León_alquiler.xlsx",
     "properties_count": 69,
     "province_name": "León",
     "start_time": 1775682207.3220446,
@@ -28,7 +28,7 @@
         "status": "active",
         "properties": 69,
         "total_properties": 415,
-        "current_page": 11,
+        "current_page": 5,
         "total_pages": 14,
         "started_at": 1775682203.2725406,
         "finished_at": null
