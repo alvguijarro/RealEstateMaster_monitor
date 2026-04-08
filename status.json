@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-08T23:12:17",
+  "timestamp": "2026-04-08T23:14:26",
   "scraper": {
-    "bajas_count": 57,
-    "current_page": 5,
+    "bajas_count": 0,
+    "current_page": 6,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 604,
-    "internal_status": "completed",
+    "existing_count": 310,
+    "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_León_alquiler.xlsx",
-    "properties_count": 69,
-    "province_name": "León",
-    "start_time": 1775682207.3220446,
+    "output_file": "idealista_Lleida_alquiler.xlsx",
+    "properties_count": 18,
+    "province_name": "Lleida",
+    "start_time": 1775682761.409515,
     "status": "running",
     "task_mode": null,
-    "total_pages": 14,
-    "total_properties": 415,
+    "total_pages": 6,
+    "total_properties": 177,
     "traffic_bytes": 0
   },
   "batch": {
@@ -25,22 +25,25 @@
     "provinces": [
       {
         "name": "Leon Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 69,
         "total_properties": 415,
         "current_page": 5,
         "total_pages": 14,
         "started_at": 1775682203.2725406,
-        "finished_at": null
+        "finished_at": 1775682742.1642654,
+        "traffic_bytes": 0,
+        "existing_count": 604,
+        "bajas_count": 57
       },
       {
         "name": "Lleida Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "status": "active",
+        "properties": 18,
+        "total_properties": 177,
+        "current_page": 6,
+        "total_pages": 6,
+        "started_at": 1775682757.236329,
         "finished_at": null
       },
       {
@@ -6835,27 +6838,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775682207.416196,
+        "last_ts": 1775682761.416881,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775682207.416196,
+        "last_ts": 1775682761.416881,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775682207.416196,
+        "last_ts": 1775682761.416881,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775682207.416196,
+        "last_ts": 1775682761.416881,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775682207.416196,
+        "last_ts": 1775682761.416881,
         "last_ip": ""
       }
     },
