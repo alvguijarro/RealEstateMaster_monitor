@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-08T09:07:37",
+  "timestamp": "2026-04-08T09:12:18",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 20,
-    "current_phase": "3: recolección de URLs",
-    "existing_count": 7088,
-    "internal_status": "stopped",
+    "current_page": 3,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 0,
+    "internal_status": "running",
     "is_room_mode": false,
-    "mode": "fast",
-    "operation_type": "alquiler",
-    "output_file": "idealista_Alicante_alquiler.xlsx",
-    "properties_count": 0,
-    "province_name": "Alicante",
-    "start_time": 1775630929.8476272,
-    "status": "stopped",
+    "mode": "batch",
+    "operation_type": "venta",
+    "output_file": null,
+    "properties_count": 35,
+    "province_name": "",
+    "start_time": 1775632216.407496,
+    "status": "running",
     "task_mode": null,
-    "total_pages": 197,
-    "total_properties": 5905,
+    "total_pages": 13,
+    "total_properties": 374,
     "traffic_bytes": 0
   },
   "batch": {
@@ -7124,27 +7124,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775630929.851102,
+        "last_ts": 1775632216.4106634,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775630929.851102,
+        "last_ts": 1775632216.4106634,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775630929.851102,
+        "last_ts": 1775632216.4106634,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775630929.851102,
+        "last_ts": 1775632216.4106634,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775630929.851102,
+        "last_ts": 1775632216.4106634,
         "last_ip": ""
       }
     },
