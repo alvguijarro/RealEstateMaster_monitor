@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-08T08:28:39",
+  "timestamp": "2026-04-08T08:30:49",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 4,
+    "current_page": 11,
     "current_phase": "4: extracción de detalle",
     "existing_count": 2992,
     "internal_status": "running",
@@ -10,7 +10,7 @@
     "mode": "batch",
     "operation_type": "alquiler",
     "output_file": "idealista_A-Coruña_alquiler.xlsx",
-    "properties_count": 26,
+    "properties_count": 35,
     "province_name": "A Coruña",
     "start_time": 1775629655.3280597,
     "status": "running",
@@ -26,9 +26,9 @@
       {
         "name": "A Coruna Provincia",
         "status": "active",
-        "properties": 24,
+        "properties": 35,
         "total_properties": 1488,
-        "current_page": 4,
+        "current_page": 10,
         "total_pages": 50,
         "started_at": 1775629651.3032072,
         "finished_at": null
