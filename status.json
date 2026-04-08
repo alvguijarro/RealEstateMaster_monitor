@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-08T09:20:56",
+  "timestamp": "2026-04-08T09:23:08",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 5,
+    "current_page": 3,
     "current_phase": "4: extracción de detalle",
     "existing_count": 0,
-    "internal_status": "running",
+    "internal_status": "stopped",
     "is_room_mode": false,
-    "mode": "batch",
+    "mode": "fast",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Madrid_Zona-noroeste_Boadilla-del-Monte_venta.xlsx",
-    "properties_count": 374,
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Madrid_Zona-noroeste_Las-Rozas-de-Madrid_venta.xlsx",
+    "properties_count": 9,
     "province_name": "",
-    "start_time": 1775632216.407496,
-    "status": "running",
+    "start_time": 1775632889.0968246,
+    "status": "stopped",
     "task_mode": null,
-    "total_pages": 13,
-    "total_properties": 374,
+    "total_pages": 16,
+    "total_properties": 463,
     "traffic_bytes": 0
   },
   "batch": {
@@ -7124,27 +7124,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1775632216.4106634,
+        "last_ts": 1775632889.099418,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1775632216.4106634,
+        "last_ts": 1775632889.099418,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1775632216.4106634,
+        "last_ts": 1775632889.099418,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1775632216.4106634,
+        "last_ts": 1775632889.099418,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1775632216.4106634,
+        "last_ts": 1775632889.099418,
         "last_ip": ""
       }
     },
