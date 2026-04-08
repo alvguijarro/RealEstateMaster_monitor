@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-04-08T23:14:26",
+  "timestamp": "2026-04-08T23:16:36",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 5,
+    "current_phase": "5: enrichment",
     "existing_count": 310,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "alquiler",
-    "output_file": "idealista_Lleida_alquiler.xlsx",
-    "properties_count": 18,
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_Lleida_alquiler.xlsx",
+    "properties_count": 29,
     "province_name": "Lleida",
     "start_time": 1775682761.409515,
     "status": "running",
@@ -39,9 +39,9 @@
       {
         "name": "Lleida Provincia",
         "status": "active",
-        "properties": 18,
+        "properties": 29,
         "total_properties": 177,
-        "current_page": 6,
+        "current_page": 5,
         "total_pages": 6,
         "started_at": 1775682757.236329,
         "finished_at": null
