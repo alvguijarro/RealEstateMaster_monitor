@@ -1,8 +1,23 @@
 {
-  "timestamp": "2026-04-14T17:00:44",
+  "timestamp": "2026-04-14T17:02:58",
   "scraper": {
-    "status": "offline",
-    "properties_count": 0
+    "bajas_count": 0,
+    "current_page": 4,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 5026,
+    "internal_status": "running",
+    "is_room_mode": false,
+    "mode": "batch",
+    "operation_type": "venta",
+    "output_file": "idealista_A-Coruña_venta.xlsx",
+    "properties_count": 42,
+    "province_name": "A Coruña",
+    "start_time": 1776178864.628265,
+    "status": "running",
+    "task_mode": null,
+    "total_pages": 242,
+    "total_properties": 7259,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 21,
@@ -6817,27 +6832,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776177347.0168116,
+        "last_ts": 1776178864.7923899,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776177347.0168116,
+        "last_ts": 1776178864.7923899,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776177347.0168116,
+        "last_ts": 1776178864.7923899,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776177347.0168116,
+        "last_ts": 1776178864.7923899,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776177347.0168116,
+        "last_ts": 1776178864.7923899,
         "last_ip": ""
       }
     },
