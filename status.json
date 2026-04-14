@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-14T17:55:09",
+  "timestamp": "2026-04-14T17:57:19",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 5,
-    "current_phase": "5: enrichment",
-    "existing_count": 5026,
+    "current_page": 3,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 1563,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_A-Coruña_venta.xlsx",
-    "properties_count": 403,
-    "province_name": "A Coruña",
-    "start_time": 1776178864.628265,
+    "output_file": "idealista_Álava_venta.xlsx",
+    "properties_count": 9,
+    "province_name": "Álava",
+    "start_time": 1776182201.3931909,
     "status": "running",
     "task_mode": null,
-    "total_pages": 242,
-    "total_properties": 7259,
+    "total_pages": 46,
+    "total_properties": 1370,
     "traffic_bytes": 0
   },
   "batch": {
@@ -6832,27 +6832,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776178864.7923899,
+        "last_ts": 1776182201.3978102,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776178864.7923899,
+        "last_ts": 1776182201.3978102,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776178864.7923899,
+        "last_ts": 1776182201.3978102,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776178864.7923899,
+        "last_ts": 1776182201.3978102,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776178864.7923899,
+        "last_ts": 1776182201.3978102,
         "last_ip": ""
       }
     },
