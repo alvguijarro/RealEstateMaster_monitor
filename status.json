@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-14T18:31:54",
+  "timestamp": "2026-04-14T18:34:03",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 5,
-    "current_phase": "5: enrichment",
-    "existing_count": 1563,
+    "current_page": 6,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 3844,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Álava_venta.xlsx",
-    "properties_count": 92,
-    "province_name": "Álava",
-    "start_time": 1776182201.3931909,
+    "output_file": "idealista_Albacete_venta.xlsx",
+    "properties_count": 32,
+    "province_name": "Albacete",
+    "start_time": 1776184368.0266302,
     "status": "running",
     "task_mode": null,
-    "total_pages": 46,
-    "total_properties": 1370,
+    "total_pages": 112,
+    "total_properties": 3347,
     "traffic_bytes": 0
   },
   "batch": {
@@ -6832,27 +6832,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776182201.3978102,
+        "last_ts": 1776184368.0302033,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776182201.3978102,
+        "last_ts": 1776184368.0302033,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776182201.3978102,
+        "last_ts": 1776184368.0302033,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776182201.3978102,
+        "last_ts": 1776184368.0302033,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776182201.3978102,
+        "last_ts": 1776184368.0302033,
         "last_ip": ""
       }
     },
