@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-14T21:15:26",
+  "timestamp": "2026-04-14T21:17:35",
   "scraper": {
-    "bajas_count": 1489,
-    "current_page": 60,
+    "bajas_count": 0,
+    "current_page": 3,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 19145,
-    "internal_status": "stopped",
+    "existing_count": 20287,
+    "internal_status": "running",
     "is_room_mode": false,
-    "mode": "fast",
+    "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Alicante_venta.xlsx",
-    "properties_count": 1142,
+    "output_file": "idealista_Alicante_venta.xlsx",
+    "properties_count": 5,
     "province_name": "Alicante",
-    "start_time": 1776188144.153187,
-    "status": "stopped",
+    "start_time": 1776194166.149081,
+    "status": "running",
     "task_mode": null,
-    "total_pages": 1606,
-    "total_properties": 48152,
+    "total_pages": 1605,
+    "total_properties": 48148,
     "traffic_bytes": 0
   },
   "batch": {
@@ -6832,27 +6832,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776188144.1593325,
+        "last_ts": 1776194166.1802557,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776188144.1593325,
+        "last_ts": 1776194166.1802557,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776188144.1593325,
+        "last_ts": 1776194166.1802557,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776188144.1593325,
+        "last_ts": 1776194166.1802557,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776188144.1593325,
+        "last_ts": 1776194166.1802557,
         "last_ip": ""
       }
     },
