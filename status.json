@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-14T19:34:40",
+  "timestamp": "2026-04-14T19:36:50",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 60,
-    "current_phase": "5: enrichment",
-    "existing_count": 3844,
+    "current_page": 3,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 19145,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Albacete_venta.xlsx",
-    "properties_count": 316,
-    "province_name": "Albacete",
-    "start_time": 1776184368.0266302,
+    "output_file": "idealista_Alicante_venta.xlsx",
+    "properties_count": 7,
+    "province_name": "Alicante",
+    "start_time": 1776188144.153187,
     "status": "running",
     "task_mode": null,
-    "total_pages": 112,
-    "total_properties": 3347,
+    "total_pages": 1606,
+    "total_properties": 48152,
     "traffic_bytes": 0
   },
   "batch": {
@@ -6832,27 +6832,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776184368.0302033,
+        "last_ts": 1776188144.1593325,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776184368.0302033,
+        "last_ts": 1776188144.1593325,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776184368.0302033,
+        "last_ts": 1776188144.1593325,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776184368.0302033,
+        "last_ts": 1776188144.1593325,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776184368.0302033,
+        "last_ts": 1776188144.1593325,
         "last_ip": ""
       }
     },
