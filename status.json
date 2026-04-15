@@ -1,23 +1,8 @@
 {
-  "timestamp": "2026-04-14T23:12:34",
+  "timestamp": "2026-04-15T08:24:35",
   "scraper": {
-    "bajas_count": 0,
-    "current_page": 5,
-    "current_phase": "5: enrichment",
-    "existing_count": 21807,
-    "internal_status": "running",
-    "is_room_mode": false,
-    "mode": "batch",
-    "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Madrid_venta.xlsx",
-    "properties_count": 194,
-    "province_name": "",
-    "start_time": 1776199281.8840456,
-    "status": "running",
-    "task_mode": null,
-    "total_pages": 7,
-    "total_properties": 194,
-    "traffic_bytes": 0
+    "status": "offline",
+    "properties_count": 0
   },
   "batch": {
     "total": 21,
@@ -6832,27 +6817,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776199281.9335983,
+        "last_ts": 1776206960.6793287,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776199281.9335983,
+        "last_ts": 1776206960.6793287,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776199281.9335983,
+        "last_ts": 1776206960.6793287,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776199281.9335983,
+        "last_ts": 1776206960.6793287,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776199281.9335983,
+        "last_ts": 1776206960.6793287,
         "last_ip": ""
       }
     },
