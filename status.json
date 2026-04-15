@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-15T20:13:30",
+  "timestamp": "2026-04-15T20:15:40",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 7,
+    "current_page": 3,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 9090,
+    "existing_count": 2212,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Almería_venta.xlsx",
-    "properties_count": 35,
-    "province_name": "Almería",
-    "start_time": 1776276640.1647067,
+    "output_file": "idealista_Cuenca_venta.xlsx",
+    "properties_count": 11,
+    "province_name": "",
+    "start_time": 1776276886.6853275,
     "status": "running",
     "task_mode": null,
-    "total_pages": 296,
-    "total_properties": 8875,
+    "total_pages": 56,
+    "total_properties": 1667,
     "traffic_bytes": 0
   },
   "batch": {
@@ -6832,27 +6832,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776276640.1686642,
+        "last_ts": 1776276886.7079115,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776276640.1686642,
+        "last_ts": 1776276886.7079115,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776276640.1686642,
+        "last_ts": 1776276886.7079115,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776276640.1686642,
+        "last_ts": 1776276886.7079115,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776276640.1686642,
+        "last_ts": 1776276886.7079115,
         "last_ip": ""
       }
     },
