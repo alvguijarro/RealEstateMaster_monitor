@@ -1,8 +1,23 @@
 {
-  "timestamp": "2026-04-15T10:11:43",
+  "timestamp": "2026-04-15T10:14:13",
   "scraper": {
-    "status": "offline",
-    "properties_count": 0
+    "bajas_count": 0,
+    "current_page": 5,
+    "current_phase": "3: recolección de URLs",
+    "existing_count": 1574,
+    "internal_status": "running",
+    "is_room_mode": false,
+    "mode": "fast",
+    "operation_type": "venta",
+    "output_file": "idealista_Teruel_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "",
+    "start_time": 1776240761.108913,
+    "status": "running",
+    "task_mode": null,
+    "total_pages": 43,
+    "total_properties": 1274,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 21,
@@ -6817,27 +6832,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776238635.1645086,
+        "last_ts": 1776240761.1412306,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776238635.1645086,
+        "last_ts": 1776240761.1412306,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776238635.1645086,
+        "last_ts": 1776240761.1412306,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776238635.1645086,
+        "last_ts": 1776240761.1412306,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776238635.1645086,
+        "last_ts": 1776240761.1412306,
         "last_ip": ""
       }
     },
