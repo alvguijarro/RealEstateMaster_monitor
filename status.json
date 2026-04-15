@@ -1,23 +1,8 @@
 {
-  "timestamp": "2026-04-15T23:06:54",
+  "timestamp": "2026-04-15T23:11:46",
   "scraper": {
-    "bajas_count": 0,
-    "current_page": 5,
-    "current_phase": "5: enrichment",
-    "existing_count": 8425,
-    "internal_status": "running",
-    "is_room_mode": false,
-    "mode": "batch",
-    "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Asturias_venta.xlsx",
-    "properties_count": 654,
-    "province_name": "Asturias",
-    "start_time": 1776279225.7614782,
-    "status": "running",
-    "task_mode": null,
-    "total_pages": 263,
-    "total_properties": 7865,
-    "traffic_bytes": 0
+    "status": "offline",
+    "properties_count": 0
   },
   "batch": {
     "total": 21,
