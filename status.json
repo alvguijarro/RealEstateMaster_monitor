@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-15T09:50:06",
+  "timestamp": "2026-04-15T09:52:16",
   "scraper": {
     "bajas_count": 296,
     "current_page": 5,
@@ -273,7 +273,7 @@
   "trends": {
     "status": "idle",
     "checkpoint": {
-      "completed_count": 1280,
+      "completed_count": 1293,
       "completed_keys": [
         [
           "Valladolid",
@@ -349,6 +349,11 @@
           "Cantabria",
           "Trasmiera",
           "alquiler"
+        ],
+        [
+          "Zamora",
+          "Área de Zamora",
+          "habitacion"
         ],
         [
           "Alicante",
@@ -543,6 +548,11 @@
         [
           "Lleida",
           "Cerdanya",
+          "habitacion"
+        ],
+        [
+          "Zaragoza",
+          "Área de Zaragoza",
           "habitacion"
         ],
         [
@@ -1041,6 +1051,11 @@
           "habitacion"
         ],
         [
+          "País Vasco Francés",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Pontevedra",
           "Área de Pontevedra",
           "habitacion"
@@ -1113,6 +1128,11 @@
         [
           "Navarra",
           "Área de Tafalla",
+          "habitacion"
+        ],
+        [
+          "Zaragoza",
+          "Ribera Alta del Ebro",
           "habitacion"
         ],
         [
@@ -1419,6 +1439,11 @@
           "Guadalajara",
           "Alcarria Baja",
           "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "Huesca",
@@ -2054,6 +2079,11 @@
           "Alicante",
           "Comtat",
           "venta"
+        ],
+        [
+          "Zaragoza",
+          "La Muela-Valdejalón",
+          "habitacion"
         ],
         [
           "Asturias",
@@ -2726,6 +2756,11 @@
           "venta"
         ],
         [
+          "Zamora",
+          "Benavente",
+          "habitacion"
+        ],
+        [
           "Vizcaya",
           "Arratia-Nervión",
           "habitacion"
@@ -3366,6 +3401,11 @@
           "venta"
         ],
         [
+          "Cerdanya Francesa",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Badajoz",
           "Llanos de Olivenza",
           "alquiler"
@@ -3886,6 +3926,11 @@
           "alquiler"
         ],
         [
+          "Zaragoza",
+          "Ribera Baja del Ebro",
+          "habitacion"
+        ],
+        [
           "Navarra",
           "Olite",
           "venta"
@@ -4286,6 +4331,11 @@
           "venta"
         ],
         [
+          "Zamora",
+          "Sanabria",
+          "habitacion"
+        ],
+        [
           "Tarragona",
           "*(Toda la provincia)*",
           "alquiler"
@@ -4519,6 +4569,11 @@
           "Castellón",
           "*(Toda la provincia)*",
           "venta"
+        ],
+        [
+          "Zamora",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "Albacete",
@@ -4911,6 +4966,11 @@
           "habitacion"
         ],
         [
+          "Zaragoza",
+          "Comunidad de Calatayud",
+          "habitacion"
+        ],
+        [
           "Valladolid",
           "Tierra de Pinares",
           "alquiler"
@@ -5074,6 +5134,11 @@
           "Ourense",
           "Área de Ourense",
           "venta"
+        ],
+        [
+          "Zaragoza",
+          "Campo de Borja",
+          "habitacion"
         ],
         [
           "Las Palmas",
@@ -6797,11 +6862,11 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 775422.38,
+    "total_traffic_mb": 776628.38,
     "total_cost_usd": 0.2608,
-    "sessions": 1594,
+    "sessions": 1649,
     "last_entry": {
-      "fecha": "2026-04-14 15:57:30",
+      "fecha": "2026-04-15 09:30:17",
       "provincia": "",
       "propiedades": "",
       "trafico_mb": "",
