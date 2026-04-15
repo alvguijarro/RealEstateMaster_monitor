@@ -1,8 +1,23 @@
 {
-  "timestamp": "2026-04-15T09:08:34",
+  "timestamp": "2026-04-15T09:10:58",
   "scraper": {
-    "status": "offline",
-    "properties_count": 0
+    "bajas_count": 0,
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 763,
+    "internal_status": "running",
+    "is_room_mode": false,
+    "mode": "fast",
+    "operation_type": "venta",
+    "output_file": "idealista_Soria_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "",
+    "start_time": 1776237042.1509573,
+    "status": "running",
+    "task_mode": null,
+    "total_pages": 24,
+    "total_properties": 705,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 21,
@@ -6817,27 +6832,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776235568.4299579,
+        "last_ts": 1776237042.177027,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776235568.4299579,
+        "last_ts": 1776237042.177027,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776235568.4299579,
+        "last_ts": 1776237042.177027,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776235568.4299579,
+        "last_ts": 1776237042.177027,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776235568.4299579,
+        "last_ts": 1776237042.177027,
         "last_ip": ""
       }
     },
