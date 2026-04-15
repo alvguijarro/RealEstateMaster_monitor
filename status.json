@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-15T20:52:50",
+  "timestamp": "2026-04-15T20:54:59",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 5,
-    "current_phase": "5: enrichment",
-    "existing_count": 2212,
+    "current_page": 3,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 8425,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Cuenca_venta.xlsx",
-    "properties_count": 86,
-    "province_name": "",
-    "start_time": 1776276886.6853275,
+    "output_file": "idealista_Asturias_venta.xlsx",
+    "properties_count": 21,
+    "province_name": "Asturias",
+    "start_time": 1776279225.7614782,
     "status": "running",
     "task_mode": null,
-    "total_pages": 56,
-    "total_properties": 1667,
+    "total_pages": 263,
+    "total_properties": 7865,
     "traffic_bytes": 0
   },
   "batch": {
@@ -6832,27 +6832,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776276886.7079115,
+        "last_ts": 1776279225.7657428,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776276886.7079115,
+        "last_ts": 1776279225.7657428,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776276886.7079115,
+        "last_ts": 1776279225.7657428,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776276886.7079115,
+        "last_ts": 1776279225.7657428,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776276886.7079115,
+        "last_ts": 1776279225.7657428,
         "last_ip": ""
       }
     },
