@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-15T16:11:26",
+  "timestamp": "2026-04-15T16:13:36",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 9,
+    "current_page": 3,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 0,
-    "internal_status": "completed",
+    "existing_count": 9032,
+    "internal_status": "running",
     "is_room_mode": false,
-    "mode": "fast",
+    "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Teruel_venta.xlsx",
-    "properties_count": 1267,
-    "province_name": "",
-    "start_time": 1776242438.287953,
-    "status": "completed",
+    "output_file": "idealista_Almería_venta.xlsx",
+    "properties_count": 8,
+    "province_name": "Almería",
+    "start_time": 1776262350.7915623,
+    "status": "running",
     "task_mode": null,
-    "total_pages": 43,
-    "total_properties": 1274,
+    "total_pages": 296,
+    "total_properties": 8868,
     "traffic_bytes": 0
   },
   "batch": {
@@ -6832,27 +6832,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776242438.2938979,
+        "last_ts": 1776262350.7995954,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776242438.2938979,
+        "last_ts": 1776262350.7995954,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776242438.2938979,
+        "last_ts": 1776262350.7995954,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776242438.2938979,
+        "last_ts": 1776262350.7995954,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776242438.2938979,
+        "last_ts": 1776262350.7995954,
         "last_ip": ""
       }
     },
