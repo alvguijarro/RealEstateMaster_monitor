@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-04-19T21:18:28",
+  "timestamp": "2026-04-19T21:20:37",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 4,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 9,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 22167,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Madrid_venta.xlsx",
-    "properties_count": 17,
+    "properties_count": 89,
     "province_name": "Madrid",
     "start_time": 1776626230.0640008,
     "status": "running",
@@ -26,9 +26,9 @@
       {
         "name": "Madrid Provincia",
         "status": "active",
-        "properties": 12,
+        "properties": 89,
         "total_properties": 28558,
-        "current_page": 4,
+        "current_page": 8,
         "total_pages": 952,
         "started_at": 1776626226.0288768,
         "finished_at": null
