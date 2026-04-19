@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-19T12:58:58",
+  "timestamp": "2026-04-19T13:01:08",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 2,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 0,
-    "internal_status": "completed",
+    "current_page": 0,
+    "current_phase": "1-2: conexión y navegación",
+    "existing_count": 4252,
+    "internal_status": "running",
     "is_room_mode": false,
-    "mode": "fast",
+    "mode": "batch",
     "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_A-Coruña_Arzúa_Arzua_venta.xlsx",
-    "properties_count": 29,
-    "province_name": "",
-    "start_time": 1776596092.4030604,
-    "status": "completed",
+    "output_file": "idealista_Albacete_venta.xlsx",
+    "properties_count": 0,
+    "province_name": "Albacete",
+    "start_time": 1776596459.1862524,
+    "status": "running",
     "task_mode": null,
-    "total_pages": 1,
-    "total_properties": 29,
+    "total_pages": 0,
+    "total_properties": 0,
     "traffic_bytes": 0
   },
   "batch": {
@@ -6832,27 +6832,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776596092.4993446,
+        "last_ts": 1776596459.1897776,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776596092.4993446,
+        "last_ts": 1776596459.1897776,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776596092.4993446,
+        "last_ts": 1776596459.1897776,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776596092.4993446,
+        "last_ts": 1776596459.1897776,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776596092.4993446,
+        "last_ts": 1776596459.1897776,
         "last_ip": ""
       }
     },
