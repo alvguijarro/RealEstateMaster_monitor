@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-19T14:24:31",
+  "timestamp": "2026-04-19T14:26:41",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 4,
+    "current_page": 10,
     "current_phase": "4: extracción de detalle",
     "existing_count": 0,
     "internal_status": "running",
@@ -10,7 +10,7 @@
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_A-Coruña_Barbanza_venta.xlsx",
-    "properties_count": 30,
+    "properties_count": 119,
     "province_name": "A Coruña",
     "start_time": 1776601398.7592998,
     "status": "running",
@@ -26,9 +26,9 @@
       {
         "name": "A Coruna",
         "status": "active",
-        "properties": 25,
+        "properties": 119,
         "total_properties": 385,
-        "current_page": 4,
+        "current_page": 10,
         "total_pages": 13,
         "started_at": 1776601394.7352884,
         "finished_at": null
