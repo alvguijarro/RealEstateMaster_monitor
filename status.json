@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-04-19T13:03:17",
+  "timestamp": "2026-04-19T13:05:26",
   "scraper": {
-    "bajas_count": 0,
+    "bajas_count": 29,
     "current_page": 5,
-    "current_phase": "3: Deep Scrape",
+    "current_phase": "4: extracción de detalle",
     "existing_count": 4252,
-    "internal_status": "running",
+    "internal_status": "completed",
     "is_room_mode": false,
-    "mode": "batch",
+    "mode": "fast",
     "operation_type": "venta",
-    "output_file": "idealista_Albacete_venta.xlsx",
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Albacete_venta.xlsx",
     "properties_count": 4,
     "province_name": "Albacete",
     "start_time": 1776596459.1862524,
-    "status": "running",
+    "status": "completed",
     "task_mode": null,
     "total_pages": 112,
     "total_properties": 3333,
@@ -6862,15 +6862,15 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 789136.38,
+    "total_traffic_mb": 789606.38,
     "total_cost_usd": 0.2608,
-    "sessions": 1940,
+    "sessions": 1942,
     "last_entry": {
-      "fecha": "2026-04-19 12:54:48",
+      "fecha": "2026-04-19 13:00:55",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "95",
-      "coste_usd": "1m 35s"
+      "trafico_mb": "235",
+      "coste_usd": "3m 55s"
     }
   }
 }
