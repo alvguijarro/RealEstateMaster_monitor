@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-04-21T23:07:31",
+  "timestamp": "2026-04-21T23:09:40",
   "scraper": {
-    "bajas_count": 0,
+    "bajas_count": 44,
     "current_page": 4,
     "current_phase": "4: extracción de detalle",
     "existing_count": 222,
-    "internal_status": "running",
+    "internal_status": "completed",
     "is_room_mode": false,
-    "mode": "batch",
+    "mode": "fast",
     "operation_type": "alquiler",
-    "output_file": "idealista_Álava_alquiler.xlsx",
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_Álava_alquiler.xlsx",
     "properties_count": 25,
     "province_name": "Álava",
     "start_time": 1776805545.547928,
-    "status": "running",
+    "status": "completed",
     "task_mode": null,
     "total_pages": 3,
     "total_properties": 73,
@@ -21,20 +21,20 @@
   },
   "batch": {
     "total": 1,
-    "started_at": 1776805541.4997625,
+    "started_at": 1776719363.7333581,
     "provinces": [
       {
-        "name": "Alava",
+        "name": "Madrid Provincia",
         "status": "active",
-        "properties": 25,
-        "total_properties": 73,
-        "current_page": 4,
-        "total_pages": 3,
-        "started_at": 1776805541.503814,
+        "properties": 2288,
+        "total_properties": 11492,
+        "current_page": 5,
+        "total_pages": 384,
+        "started_at": 1776719363.7357938,
         "finished_at": null
       }
     ],
-    "_source": "alquiler"
+    "_source": "habitacion"
   },
   "cycle": {
     "last_completed": null,
@@ -6635,15 +6635,15 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 845001.38,
+    "total_traffic_mb": 845473.38,
     "total_cost_usd": 0.2608,
-    "sessions": 2062,
+    "sessions": 2064,
     "last_entry": {
-      "fecha": "2026-04-21 09:30:16",
+      "fecha": "2026-04-21 23:05:41",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "",
-      "coste_usd": ""
+      "trafico_mb": "236",
+      "coste_usd": "3m 56s"
     }
   }
 }
