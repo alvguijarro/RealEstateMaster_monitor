@@ -1,25 +1,40 @@
 {
-  "timestamp": "2026-04-21T23:05:20",
+  "timestamp": "2026-04-21T23:07:31",
   "scraper": {
-    "status": "offline",
-    "properties_count": 0
+    "bajas_count": 0,
+    "current_page": 4,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 222,
+    "internal_status": "running",
+    "is_room_mode": false,
+    "mode": "batch",
+    "operation_type": "alquiler",
+    "output_file": "idealista_Álava_alquiler.xlsx",
+    "properties_count": 25,
+    "province_name": "Álava",
+    "start_time": 1776805545.547928,
+    "status": "running",
+    "task_mode": null,
+    "total_pages": 3,
+    "total_properties": 73,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 1,
-    "started_at": 1776719363.7333581,
+    "started_at": 1776805541.4997625,
     "provinces": [
       {
-        "name": "Madrid Provincia",
+        "name": "Alava",
         "status": "active",
-        "properties": 2288,
-        "total_properties": 11492,
-        "current_page": 5,
-        "total_pages": 384,
-        "started_at": 1776719363.7357938,
+        "properties": 25,
+        "total_properties": 73,
+        "current_page": 4,
+        "total_pages": 3,
+        "started_at": 1776805541.503814,
         "finished_at": null
       }
     ],
-    "_source": "habitacion"
+    "_source": "alquiler"
   },
   "cycle": {
     "last_completed": null,
@@ -6590,27 +6605,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776795316.9334233,
+        "last_ts": 1776805545.6512341,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776795316.9334233,
+        "last_ts": 1776805545.6512341,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776795316.9334233,
+        "last_ts": 1776805545.6512341,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776795316.9334233,
+        "last_ts": 1776805545.6512341,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776795316.9334233,
+        "last_ts": 1776805545.6512341,
         "last_ip": ""
       }
     },
