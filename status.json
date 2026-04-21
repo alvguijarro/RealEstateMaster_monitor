@@ -1,23 +1,8 @@
 {
-  "timestamp": "2026-04-21T12:27:49",
+  "timestamp": "2026-04-21T23:05:20",
   "scraper": {
-    "bajas_count": 0,
-    "current_page": 5,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 9388,
-    "internal_status": "stopped",
-    "is_room_mode": true,
-    "mode": "fast",
-    "operation_type": "habitacion",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\habitaciones\\idealista_Madrid_habitaciones.xlsx",
-    "properties_count": 2298,
-    "province_name": "Madrid",
-    "start_time": 1776719367.7605596,
-    "status": "stopped",
-    "task_mode": null,
-    "total_pages": 384,
-    "total_properties": 11492,
-    "traffic_bytes": 0
+    "status": "offline",
+    "properties_count": 0
   },
   "batch": {
     "total": 1,
@@ -6605,27 +6590,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776764071.506877,
+        "last_ts": 1776795316.9334233,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776764071.506877,
+        "last_ts": 1776795316.9334233,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776764071.506877,
+        "last_ts": 1776795316.9334233,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776764071.506877,
+        "last_ts": 1776795316.9334233,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776764071.506877,
+        "last_ts": 1776795316.9334233,
         "last_ip": ""
       }
     },
