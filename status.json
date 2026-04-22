@@ -1,23 +1,8 @@
 {
-  "timestamp": "2026-04-21T23:11:49",
+  "timestamp": "2026-04-22T08:36:01",
   "scraper": {
-    "bajas_count": 44,
-    "current_page": 4,
-    "current_phase": "4: extracción de detalle",
-    "existing_count": 222,
-    "internal_status": "completed",
-    "is_room_mode": false,
-    "mode": "fast",
-    "operation_type": "alquiler",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_Álava_alquiler.xlsx",
-    "properties_count": 25,
-    "province_name": "Álava",
-    "start_time": 1776805545.547928,
-    "status": "completed",
-    "task_mode": null,
-    "total_pages": 3,
-    "total_properties": 73,
-    "traffic_bytes": 0
+    "status": "offline",
+    "properties_count": 0
   },
   "batch": {
     "total": 1,
@@ -6605,27 +6590,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1776805545.6512341,
+        "last_ts": 1776806194.1323476,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1776805545.6512341,
+        "last_ts": 1776806194.1323476,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1776805545.6512341,
+        "last_ts": 1776806194.1323476,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1776805545.6512341,
+        "last_ts": 1776806194.1323476,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1776805545.6512341,
+        "last_ts": 1776806194.1323476,
         "last_ip": ""
       }
     },
@@ -6635,15 +6620,15 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 845473.38,
+    "total_traffic_mb": 846085.38,
     "total_cost_usd": 0.2608,
-    "sessions": 2064,
+    "sessions": 2066,
     "last_entry": {
-      "fecha": "2026-04-21 23:05:41",
+      "fecha": "2026-04-21 23:16:30",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "236",
-      "coste_usd": "3m 56s"
+      "trafico_mb": "306",
+      "coste_usd": "5m 06s"
     }
   }
 }
