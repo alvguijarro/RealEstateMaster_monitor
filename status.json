@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-22T08:44:46",
+  "timestamp": "2026-04-22T08:46:56",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 6,
+    "current_page": 5,
     "current_phase": "4: extracción de detalle",
     "existing_count": 177,
     "internal_status": "running",
@@ -10,7 +10,7 @@
     "mode": "batch",
     "operation_type": "habitacion",
     "output_file": "idealista_Ávila_habitaciones.xlsx",
-    "properties_count": 79,
+    "properties_count": 162,
     "province_name": "Ávila",
     "start_time": 1776840148.2117057,
     "status": "running",
@@ -26,9 +26,9 @@
       {
         "name": "Avila Provincia",
         "status": "active",
-        "properties": 75,
+        "properties": 160,
         "total_properties": 166,
-        "current_page": 6,
+        "current_page": 5,
         "total_pages": 6,
         "started_at": 1776840144.1753585,
         "finished_at": null
