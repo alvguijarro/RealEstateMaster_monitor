@@ -1,8 +1,23 @@
 {
-  "timestamp": "2026-04-24T15:04:21",
+  "timestamp": "2026-04-24T15:09:33",
   "scraper": {
-    "status": "offline",
-    "properties_count": 0
+    "bajas_count": 0,
+    "current_page": 3,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 0,
+    "internal_status": "completed",
+    "is_room_mode": false,
+    "mode": "fast",
+    "operation_type": "venta",
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_A-Coruña_A-Barcala_venta.xlsx",
+    "properties_count": 55,
+    "province_name": "A Coruña",
+    "start_time": 1777036008.1645389,
+    "status": "completed",
+    "task_mode": null,
+    "total_pages": 2,
+    "total_properties": 55,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 43,
@@ -7011,27 +7026,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1777014390.2066257,
+        "last_ts": 1777036008.1721869,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1777014390.2066257,
+        "last_ts": 1777036008.1721869,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1777014390.2066257,
+        "last_ts": 1777036008.1721869,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1777014390.2066257,
+        "last_ts": 1777036008.1721869,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1777014390.2066257,
+        "last_ts": 1777036008.1721869,
         "last_ip": ""
       }
     },
@@ -7041,15 +7056,15 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 852315.38,
+    "total_traffic_mb": 852575.38,
     "total_cost_usd": 0.2608,
-    "sessions": 2235,
+    "sessions": 2237,
     "last_entry": {
-      "fecha": "2026-04-24 09:30:17",
+      "fecha": "2026-04-24 15:06:44",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "",
-      "coste_usd": ""
+      "trafico_mb": "130",
+      "coste_usd": "2m 10s"
     }
   }
 }
