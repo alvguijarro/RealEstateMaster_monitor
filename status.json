@@ -1,21 +1,36 @@
 {
-  "timestamp": "2026-04-27T21:11:22",
+  "timestamp": "2026-04-27T21:16:36",
   "scraper": {
-    "status": "offline",
-    "properties_count": 0
+    "bajas_count": 0,
+    "current_page": 9,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 5317,
+    "internal_status": "running",
+    "is_room_mode": false,
+    "mode": "batch",
+    "operation_type": "venta",
+    "output_file": "idealista_Toledo_venta.xlsx",
+    "properties_count": 151,
+    "province_name": "",
+    "start_time": 1777317202.2631924,
+    "status": "running",
+    "task_mode": null,
+    "total_pages": 17,
+    "total_properties": 503,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 1,
-    "started_at": 1777108195.2747881,
+    "started_at": 1777317198.2077186,
     "provinces": [
       {
-        "name": "A Coruna Provincia",
+        "name": "Talavera De La Reina Toledo",
         "status": "active",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1777108195.2767885,
+        "properties": 145,
+        "total_properties": 503,
+        "current_page": 9,
+        "total_pages": 17,
+        "started_at": 1777317198.213724,
         "finished_at": null
       }
     ],
@@ -6590,27 +6605,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1777108199.3377566,
+        "last_ts": 1777317202.2837083,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1777108199.3377566,
+        "last_ts": 1777317202.2837083,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1777108199.3377566,
+        "last_ts": 1777317202.2837083,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1777108199.3377566,
+        "last_ts": 1777317202.2837083,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1777108199.3377566,
+        "last_ts": 1777317202.2837083,
         "last_ip": ""
       }
     },
