@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-04-27T21:16:36",
+  "timestamp": "2026-04-27T21:22:03",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 9,
-    "current_phase": "4: extracción de detalle",
+    "current_page": 2,
+    "current_phase": "3: Deep Scrape",
     "existing_count": 5317,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
     "output_file": "idealista_Toledo_venta.xlsx",
-    "properties_count": 151,
+    "properties_count": 461,
     "province_name": "",
     "start_time": 1777317202.2631924,
     "status": "running",
@@ -26,9 +26,9 @@
       {
         "name": "Talavera De La Reina Toledo",
         "status": "active",
-        "properties": 145,
+        "properties": 461,
         "total_properties": 503,
-        "current_page": 9,
+        "current_page": 2,
         "total_pages": 17,
         "started_at": 1777317198.213724,
         "finished_at": null
