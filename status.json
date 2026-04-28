@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-04-28T09:57:16",
+  "timestamp": "2026-04-28T10:02:26",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "1-2: conexión y navegación",
+    "current_phase": "",
     "existing_count": 592,
-    "internal_status": "running",
+    "internal_status": "stopping",
     "is_room_mode": true,
-    "mode": "batch",
+    "mode": "fast",
     "operation_type": "habitacion",
     "output_file": "idealista_Toledo_habitaciones.xlsx",
     "properties_count": 0,
     "province_name": "Toledo",
-    "start_time": 1777362963.2671442,
-    "status": "running",
+    "start_time": 1777363243.7394955,
+    "status": "stopping",
     "task_mode": null,
     "total_pages": 0,
     "total_properties": 0,
@@ -6680,27 +6680,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1777362963.2723625,
+        "last_ts": 1777363243.7450435,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1777362963.2723625,
+        "last_ts": 1777363243.7450435,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1777362963.2723625,
+        "last_ts": 1777363243.7450435,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1777362963.2723625,
+        "last_ts": 1777363243.7450435,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1777362963.2723625,
+        "last_ts": 1777363243.7450435,
         "last_ip": ""
       }
     },
