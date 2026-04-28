@@ -1,8 +1,23 @@
 {
-  "timestamp": "2026-04-28T15:01:15",
+  "timestamp": "2026-04-28T15:07:17",
   "scraper": {
-    "status": "offline",
-    "properties_count": 0
+    "bajas_count": 0,
+    "current_page": 0,
+    "current_phase": "",
+    "existing_count": 0,
+    "internal_status": "idle",
+    "is_room_mode": false,
+    "mode": "fast",
+    "operation_type": "",
+    "output_file": null,
+    "properties_count": 0,
+    "province_name": "",
+    "start_time": null,
+    "status": "idle",
+    "task_mode": null,
+    "total_pages": 0,
+    "total_properties": 0,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 7,
@@ -104,10 +119,9 @@
     "history": []
   },
   "trends": {
-    "status": "offline",
+    "status": "idle",
     "checkpoint": {
-      "version": 2,
-      "date_record": "28-04-2026",
+      "completed_count": 1293,
       "completed_keys": [
         [
           "Toledo",
@@ -6575,8 +6589,9 @@
           "habitacion"
         ]
       ],
-      "completed_count": 1293,
-      "total": 1293
+      "date_record": "28-04-2026",
+      "total": 1293,
+      "version": 2
     }
   },
   "history": [
