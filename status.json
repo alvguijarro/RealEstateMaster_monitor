@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-04-29T23:30:42",
+  "timestamp": "2026-04-29T23:35:52",
   "scraper": {
     "bajas_count": 0,
     "current_page": 3,
     "current_phase": "4: extracción de detalle",
     "existing_count": 20221,
-    "internal_status": "running",
+    "internal_status": "completed",
     "is_room_mode": false,
-    "mode": "batch",
+    "mode": "fast",
     "operation_type": "alquiler",
-    "output_file": "idealista_Madrid_alquiler.xlsx",
-    "properties_count": 53,
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\alquiler\\idealista_Madrid_alquiler.xlsx",
+    "properties_count": 57,
     "province_name": "Madrid",
     "start_time": 1777498033.3679936,
-    "status": "running",
+    "status": "completed",
     "task_mode": null,
     "total_pages": 2,
     "total_properties": 57,
@@ -21,33 +21,33 @@
   },
   "batch": {
     "total": 2,
-    "started_at": 1777497331.6639066,
+    "started_at": 1777496751.7418914,
     "provinces": [
       {
         "name": "Madrid",
         "status": "completed",
-        "properties": 167,
-        "total_properties": 167,
+        "properties": 3,
+        "total_properties": 853,
         "current_page": 5,
-        "total_pages": 6,
-        "started_at": 1777497331.670581,
-        "finished_at": 1777498006.0811803,
+        "total_pages": 29,
+        "started_at": 1777496751.7471206,
+        "finished_at": 1777497213.2754798,
         "traffic_bytes": 0,
-        "existing_count": 20139,
+        "existing_count": 24373,
         "bajas_count": 0
       },
       {
         "name": "Madrid",
         "status": "active",
-        "properties": 53,
-        "total_properties": 57,
-        "current_page": 3,
-        "total_pages": 2,
-        "started_at": 1777498029.3447433,
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": 1777497244.317446,
         "finished_at": null
       }
     ],
-    "_source": "alquiler"
+    "_source": "venta"
   },
   "cycle": {
     "last_completed": null,
@@ -6648,15 +6648,15 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 875735.38,
+    "total_traffic_mb": 877833.38,
     "total_cost_usd": 0.2608,
-    "sessions": 2465,
+    "sessions": 2468,
     "last_entry": {
-      "fecha": "2026-04-29 09:30:19",
+      "fecha": "2026-04-29 23:15:31",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "",
-      "coste_usd": ""
+      "trafico_mb": "363",
+      "coste_usd": "6m 03s"
     }
   }
 }
