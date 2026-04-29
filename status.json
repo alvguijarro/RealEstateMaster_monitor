@@ -1,21 +1,36 @@
 {
-  "timestamp": "2026-04-29T23:04:38",
+  "timestamp": "2026-04-29T23:09:57",
   "scraper": {
-    "status": "offline",
-    "properties_count": 0
+    "bajas_count": 0,
+    "current_page": 6,
+    "current_phase": "3: Deep Scrape",
+    "existing_count": 24373,
+    "internal_status": "running",
+    "is_room_mode": false,
+    "mode": "batch",
+    "operation_type": "venta",
+    "output_file": "idealista_Madrid_venta.xlsx",
+    "properties_count": 3,
+    "province_name": "Madrid",
+    "start_time": 1777496755.7917569,
+    "status": "running",
+    "task_mode": null,
+    "total_pages": 29,
+    "total_properties": 853,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 2,
-    "started_at": 1777484756.1269655,
+    "started_at": 1777496751.7418914,
     "provinces": [
       {
         "name": "Madrid",
         "status": "active",
-        "properties": 503,
-        "total_properties": 850,
-        "current_page": 5,
+        "properties": 3,
+        "total_properties": 853,
+        "current_page": 6,
         "total_pages": 29,
-        "started_at": 1777484756.1310282,
+        "started_at": 1777496751.7471206,
         "finished_at": null
       },
       {
@@ -6600,27 +6615,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1777484760.1712024,
+        "last_ts": 1777496755.8082783,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1777484760.1712024,
+        "last_ts": 1777496755.8082783,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1777484760.1712024,
+        "last_ts": 1777496755.8082783,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1777484760.1712024,
+        "last_ts": 1777496755.8082783,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1777484760.1712024,
+        "last_ts": 1777496755.8082783,
         "last_ip": ""
       }
     },
