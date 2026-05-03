@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-05-03T11:56:19",
+  "timestamp": "2026-05-03T12:01:28",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 5,
+    "current_page": 3,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 771,
-    "internal_status": "completed",
-    "is_room_mode": true,
-    "mode": "fast",
-    "operation_type": "habitacion",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\habitaciones\\idealista_A-Coruña_habitaciones.xlsx",
-    "properties_count": 682,
-    "province_name": "A Coruña",
-    "start_time": 1777799231.688481,
-    "status": "completed",
+    "existing_count": 9079,
+    "internal_status": "running",
+    "is_room_mode": false,
+    "mode": "batch",
+    "operation_type": "venta",
+    "output_file": "idealista_Asturias_venta.xlsx",
+    "properties_count": 19,
+    "province_name": "Asturias",
+    "start_time": 1777802434.261601,
+    "status": "running",
     "task_mode": null,
-    "total_pages": 23,
-    "total_properties": 681,
+    "total_pages": 262,
+    "total_properties": 7840,
     "traffic_bytes": 0
   },
   "batch": {
@@ -6605,27 +6605,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1777799231.9977062,
+        "last_ts": 1777802434.2691553,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1777799231.9977062,
+        "last_ts": 1777802434.2691553,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1777799231.9977062,
+        "last_ts": 1777802434.2691553,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1777799231.9977062,
+        "last_ts": 1777802434.2691553,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1777799231.9977062,
+        "last_ts": 1777802434.2691553,
         "last_ip": ""
       }
     },
