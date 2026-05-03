@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-05-03T14:36:27",
+  "timestamp": "2026-05-03T14:41:37",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 5,
+    "current_page": 8,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 9079,
-    "internal_status": "completed",
-    "is_room_mode": false,
-    "mode": "fast",
-    "operation_type": "venta",
-    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Asturias_venta.xlsx",
-    "properties_count": 4917,
+    "existing_count": 574,
+    "internal_status": "running",
+    "is_room_mode": true,
+    "mode": "batch",
+    "operation_type": "habitacion",
+    "output_file": "idealista_Asturias_habitaciones.xlsx",
+    "properties_count": 86,
     "province_name": "Asturias",
-    "start_time": 1777802434.261601,
-    "status": "completed",
+    "start_time": 1777811976.7537017,
+    "status": "running",
     "task_mode": null,
-    "total_pages": 262,
-    "total_properties": 7840,
+    "total_pages": 19,
+    "total_properties": 554,
     "traffic_bytes": 0
   },
   "batch": {
@@ -6605,27 +6605,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1777802434.2691553,
+        "last_ts": 1777811976.7567017,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1777802434.2691553,
+        "last_ts": 1777811976.7567017,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1777802434.2691553,
+        "last_ts": 1777811976.7567017,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1777802434.2691553,
+        "last_ts": 1777811976.7567017,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1777802434.2691553,
+        "last_ts": 1777811976.7567017,
         "last_ip": ""
       }
     },
