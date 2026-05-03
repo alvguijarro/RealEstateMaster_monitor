@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-05-03T13:24:10",
+  "timestamp": "2026-05-03T13:29:20",
   "scraper": {
     "bajas_count": 0,
     "current_page": 5,
     "current_phase": "4: extracción de detalle",
     "existing_count": 9079,
-    "internal_status": "running",
+    "internal_status": "completed",
     "is_room_mode": false,
-    "mode": "batch",
+    "mode": "fast",
     "operation_type": "venta",
-    "output_file": "idealista_Asturias_venta.xlsx",
-    "properties_count": 4863,
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\venta\\idealista_Asturias_venta.xlsx",
+    "properties_count": 4917,
     "province_name": "Asturias",
     "start_time": 1777802434.261601,
-    "status": "running",
+    "status": "completed",
     "task_mode": null,
     "total_pages": 262,
     "total_properties": 7840,
@@ -6635,15 +6635,15 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 893754.38,
+    "total_traffic_mb": 904062.38,
     "total_cost_usd": 0.2608,
-    "sessions": 2699,
+    "sessions": 2701,
     "last_entry": {
-      "fecha": "2026-05-03 11:07:07",
+      "fecha": "2026-05-03 12:00:30",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "667",
-      "coste_usd": "11m 07s"
+      "trafico_mb": "5154",
+      "coste_usd": "1h 25m 54s"
     }
   }
 }
