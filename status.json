@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-05-03T11:11:38",
+  "timestamp": "2026-05-03T11:19:03",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 14,
+    "current_page": 5,
     "current_phase": "4: extracción de detalle",
     "existing_count": 771,
-    "internal_status": "running",
+    "internal_status": "completed",
     "is_room_mode": true,
-    "mode": "batch",
+    "mode": "fast",
     "operation_type": "habitacion",
-    "output_file": "idealista_A-Coruña_habitaciones.xlsx",
-    "properties_count": 259,
+    "output_file": "C:\\ClaudeCode\\RealEstateMaster\\scraper\\salidas\\habitaciones\\idealista_A-Coruña_habitaciones.xlsx",
+    "properties_count": 682,
     "province_name": "A Coruña",
     "start_time": 1777799231.688481,
-    "status": "running",
+    "status": "completed",
     "task_mode": null,
     "total_pages": 23,
     "total_properties": 681,
@@ -6635,15 +6635,15 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 892420.38,
+    "total_traffic_mb": 893754.38,
     "total_cost_usd": 0.2608,
-    "sessions": 2697,
+    "sessions": 2699,
     "last_entry": {
-      "fecha": "2026-05-03 10:55:17",
+      "fecha": "2026-05-03 11:07:07",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "272",
-      "coste_usd": "4m 32s"
+      "trafico_mb": "667",
+      "coste_usd": "11m 07s"
     }
   }
 }
