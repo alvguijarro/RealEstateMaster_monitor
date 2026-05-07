@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-07T20:12:22",
+  "timestamp": "2026-05-07T20:17:42",
   "scraper": {
     "bajas_count": 0,
     "current_page": 60,
@@ -46,10 +46,16 @@
   "trends": {
     "status": "idle",
     "checkpoint": {
-      "completed_count": 0,
-      "completed_keys": [],
+      "completed_count": 1,
+      "completed_keys": [
+        [
+          "Madrid",
+          "alcorcon",
+          "alquiler"
+        ]
+      ],
       "date_record": "07-05-2026",
-      "total": 1293,
+      "total": 1,
       "version": 2
     }
   },
