@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-05-11T11:37:15",
+  "timestamp": "2026-05-11T11:42:25",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 3,
-    "current_phase": "3: Deep Scrape",
-    "existing_count": 3924,
+    "current_page": 6,
+    "current_phase": "4: extracción de detalle",
+    "existing_count": 3735,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Guadalajara_venta.xlsx",
-    "properties_count": 106,
-    "province_name": "Guadalajara",
-    "start_time": 1778491716.4490187,
+    "output_file": "idealista_Salamanca_venta.xlsx",
+    "properties_count": 111,
+    "province_name": "Salamanca",
+    "start_time": 1778492362.4001563,
     "status": "running",
     "task_mode": null,
-    "total_pages": 80,
-    "total_properties": 2393,
+    "total_pages": 115,
+    "total_properties": 3420,
     "traffic_bytes": 0
   },
   "batch": {
@@ -6600,27 +6600,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1778491717.0999105,
+        "last_ts": 1778492363.1123533,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1778491717.0999105,
+        "last_ts": 1778492363.1123533,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1778491717.0999105,
+        "last_ts": 1778492363.1123533,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1778491717.0999105,
+        "last_ts": 1778492363.1123533,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1778491717.0999105,
+        "last_ts": 1778492363.1123533,
         "last_ip": ""
       }
     },
