@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-05-11T11:06:14",
+  "timestamp": "2026-05-11T11:11:24",
   "scraper": {
     "bajas_count": 0,
-    "current_page": 60,
+    "current_page": 5,
     "current_phase": "4: extracción de detalle",
-    "existing_count": 5109,
+    "existing_count": 2336,
     "internal_status": "running",
     "is_room_mode": false,
     "mode": "batch",
     "operation_type": "venta",
-    "output_file": "idealista_Ciudad-Real_venta.xlsx",
-    "properties_count": 5113,
-    "province_name": "Ciudad Real",
-    "start_time": 1778485356.7126422,
+    "output_file": "idealista_Cuenca_venta.xlsx",
+    "properties_count": 126,
+    "province_name": "Cuenca",
+    "start_time": 1778490529.1357632,
     "status": "running",
     "task_mode": null,
-    "total_pages": 174,
-    "total_properties": 5209,
+    "total_pages": 55,
+    "total_properties": 1648,
     "traffic_bytes": 0
   },
   "batch": {
@@ -6600,27 +6600,27 @@
     "workers": {
       "main": {
         "consecutive": 0,
-        "last_ts": 1778485358.374197,
+        "last_ts": 1778490529.7959406,
         "last_ip": ""
       },
       "worker-2": {
         "consecutive": 0,
-        "last_ts": 1778485358.374197,
+        "last_ts": 1778490529.7959406,
         "last_ip": ""
       },
       "worker-3": {
         "consecutive": 0,
-        "last_ts": 1778485358.374197,
+        "last_ts": 1778490529.7959406,
         "last_ip": ""
       },
       "worker-5": {
         "consecutive": 0,
-        "last_ts": 1778485358.374197,
+        "last_ts": 1778490529.7959406,
         "last_ip": ""
       },
       "worker-4": {
         "consecutive": 0,
-        "last_ts": 1778485358.374197,
+        "last_ts": 1778490529.7959406,
         "last_ip": ""
       }
     },
