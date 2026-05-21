@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-21T13:41:35",
+  "timestamp": "2026-05-21T13:47:05",
   "scraper": {
     "bajas_count": 0,
     "current_page": 0,
@@ -7,13 +7,13 @@
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
-    "mode": "batch",
+    "mode": "fast",
     "operation_type": "",
     "output_file": null,
     "properties_count": 0,
     "province_name": "",
     "start_time": 1779363082.7252555,
-    "status": "running",
+    "status": "idle",
     "task_mode": null,
     "total_pages": 0,
     "total_properties": 0,
@@ -6635,15 +6635,15 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 1373405.38,
+    "total_traffic_mb": 1375223.38,
     "total_cost_usd": 0.2608,
-    "sessions": 3013,
+    "sessions": 3015,
     "last_entry": {
-      "fecha": "2026-05-21 12:23:42",
+      "fecha": "2026-05-21 13:31:25",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "3863",
-      "coste_usd": "1h 04m 23s"
+      "trafico_mb": "909",
+      "coste_usd": "15m 09s"
     }
   }
 }
