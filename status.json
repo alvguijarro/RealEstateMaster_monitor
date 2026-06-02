@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-02T21:03:21",
+  "timestamp": "2026-06-02T21:08:31",
   "scraper": {
     "backup_running": false,
     "bajas_count": 0,
@@ -8,74 +8,24 @@
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
-    "mode": "fast",
+    "mode": "batch",
     "nuevas": 0,
     "operation_type": "",
     "output_file": null,
     "properties_count": 0,
     "province_name": "",
     "rescrapeadas": 0,
-    "start_time": null,
-    "status": "idle",
+    "start_time": 1780427178.1549673,
+    "status": "running",
     "task_mode": null,
     "total_pages": 0,
     "total_properties": 0,
     "traffic_bytes": 0
   },
   "batch": {
-    "total": 8,
-    "started_at": 1780347887.6706097,
+    "total": 3,
+    "started_at": 1780427179.8750725,
     "provinces": [
-      {
-        "name": "Guadalajara Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1780347888.226808,
-        "finished_at": 1780357924.7182708
-      },
-      {
-        "name": "Ourense Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1780357946.756576,
-        "finished_at": 1780372125.300098
-      },
-      {
-        "name": "Salamanca Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1780372153.352228,
-        "finished_at": 1780380813.6809418
-      },
-      {
-        "name": "Segovia Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1780380843.7517667,
-        "finished_at": 1780389247.2342038
-      },
-      {
-        "name": "Sevilla Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1780389268.3116567,
-        "finished_at": 1780409942.995623
-      },
       {
         "name": "Toledo Provincia",
         "status": "active",
@@ -83,7 +33,7 @@
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1780409976.482134,
+        "started_at": 1780427180.5288076,
         "finished_at": null
       },
       {
