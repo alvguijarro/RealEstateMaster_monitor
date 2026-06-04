@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-04T22:35:23",
+  "timestamp": "2026-06-04T22:40:34",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 1591,
-    "province_name": "A_Coruna Provincia",
+    "properties_count": 25,
+    "province_name": "Alava Provincia",
     "rescrapeadas": 0,
     "start_time": 1780595114.9521556,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 2612,
-    "traffic_bytes": 697365826
+    "total_properties": 137,
+    "traffic_bytes": 20792760
   },
   "batch": {
     "total": 52,
@@ -28,22 +28,22 @@
     "provinces": [
       {
         "name": "A Coruna Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1780595117.3793468,
-        "finished_at": null
+        "finished_at": 1780605378.5662591
       },
       {
         "name": "Alava",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1780605397.5989592,
         "finished_at": null
       },
       {
