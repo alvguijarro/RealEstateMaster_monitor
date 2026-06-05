@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-05T05:34:59",
+  "timestamp": "2026-06-05T05:40:10",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 3773,
-    "province_name": "Alicante Provincia",
+    "properties_count": 25,
+    "province_name": "Almeria Provincia",
     "rescrapeadas": 0,
     "start_time": 1780595114.9521556,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 4572,
-    "traffic_bytes": 2070326386
+    "total_properties": 2939,
+    "traffic_bytes": 12380841
   },
   "batch": {
     "total": 52,
@@ -58,22 +58,22 @@
       },
       {
         "name": "Alicante",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1780607966.446296,
-        "finished_at": null
+        "finished_at": 1780630606.4582229
       },
       {
         "name": "Almeria Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1780630634.5953434,
         "finished_at": null
       },
       {
