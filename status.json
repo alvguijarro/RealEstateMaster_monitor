@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-11T13:28:38",
+  "timestamp": "2026-06-11T13:33:48",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "halt: esperando rotación de IP",
+    "current_phase": "5: detalle (backup Playwright)",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 247,
+    "properties_count": 345,
     "province_name": "Jaen Provincia",
     "rescrapeadas": 0,
     "start_time": 1781164500.4639168,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 811,
-    "traffic_bytes": 83791523
+    "total_properties": 806,
+    "traffic_bytes": 119966239
   },
   "batch": {
     "total": 6,
