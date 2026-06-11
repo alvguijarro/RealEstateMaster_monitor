@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-11T13:54:28",
+  "timestamp": "2026-06-11T13:59:38",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 522,
-    "province_name": "Jaen Provincia",
+    "properties_count": 20,
+    "province_name": "La_Rioja Provincia",
     "rescrapeadas": 0,
     "start_time": 1781164500.4639168,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 570,
-    "traffic_bytes": 246616534
+    "total_properties": 410,
+    "traffic_bytes": 9320296
   },
   "batch": {
     "total": 6,
@@ -38,22 +38,22 @@
       },
       {
         "name": "Jaen Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781176400.2033668,
-        "finished_at": null
+        "finished_at": 1781179011.0964239
       },
       {
         "name": "La Rioja",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781179033.1255293,
         "finished_at": null
       },
       {
