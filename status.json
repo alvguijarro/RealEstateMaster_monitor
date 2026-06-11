@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-11T23:01:34",
+  "timestamp": "2026-06-11T23:05:42",
   "scraper": {
     "status": "offline",
     "properties_count": 0
@@ -79,10 +79,9 @@
     "history": []
   },
   "trends": {
-    "status": "offline",
+    "status": "idle",
     "checkpoint": {
-      "version": 2,
-      "date_record": "05-06-2026",
+      "completed_count": 1293,
       "completed_keys": [
         [
           "Guipúzcoa",
@@ -6550,8 +6549,9 @@
           "habitacion"
         ]
       ],
-      "completed_count": 1293,
-      "total": 1293
+      "date_record": "05-06-2026",
+      "total": 1293,
+      "version": 2
     }
   },
   "history": [
