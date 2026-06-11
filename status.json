@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-12T01:37:15",
+  "timestamp": "2026-06-12T01:42:25",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 1196,
-    "province_name": "Las_Palmas Provincia",
+    "properties_count": 15,
+    "province_name": "Lleida Provincia",
     "rescrapeadas": 0,
     "start_time": 1781212052.8547213,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 1252,
-    "traffic_bytes": 793041105
+    "total_properties": 324,
+    "traffic_bytes": 11836204
   },
   "batch": {
     "total": 7,
@@ -28,22 +28,22 @@
     "provinces": [
       {
         "name": "Las Palmas",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781212107.7184906,
-        "finished_at": null
+        "finished_at": 1781221136.2818606
       },
       {
         "name": "Lleida Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781221154.3351119,
         "finished_at": null
       },
       {
