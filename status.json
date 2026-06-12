@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-12T13:20:55",
+  "timestamp": "2026-06-12T13:26:05",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 1921,
-    "province_name": "Murcia Provincia",
+    "properties_count": 0,
+    "province_name": "Navarra Provincia",
     "rescrapeadas": 0,
     "start_time": 1781212052.8547213,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 2012,
-    "traffic_bytes": 786849012
+    "total_properties": 560,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 7,
@@ -68,22 +68,22 @@
       },
       {
         "name": "Murcia Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781255180.274232,
-        "finished_at": null
+        "finished_at": 1781263402.2049205
       },
       {
         "name": "Navarra",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781263436.2639623,
         "finished_at": null
       },
       {
