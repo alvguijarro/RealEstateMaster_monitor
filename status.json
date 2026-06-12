@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-12T16:54:02",
+  "timestamp": "2026-06-12T16:59:13",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "5: detalle (backup Playwright)",
+    "current_phase": "halt: esperando rotación de IP",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
@@ -12,7 +12,7 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 107,
+    "properties_count": 141,
     "province_name": "Pontevedra Provincia",
     "rescrapeadas": 0,
     "start_time": 1781275440.5058696,
@@ -20,7 +20,7 @@
     "task_mode": null,
     "total_pages": 0,
     "total_properties": 1242,
-    "traffic_bytes": 77409053
+    "traffic_bytes": 103360556
   },
   "batch": {
     "total": 9,
