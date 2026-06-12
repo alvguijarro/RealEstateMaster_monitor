@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-12T21:47:47",
+  "timestamp": "2026-06-12T21:52:58",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "halt: esperando rotación de IP",
+    "current_phase": "5: detalle (backup Playwright)",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 493,
+    "properties_count": 583,
     "province_name": "Salamanca Provincia",
     "rescrapeadas": 0,
     "start_time": 1781290605.1282315,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 2754,
-    "traffic_bytes": 191557340
+    "total_properties": 2750,
+    "traffic_bytes": 247726710
   },
   "batch": {
     "total": 9,
