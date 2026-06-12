@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-13T00:54:47",
+  "timestamp": "2026-06-13T01:00:00",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "halt: esperando rotación de IP",
+    "current_phase": "5: detalle (backup Playwright)",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 1346,
+    "properties_count": 1352,
     "province_name": "Santa_Cruz_De_Tenerife Provincia",
     "rescrapeadas": 0,
     "start_time": 1781290605.1282315,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 3167,
-    "traffic_bytes": 602583572
+    "total_properties": 2954,
+    "traffic_bytes": 617640781
   },
   "batch": {
     "total": 9,
