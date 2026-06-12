@@ -1,25 +1,123 @@
 {
-  "timestamp": "2026-06-12T15:51:23",
+  "timestamp": "2026-06-12T15:56:36",
   "scraper": {
-    "status": "offline",
-    "properties_count": 0
+    "backup_running": true,
+    "bajas_count": 0,
+    "current_page": 0,
+    "current_phase": "5: detalle (backup Playwright)",
+    "existing_count": 0,
+    "internal_status": "idle",
+    "is_room_mode": false,
+    "mode": "batch",
+    "nuevas": 0,
+    "operation_type": "alquiler",
+    "output_file": null,
+    "properties_count": 0,
+    "province_name": "Pontevedra Provincia",
+    "rescrapeadas": 0,
+    "start_time": 1781272541.7672524,
+    "status": "running",
+    "task_mode": null,
+    "total_pages": 0,
+    "total_properties": 1245,
+    "traffic_bytes": 0
   },
   "batch": {
-    "total": 1,
-    "started_at": 1778162305.7045445,
+    "total": 9,
+    "started_at": 1781272543.150889,
     "provinces": [
       {
-        "name": "Almeria Provincia",
+        "name": "Pontevedra Provincia",
         "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1778162305.7077358,
+        "started_at": 1781272543.6997166,
+        "finished_at": null
+      },
+      {
+        "name": "Salamanca Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Santa Cruz De Tenerife Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Sevilla Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Tarragona Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Valencia Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Valladolid Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Vizcaya",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Zamora Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
         "finished_at": null
       }
     ],
-    "_source": "general"
+    "_source": "alquiler"
   },
   "cycle": {
     "last_completed": null,
