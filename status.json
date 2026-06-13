@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-13T23:36:21",
+  "timestamp": "2026-06-13T23:41:54",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "halt: esperando rotación de IP",
+    "current_phase": "5: detalle (backup Playwright)",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitaciones",
     "output_file": null,
-    "properties_count": 236,
+    "properties_count": 326,
     "province_name": "Cordoba Provincia",
     "rescrapeadas": 0,
     "start_time": 1781385742.0,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 500,
-    "traffic_bytes": 252330929
+    "total_properties": 999,
+    "traffic_bytes": 381711927
   },
   "batch": {
     "total": 10,
