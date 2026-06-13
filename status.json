@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-13T11:03:40",
+  "timestamp": "2026-06-13T11:08:50",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "halt: esperando rotación de IP",
+    "current_phase": "5: detalle (backup Playwright)",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 1222,
+    "properties_count": 1332,
     "province_name": "Valencia Provincia",
     "rescrapeadas": 0,
     "start_time": 1781336476.1168442,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 5945,
-    "traffic_bytes": 983219831
+    "total_properties": 5941,
+    "traffic_bytes": 1084131477
   },
   "batch": {
     "total": 5,
