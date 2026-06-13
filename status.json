@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-13T13:24:24",
+  "timestamp": "2026-06-13T13:29:34",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 5,
-    "province_name": "Tarragona Provincia",
+    "properties_count": 20,
+    "province_name": "Valencia Provincia",
     "rescrapeadas": 0,
     "start_time": 1781348305.060365,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 18,
-    "traffic_bytes": 58099725
+    "total_properties": 4201,
+    "traffic_bytes": 57184212
   },
   "batch": {
     "total": 5,
@@ -28,22 +28,22 @@
     "provinces": [
       {
         "name": "Tarragona Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781348307.134705,
-        "finished_at": null
+        "finished_at": 1781349883.702288
       },
       {
         "name": "Valencia Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781349916.7767477,
         "finished_at": null
       },
       {
