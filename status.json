@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-13T17:55:03",
+  "timestamp": "2026-06-13T18:00:13",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 693,
-    "province_name": "Vizcaya Provincia",
+    "properties_count": 0,
+    "province_name": "Zamora Provincia",
     "rescrapeadas": 0,
     "start_time": 1781348305.060365,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 790,
-    "traffic_bytes": 336639943
+    "total_properties": 123,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 5,
@@ -58,22 +58,22 @@
       },
       {
         "name": "Vizcaya",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781362992.8973804,
-        "finished_at": null
+        "finished_at": 1781366291.2944589
       },
       {
         "name": "Zamora Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781366312.3145635,
         "finished_at": null
       }
     ],
