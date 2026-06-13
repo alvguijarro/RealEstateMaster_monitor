@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-13T05:08:37",
+  "timestamp": "2026-06-13T05:13:48",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 2447,
-    "province_name": "Sevilla Provincia",
+    "properties_count": 30,
+    "province_name": "Tarragona Provincia",
     "rescrapeadas": 0,
     "start_time": 1781290605.1282315,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 2877,
-    "traffic_bytes": 1157331357
+    "total_properties": 759,
+    "traffic_bytes": 12514681
   },
   "batch": {
     "total": 9,
@@ -58,22 +58,22 @@
       },
       {
         "name": "Sevilla Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781309995.232741,
-        "finished_at": null
+        "finished_at": 1781320165.4921274
       },
       {
         "name": "Tarragona Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781320190.5202994,
         "finished_at": null
       },
       {
