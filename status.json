@@ -1,83 +1,43 @@
 {
-  "timestamp": "2026-06-13T18:05:38",
+  "timestamp": "2026-06-13T18:10:48",
   "scraper": {
-    "backup_running": true,
+    "backup_running": false,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "5: detalle (backup Playwright)",
+    "current_phase": "",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
-    "mode": "batch",
+    "mode": "fast",
     "nuevas": 0,
-    "operation_type": "alquiler",
+    "operation_type": "",
     "output_file": null,
-    "properties_count": 65,
-    "province_name": "Zamora Provincia",
+    "properties_count": 0,
+    "province_name": "",
     "rescrapeadas": 0,
     "start_time": 1781348305.060365,
-    "status": "running",
+    "status": "idle",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 123,
-    "traffic_bytes": 34548376
+    "total_properties": 0,
+    "traffic_bytes": 0
   },
   "batch": {
-    "total": 5,
-    "started_at": 1781348306.4890113,
+    "total": 1,
+    "started_at": 1778162305.7045445,
     "provinces": [
       {
-        "name": "Tarragona Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781348307.134705,
-        "finished_at": 1781349883.702288
-      },
-      {
-        "name": "Valencia Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781349916.7767477,
-        "finished_at": 1781361100.6514816
-      },
-      {
-        "name": "Valladolid Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781361132.6792693,
-        "finished_at": 1781362960.8675134
-      },
-      {
-        "name": "Vizcaya",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781362992.8973804,
-        "finished_at": 1781366291.2944589
-      },
-      {
-        "name": "Zamora Provincia",
+        "name": "Almeria Provincia",
         "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1781366312.3145635,
+        "started_at": 1778162305.7077358,
         "finished_at": null
       }
     ],
-    "_source": "alquiler"
+    "_source": "general"
   },
   "cycle": {
     "last_completed": null,
@@ -6678,16 +6638,16 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 1909675.38,
+    "total_traffic_mb": 1946664.38,
     "total_cost_usd": 0.2608,
-    "sessions": 3046,
+    "sessions": 3052,
     "first_date": "2026-03-26 08:45:58",
     "last_entry": {
-      "fecha": "2026-06-11 23:08:26",
+      "fecha": "2026-06-13 12:58:26",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "1623",
-      "coste_usd": "27m 03s"
+      "trafico_mb": "549",
+      "coste_usd": "9m 09s"
     }
   }
 }
