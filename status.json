@@ -1,43 +1,83 @@
 {
-  "timestamp": "2026-06-13T09:46:05",
+  "timestamp": "2026-06-13T09:51:15",
   "scraper": {
-    "backup_running": false,
+    "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "",
+    "current_phase": "5: detalle (backup Playwright)",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
     "mode": "batch",
     "nuevas": 0,
-    "operation_type": "",
+    "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 0,
-    "province_name": "",
+    "properties_count": 1,
+    "province_name": "Tarragona Provincia",
     "rescrapeadas": 0,
     "start_time": 1781336476.1168442,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 0,
-    "traffic_bytes": 0
+    "total_properties": 366,
+    "traffic_bytes": 21124979
   },
   "batch": {
-    "total": 1,
-    "started_at": 1778162305.7045445,
+    "total": 5,
+    "started_at": 1781336481.939376,
     "provinces": [
       {
-        "name": "Almeria Provincia",
+        "name": "Tarragona Provincia",
         "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1778162305.7077358,
+        "started_at": 1781336790.6292384,
+        "finished_at": null
+      },
+      {
+        "name": "Valencia Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Valladolid Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Vizcaya",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Zamora Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
         "finished_at": null
       }
     ],
-    "_source": "general"
+    "_source": "alquiler"
   },
   "cycle": {
     "last_completed": null,
@@ -49,7 +89,7 @@
   "trends": {
     "status": "idle",
     "checkpoint": {
-      "completed_count": 1290,
+      "completed_count": 1293,
       "completed_keys": [
         [
           "Vizcaya",
@@ -1399,6 +1439,11 @@
         [
           "Alicante",
           "Vinalopó Mitjà",
+          "habitacion"
+        ],
+        [
+          "Zaragoza",
+          "Área de Zaragoza",
           "habitacion"
         ],
         [
@@ -4837,6 +4882,11 @@
           "venta"
         ],
         [
+          "Zaragoza",
+          "Ribera Baja del Ebro",
+          "habitacion"
+        ],
+        [
           "Cantabria",
           "Valles Pasiegos",
           "habitacion"
@@ -5705,6 +5755,11 @@
           "Vizcaya",
           "Lea-Artibai",
           "venta"
+        ],
+        [
+          "Cerdanya Francesa",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "Córdoba",
