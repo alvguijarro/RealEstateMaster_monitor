@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-14T10:52:08",
+  "timestamp": "2026-06-14T10:57:19",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "5: detalle (backup Playwright)",
+    "current_phase": "halt: esperando rotación de IP",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitaciones",
     "output_file": null,
-    "properties_count": 136,
+    "properties_count": 201,
     "province_name": "Barcelona Provincia",
     "rescrapeadas": 0,
     "start_time": 1781426741.0,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 6404,
-    "traffic_bytes": 366778541
+    "total_properties": 6391,
+    "traffic_bytes": 715548746
   },
   "batch": {
     "total": 10,
