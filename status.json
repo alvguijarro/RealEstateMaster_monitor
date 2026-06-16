@@ -1,43 +1,113 @@
 {
-  "timestamp": "2026-06-16T10:16:59",
+  "timestamp": "2026-06-16T10:22:11",
   "scraper": {
-    "backup_running": false,
+    "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "",
+    "current_phase": "5: detalle (backup Playwright)",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
     "mode": "batch",
     "nuevas": 0,
-    "operation_type": "",
+    "operation_type": "alquiler",
     "output_file": null,
-    "properties_count": 0,
-    "province_name": "",
+    "properties_count": 70,
+    "province_name": "Castellon Provincia",
     "rescrapeadas": 0,
     "start_time": 1781596379.5096116,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 0,
-    "traffic_bytes": 0
+    "total_properties": 1833,
+    "traffic_bytes": 26551788
   },
   "batch": {
-    "total": 1,
-    "started_at": 1778162305.7045445,
+    "total": 8,
+    "started_at": 1781596382.0484586,
     "provinces": [
       {
-        "name": "Almeria Provincia",
+        "name": "Castellon",
         "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1778162305.7077358,
+        "started_at": 1781597870.3025608,
+        "finished_at": null
+      },
+      {
+        "name": "Ceuta Ceuta",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Girona Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Granada Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Huesca Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Melilla Melilla",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Palencia Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
+        "finished_at": null
+      },
+      {
+        "name": "Teruel Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
         "finished_at": null
       }
     ],
-    "_source": "general"
+    "_source": "alquiler"
   },
   "cycle": {
     "last_completed": null,
@@ -49,7 +119,7 @@
   "trends": {
     "status": "idle",
     "checkpoint": {
-      "completed_count": 1272,
+      "completed_count": 1292,
       "completed_keys": [
         [
           "Lleida",
@@ -307,6 +377,11 @@
           "alquiler"
         ],
         [
+          "País Vasco Francés",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Córdoba",
           "Alto Guadalquivir",
           "alquiler"
@@ -335,6 +410,11 @@
           "La Rioja",
           "Área de Logroño",
           "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "Encartaciones",
+          "habitacion"
         ],
         [
           "Cantabria",
@@ -567,6 +647,11 @@
           "alquiler"
         ],
         [
+          "Vizcaya",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Navarra",
           "Norte",
           "habitacion"
@@ -732,9 +817,19 @@
           "habitacion"
         ],
         [
+          "Zaragoza",
+          "Ribera Baja del Ebro",
+          "habitacion"
+        ],
+        [
           "Cantabria",
           "Saja - Nansa",
           "venta"
+        ],
+        [
+          "Zamora",
+          "Área de Zamora",
+          "habitacion"
         ],
         [
           "Cádiz",
@@ -1282,6 +1377,11 @@
           "venta"
         ],
         [
+          "Zaragoza",
+          "Comunidad de Calatayud",
+          "habitacion"
+        ],
+        [
           "Málaga",
           "Costa del Sol Oriental - Axarquía",
           "habitacion"
@@ -1340,6 +1440,11 @@
           "Tarragona",
           "Priorat",
           "venta"
+        ],
+        [
+          "Zamora",
+          "Sanabria",
+          "habitacion"
         ],
         [
           "Soria",
@@ -2192,6 +2297,11 @@
           "habitacion"
         ],
         [
+          "Zaragoza",
+          "Área de Zaragoza",
+          "habitacion"
+        ],
+        [
           "Cuenca",
           "Mancha Baja",
           "alquiler"
@@ -2632,6 +2742,11 @@
           "habitacion"
         ],
         [
+          "Zaragoza",
+          "La Muela-Valdejalón",
+          "habitacion"
+        ],
+        [
           "Lugo",
           "Área de Lugo",
           "venta"
@@ -2705,6 +2820,11 @@
           "Girona",
           "*(Toda la provincia)*",
           "alquiler"
+        ],
+        [
+          "Zamora",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "Lleida",
@@ -2943,6 +3063,11 @@
         ],
         [
           "Zaragoza",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
+          "Zaragoza",
           "Área de Zaragoza",
           "venta"
         ],
@@ -3109,6 +3234,11 @@
         [
           "Salamanca",
           "Área Metropolitana",
+          "habitacion"
+        ],
+        [
+          "Zamora",
+          "Alfoz de Toro",
           "habitacion"
         ],
         [
@@ -3697,6 +3827,11 @@
           "habitacion"
         ],
         [
+          "Zamora",
+          "Benavente",
+          "habitacion"
+        ],
+        [
           "Badajoz",
           "Tierra de Barros - Tierras de Zafra",
           "venta"
@@ -4072,6 +4207,11 @@
           "venta"
         ],
         [
+          "Vizcaya",
+          "Uribe-Butroe",
+          "habitacion"
+        ],
+        [
           "Pontevedra",
           "Salnés",
           "alquiler"
@@ -4422,6 +4562,11 @@
           "venta"
         ],
         [
+          "Cerdanya Francesa",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Valladolid",
           "Tierra de Pinares",
           "alquiler"
@@ -4582,6 +4727,11 @@
           "alquiler"
         ],
         [
+          "Zaragoza",
+          "Campo de Borja",
+          "habitacion"
+        ],
+        [
           "Murcia",
           "Bajo Guadalentín",
           "alquiler"
@@ -4594,6 +4744,11 @@
         [
           "Tarragona",
           "Montsià",
+          "habitacion"
+        ],
+        [
+          "Zaragoza",
+          "Caspe",
           "habitacion"
         ],
         [
@@ -4760,6 +4915,11 @@
           "Murcia",
           "Alto Guadalentín",
           "venta"
+        ],
+        [
+          "Vizcaya",
+          "Gran Bilbao",
+          "habitacion"
         ],
         [
           "Ciudad Real",
@@ -5317,6 +5477,11 @@
           "habitacion"
         ],
         [
+          "Zaragoza",
+          "Campo de Belchite",
+          "habitacion"
+        ],
+        [
           "Las Palmas",
           "Lanzarote",
           "habitacion"
@@ -5515,6 +5680,11 @@
           "Lleida",
           "Cerdanya",
           "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Ribera Alta del Ebro",
+          "habitacion"
         ],
         [
           "Navarra",
