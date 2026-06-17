@@ -1,41 +1,31 @@
 {
-  "timestamp": "2026-06-17T19:00:05",
+  "timestamp": "2026-06-17T19:05:14",
   "scraper": {
-    "backup_running": false,
+    "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "",
+    "current_phase": "5: detalle (backup Playwright)",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
-    "mode": "fast",
+    "mode": "batch",
     "nuevas": 0,
-    "operation_type": "",
+    "operation_type": "habitacion",
     "output_file": null,
     "properties_count": 0,
-    "province_name": "",
+    "province_name": "Burgos Provincia",
     "rescrapeadas": 0,
-    "start_time": 1781702852.1420736,
-    "status": "idle",
+    "start_time": 1781715834.322795,
+    "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 0,
+    "total_properties": 438,
     "traffic_bytes": 0
   },
   "batch": {
-    "total": 43,
-    "started_at": 1781702853.5892828,
+    "total": 42,
+    "started_at": 1781715835.659976,
     "provinces": [
-      {
-        "name": "Barcelona Provincia",
-        "status": "failed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781702854.1472888,
-        "finished_at": 1781704847.564674
-      },
       {
         "name": "Burgos Provincia",
         "status": "active",
@@ -43,7 +33,7 @@
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1781704974.7041566,
+        "started_at": 1781715836.335062,
         "finished_at": null
       },
       {
