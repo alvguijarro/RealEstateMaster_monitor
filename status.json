@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-17T11:47:00",
+  "timestamp": "2026-06-17T11:52:35",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 153,
-    "province_name": "Badajoz Provincia",
+    "properties_count": 5,
+    "province_name": "Balears_Illes Provincia",
     "rescrapeadas": 0,
     "start_time": 1781684906.1307423,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 192,
-    "traffic_bytes": 61454447
+    "total_properties": 559,
+    "traffic_bytes": 10904852
   },
   "batch": {
     "total": 49,
@@ -68,22 +68,22 @@
       },
       {
         "name": "Badajoz Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781689165.7141042,
-        "finished_at": null
+        "finished_at": 1781689722.4654691
       },
       {
         "name": "Balears Illes",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781689756.4979317,
         "finished_at": null
       },
       {
