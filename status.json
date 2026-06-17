@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-17T20:13:39",
+  "timestamp": "2026-06-17T20:18:50",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "5: detalle (backup Playwright)",
+    "current_phase": "halt: esperando rotación de IP",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 414,
-    "province_name": "Castellon Provincia",
+    "properties_count": 0,
+    "province_name": "Ceuta_Ceuta Provincia",
     "rescrapeadas": 0,
     "start_time": 1781715834.322795,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 692,
-    "traffic_bytes": 314063318
+    "total_properties": 9,
+    "traffic_bytes": 1280914
   },
   "batch": {
     "total": 42,
@@ -68,22 +68,22 @@
       },
       {
         "name": "Castellon",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781718852.6786816,
-        "finished_at": null
+        "finished_at": 1781720144.927783
       },
       {
         "name": "Ceuta Ceuta",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781720180.8631358,
         "finished_at": null
       },
       {
