@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-17T11:25:49",
+  "timestamp": "2026-06-17T11:31:00",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 328,
-    "province_name": "Asturias Provincia",
+    "properties_count": 0,
+    "province_name": "Avila Provincia",
     "rescrapeadas": 0,
     "start_time": 1781684906.1307423,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 466,
-    "traffic_bytes": 177244851
+    "total_properties": 283,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 49,
@@ -48,22 +48,22 @@
       },
       {
         "name": "Asturias",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781687526.1191156,
-        "finished_at": null
+        "finished_at": 1781688482.0545955
       },
       {
         "name": "Avila Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781688506.2634118,
         "finished_at": null
       },
       {
