@@ -1,113 +1,25 @@
 {
-  "timestamp": "2026-06-16T23:58:06",
+  "timestamp": "2026-06-17T07:28:44",
   "scraper": {
-    "backup_running": false,
-    "bajas_count": 0,
-    "current_page": 0,
-    "current_phase": "",
-    "existing_count": 0,
-    "internal_status": "idle",
-    "is_room_mode": false,
-    "mode": "fast",
-    "nuevas": 0,
-    "operation_type": "",
-    "output_file": null,
-    "properties_count": 0,
-    "province_name": "",
-    "rescrapeadas": 0,
-    "start_time": 1781596379.5096116,
-    "status": "idle",
-    "task_mode": null,
-    "total_pages": 0,
-    "total_properties": 0,
-    "traffic_bytes": 0
+    "status": "offline",
+    "properties_count": 0
   },
   "batch": {
-    "total": 8,
-    "started_at": 1781596382.0484586,
+    "total": 1,
+    "started_at": 1778162305.7045445,
     "provinces": [
       {
-        "name": "Castellon",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781597870.3025608,
-        "finished_at": 1781601265.5010736
-      },
-      {
-        "name": "Ceuta Ceuta",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781601281.5177705,
-        "finished_at": 1781601510.2847452
-      },
-      {
-        "name": "Girona Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781601531.681823,
-        "finished_at": 1781603706.9326494
-      },
-      {
-        "name": "Granada Provincia",
+        "name": "Almeria Provincia",
         "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1781603734.0792007,
-        "finished_at": null
-      },
-      {
-        "name": "Huesca Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
-        "finished_at": null
-      },
-      {
-        "name": "Melilla Melilla",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
-        "finished_at": null
-      },
-      {
-        "name": "Palencia Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
-        "finished_at": null
-      },
-      {
-        "name": "Teruel Provincia",
-        "status": "pending",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": null,
+        "started_at": 1778162305.7077358,
         "finished_at": null
       }
     ],
-    "_source": "alquiler"
+    "_source": "general"
   },
   "cycle": {
     "last_completed": null,
@@ -117,9 +29,10 @@
     "history": []
   },
   "trends": {
-    "status": "idle",
+    "status": "offline",
     "checkpoint": {
-      "completed_count": 1292,
+      "version": 2,
+      "date_record": "16-06-2026",
       "completed_keys": [
         [
           "Lleida",
@@ -6582,9 +6495,8 @@
           "habitacion"
         ]
       ],
-      "date_record": "16-06-2026",
-      "total": 1293,
-      "version": 2
+      "completed_count": 1292,
+      "total": 1293
     }
   },
   "history": [
@@ -6703,16 +6615,16 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 1946664.38,
+    "total_traffic_mb": 1989806.38,
     "total_cost_usd": 0.2608,
-    "sessions": 3052,
+    "sessions": 3063,
     "first_date": "2026-03-26 08:45:58",
     "last_entry": {
-      "fecha": "2026-06-13 12:58:26",
+      "fecha": "2026-06-17 00:19:32",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "549",
-      "coste_usd": "9m 09s"
+      "trafico_mb": "2463",
+      "coste_usd": "41m 03s"
     }
   }
 }
