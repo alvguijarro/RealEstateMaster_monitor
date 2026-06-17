@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-17T11:36:22",
+  "timestamp": "2026-06-17T11:41:33",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 194,
-    "province_name": "Avila Provincia",
+    "properties_count": 0,
+    "province_name": "Badajoz Provincia",
     "rescrapeadas": 0,
     "start_time": 1781684906.1307423,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 283,
-    "traffic_bytes": 71552694
+    "total_properties": 243,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 49,
@@ -58,22 +58,22 @@
       },
       {
         "name": "Avila Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781688506.2634118,
-        "finished_at": null
+        "finished_at": 1781689131.6800532
       },
       {
         "name": "Badajoz Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781689165.7141042,
         "finished_at": null
       },
       {
