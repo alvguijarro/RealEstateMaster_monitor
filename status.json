@@ -1,91 +1,31 @@
 {
-  "timestamp": "2026-06-17T15:26:37",
+  "timestamp": "2026-06-17T15:31:47",
   "scraper": {
-    "backup_running": false,
+    "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "",
+    "current_phase": "5: detalle (backup Playwright)",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
-    "mode": "fast",
+    "mode": "batch",
     "nuevas": 0,
-    "operation_type": "",
+    "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 0,
-    "province_name": "",
+    "properties_count": 49,
+    "province_name": "Barcelona Provincia",
     "rescrapeadas": 0,
-    "start_time": null,
-    "status": "idle",
+    "start_time": 1781702852.1420736,
+    "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 0,
-    "traffic_bytes": 0
+    "total_properties": 4294,
+    "traffic_bytes": 133834728
   },
   "batch": {
-    "total": 49,
-    "started_at": 1781684908.1789136,
+    "total": 43,
+    "started_at": 1781702853.5892828,
     "provinces": [
-      {
-        "name": "Alicante",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781684908.7439613,
-        "finished_at": 1781687140.042755
-      },
-      {
-        "name": "Almeria Provincia",
-        "status": "failed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781687164.0660489,
-        "finished_at": 1781687354.7860782
-      },
-      {
-        "name": "Asturias",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781687526.1191156,
-        "finished_at": 1781688482.0545955
-      },
-      {
-        "name": "Avila Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781688506.2634118,
-        "finished_at": 1781689131.6800532
-      },
-      {
-        "name": "Badajoz Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781689165.7141042,
-        "finished_at": 1781689722.4654691
-      },
-      {
-        "name": "Balears Illes",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781689756.4979317,
-        "finished_at": 1781690961.3940525
-      },
       {
         "name": "Barcelona Provincia",
         "status": "active",
@@ -93,7 +33,7 @@
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1781690976.4100738,
+        "started_at": 1781702854.1472888,
         "finished_at": null
       },
       {
