@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-17T19:52:44",
+  "timestamp": "2026-06-17T19:57:55",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 389,
-    "province_name": "Cantabria Provincia",
+    "properties_count": 60,
+    "province_name": "Castellon Provincia",
     "rescrapeadas": 0,
     "start_time": 1781715834.322795,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 467,
-    "traffic_bytes": 182083384
+    "total_properties": 788,
+    "traffic_bytes": 28976727
   },
   "batch": {
     "total": 42,
@@ -58,22 +58,22 @@
       },
       {
         "name": "Cantabria",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781717687.0658739,
-        "finished_at": null
+        "finished_at": 1781718828.6480541
       },
       {
         "name": "Castellon",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781718852.6786816,
         "finished_at": null
       },
       {
