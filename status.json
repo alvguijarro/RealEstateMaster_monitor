@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-18T09:42:40",
+  "timestamp": "2026-06-18T09:47:50",
   "scraper": {
-    "backup_running": false,
+    "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "",
+    "current_phase": "5: detalle (backup Playwright)",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
     "mode": "fast",
     "nuevas": 0,
-    "operation_type": "",
+    "operation_type": "habitaciones",
     "output_file": null,
     "properties_count": 0,
-    "province_name": "",
+    "province_name": "Madrid Provincia",
     "rescrapeadas": 0,
     "start_time": 1781715834.322795,
-    "status": "idle",
+    "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 0,
+    "total_properties": 5000,
     "traffic_bytes": 0
   },
   "batch": {
@@ -459,7 +459,7 @@
   "trends": {
     "status": "idle",
     "checkpoint": {
-      "completed_count": 1267,
+      "completed_count": 1293,
       "completed_keys": [
         [
           "Segovia",
@@ -470,6 +470,11 @@
           "Segovia",
           "Área de Segovia",
           "venta"
+        ],
+        [
+          "Zaragoza",
+          "Campo de Borja",
+          "habitacion"
         ],
         [
           "León",
@@ -662,6 +667,11 @@
           "venta"
         ],
         [
+          "Zaragoza",
+          "Caspe",
+          "habitacion"
+        ],
+        [
           "Lugo",
           "A Mariña",
           "alquiler"
@@ -705,6 +715,11 @@
           "Lleida",
           "Pallars Sobirà",
           "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "*(Toda la provincia)*",
+          "habitacion"
         ],
         [
           "Ciudad Real",
@@ -1167,6 +1182,11 @@
           "venta"
         ],
         [
+          "Zaragoza",
+          "Ribera Baja del Ebro",
+          "habitacion"
+        ],
+        [
           "Ourense",
           "Limia",
           "venta"
@@ -1375,6 +1395,11 @@
           "Asturias",
           "Caudal",
           "venta"
+        ],
+        [
+          "Valencia",
+          "Safor",
+          "habitacion"
         ],
         [
           "Cantabria",
@@ -1692,6 +1717,11 @@
           "alquiler"
         ],
         [
+          "Zamora",
+          "Sanabria",
+          "habitacion"
+        ],
+        [
           "Álava",
           "Salvatierra",
           "venta"
@@ -1820,6 +1850,11 @@
           "Toledo",
           "*(Toda la provincia)*",
           "alquiler"
+        ],
+        [
+          "Zamora",
+          "Área de Zamora",
+          "habitacion"
         ],
         [
           "Tarragona",
@@ -2142,6 +2177,11 @@
           "alquiler"
         ],
         [
+          "Zamora",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Lleida",
           "Cerdanya",
           "alquiler"
@@ -2370,6 +2410,11 @@
           "Asturias",
           "Área de Avilés",
           "alquiler"
+        ],
+        [
+          "Zamora",
+          "Alfoz de Toro",
+          "habitacion"
         ],
         [
           "Cáceres",
@@ -2998,6 +3043,11 @@
         ],
         [
           "Valencia",
+          "Valencia",
+          "habitacion"
+        ],
+        [
+          "Valencia",
           "Ribera Baixa",
           "habitacion"
         ],
@@ -3030,6 +3080,11 @@
           "Cantabria",
           "Asón-Agüera",
           "alquiler"
+        ],
+        [
+          "Zaragoza",
+          "Comunidad de Calatayud",
+          "habitacion"
         ],
         [
           "Teruel",
@@ -3802,6 +3857,11 @@
           "alquiler"
         ],
         [
+          "Vizcaya",
+          "Uribe-Butroe",
+          "habitacion"
+        ],
+        [
           "Castellón",
           "Plana Alta",
           "venta"
@@ -4582,6 +4642,11 @@
           "alquiler"
         ],
         [
+          "Zaragoza",
+          "Campo de Belchite",
+          "habitacion"
+        ],
+        [
           "Jaén",
           "Alto Guadalquivir",
           "habitacion"
@@ -4772,6 +4837,11 @@
           "venta"
         ],
         [
+          "Zaragoza",
+          "La Muela-Valdejalón",
+          "habitacion"
+        ],
+        [
           "Valencia",
           "Los Serranos",
           "alquiler"
@@ -4805,6 +4875,11 @@
           "Cantabria",
           "Campoo-Los Valles",
           "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "Encartaciones",
+          "habitacion"
         ],
         [
           "Castellón",
@@ -5092,6 +5167,11 @@
           "venta"
         ],
         [
+          "Zaragoza",
+          "Ribera Alta del Ebro",
+          "habitacion"
+        ],
+        [
           "Álava",
           "Ayala",
           "venta"
@@ -5214,6 +5294,11 @@
         [
           "Girona",
           "Alt Empordà",
+          "habitacion"
+        ],
+        [
+          "Vizcaya",
+          "Busturialdea",
           "habitacion"
         ],
         [
@@ -5377,6 +5462,11 @@
           "habitacion"
         ],
         [
+          "Zaragoza",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Burgos",
           "*(Toda la provincia)*",
           "habitacion"
@@ -5497,6 +5587,11 @@
           "alquiler"
         ],
         [
+          "Valencia",
+          "La Costera",
+          "habitacion"
+        ],
+        [
           "Álava",
           "Laguardia-Rioja Alavesa",
           "habitacion"
@@ -5612,6 +5707,11 @@
           "alquiler"
         ],
         [
+          "Cerdanya Francesa",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "La Rioja",
           "*(Toda la provincia)*",
           "alquiler"
@@ -5640,6 +5740,11 @@
           "Soria",
           "Almazán",
           "alquiler"
+        ],
+        [
+          "Valencia",
+          "Ribera Alta",
+          "habitacion"
         ],
         [
           "Valencia",
@@ -6047,6 +6152,11 @@
           "alquiler"
         ],
         [
+          "Zaragoza",
+          "Área de Zaragoza",
+          "habitacion"
+        ],
+        [
           "Navarra",
           "Área de Peralta",
           "alquiler"
@@ -6260,6 +6370,11 @@
           "Soria",
           "Burgo de Osma",
           "alquiler"
+        ],
+        [
+          "Vizcaya",
+          "Gran Bilbao",
+          "habitacion"
         ],
         [
           "Salamanca",
@@ -6572,6 +6687,11 @@
           "alquiler"
         ],
         [
+          "País Vasco Francés",
+          "*(Toda la provincia)*",
+          "habitacion"
+        ],
+        [
           "Navarra",
           "Área de Tudela",
           "venta"
@@ -6584,6 +6704,11 @@
         [
           "Huesca",
           "Hoya de Huesca",
+          "habitacion"
+        ],
+        [
+          "Vizcaya",
+          "Arratia-Nervión",
           "habitacion"
         ],
         [
@@ -6735,6 +6860,11 @@
           "Huesca",
           "Los Monegros",
           "alquiler"
+        ],
+        [
+          "Zamora",
+          "Benavente",
+          "habitacion"
         ],
         [
           "Alicante",
