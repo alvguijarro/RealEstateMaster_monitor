@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T18:26:43",
+  "timestamp": "2026-06-19T18:31:53",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 363,
-    "province_name": "Pontevedra Provincia",
+    "properties_count": 0,
+    "province_name": "Salamanca Provincia",
     "rescrapeadas": 0,
     "start_time": 1781866815.0060835,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 560,
-    "traffic_bytes": 172999911
+    "total_properties": 452,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 21,
@@ -98,22 +98,22 @@
       },
       {
         "name": "Pontevedra Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781885331.4806585,
-        "finished_at": null
+        "finished_at": 1781886608.2644496
       },
       {
         "name": "Salamanca Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781886641.354629,
         "finished_at": null
       },
       {
