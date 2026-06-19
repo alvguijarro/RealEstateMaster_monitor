@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T12:55:55",
+  "timestamp": "2026-06-19T13:01:34",
   "scraper": {
     "backup_running": false,
     "bajas_count": 0,
@@ -8,174 +8,24 @@
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
-    "mode": "fast",
+    "mode": "batch",
     "nuevas": 0,
     "operation_type": "",
     "output_file": null,
     "properties_count": 0,
     "province_name": "",
     "rescrapeadas": 0,
-    "start_time": null,
-    "status": "idle",
+    "start_time": 1781866815.0060835,
+    "status": "running",
     "task_mode": null,
     "total_pages": 0,
     "total_properties": 0,
     "traffic_bytes": 0
   },
   "batch": {
-    "total": 36,
-    "started_at": 1781794634.7043405,
+    "total": 21,
+    "started_at": 1781866817.5948524,
     "provinces": [
-      {
-        "name": "Ciudad Real Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781794635.6377578,
-        "finished_at": 1781795338.0757234
-      },
-      {
-        "name": "Cordoba Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781795367.1114929,
-        "finished_at": 1781795881.852582
-      },
-      {
-        "name": "Cuenca Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781795914.8995764,
-        "finished_at": 1781796108.945554
-      },
-      {
-        "name": "Girona Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781796141.98443,
-        "finished_at": 1781796352.177275
-      },
-      {
-        "name": "Granada Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781796386.2963088,
-        "finished_at": 1781797518.2859511
-      },
-      {
-        "name": "Guadalajara Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781797542.318159,
-        "finished_at": 1781798647.8754866
-      },
-      {
-        "name": "Guipuzcoa",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781798678.9142344,
-        "finished_at": 1781799031.7670937
-      },
-      {
-        "name": "Huelva Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781799058.8088186,
-        "finished_at": 1781799228.1586442
-      },
-      {
-        "name": "Huesca Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781799249.3067777,
-        "finished_at": 1781799366.1082509
-      },
-      {
-        "name": "Jaen Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781799401.280358,
-        "finished_at": 1781800817.2916594
-      },
-      {
-        "name": "La Rioja",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781800845.3222966,
-        "finished_at": 1781801971.0348012
-      },
-      {
-        "name": "Las Palmas",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781801989.060292,
-        "finished_at": 1781802767.889298
-      },
-      {
-        "name": "Leon Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781802798.9256158,
-        "finished_at": 1781803194.3763237
-      },
-      {
-        "name": "Lleida Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781803216.4541876,
-        "finished_at": 1781803953.0233247
-      },
-      {
-        "name": "Lugo Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781803978.0543923,
-        "finished_at": 1781804426.1661131
-      },
       {
         "name": "Madrid Provincia",
         "status": "active",
@@ -183,7 +33,7 @@
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1781804448.4690647,
+        "started_at": 1781866818.2928405,
         "finished_at": null
       },
       {
