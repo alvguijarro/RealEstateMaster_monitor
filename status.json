@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T20:06:57",
+  "timestamp": "2026-06-19T20:12:09",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 68,
-    "province_name": "Toledo Provincia",
+    "properties_count": 0,
+    "province_name": "Valencia Provincia",
     "rescrapeadas": 0,
     "start_time": 1781866815.0060835,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 152,
-    "traffic_bytes": 39253129
+    "total_properties": 4212,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 21,
@@ -178,22 +178,22 @@
       },
       {
         "name": "Toledo Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781891271.5932407,
-        "finished_at": null
+        "finished_at": 1781892569.5791519
       },
       {
         "name": "Valencia Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781892594.681344,
         "finished_at": null
       },
       {
