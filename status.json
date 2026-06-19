@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-06-19T17:59:13",
+  "timestamp": "2026-06-19T18:10:27",
   "scraper": {
-    "backup_running": false,
+    "backup_running": true,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "",
+    "current_phase": "5: detalle (backup Playwright)",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
     "mode": "batch",
     "nuevas": 0,
-    "operation_type": "",
+    "operation_type": "habitacion",
     "output_file": null,
     "properties_count": 0,
-    "province_name": "",
+    "province_name": "Pontevedra Provincia",
     "rescrapeadas": 0,
     "start_time": 1781866815.0060835,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 0,
+    "total_properties": 710,
     "traffic_bytes": 0
   },
   "batch": {
@@ -88,22 +88,22 @@
       },
       {
         "name": "Palencia Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781884556.949387,
-        "finished_at": null
+        "finished_at": 1781885316.4580927
       },
       {
         "name": "Pontevedra Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781885331.4806585,
         "finished_at": null
       },
       {
