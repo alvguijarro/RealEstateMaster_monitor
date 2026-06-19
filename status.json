@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-06-19T19:29:55",
+  "timestamp": "2026-06-19T19:35:06",
   "scraper": {
-    "backup_running": true,
+    "backup_running": false,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "5: detalle (backup Playwright)",
+    "current_phase": "",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
     "mode": "batch",
     "nuevas": 0,
-    "operation_type": "habitacion",
+    "operation_type": "",
     "output_file": null,
-    "properties_count": 330,
-    "province_name": "Tarragona Provincia",
+    "properties_count": 0,
+    "province_name": "",
     "rescrapeadas": 0,
     "start_time": 1781866815.0060835,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 394,
-    "traffic_bytes": 187621557
+    "total_properties": 0,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 21,
@@ -158,22 +158,22 @@
       },
       {
         "name": "Tarragona Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781889009.2002113,
-        "finished_at": null
+        "finished_at": 1781890226.483929
       },
       {
         "name": "Teruel Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781890249.5631227,
         "finished_at": null
       },
       {
