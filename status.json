@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T16:56:18",
+  "timestamp": "2026-06-19T17:01:29",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 3818,
-    "province_name": "Madrid Provincia",
+    "properties_count": 0,
+    "province_name": "Malaga Provincia",
     "rescrapeadas": 0,
     "start_time": 1781866815.0060835,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 3880,
-    "traffic_bytes": 1640326869
+    "total_properties": 628,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 21,
@@ -28,22 +28,22 @@
     "provinces": [
       {
         "name": "Madrid Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781866818.2928405,
-        "finished_at": null
+        "finished_at": 1781881167.8319354
       },
       {
         "name": "Malaga Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781881189.9564893,
         "finished_at": null
       },
       {
