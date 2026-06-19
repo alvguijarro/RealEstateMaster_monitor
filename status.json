@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-20T00:49:53",
+  "timestamp": "2026-06-20T00:55:03",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 535,
-    "province_name": "Valladolid Provincia",
+    "properties_count": 18,
+    "province_name": "Vizcaya Provincia",
     "rescrapeadas": 0,
     "start_time": 1781900818.710593,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 694,
-    "traffic_bytes": 242565088
+    "total_properties": 450,
+    "traffic_bytes": 14408964
   },
   "batch": {
     "total": 6,
@@ -48,22 +48,22 @@
       },
       {
         "name": "Valladolid Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781907796.1054957,
-        "finished_at": null
+        "finished_at": 1781909457.9894419
       },
       {
         "name": "Vizcaya",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781909488.041476,
         "finished_at": null
       },
       {
