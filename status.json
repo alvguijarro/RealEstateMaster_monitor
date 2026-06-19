@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T23:15:00",
+  "timestamp": "2026-06-19T23:20:10",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 819,
-    "province_name": "Barcelona Provincia",
+    "properties_count": 0,
+    "province_name": "Valencia Provincia",
     "rescrapeadas": 0,
     "start_time": 1781900818.710593,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 1000,
-    "traffic_bytes": 402228228
+    "total_properties": 3070,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 6,
@@ -28,22 +28,22 @@
     "provinces": [
       {
         "name": "Barcelona Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781900820.5770972,
-        "finished_at": null
+        "finished_at": 1781903811.0042157
       },
       {
         "name": "Valencia Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781903833.0328693,
         "finished_at": null
       },
       {
