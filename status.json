@@ -1,93 +1,43 @@
 {
-  "timestamp": "2026-06-20T01:16:05",
+  "timestamp": "2026-06-20T01:21:24",
   "scraper": {
-    "backup_running": true,
+    "backup_running": false,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "5: detalle (backup Playwright)",
+    "current_phase": "",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
-    "mode": "batch",
+    "mode": "fast",
     "nuevas": 0,
-    "operation_type": "habitacion",
+    "operation_type": "",
     "output_file": null,
-    "properties_count": 16,
-    "province_name": "Zaragoza Provincia",
+    "properties_count": 0,
+    "province_name": "",
     "rescrapeadas": 0,
     "start_time": 1781900818.710593,
-    "status": "running",
+    "status": "idle",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 126,
-    "traffic_bytes": 26985344
+    "total_properties": 0,
+    "traffic_bytes": 0
   },
   "batch": {
-    "total": 6,
-    "started_at": 1781900820.0279813,
+    "total": 1,
+    "started_at": 1778162305.7045445,
     "provinces": [
       {
-        "name": "Barcelona Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781900820.5770972,
-        "finished_at": 1781903811.0042157
-      },
-      {
-        "name": "Valencia Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781903833.0328693,
-        "finished_at": 1781907761.9452734
-      },
-      {
-        "name": "Valladolid Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781907796.1054957,
-        "finished_at": 1781909457.9894419
-      },
-      {
-        "name": "Vizcaya",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781909488.041476,
-        "finished_at": 1781910356.1733563
-      },
-      {
-        "name": "Zamora Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781910385.231484,
-        "finished_at": 1781910672.2026138
-      },
-      {
-        "name": "Zaragoza Provincia",
+        "name": "Almeria Provincia",
         "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1781910707.3633409,
+        "started_at": 1778162305.7077358,
         "finished_at": null
       }
     ],
-    "_source": "habitacion"
+    "_source": "general"
   },
   "cycle": {
     "last_completed": null,
@@ -6688,16 +6638,16 @@
     "cb_triggers": 2
   },
   "cost": {
-    "total_traffic_mb": 1989806.38,
+    "total_traffic_mb": 2010339.38,
     "total_cost_usd": 0.2608,
-    "sessions": 3063,
+    "sessions": 3070,
     "first_date": "2026-03-26 08:45:58",
     "last_entry": {
-      "fecha": "2026-06-17 00:19:32",
+      "fecha": "2026-06-19 22:27:00",
       "provincia": "",
       "propiedades": "",
-      "trafico_mb": "2463",
-      "coste_usd": "41m 03s"
+      "trafico_mb": "456",
+      "coste_usd": "7m 36s"
     }
   }
 }
