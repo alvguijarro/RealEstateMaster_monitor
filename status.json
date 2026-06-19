@@ -1,181 +1,49 @@
 {
-  "timestamp": "2026-06-19T22:25:26",
+  "timestamp": "2026-06-19T22:30:52",
   "scraper": {
-    "status": "offline",
-    "properties_count": 0
+    "backup_running": true,
+    "bajas_count": 0,
+    "current_page": 0,
+    "current_phase": "5: detalle (backup Playwright)",
+    "existing_count": 0,
+    "internal_status": "idle",
+    "is_room_mode": false,
+    "mode": "batch",
+    "nuevas": 0,
+    "operation_type": "habitacion",
+    "output_file": null,
+    "properties_count": 0,
+    "province_name": "Barcelona Provincia",
+    "rescrapeadas": 0,
+    "start_time": 1781900818.710593,
+    "status": "running",
+    "task_mode": null,
+    "total_pages": 0,
+    "total_properties": 4583,
+    "traffic_bytes": 0
   },
   "batch": {
-    "total": 21,
-    "started_at": 1781866817.5948524,
+    "total": 6,
+    "started_at": 1781900820.0279813,
     "provinces": [
       {
-        "name": "Madrid Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781866818.2928405,
-        "finished_at": 1781881167.8319354
-      },
-      {
-        "name": "Malaga Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781881189.9564893,
-        "finished_at": 1781882132.1154313
-      },
-      {
-        "name": "Melilla Melilla",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781882166.165742,
-        "finished_at": 1781882204.5967288
-      },
-      {
-        "name": "Murcia Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781882224.6252627,
-        "finished_at": 1781883434.2542434
-      },
-      {
-        "name": "Navarra",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781883461.3592644,
-        "finished_at": 1781883718.233369
-      },
-      {
-        "name": "Ourense Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781883734.2506359,
-        "finished_at": 1781884523.9022768
-      },
-      {
-        "name": "Palencia Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781884556.949387,
-        "finished_at": 1781885316.4580927
-      },
-      {
-        "name": "Pontevedra Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781885331.4806585,
-        "finished_at": 1781886608.2644496
-      },
-      {
-        "name": "Salamanca Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781886641.354629,
-        "finished_at": 1781886983.5321343
-      },
-      {
-        "name": "Santa Cruz De Tenerife Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781887001.5576704,
-        "finished_at": 1781887354.1956668
-      },
-      {
-        "name": "Segovia Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781887384.33701,
-        "finished_at": 1781887871.4910595
-      },
-      {
-        "name": "Sevilla Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781887893.528573,
-        "finished_at": 1781888646.07093
-      },
-      {
-        "name": "Soria Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781888676.2364485,
-        "finished_at": 1781888975.112658
-      },
-      {
-        "name": "Tarragona Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781889009.2002113,
-        "finished_at": 1781890226.483929
-      },
-      {
-        "name": "Teruel Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781890249.5631227,
-        "finished_at": 1781891240.4985335
-      },
-      {
-        "name": "Toledo Provincia",
-        "status": "completed",
-        "properties": 0,
-        "total_properties": 0,
-        "current_page": 0,
-        "total_pages": 0,
-        "started_at": 1781891271.5932407,
-        "finished_at": 1781892569.5791519
-      },
-      {
-        "name": "Valencia Provincia",
+        "name": "Barcelona Provincia",
         "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": 1781892594.681344,
+        "started_at": 1781900820.5770972,
+        "finished_at": null
+      },
+      {
+        "name": "Valencia Provincia",
+        "status": "pending",
+        "properties": 0,
+        "total_properties": 0,
+        "current_page": 0,
+        "total_pages": 0,
+        "started_at": null,
         "finished_at": null
       },
       {
