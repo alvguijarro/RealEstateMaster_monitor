@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T19:09:13",
+  "timestamp": "2026-06-19T19:14:23",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 83,
-    "province_name": "Soria Provincia",
+    "properties_count": 25,
+    "province_name": "Tarragona Provincia",
     "rescrapeadas": 0,
     "start_time": 1781866815.0060835,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 143,
-    "traffic_bytes": 52980778
+    "total_properties": 614,
+    "traffic_bytes": 13447310
   },
   "batch": {
     "total": 21,
@@ -148,22 +148,22 @@
       },
       {
         "name": "Soria Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781888676.2364485,
-        "finished_at": null
+        "finished_at": 1781888975.112658
       },
       {
         "name": "Tarragona Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781889009.2002113,
         "finished_at": null
       },
       {
