@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-06-19T18:48:30",
+  "timestamp": "2026-06-19T18:53:41",
   "scraper": {
-    "backup_running": true,
+    "backup_running": false,
     "bajas_count": 0,
     "current_page": 0,
-    "current_phase": "5: detalle (backup Playwright)",
+    "current_phase": "",
     "existing_count": 0,
     "internal_status": "idle",
     "is_room_mode": false,
     "mode": "batch",
     "nuevas": 0,
-    "operation_type": "habitacion",
+    "operation_type": "",
     "output_file": null,
-    "properties_count": 99,
-    "province_name": "Segovia Provincia",
+    "properties_count": 0,
+    "province_name": "",
     "rescrapeadas": 0,
     "start_time": 1781866815.0060835,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 261,
-    "traffic_bytes": 95040329
+    "total_properties": 0,
+    "traffic_bytes": 0
   },
   "batch": {
     "total": 21,
@@ -128,22 +128,22 @@
       },
       {
         "name": "Segovia Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781887384.33701,
-        "finished_at": null
+        "finished_at": 1781887871.4910595
       },
       {
         "name": "Sevilla Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781887893.528573,
         "finished_at": null
       },
       {
