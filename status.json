@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-20T01:10:54",
+  "timestamp": "2026-06-20T01:16:05",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 65,
-    "province_name": "Zamora Provincia",
+    "properties_count": 16,
+    "province_name": "Zaragoza Provincia",
     "rescrapeadas": 0,
     "start_time": 1781900818.710593,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 91,
-    "traffic_bytes": 26535456
+    "total_properties": 126,
+    "traffic_bytes": 26985344
   },
   "batch": {
     "total": 6,
@@ -68,22 +68,22 @@
       },
       {
         "name": "Zamora Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781910385.231484,
-        "finished_at": null
+        "finished_at": 1781910672.2026138
       },
       {
         "name": "Zaragoza Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781910707.3633409,
         "finished_at": null
       }
     ],
