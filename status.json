@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T19:45:40",
+  "timestamp": "2026-06-19T19:51:12",
   "scraper": {
     "backup_running": true,
     "bajas_count": 0,
@@ -12,15 +12,15 @@
     "nuevas": 0,
     "operation_type": "habitacion",
     "output_file": null,
-    "properties_count": 0,
-    "province_name": "Teruel Provincia",
+    "properties_count": 50,
+    "province_name": "Toledo Provincia",
     "rescrapeadas": 0,
     "start_time": 1781866815.0060835,
     "status": "running",
     "task_mode": null,
     "total_pages": 0,
-    "total_properties": 33,
-    "traffic_bytes": 3205837
+    "total_properties": 152,
+    "traffic_bytes": 20972531
   },
   "batch": {
     "total": 21,
@@ -168,22 +168,22 @@
       },
       {
         "name": "Teruel Provincia",
-        "status": "active",
+        "status": "completed",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
         "started_at": 1781890249.5631227,
-        "finished_at": null
+        "finished_at": 1781891240.4985335
       },
       {
         "name": "Toledo Provincia",
-        "status": "pending",
+        "status": "active",
         "properties": 0,
         "total_properties": 0,
         "current_page": 0,
         "total_pages": 0,
-        "started_at": null,
+        "started_at": 1781891271.5932407,
         "finished_at": null
       },
       {
